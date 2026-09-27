@@ -136,7 +136,7 @@ def test_pipeline_end_to_end():
     def fake_classify(text, source_url, known_circular_numbers=None, regulator="SEBI"):
         calls.append(regulator)
         return {"circular_no": "NOT STATED IN SOURCE", "date": None, "doc_type": "Fresh Circular",
-                "overall_confidence": "Needs Review", "confidence_flags": {}, "source_url": source_url, "validator_version": 2}
+                "overall_confidence": "Needs Review", "confidence_flags": {}, "source_url": source_url, "validator_version": 3}
     M.classify_circular = fake_classify
     os.environ["ANTHROPIC_API_KEY"] = "test"
     code = None
@@ -199,7 +199,7 @@ def test_rate_limit_and_cap():
         if len(calls) == 2:
             raise RateLimitError("429")
         return {"circular_no": "NOT STATED IN SOURCE", "doc_type": "Fresh Circular", "overall_confidence": "Needs Review",
-                "confidence_flags": {}, "source_url": source_url, "validator_version": 2}
+                "confidence_flags": {}, "source_url": source_url, "validator_version": 3}
     M.classify_circular = fake_classify
     os.environ["ANTHROPIC_API_KEY"] = "test"
     try:
@@ -230,14 +230,14 @@ def test_requeue_and_unreadable():
     M.fetch_circular_text = fetch
     M.classify_circular = lambda text, source_url, known_circular_numbers=None, regulator="SEBI": {
         "circular_no": "X/2026/1", "doc_type": "Fresh Circular", "overall_confidence": "Certain",
-        "confidence_flags": {}, "source_url": source_url, "validator_version": 2}
+        "confidence_flags": {}, "source_url": source_url, "validator_version": 3}
     os.environ["ANTHROPIC_API_KEY"] = "test"
     for _ in range(3):
         try: M.main()
         except SystemExit: pass
     d = json.load(open(M.DATA_PATH))
     olds = [r for r in d["circulars"] if r["source_url"] == old["source_url"]]
-    assert len(olds) == 1 and olds[0]["validator_version"] == 2 and olds[0]["title"] == "Old SEBI circular", olds
+    assert len(olds) == 1 and olds[0]["validator_version"] == 3 and olds[0]["title"] == "Old SEBI circular", olds
     scanned = [r for r in d["circulars"] if "CMPL76570" in r["source_url"]]
     assert len(scanned) == 1 and "scanned image" in scanned[0]["confidence_flags"]["all_fields"], scanned
     assert d["last_run"]["failed"] == 0, d["last_run"]

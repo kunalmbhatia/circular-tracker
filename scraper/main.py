@@ -102,7 +102,10 @@ def main():
     # Records checked by an older validator are classified again, so the whole
     # register is held to the same rules. (Validation needs the circular's text,
     # which isn't stored, so this re-reads and re-classifies them.)
-    stale_recs = [r for r in records if r.get("validator_version") != VALIDATOR_VERSION and r.get("source_url")]
+    # v2 records only need a redo if v2 flagged them (v3 fixed how long documents are checked).
+    stale_recs = [r for r in records if r.get("source_url") and r.get("validator_version") != VALIDATOR_VERSION
+                  and not r.get("unreadable")
+                  and (r.get("validator_version", 0) < 2 or r.get("overall_confidence") == "Needs Review")]
     if stale_recs:
         records = [r for r in records if r not in stale_recs]
         for r in stale_recs:
@@ -174,6 +177,13 @@ def main():
             if type(e).__name__ == "NoDocumentText":
                 n_try = attempts.get(item["url"], 0) + 1
                 attempts[item["url"]] = n_try
+                if n_try >= MAX_ATTEMPTS and item.get("_prior"):
+                    prior = item["_prior"]
+                    prior["unreadable"] = True
+                    prior.setdefault("confidence_flags", {})["recheck"] = (
+                        f"This circular's document couldn't be re-read after {n_try} attempts, so it keeps its earlier classification.")
+                    attempts.pop(item["url"], None)
+                    continue
                 if n_try >= MAX_ATTEMPTS and not item.get("_prior"):
                     # Probably a scanned PDF. List it so users still see it exists,
                     # clearly flagged, instead of retrying (and failing) forever.
@@ -182,7 +192,7 @@ def main():
                                     "circular_no": "NOT STATED IN SOURCE", "parent_circular_no": None, "impact_areas": [],
                                     "applicability": "Not determined", "intent": None, "action_required": None,
                                     "effective_date": None, "key_dates": [], "implements": [], "source_excerpt_citations": [],
-                                    "overall_confidence": "Needs Review", "validator_version": VALIDATOR_VERSION,
+                                    "overall_confidence": "Needs Review", "validator_version": VALIDATOR_VERSION, "unreadable": True,
                                     "confidence_flags": {"all_fields": f"The document has no machine-readable text (likely a scanned image), "
                                                                        f"so it couldn't be classified after {n_try} attempts. Read the original."},
                                     "sample_data": False})

@@ -68,9 +68,9 @@ why in confidence_flags rather than filling fields with best guesses."""
 
 # Any issuer's reference: a letter group plus a 4-digit year somewhere
 # (SEBI/HO/..., NSE/SURV/..., FEMA 23(R)/(1)/2026-RB, RBI/2026-27/41...).
-CIRCULAR_NO_HINT_RE = re.compile(r"[A-Za-z]{2,}.*(19|20)\d{2}|(19|20)\d{2}.*[A-Za-z]{2,}")
+CIRCULAR_NO_HINT_RE = re.compile(r"[A-Za-z]{2,}.*\d{3,}|\d{3,}.*[A-Za-z]{2,}|\d+\s*/\s*(19|20)\d{2}")
 ISO_DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
-VALIDATOR_VERSION = 2
+VALIDATOR_VERSION = 3
 ELLIPSIS_RE = re.compile(r"\.{3,}|\u2026|\[\s*\.\.\.\s*\]")
 
 
@@ -238,7 +238,7 @@ def classify_circular(source_text, source_url, known_circular_numbers=None, clie
         # reason is recorded in last_run so it can be investigated.
         raise ValueError(f"The model's answer wasn't valid JSON: {raw[:160]!r}")
 
-    record = _validate(record, known_circular_numbers, source_text=truncated)
+    record = _validate(record, known_circular_numbers, source_text=source_text)  # check against the WHOLE document
     record["source_url"] = source_url
     record["sample_data"] = False
     return record
