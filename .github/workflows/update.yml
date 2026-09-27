@@ -1,0 +1,48 @@
+name: Update circular data
+
+on:
+  schedule:
+    # Every 2 hours, at 17 minutes past (UTC). NSE's feed only holds about a
+    # day of circulars, so daily runs could miss some. Runs with nothing new
+    # make no commit (see HEARTBEAT_HOURS in scraper/main.py).
+    # GitHub may delay or occasionally skip scheduled runs under load.
+    - cron: "17 */2 * * *"
+  workflow_dispatch: {}   # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run ingestion pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scraper/main.py
+
+      - name: Commit updated data if changed
+        # Runs even when the pipeline step failed: a partial run still saves the
+        # circulars it did classify. On a total outage the file is untouched,
+        # so there is nothing to commit and the job stays red.
+        if: always()
+        run: |
+          git config user.name "circular-tracker-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/circulars.json data/filtered.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update circular data ($(date -u +%Y-%m-%d))"
+            git pull --rebase --autostash origin main
+            git push
+          fi
