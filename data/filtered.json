@@ -1,155 +1,338 @@
 {
-  "generated_at": null,
+  "generated_at": "2026-09-27T20:10:26Z",
   "items": [
     {
-      "sample_data": true,
-      "title": "Foreign Exchange Management (Export and Import of Goods and Services) (Amendment) Regulations, 2026",
-      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13714&Mode=0",
-      "date": "2026-09-25",
-      "regulator": "RBI",
-      "source": "rbi",
-      "reason": "Sample decision made by hand from the title: trade rules for exporters and importers.",
-      "decided_at": null
-    },
-    {
-      "sample_data": true,
-      "title": "Exim Bank's GOI-supported Line of Credit (LOC) for ₹ 4,850 crores the Government of Maldives, for financing various developmental projects in Maldives",
+      "title": "Exim Bank’s GOI-supported Line of Credit (LOC) for &#8377; 4,850 crores the Government of Maldives, for financing various developmental projects in Maldives",
       "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13712&Mode=0",
       "date": "2026-09-23",
       "regulator": "RBI",
       "source": "rbi",
-      "reason": "Sample decision made by hand from the title: government line of credit.",
-      "decided_at": null
+      "reason": "Government line of credit to foreign government; no obligation for tracker entities.",
+      "decided_at": "2026-09-27T19:55:46Z"
     },
     {
-      "sample_data": true,
       "title": "Reserve Bank of India (All India Financial Institutions - Classification, Valuation, and Operation of Investment Portfolio) Amendment Directions, 2026",
       "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13711&Mode=0",
       "date": "2026-09-22",
       "regulator": "RBI",
       "source": "rbi",
-      "reason": "Sample decision made by hand from the title: prudential rule for financial institutions only.",
-      "decided_at": null
+      "reason": "Investment portfolio rules for all-India financial institutions only; banks' prudential matter.",
+      "decided_at": "2026-09-27T19:55:46Z"
     },
     {
-      "sample_data": true,
       "title": "Reserve Bank of India (Payments Banks - Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026",
       "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13710&Mode=0",
       "date": "2026-09-22",
       "regulator": "RBI",
       "source": "rbi",
-      "reason": "Sample decision made by hand from the title: treasury rule for payments banks, not their payment services.",
-      "decided_at": null
+      "reason": "Investment portfolio rules for payments banks only; banks' prudential matter.",
+      "decided_at": "2026-09-27T19:55:46Z"
     },
     {
-      "sample_data": true,
       "title": "Reserve Bank of India (Small Finance Banks - Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026",
       "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13709&Mode=0",
       "date": "2026-09-22",
       "regulator": "RBI",
       "source": "rbi",
-      "reason": "Sample decision made by hand from the title: prudential rule for banks only.",
-      "decided_at": null
+      "reason": "Investment portfolio rules for small finance banks only; banks' prudential matter.",
+      "decided_at": "2026-09-27T19:55:46Z"
     },
     {
-      "sample_data": true,
       "title": "Reserve Bank of India (Local Area Banks - Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026",
       "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13708&Mode=0",
       "date": "2026-09-22",
       "regulator": "RBI",
       "source": "rbi",
-      "reason": "Sample decision made by hand from the title: prudential rule for banks only.",
-      "decided_at": null
+      "reason": "Investment portfolio rules for local area banks only; banks' prudential matter.",
+      "decided_at": "2026-09-27T19:55:46Z"
     },
     {
-      "sample_data": true,
       "title": "Reserve Bank of India (Commercial Banks - Classification, Valuation, and Operation of Investment Portfolio) Third Amendment Directions, 2026",
       "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13707&Mode=0",
       "date": "2026-09-22",
       "regulator": "RBI",
       "source": "rbi",
-      "reason": "Sample decision made by hand from the title: prudential rule for banks only.",
-      "decided_at": null
+      "reason": "Investment portfolio rules for commercial banks only; banks' prudential matter.",
+      "decided_at": "2026-09-27T19:55:46Z"
     },
     {
-      "sample_data": true,
-      "title": "Novation of OTC Derivative Contracts",
-      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13706&Mode=0",
-      "date": "2026-09-22",
+      "title": "Reserve Bank of India (Commercial Banks - Minimum Capital Requirements for Market Risk) Directions, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13705&Mode=0",
+      "date": "2026-09-21",
       "regulator": "RBI",
       "source": "rbi",
-      "reason": "Sample decision made by hand from the title: concerns banks' OTC derivative counterparties.",
-      "decided_at": null
+      "reason": "Market risk capital requirements for commercial banks only; banks' prudential matter.",
+      "decided_at": "2026-09-27T19:55:46Z"
     },
     {
-      "sample_data": true,
       "title": "Listing of further issues of securities",
-      "url": "https://nsearchives.nseindia.com/content/RSS/Circulars.xml",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76569.pdf",
       "date": "2026-09-25",
       "regulator": "NSE",
       "source": "nse",
-      "reason": "Sample decision made by hand from the title: security-specific listing.",
-      "decided_at": null
+      "reason": "Further issue listing of securities; routine corporate action, no tracker entity obligation.",
+      "decided_at": "2026-09-27T19:55:46Z"
     },
     {
-      "sample_data": true,
-      "title": "Applicability of Enhanced Surveillance Measure (ESM)",
-      "url": "https://nsearchives.nseindia.com/content/RSS/Circulars.xml",
+      "title": "Listing of Partly Paid up Equity Shares allotted on Rights Basis of Jaykay Enterprises Limited",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76568.pdf",
       "date": "2026-09-25",
       "regulator": "NSE",
       "source": "nse",
-      "reason": "Sample decision made by hand from the title: stock-specific surveillance list.",
-      "decided_at": null
+      "reason": "Partly paid shares listing for named company; specific corporate action only.",
+      "decided_at": "2026-09-27T19:55:46Z"
     },
     {
-      "sample_data": true,
+      "title": "Trading of Rights Entitlements pursuant to Rights Issue of Party Cruisers Limited",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76567.pdf",
+      "date": "2026-09-25",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Rights trading for named company; specific corporate action only.",
+      "decided_at": "2026-09-27T19:55:46Z"
+    },
+    {
       "title": "Suspension of trading in equity shares - Shri Ram Switchgears Limited",
-      "url": "https://nsearchives.nseindia.com/content/RSS/Circulars.xml",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76563.pdf",
       "date": "2026-09-25",
       "regulator": "NSE",
       "source": "nse",
-      "reason": "Sample decision made by hand from the title: one company's suspension.",
-      "decided_at": null
+      "reason": "Trading suspension for named company only; stock-specific surveillance matter.",
+      "decided_at": "2026-09-27T19:55:46Z"
     },
     {
-      "sample_data": true,
-      "title": "Trade for Trade - Sonaselection India Limited (IPO)",
-      "url": "https://nsearchives.nseindia.com/content/RSS/Circulars.xml",
+      "title": "Listing of further issue of securities",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76560.pdf",
       "date": "2026-09-25",
       "regulator": "NSE",
       "source": "nse",
-      "reason": "Sample decision made by hand from the title: one security moved to trade-for-trade.",
-      "decided_at": null
+      "reason": "Further issue listing of securities; routine corporate action, no tracker entity obligation.",
+      "decided_at": "2026-09-27T19:55:46Z"
     },
     {
-      "sample_data": true,
-      "title": "Face Value Split - BLS E-Services Limited (BLSE)",
-      "url": "https://nsearchives.nseindia.com/content/RSS/Circulars.xml",
+      "title": "Listing of privately placed securities on the debt market segment of the Exchange",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76559.pdf",
       "date": "2026-09-25",
       "regulator": "NSE",
       "source": "nse",
-      "reason": "Sample decision made by hand from the title: one company's corporate action.",
-      "decided_at": null
+      "reason": "Private placement listing; routine debt market listing process only.",
+      "decided_at": "2026-09-27T19:55:46Z"
     },
     {
-      "sample_data": true,
-      "title": "Mock trading on Saturday, September 26, 2026 - No new version release",
-      "url": "https://nsearchives.nseindia.com/content/RSS/Circulars.xml",
+      "title": "Suspension of trading in Non-Convertible Securities (Privately Placed",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76557.pdf",
       "date": "2026-09-25",
       "regulator": "NSE",
       "source": "nse",
-      "reason": "Sample decision made by hand from the title: routine mock session with no software change.",
-      "decided_at": null
+      "reason": "Trading suspension for named security only; stock-specific matter only.",
+      "decided_at": "2026-09-27T19:55:46Z"
     },
     {
-      "sample_data": true,
+      "title": "Early redemption facility for SGBs held in Physical Mode - October 2026 - December 2026",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76556.zip",
+      "date": "2026-09-25",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Early redemption for specific SGB holding period; single scheme, no tracker entity obligation.",
+      "decided_at": "2026-09-27T19:55:46Z"
+    },
+    {
+      "title": "Listing of privately placed securities on capital market segment",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76555.pdf",
+      "date": "2026-09-25",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Private placement listing; routine capital market listing process only.",
+      "decided_at": "2026-09-27T19:55:46Z"
+    },
+    {
+      "title": "Revoke of Temporary Suspension for subscription and change in Maximum amount limit under certain schemes of Invesco Mutual Fund on NSE MF Invest Platform",
+      "url": "https://nsearchives.nseindia.com/content/circulars/NMF76554.zip",
+      "date": "2026-09-25",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Single mutual fund scheme suspension/change; routine scheme-level operational matter.",
+      "decided_at": "2026-09-27T19:55:46Z"
+    },
+    {
       "title": "Launch of Whiteoak Capital Diversified Equity Small Cap Active FOF on NSE MF Invest Platform",
-      "url": "https://nsearchives.nseindia.com/content/RSS/Circulars.xml",
+      "url": "https://nsearchives.nseindia.com/content/circulars/NMF76553.pdf",
       "date": "2026-09-25",
       "regulator": "NSE",
       "source": "nse",
-      "reason": "Sample decision made by hand from the title: one fund's launch on a platform.",
-      "decided_at": null
+      "reason": "Single mutual fund scheme launch; routine scheme-level operational matter.",
+      "decided_at": "2026-09-27T19:55:46Z"
+    },
+    {
+      "title": "Launch of Mirae Asset Life Cycle Fund 2056 NFO on NSE MF Invest Platform",
+      "url": "https://nsearchives.nseindia.com/content/circulars/NMF76552.pdf",
+      "date": "2026-09-25",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Single mutual fund scheme launch; routine scheme-level operational matter.",
+      "decided_at": "2026-09-27T19:55:46Z"
+    },
+    {
+      "title": "Launch of ICICI Prudential Contra Fund NFO on NSE MF Invest Platform",
+      "url": "https://nsearchives.nseindia.com/content/circulars/NMF76551.pdf",
+      "date": "2026-09-25",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Single mutual fund scheme launch; routine scheme-level operational matter.",
+      "decided_at": "2026-09-27T19:55:46Z"
+    },
+    {
+      "title": "Availability of HDFC BSE REITS and Commercial Real Estate Index Fund NFO on NSE MF Invest Platform",
+      "url": "https://nsearchives.nseindia.com/content/circulars/NMF76550.pdf",
+      "date": "2026-09-25",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Single mutual fund scheme availability; routine scheme-level operational matter.",
+      "decided_at": "2026-09-27T19:55:46Z"
+    },
+    {
+      "title": "Availability of Mirae Asset BSE Information Technology Index Fund NFO on NSE MF Invest Platform",
+      "url": "https://nsearchives.nseindia.com/content/circulars/NMF76549.pdf",
+      "date": "2026-09-25",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Single mutual fund scheme availability; routine scheme-level operational matter.",
+      "decided_at": "2026-09-27T19:55:46Z"
+    },
+    {
+      "title": "Face Value Split - BLS E-Services Limited (BLSE)",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76548.pdf",
+      "date": "2026-09-25",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Face value split for named company; specific corporate action only.",
+      "decided_at": "2026-09-27T19:55:46Z"
+    },
+    {
+      "title": "Trade for Trade - Sonaselection India Limited (IPO)",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76547.pdf",
+      "date": "2026-09-25",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Trade-for-trade for named company IPO; specific settlement process only.",
+      "decided_at": "2026-09-27T19:55:46Z"
+    },
+    {
+      "title": "Trade for Trade - Kheria Autocomp Limited (SME IPO)",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76546.pdf",
+      "date": "2026-09-25",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Trade-for-trade for named SME IPO; specific settlement process only.",
+      "decided_at": "2026-09-27T19:55:46Z"
+    },
+    {
+      "title": "Trade for Trade - SpectraA Technology Solutions Limited (SME IPO)",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76545.pdf",
+      "date": "2026-09-25",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Trade-for-trade for named SME IPO; specific settlement process only.",
+      "decided_at": "2026-09-27T19:55:46Z"
+    },
+    {
+      "title": "Suspension of trading in Non-Convertible Debentures - IIFL Finance Limited",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76544.pdf",
+      "date": "2026-09-25",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Trading suspension for named NCD issuer only; stock-specific matter only.",
+      "decided_at": "2026-09-27T19:55:46Z"
+    },
+    {
+      "title": "Trade for Trade - Axiom Gas Engineering Limited (SME IPO)",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76543.pdf",
+      "date": "2026-09-25",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Trade-for-trade for named SME IPO; specific settlement process only.",
+      "decided_at": "2026-09-27T19:55:46Z"
+    },
+    {
+      "title": "Mock trading on Saturday, September 26, 2026 - No new version release",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CD76539.pdf",
+      "date": "2026-09-25",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Mock trading session notification without system changes",
+      "decided_at": "2026-09-27T19:55:46Z"
+    },
+    {
+      "title": "Mock session on Saturday, September 26, 2026 - No new version release",
+      "url": "https://nsearchives.nseindia.com/content/circulars/COM76521.pdf",
+      "date": "2026-09-25",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Mock trading session notification without system changes",
+      "decided_at": "2026-09-27T19:55:46Z"
+    },
+    {
+      "title": "Mock trading on Saturday, September 26, 2026 - No new version release",
+      "url": "https://nsearchives.nseindia.com/content/circulars/FAOP76520.pdf",
+      "date": "2026-09-25",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Mock trading session notification without system changes",
+      "decided_at": "2026-09-27T19:55:46Z"
+    },
+    {
+      "title": "Temporary Suspension of fresh subscription in Certain Schemes of Aditya Birla Sun Life Mutual fund on NSE MF Invest Platform",
+      "url": "https://nsearchives.nseindia.com/content/circulars/NMF76518.zip",
+      "date": "2026-09-25",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Single mutual fund scheme suspension, not ecosystem-wide obligation",
+      "decided_at": "2026-09-27T19:55:46Z"
+    },
+    {
+      "title": "Non-Competitive Bidding Facility for Auction of Treasury Bills (T-Bills) on September 30, 2026",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260927-2/20260927-2.pdf",
+      "date": "2026-09-27",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Treasury bills auction facility, banking-specific operation",
+      "decided_at": "2026-09-27T19:55:46Z"
+    },
+    {
+      "title": "Non-Competitive Bidding for Auction of State Government Securities (SDL) on September 29, 2026",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260927-1/20260927-1.pdf",
+      "date": "2026-09-27",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "State securities auction facility, banking-specific operation",
+      "decided_at": "2026-09-27T19:55:46Z"
+    },
+    {
+      "title": "Data Seeking Request (opens in new tab)",
+      "url": "https://nsdl.com/nsdl/2026-04/Annexure%20A%20-%20Data%20Seeking%20Request%20Form.pdf",
+      "date": null,
+      "regulator": "NSDL",
+      "source": "nsdl",
+      "reason": "Data request procedures, internal administrative matter",
+      "decided_at": "2026-09-27T19:55:46Z"
+    },
+    {
+      "title": "Guidelines to Seek Data (opens in new tab)",
+      "url": "https://nsdl.com/nsdl/2026-04/Guidelines%20to%20Seek%20Data.pdf",
+      "date": null,
+      "regulator": "NSDL",
+      "source": "nsdl",
+      "reason": "Data request guidelines, internal administrative matter",
+      "decided_at": "2026-09-27T19:55:46Z"
+    },
+    {
+      "title": "Policy for Sharing Data for the Purpose of Research / Analysis (opens in new tab)",
+      "url": "https://nsdl.com/nsdl/2026-04/Policy%20for%20Sharing%20Data%20for%20the%20Purpose%20of%20Research%20%20Analysis%20Data%20List%20for%20Depositories.pdf",
+      "date": null,
+      "regulator": "NSDL",
+      "source": "nsdl",
+      "reason": "Research data sharing policy, internal administrative matter",
+      "decided_at": "2026-09-27T19:55:46Z"
     }
   ]
 }

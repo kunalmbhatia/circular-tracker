@@ -1,640 +1,152 @@
 {
-  "generated_at": null,
+  "generated_at": "2026-09-27T20:10:26Z",
   "schema_version": "2.0",
-  "note": "generated_at is null because the ingestion pipeline has not run yet. Every record is sample data entered by hand from official listings and feeds (SEBI listing pages; RBI notifications feed and NSE circulars feed as read on 27 Sep 2026). Titles and dates are as published; every other field is inferred from the title and flagged Needs Review.",
   "circulars": [
     {
-      "sample_data": true,
-      "circular_no": "NOT STATED IN SOURCE",
-      "date": "2026-09-09",
-      "title": "Review of Position Limits for Clients and Penalty Provisions for Violation / Breach of Position Limits for Commodity Derivatives Segment",
+      "circular_no": "HO/47/16/14(1)2026-MRD-POD1/I/18580/2026",
+      "date": "2026-08-12",
       "doc_type": "Fresh Circular",
-      "parent_circular_no": null,
-      "parent_circular_date": null,
+      "parent_circular_no": "NOT STATED IN SOURCE",
+      "parent_circular_date": "NOT STATED IN SOURCE",
+      "implements": [],
       "impact_areas": [
         "Commodity Derivatives Segment",
-        "Surveillance/Market Abuse"
-      ],
-      "applicability": "Stock Exchanges / Clearing Corporations",
-      "intent": "Revises client position limits and penalty provisions in the commodity derivatives segment (paraphrased from title only — not yet run against source text).",
-      "action_required": "Not yet classified — read the source circular for the specific compliance action.",
-      "effective_date": null,
-      "impact_summary": "Seed placeholder — pending pipeline run.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "all_fields": "Seed record, not classified against source text."
-      },
-      "source_excerpt_citations": [],
-      "source_url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
-      "key_dates": [],
-      "regulator": "SEBI",
-      "implements": []
-    },
-    {
-      "sample_data": true,
-      "circular_no": "NOT STATED IN SOURCE",
-      "date": "2026-09-07",
-      "title": "Relaxation in timeline with respect to Accredited Investor mandate for Angel Funds",
-      "doc_type": "Amendment",
-      "parent_circular_no": "NOT STATED IN SOURCE",
-      "parent_circular_date": null,
-      "impact_areas": [
-        "AIFs/PMS"
-      ],
-      "applicability": "Alternative Investment Funds (Angel Funds)",
-      "intent": "Extends the compliance timeline for the Accredited Investor mandate applicable to Angel Funds (paraphrased from title only).",
-      "action_required": "Not yet classified — read the source circular for the specific compliance action.",
-      "effective_date": null,
-      "impact_summary": "Seed placeholder — pending pipeline run.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "all_fields": "Seed record, not classified against source text."
-      },
-      "source_excerpt_citations": [],
-      "source_url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
-      "key_dates": [],
-      "regulator": "SEBI",
-      "implements": []
-    },
-    {
-      "sample_data": true,
-      "circular_no": "NOT STATED IN SOURCE",
-      "date": "2026-09-07",
-      "title": "Ease of regulatory compliances for FPIs investing only in Government Securities",
-      "doc_type": "Fresh Circular",
-      "parent_circular_no": null,
-      "parent_circular_date": null,
-      "impact_areas": [
-        "FPI",
-        "Corporate Bonds/Debt Market"
-      ],
-      "applicability": "Foreign Portfolio Investors",
-      "intent": "Simplifies regulatory compliance requirements for FPIs whose investments are limited to Government Securities (paraphrased from title only).",
-      "action_required": "Not yet classified — read the source circular for the specific compliance action.",
-      "effective_date": null,
-      "impact_summary": "Seed placeholder — pending pipeline run.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "all_fields": "Seed record, not classified against source text."
-      },
-      "source_excerpt_citations": [],
-      "source_url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
-      "key_dates": [],
-      "regulator": "SEBI",
-      "implements": []
-    },
-    {
-      "sample_data": true,
-      "circular_no": "NOT STATED IN SOURCE",
-      "date": "2026-08-28",
-      "title": "Extension of timeline for implementation of provisions of SEBI Circular dated June 15, 2026 on norms for base price, price bands, call auction in pre-open session and Close-out procedure for Exchange Traded Funds (ETFs)",
-      "doc_type": "Amendment",
-      "parent_circular_no": "NOT STATED IN SOURCE",
-      "parent_circular_date": "2026-06-15",
-      "impact_areas": [
-        "Stock Exchanges",
-        "Mutual Funds/AMCs"
-      ],
-      "applicability": "Stock Exchanges / Asset Management Companies",
-      "intent": "Pushes back the implementation deadline for the June 15, 2026 ETF trading-mechanics circular (base price, price bands, call auction, close-out) (paraphrased from title only).",
-      "action_required": "Not yet classified — read the source circular for the specific compliance action.",
-      "effective_date": null,
-      "impact_summary": "Seed placeholder — pending pipeline run.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "parent_circular_no": "Only the parent's date is in the title, not its number — do not treat the parent mapping as confirmed.",
-        "impact_summary": "Parent circular is identified by date only in the title — its circular number must be confirmed from the source text before this mapping can be trusted."
-      },
-      "source_excerpt_citations": [],
-      "source_url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
-      "key_dates": [],
-      "regulator": "SEBI",
-      "implements": []
-    },
-    {
-      "sample_data": true,
-      "circular_no": "NOT STATED IN SOURCE",
-      "date": "2026-08-24",
-      "title": "Alignment of SEBI's Cyber Incident Reporting Portal with FIRE Format",
-      "doc_type": "Fresh Circular",
-      "parent_circular_no": null,
-      "parent_circular_date": null,
-      "impact_areas": [
-        "Cyber Security/Cyber Resilience"
-      ],
-      "applicability": "Market Infrastructure Institutions / Intermediaries",
-      "intent": "Aligns SEBI's Cyber Incident Reporting Portal with the FIRE reporting format (paraphrased from title only).",
-      "action_required": "Not yet classified — read the source circular for the specific compliance action.",
-      "effective_date": null,
-      "impact_summary": "Seed placeholder — pending pipeline run.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "all_fields": "Seed record, not classified against source text."
-      },
-      "source_excerpt_citations": [],
-      "source_url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
-      "key_dates": [],
-      "regulator": "SEBI",
-      "implements": []
-    },
-    {
-      "sample_data": true,
-      "circular_no": "NOT STATED IN SOURCE",
-      "date": "2026-03-25",
-      "title": "Addendum to SEBI Circular on Borrowing by Mutual Funds",
-      "doc_type": "Addendum",
-      "parent_circular_no": "NOT STATED IN SOURCE",
-      "parent_circular_date": null,
-      "impact_areas": [
-        "Mutual Funds/AMCs"
-      ],
-      "applicability": "Asset Management Companies",
-      "intent": "Adds to or corrects an earlier SEBI circular governing borrowing by mutual funds (paraphrased from title only).",
-      "action_required": "Not yet classified — read the source circular for the specific compliance action.",
-      "effective_date": null,
-      "impact_summary": "Seed placeholder — pending pipeline run.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "parent_circular_no": "Parent identified by subject only, not by number.",
-        "impact_summary": "Parent circular subject is named (\"Borrowing by Mutual Funds\") but not its number — confirm from source text."
-      },
-      "source_excerpt_citations": [],
-      "source_url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
-      "key_dates": [],
-      "regulator": "SEBI",
-      "implements": []
-    },
-    {
-      "sample_data": true,
-      "circular_no": "NOT STATED IN SOURCE",
-      "date": "2026-08-03",
-      "title": "Extension of timeline for enrolment with PaRRVA as specified in SEBI Circular No. HO/38/14/(4)2026-MIRSD-POD/I/10557/2026 dated April 29, 2026",
-      "doc_type": "Amendment",
-      "parent_circular_no": "HO/38/14/(4)2026-MIRSD-POD/I/10557/2026",
-      "parent_circular_date": "2026-04-29",
-      "impact_areas": [],
-      "applicability": "Not resolved from title",
-      "intent": "Extends the enrolment timeline for an initiative referred to as \"PaRRVA\" in the parent circular of April 29, 2026.",
-      "action_required": "Not yet classified — read the source circular for the specific compliance action.",
-      "effective_date": null,
-      "impact_summary": "Seed placeholder — pending pipeline run.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "impact_areas": "Can't determine the market segment from the title: the abbreviation \"PaRRVA\" isn't expanded, and the tracker doesn't guess."
-      },
-      "source_excerpt_citations": [],
-      "source_url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
-      "key_dates": [],
-      "regulator": "SEBI",
-      "implements": []
-    },
-    {
-      "sample_data": true,
-      "circular_no": "NOT STATED IN SOURCE",
-      "date": "2026-06-03",
-      "title": "Master Circular for Alternative Investment Funds (AIFs)",
-      "doc_type": "Master Circular",
-      "parent_circular_no": null,
-      "parent_circular_date": null,
-      "impact_areas": [
-        "AIFs/PMS"
-      ],
-      "applicability": "Alternative Investment Funds",
-      "intent": "Consolidates all operative circulars applicable to AIFs into a single reference document (paraphrased from title only).",
-      "action_required": "Not yet classified — read the source circular for the specific compliance action.",
-      "effective_date": null,
-      "impact_summary": "Seed placeholder — pending pipeline run.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "all_fields": "Seed record, not classified against source text.",
-        "impact_summary": "A Master Circular typically supersedes/consolidates several standalone circulars — the pipeline should link each superseded circular here once run against the full text."
-      },
-      "source_excerpt_citations": [],
-      "source_url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6",
-      "key_dates": [],
-      "regulator": "SEBI",
-      "implements": []
-    },
-    {
-      "sample_data": true,
-      "circular_no": "NOT STATED IN SOURCE",
-      "date": "2026-07-31",
-      "title": "Extension of timelines with repect to compliance of Digital Accessibility Circulars.",
-      "doc_type": "Amendment",
-      "parent_circular_no": "NOT STATED IN SOURCE",
-      "parent_circular_date": null,
-      "impact_areas": [],
-      "applicability": "Not resolved from title",
-      "intent": "Extends the compliance timelines set by SEBI's earlier digital accessibility circulars (paraphrased from title only).",
-      "action_required": "Not yet classified — read the source circular for the specific compliance action.",
-      "effective_date": null,
-      "key_dates": [],
-      "impact_summary": "Seed placeholder — pending pipeline run.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "parent_circular_no": "Title refers to 'Digital Accessibility Circulars' in the plural without numbers or dates.",
-        "impact_areas": "Not determinable from the title."
-      },
-      "source_excerpt_citations": [],
-      "source_url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
-      "regulator": "SEBI",
-      "implements": []
-    },
-    {
-      "sample_data": true,
-      "circular_no": "NOT STATED IN SOURCE",
-      "date": "2026-07-14",
-      "title": "Master Circular for Merchant Bankers",
-      "doc_type": "Master Circular",
-      "parent_circular_no": null,
-      "parent_circular_date": null,
-      "impact_areas": [
-        "Other"
-      ],
-      "applicability": "Merchant Bankers",
-      "intent": "Consolidates operative circulars applicable to merchant bankers into one reference (paraphrased from title only).",
-      "action_required": "Not yet classified — read the source circular for the specific compliance action.",
-      "effective_date": null,
-      "key_dates": [],
-      "impact_summary": "Seed placeholder — pending pipeline run.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "all_fields": "Seed record, not classified against source text."
-      },
-      "source_excerpt_citations": [],
-      "source_url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6",
-      "regulator": "SEBI",
-      "implements": []
-    },
-    {
-      "sample_data": true,
-      "circular_no": "NOT STATED IN SOURCE",
-      "date": "2026-06-11",
-      "title": "Extension of timelines for compliance with certain provisions of Circular dated January 02, 2026",
-      "doc_type": "Amendment",
-      "parent_circular_no": "NOT STATED IN SOURCE",
-      "parent_circular_date": "2026-01-02",
-      "impact_areas": [],
-      "applicability": "Not resolved from title",
-      "intent": "Extends the compliance timeline for some provisions of a circular dated 2 January 2026 (paraphrased from title only).",
-      "action_required": "Not yet classified — read the source circular for the specific compliance action.",
-      "effective_date": null,
-      "key_dates": [],
-      "impact_summary": "Seed placeholder — pending pipeline run.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "parent_circular_no": "Parent identified by date only (2 Jan 2026); number must be confirmed from source text.",
-        "impact_areas": "Not determinable from the title."
-      },
-      "source_excerpt_citations": [],
-      "source_url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
-      "regulator": "SEBI",
-      "implements": []
-    },
-    {
-      "sample_data": true,
-      "circular_no": "NOT STATED IN SOURCE",
-      "date": "2026-05-15",
-      "title": "Master Circular on Surveillance of Securities Market",
-      "doc_type": "Master Circular",
-      "parent_circular_no": null,
-      "parent_circular_date": null,
-      "impact_areas": [
-        "Surveillance/Market Abuse"
-      ],
-      "applicability": "Market Infrastructure Institutions",
-      "intent": "Consolidates circulars governing market surveillance into one reference (paraphrased from title only).",
-      "action_required": "Not yet classified — read the source circular for the specific compliance action.",
-      "effective_date": null,
-      "key_dates": [],
-      "impact_summary": "Seed placeholder — pending pipeline run.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "all_fields": "Seed record, not classified against source text."
-      },
-      "source_excerpt_citations": [],
-      "source_url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6",
-      "regulator": "SEBI",
-      "implements": []
-    },
-    {
-      "sample_data": true,
-      "circular_no": "NOT STATED IN SOURCE",
-      "date": "2026-04-07",
-      "title": "Relaxation from the applicability of SEBI Master Circular for compliance with the provisions of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 on non-compliance with the Minimum Public Shareholding (MPS) requirements",
-      "doc_type": "Amendment",
-      "parent_circular_no": "NOT STATED IN SOURCE",
-      "parent_circular_date": null,
-      "impact_areas": [
-        "Listed Companies (LODR/Disclosure)"
-      ],
-      "applicability": "Listed Entities",
-      "intent": "Relaxes how the LODR Master Circular's provisions on minimum public shareholding non-compliance apply (paraphrased from title only).",
-      "action_required": "Not yet classified — read the source circular for the specific compliance action.",
-      "effective_date": null,
-      "key_dates": [],
-      "impact_summary": "Seed placeholder — pending pipeline run.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "parent_circular_no": "Parent is the LODR Master Circular, named by subject but not by number or date. Likely the 30 Jan 2026 master circular in this register — unconfirmed."
-      },
-      "source_excerpt_citations": [],
-      "source_url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
-      "regulator": "SEBI",
-      "implements": []
-    },
-    {
-      "sample_data": true,
-      "circular_no": "NOT STATED IN SOURCE",
-      "date": "2026-03-20",
-      "title": "Master Circular for Mutual Funds",
-      "doc_type": "Master Circular",
-      "parent_circular_no": null,
-      "parent_circular_date": null,
-      "impact_areas": [
-        "Mutual Funds/AMCs"
-      ],
-      "applicability": "Asset Management Companies",
-      "intent": "Consolidates operative circulars applicable to mutual funds into one reference (paraphrased from title only).",
-      "action_required": "Not yet classified — read the source circular for the specific compliance action.",
-      "effective_date": null,
-      "key_dates": [],
-      "impact_summary": "Seed placeholder — pending pipeline run.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "all_fields": "Seed record, not classified against source text."
-      },
-      "source_excerpt_citations": [],
-      "source_url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6",
-      "regulator": "SEBI",
-      "implements": []
-    },
-    {
-      "sample_data": true,
-      "circular_no": "NOT STATED IN SOURCE",
-      "date": "2026-02-17",
-      "title": "Circular on Forms for registration of stock brokers and clearing members",
-      "doc_type": "Fresh Circular",
-      "parent_circular_no": null,
-      "parent_circular_date": null,
-      "impact_areas": [
-        "Stock Brokers",
         "Clearing Corporations"
       ],
-      "applicability": "Stock Brokers / Clearing Members",
-      "intent": "Prescribes the forms used to register stock brokers and clearing members (paraphrased from title only).",
-      "action_required": "Not yet classified — read the source circular for the specific compliance action.",
+      "applicability": "NOT STATED IN SOURCE",
+      "intent": "The circular appears to revise how historical scenarios are factored into stress testing methodology for the commodity derivatives segment, though the source text does not elaborate on the specific problem being addressed.",
+      "action_required": "NOT STATED IN SOURCE",
       "effective_date": null,
       "key_dates": [],
-      "impact_summary": "Seed placeholder — pending pipeline run.",
+      "impact_summary": "The circular title indicates it affects entities involved in the commodity derivatives segment, likely clearing corporations responsible for stress testing frameworks, but the source text provided is only a title/header with no body content.",
       "overall_confidence": "Needs Review",
       "confidence_flags": {
-        "all_fields": "Seed record, not classified against source text."
+        "applicability": "Source text is only a title and metadata; no body text describing applicability was provided.",
+        "action_required": "No operative text or instructions are present in the source; only the circular title is given.",
+        "intent": "Based solely on the title; actual regulatory rationale and problem statement not present in source text.",
+        "impact_areas": "Inferred only from the title referencing 'Commodity Derivatives Segment' and 'Stress Testing'; no body text to confirm broader scope.",
+        "overall_confidence": "The provided source text is extremely short, consisting only of a title, date, and circular number, with no substantive body content to extract details from."
       },
-      "source_excerpt_citations": [],
-      "source_url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_excerpt_citations": [
+        "Review of Inclusion of Historical Scenarios in Stress Testing for Commodity Derivatives Segment",
+        "Circular No.: HO/47/16/14(1)2026-MRD-POD1/I/18580/2026"
+      ],
+      "source_url": "https://www.sebi.gov.in/legal/circulars/aug-2026/review-of-inclusion-of-historical-scenarios-in-stress-testing-for-commodity-derivatives-segment_103521.html",
+      "sample_data": false,
+      "title": "Review of Inclusion of Historical Scenarios in Stress Testing for Commodity Derivatives Segment",
       "regulator": "SEBI",
-      "implements": []
+      "source": "sebi-circulars"
     },
     {
-      "sample_data": true,
       "circular_no": "NOT STATED IN SOURCE",
-      "date": "2026-02-09",
-      "title": "Master Circular for Issue of Capital and Disclosure Requirements",
+      "date": "2024-12-30",
       "doc_type": "Master Circular",
       "parent_circular_no": null,
       "parent_circular_date": null,
+      "implements": [],
       "impact_areas": [
-        "Listed Companies (LODR/Disclosure)"
+        "Stock Exchanges",
+        "Clearing Corporations"
       ],
-      "applicability": "Issuers / Merchant Bankers",
-      "intent": "Consolidates circulars under the ICDR framework into one reference (paraphrased from title only).",
-      "action_required": "Not yet classified — read the source circular for the specific compliance action.",
-      "effective_date": null,
-      "key_dates": [],
-      "impact_summary": "Seed placeholder — pending pipeline run.",
+      "applicability": "Stock Exchanges and Clearing Corporations",
+      "intent": "To consolidate all existing circulars/directions applicable to Stock Exchanges and Clearing Corporations into a single master circular for ease of reference and compliance.",
+      "action_required": "NOT STATED IN SOURCE",
+      "effective_date": "2024-12-30",
+      "key_dates": [
+        {
+          "label": "Circular date",
+          "date": "2024-12-30",
+          "quote": "Master Circular for Stock Exchanges and Clearing Corporations Dec 30, 2024"
+        }
+      ],
+      "impact_summary": "Stock Exchanges and Clearing Corporations are affected as this master circular consolidates existing regulatory requirements applicable to them into one reference document.",
       "overall_confidence": "Needs Review",
       "confidence_flags": {
-        "all_fields": "Seed record, not classified against source text."
+        "circular_no": "No distinct circular number is stated in the provided source text, only a title and date.",
+        "doc_type": "Title explicitly says 'Master Circular' but no body text, reference number, or content details are provided to verify scope or specific provisions.",
+        "action_required": "Source text contains only a title and date; no operative content or action items are stated.",
+        "parent_circular_no": "No parent or prior master circular is referenced in the given text, though master circulars typically supersede prior circulars; this is not stated here."
       },
-      "source_excerpt_citations": [],
-      "source_url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6",
-      "regulator": "SEBI",
-      "implements": []
-    },
-    {
-      "sample_data": true,
-      "circular_no": "NOT STATED IN SOURCE",
-      "date": "2026-02-06",
-      "title": "Master Circular for Research Analysts",
-      "doc_type": "Master Circular",
-      "parent_circular_no": null,
-      "parent_circular_date": null,
-      "impact_areas": [
-        "Investment Advisers/Research Analysts"
+      "source_excerpt_citations": [
+        "Master Circular for Stock Exchanges and Clearing Corporations",
+        "Dec 30, 2024",
+        "Master Circulars"
       ],
-      "applicability": "Research Analysts",
-      "intent": "Consolidates operative circulars applicable to research analysts into one reference (paraphrased from title only).",
-      "action_required": "Not yet classified — read the source circular for the specific compliance action.",
-      "effective_date": null,
-      "key_dates": [],
-      "impact_summary": "Seed placeholder — pending pipeline run.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "all_fields": "Seed record, not classified against source text."
-      },
-      "source_excerpt_citations": [],
-      "source_url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6",
+      "source_url": "https://www.sebi.gov.in/legal/master-circulars/dec-2024/master-circular-for-stock-exchanges-and-clearing-corporations_90353.html",
+      "sample_data": false,
+      "title": "Master Circular for Stock Exchanges and Clearing Corporations",
       "regulator": "SEBI",
-      "implements": []
+      "source": "sebi-master"
     },
     {
-      "sample_data": true,
       "circular_no": "NOT STATED IN SOURCE",
-      "date": "2026-02-06",
-      "title": "Master Circular for Investment Advisers",
-      "doc_type": "Master Circular",
-      "parent_circular_no": null,
-      "parent_circular_date": null,
-      "impact_areas": [
-        "Investment Advisers/Research Analysts"
-      ],
-      "applicability": "Investment Advisers",
-      "intent": "Consolidates operative circulars applicable to investment advisers into one reference (paraphrased from title only).",
-      "action_required": "Not yet classified — read the source circular for the specific compliance action.",
-      "effective_date": null,
-      "key_dates": [],
-      "impact_summary": "Seed placeholder — pending pipeline run.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "all_fields": "Seed record, not classified against source text."
-      },
-      "source_excerpt_citations": [],
-      "source_url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6",
-      "regulator": "SEBI",
-      "implements": []
-    },
-    {
-      "sample_data": true,
-      "circular_no": "NOT STATED IN SOURCE",
-      "date": "2026-02-06",
-      "title": "Master Circular for Registrars to an Issue and Share Transfer Agents",
-      "doc_type": "Master Circular",
-      "parent_circular_no": null,
-      "parent_circular_date": null,
-      "impact_areas": [
-        "Other"
-      ],
-      "applicability": "Registrars and Share Transfer Agents",
-      "intent": "Consolidates operative circulars applicable to RTAs into one reference (paraphrased from title only).",
-      "action_required": "Not yet classified — read the source circular for the specific compliance action.",
-      "effective_date": null,
-      "key_dates": [],
-      "impact_summary": "Seed placeholder — pending pipeline run.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "all_fields": "Seed record, not classified against source text."
-      },
-      "source_excerpt_citations": [],
-      "source_url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6",
-      "regulator": "SEBI",
-      "implements": []
-    },
-    {
-      "sample_data": true,
-      "circular_no": "NOT STATED IN SOURCE",
-      "date": "2026-01-30",
-      "title": "Master Circular for compliance with the provisions of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 by listed entities",
-      "doc_type": "Master Circular",
-      "parent_circular_no": null,
-      "parent_circular_date": null,
-      "impact_areas": [
-        "Listed Companies (LODR/Disclosure)"
-      ],
-      "applicability": "Listed Entities",
-      "intent": "Consolidates circulars on LODR compliance by listed entities into one reference (paraphrased from title only).",
-      "action_required": "Not yet classified — read the source circular for the specific compliance action.",
-      "effective_date": null,
-      "key_dates": [],
-      "impact_summary": "Seed placeholder — pending pipeline run.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "all_fields": "Seed record, not classified against source text."
-      },
-      "source_excerpt_citations": [],
-      "source_url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6",
-      "regulator": "SEBI",
-      "implements": []
-    },
-    {
-      "sample_data": true,
-      "circular_no": "NOT STATED IN SOURCE",
-      "date": "2026-01-19",
-      "title": "Master Circular for Framework on Social Stock Exchange.",
-      "doc_type": "Master Circular",
-      "parent_circular_no": null,
-      "parent_circular_date": null,
-      "impact_areas": [
-        "Stock Exchanges"
-      ],
-      "applicability": "Social Stock Exchange participants",
-      "intent": "Consolidates circulars on the Social Stock Exchange framework into one reference (paraphrased from title only).",
-      "action_required": "Not yet classified — read the source circular for the specific compliance action.",
-      "effective_date": null,
-      "key_dates": [],
-      "impact_summary": "Seed placeholder — pending pipeline run.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "all_fields": "Seed record, not classified against source text."
-      },
-      "source_excerpt_citations": [],
-      "source_url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6",
-      "regulator": "SEBI",
-      "implements": []
-    },
-    {
-      "sample_data": true,
-      "circular_no": "NOT STATED IN SOURCE",
-      "date": "2025-10-15",
-      "title": "Master Circular for issue and listing of Non-convertible Securities, Securitised Debt Instruments, Security Receipts, Municipal Debt Securities and Commercial Paper",
-      "doc_type": "Master Circular",
-      "parent_circular_no": null,
-      "parent_circular_date": null,
-      "impact_areas": [
-        "Corporate Bonds/Debt Market"
-      ],
-      "applicability": "Issuers of debt securities",
-      "intent": "Consolidates circulars on issuing and listing debt instruments into one reference (paraphrased from title only).",
-      "action_required": "Not yet classified — read the source circular for the specific compliance action.",
-      "effective_date": null,
-      "key_dates": [],
-      "impact_summary": "Seed placeholder — pending pipeline run.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "all_fields": "Seed record, not classified against source text."
-      },
-      "source_excerpt_citations": [],
-      "source_url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6",
-      "regulator": "SEBI",
-      "implements": []
-    },
-    {
-      "sample_data": true,
-      "regulator": "RBI",
-      "source": "rbi",
-      "circular_no": "NOT STATED IN SOURCE",
-      "date": "2026-09-24",
-      "title": "Designation of terrorist organisation under clause (a) of sub-section (1) of section 35 of the Unlawful Activities (Prevention) Act, 1967 and listed in the First Schedule of the Act",
+      "date": null,
       "doc_type": "Fresh Circular",
       "parent_circular_no": null,
       "parent_circular_date": null,
       "implements": [],
       "impact_areas": [
-        "KYC/AML"
+        "Depository Participants"
       ],
-      "applicability": "Regulated entities that screen clients",
-      "intent": "Notifies an organisation newly designated as terrorist under the UAPA (paraphrased from title only).",
-      "action_required": "Not yet classified — read the source circular for the specific compliance action.",
+      "applicability": "NSDL Board Committees / Internal Governance",
+      "intent": "The document discloses the composition of NSDL's board committees, listing chairpersons and members for governance and regulatory transparency purposes.",
+      "action_required": "NOT STATED IN SOURCE",
       "effective_date": null,
       "key_dates": [],
-      "impact_summary": "Seed placeholder — pending pipeline run.",
+      "impact_summary": "This is an internal governance disclosure listing committee memberships within NSDL's board; it does not impose compliance obligations on external regulated entities.",
       "overall_confidence": "Needs Review",
       "confidence_flags": {
-        "all_fields": "Seed record, not classified against source text.",
-        "applicability": "Brokers and fintechs usually screen clients against such designations; confirm the obligation from the text."
+        "circular_no": "No circular number, date, or issuing context (e.g., letterhead, subject line) is present in the source text.",
+        "doc_type": "Text is a tabular listing of committee compositions with no framing language indicating it is a circular, amendment, or notification; classified as Fresh Circular by default but this may not be a circular at all.",
+        "date": "No date is stated anywhere in the source text.",
+        "applicability": "No applicability statement is given; inferred solely from the fact that NSDL is the issuer and content concerns its own board committees.",
+        "action_required": "The text is purely informational/tabular with no directive language."
       },
-      "source_excerpt_citations": [],
-      "source_url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13713&Mode=0",
-      "triage_reason": "Sample decision: sanctions designations require client screening."
+      "source_excerpt_citations": [
+        "COMPOSITION OF BOARD COMMITTEES",
+        "Audit Committee Ms. Sripriya Kumar Chairperson"
+      ],
+      "source_url": "https://nsdl.com/nsdl/2026-07/Composition%20of%20Board%20Committees%20-%20July%202026.pdf",
+      "sample_data": false,
+      "title": "Composition of Committee (opens in new tab)",
+      "regulator": "NSDL",
+      "source": "nsdl",
+      "triage_reason": "Committee composition may affect depository operations/governance"
     },
     {
-      "sample_data": true,
-      "regulator": "NSE",
-      "source": "nse",
       "circular_no": "NOT STATED IN SOURCE",
-      "date": "2026-09-25",
-      "title": "Submission of Associates details by Clearing Members",
-      "doc_type": "Fresh Circular",
+      "date": null,
+      "doc_type": "FAQ/Clarification",
       "parent_circular_no": null,
       "parent_circular_date": null,
       "implements": [],
       "impact_areas": [
-        "Stock Brokers"
+        "Depository Participants",
+        "Mutual Funds/AMCs"
       ],
-      "applicability": "Clearing Members",
-      "intent": "Asks clearing members to submit details of their associates (paraphrased from title only).",
-      "action_required": "Not yet classified — read the source circular for the specific compliance action.",
+      "applicability": "Mutual fund investors / Depository Participants",
+      "intent": "This is promotional/informational content from NSDL explaining benefits of holding mutual fund units in dematerialized form to encourage investors to convert/subscribe in demat mode.",
+      "action_required": "No mandatory action; investors are advised to contact their Mutual Fund/Depository Participant to subscribe/convert mutual funds into demat form.",
       "effective_date": null,
       "key_dates": [],
-      "impact_summary": "Seed placeholder — pending pipeline run.",
+      "impact_summary": "Targets retail mutual fund investors and Depository Participants, promoting the advantages of demat holding such as consolidated tracking, pledging, easier transfers/transmission, and automatic dividend credit; no regulatory obligation is imposed.",
       "overall_confidence": "Needs Review",
       "confidence_flags": {
-        "all_fields": "Seed record, not classified against source text.",
-        "circular_no": "The NSE feed lists this item's file as CMPL76570; the formal circular number isn't confirmed."
+        "doc_type": "This text is an investor awareness/informational brochure, not a formal circular with a circular number or date; classification as FAQ/Clarification is an approximation since no clear category fits perfectly.",
+        "circular_no": "No circular number, date, or reference number appears anywhere in the provided text.",
+        "date": "No issuance date is stated in the source text."
       },
-      "source_excerpt_citations": [],
-      "source_url": "https://nsearchives.nseindia.com/content/RSS/Circulars.xml",
-      "triage_reason": "Sample decision: an obligation on clearing members."
+      "source_excerpt_citations": [
+        "Bene�its of Holding Mutual Funds in Demat Form for Investors",
+        "To subscribe/convert mutual funds in Demat - Contact your Mutual Fund/Depository Participant.",
+        "A demat account allows you to view your investments—stocks, bonds, ETFs, and mutual funds—at one place"
+      ],
+      "source_url": "https://nsdl.com/nsdl/2026-01/NSDL-MUTUAL_FUND_FLYER_2025.pdf",
+      "sample_data": false,
+      "title": "Mutual Funds Services (opens in new tab)",
+      "regulator": "NSDL",
+      "source": "nsdl",
+      "triage_reason": "Mutual fund services standards affect MF distributors and processes"
     }
   ],
   "sources": [
@@ -646,9 +158,9 @@
       "url": "https://www.sebi.gov.in/sebirss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Holds about five days of items, mixed with orders and press releases. Only circulars are kept.",
-      "status": "pending",
-      "checked_at": null,
+      "checked_at": "2026-09-27T19:55:11Z",
       "items": 0,
+      "status": "ok",
       "error": ""
     },
     {
@@ -659,9 +171,9 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Backstop for circulars that scroll off the RSS feed.",
-      "status": "pending",
-      "checked_at": null,
-      "items": 0,
+      "checked_at": "2026-09-27T19:55:13Z",
+      "items": 25,
+      "status": "ok",
       "error": ""
     },
     {
@@ -672,9 +184,9 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "status": "pending",
-      "checked_at": null,
-      "items": 0,
+      "checked_at": "2026-09-27T19:55:14Z",
+      "items": 25,
+      "status": "ok",
       "error": ""
     },
     {
@@ -685,9 +197,9 @@
       "url": "https://rbi.org.in/notifications_rss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Includes bank-only prudential rules and foreign-exchange regulations. Triage keeps the ones that affect brokers and fintechs.",
-      "status": "pending",
-      "checked_at": null,
-      "items": 0,
+      "checked_at": "2026-09-27T19:55:14Z",
+      "items": 10,
+      "status": "ok",
       "error": ""
     },
     {
@@ -698,9 +210,9 @@
       "url": "https://nsearchives.nseindia.com/content/RSS/Circulars.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Carries about one day of circulars (around 30 a day, mostly routine), so it's checked every 2 hours.",
-      "status": "pending",
-      "checked_at": null,
-      "items": 0,
+      "checked_at": "2026-09-27T19:55:15Z",
+      "items": 34,
+      "status": "ok",
       "error": ""
     },
     {
@@ -711,9 +223,9 @@
       "url": "https://www.bseindia.com/data/xml/notices.xml",
       "verified": "Feed address confirmed through a third-party reader. BSE refused a direct test fetch (HTTP 403), so it may block automated access.",
       "note": "Dominated by mutual fund platform notices.",
-      "status": "pending",
-      "checked_at": null,
-      "items": 0,
+      "checked_at": "2026-09-27T19:55:17Z",
+      "items": 2,
+      "status": "ok",
       "error": ""
     },
     {
@@ -724,10 +236,10 @@
       "url": "https://www.nseclearing.in/resources/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "status": "pending",
-      "checked_at": null,
+      "checked_at": "2026-09-27T19:55:17Z",
       "items": 0,
-      "error": ""
+      "status": "blocked",
+      "error": "The site's robots.txt disallows this address."
     },
     {
       "id": "nsdl",
@@ -737,9 +249,9 @@
       "url": "https://nsdl.co.in/business/circular.php",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "status": "pending",
-      "checked_at": null,
-      "items": 0,
+      "checked_at": "2026-09-27T19:55:17Z",
+      "items": 8,
+      "status": "ok",
       "error": ""
     },
     {
@@ -750,10 +262,10 @@
       "url": "https://www.cdslindia.com/Publications/Communique.aspx/DP-COMMUNIQUES-INDEX.aspx",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "status": "pending",
-      "checked_at": null,
+      "checked_at": "2026-09-27T19:55:25Z",
       "items": 0,
-      "error": ""
+      "status": "empty",
+      "error": "Page loaded but no circular links matched. The page layout may have changed."
     },
     {
       "id": "ncdex",
@@ -763,10 +275,10 @@
       "url": "https://www.ncdex.com/Circulars/CircularHome.aspx",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "status": "pending",
-      "checked_at": null,
+      "checked_at": "2026-09-27T19:55:26Z",
       "items": 0,
-      "error": ""
+      "status": "empty",
+      "error": "Page loaded but no circular links matched. The page layout may have changed."
     },
     {
       "id": "ifsca",
@@ -776,10 +288,10 @@
       "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Relevant to brokers and fintechs operating in GIFT City.",
-      "status": "pending",
-      "checked_at": null,
+      "checked_at": "2026-09-27T19:55:28Z",
       "items": 0,
-      "error": ""
+      "status": "empty",
+      "error": "Page loaded but no circular links matched. The page layout may have changed."
     },
     {
       "id": "npci",
@@ -789,10 +301,10 @@
       "url": "https://www.npci.org.in/circulars/upi",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "UPI operating circulars for payment apps and PSPs.",
-      "status": "pending",
-      "checked_at": null,
+      "checked_at": "2026-09-27T19:55:31Z",
       "items": 0,
-      "error": ""
+      "status": "blocked",
+      "error": "The site's robots.txt disallows this address."
     },
     {
       "id": "mcx",
@@ -802,9 +314,9 @@
       "url": "https://www.mcxindia.com/",
       "verified": "",
       "note": "Not connected. MCX's robots.txt disallows automated access to its RSS page. Connect it once a permitted source is confirmed.",
-      "status": "not_connected",
-      "checked_at": null,
+      "checked_at": "2026-09-27T19:55:32Z",
       "items": 0,
+      "status": "not_connected",
       "error": ""
     }
   ]
