@@ -41,7 +41,7 @@ KEEP_FILTERED_DAYS = 180
 # Classify at most this many circulars per run. The rest wait for the next run
 # (2 hours later), so a backlog drains steadily instead of tripping API rate
 # limits on a new account. Newest circulars go first.
-MAX_CLASSIFY = int(os.environ.get("MAX_CLASSIFY_PER_RUN", "25"))
+MAX_CLASSIFY = int(os.environ.get("MAX_CLASSIFY_PER_RUN", "60"))
 PAUSE_SECONDS = float(os.environ.get("CLASSIFY_PAUSE_SECONDS", "4"))
 
 

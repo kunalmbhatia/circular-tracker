@@ -152,6 +152,28 @@ def _validate(record, known_circular_numbers, source_text=None):
     return record
 
 
+def response_text(message):
+    """Joins the reply's text blocks. A reply can open with a thinking block (and
+    may contain other block types); only text blocks carry the answer."""
+    return "".join(getattr(b, "text", "") for b in (message.content or [])
+                   if getattr(b, "type", "text") == "text").strip()
+
+
+def parse_json_object(raw):
+    """Parses the JSON answer, tolerating code fences or a stray sentence around it."""
+    raw = re.sub(r"^```(?:json)?\s*|\s*```$", "", (raw or "").strip())
+    for candidate in (raw, raw[raw.find("{"):raw.rfind("}") + 1] if "{" in raw else ""):
+        if not candidate:
+            continue
+        try:
+            obj = json.loads(candidate)
+            if isinstance(obj, dict):
+                return obj
+        except json.JSONDecodeError:
+            continue
+    return None
+
+
 def classify_circular(source_text, source_url, known_circular_numbers=None, client=None, regulator="SEBI"):
     """Returns a dict matching data/circulars.json's record schema, with
     validation checks applied on top of the model's own output."""
@@ -161,35 +183,20 @@ def classify_circular(source_text, source_url, known_circular_numbers=None, clie
     truncated = source_text[:60000]  # keep prompts bounded; SEBI circulars are short relative to this
     message = client.messages.create(
         model=MODEL,
-        max_tokens=2000,
+        # Thinking, when the model uses it, counts toward this limit, so leave ample room
+        # for the JSON answer after it.
+        max_tokens=16000,
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": f"ISSUED BY: {regulator}\n\nSOURCE TEXT:\n\n{truncated}"}],
     )
-    raw = message.content[0].text.strip()
-    # Model is instructed to return bare JSON; strip fences defensively if it doesn't.
-    raw = re.sub(r"^```(?:json)?\s*|\s*```$", "", raw.strip())
-
-    try:
-        record = json.loads(raw)
-    except json.JSONDecodeError as e:
-        return {
-            "circular_no": "NOT STATED IN SOURCE",
-            "date": None,
-            "doc_type": "Fresh Circular",
-            "parent_circular_no": None,
-            "parent_circular_date": None,
-            "impact_areas": [],
-            "applicability": "Not resolved",
-            "intent": "Classifier output could not be parsed as JSON — needs manual review.",
-            "action_required": None,
-            "effective_date": None,
-            "impact_summary": f"JSON parse error: {e}",
-            "overall_confidence": "Needs Review",
-            "confidence_flags": {"all_fields": "Classifier response was not valid JSON; raw output discarded."},
-            "source_excerpt_citations": [],
-            "source_url": source_url,
-            "sample_data": False,
-        }
+    if getattr(message, "stop_reason", None) == "max_tokens":
+        raise ValueError("The model's answer was cut off by the length limit; will retry next run.")
+    raw = response_text(message)
+    record = parse_json_object(raw)
+    if record is None:
+        # Don't store a placeholder: an unreadable answer is retried next run, and the
+        # reason is recorded in last_run so it can be investigated.
+        raise ValueError(f"The model's answer wasn't valid JSON: {raw[:160]!r}")
 
     record = _validate(record, known_circular_numbers, source_text=truncated)
     record["source_url"] = source_url

@@ -77,10 +77,11 @@ def triage(items, client=None):
     for start in range(0, len(items), BATCH):
         batch = items[start:start + BATCH]
         listing = "\n".join(f"{i + 1}. [{it['regulator']}] {it['title']}" for i, it in enumerate(batch))
-        msg = client.messages.create(model=TRIAGE_MODEL, max_tokens=4000, system=PROMPT,
+        msg = client.messages.create(model=TRIAGE_MODEL, max_tokens=16000, system=PROMPT,
                                      messages=[{"role": "user", "content": listing}])
         try:
-            decided = _parse(msg.content[0].text, len(batch))
+            text = "".join(getattr(b, "text", "") for b in (msg.content or []) if getattr(b, "type", "text") == "text")
+            decided = _parse(text, len(batch))
         except (json.JSONDecodeError, TypeError, AttributeError) as e:
             print(f"[triage] WARNING: unreadable triage response ({e}); keeping the whole batch.", file=sys.stderr)
             decided = {}
