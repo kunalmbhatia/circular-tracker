@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T20:10:26Z",
+  "generated_at": "2026-09-27T20:29:57Z",
   "schema_version": "2.0",
   "circulars": [],
   "sources": [
@@ -11,7 +11,7 @@
       "url": "https://www.sebi.gov.in/sebirss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Holds about five days of items, mixed with orders and press releases. Only circulars are kept.",
-      "checked_at": "2026-09-27T19:55:11Z",
+      "checked_at": "2026-09-27T20:20:18Z",
       "items": 0,
       "status": "ok",
       "error": ""
@@ -24,7 +24,7 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Backstop for circulars that scroll off the RSS feed.",
-      "checked_at": "2026-09-27T19:55:13Z",
+      "checked_at": "2026-09-27T20:20:19Z",
       "items": 25,
       "status": "ok",
       "error": ""
@@ -37,7 +37,7 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-27T19:55:14Z",
+      "checked_at": "2026-09-27T20:20:19Z",
       "items": 25,
       "status": "ok",
       "error": ""
@@ -50,7 +50,7 @@
       "url": "https://rbi.org.in/notifications_rss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Includes bank-only prudential rules and foreign-exchange regulations. Triage keeps the ones that affect brokers and fintechs.",
-      "checked_at": "2026-09-27T19:55:14Z",
+      "checked_at": "2026-09-27T20:20:20Z",
       "items": 10,
       "status": "ok",
       "error": ""
@@ -63,7 +63,7 @@
       "url": "https://nsearchives.nseindia.com/content/RSS/Circulars.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Carries about one day of circulars (around 30 a day, mostly routine), so it's checked every 2 hours.",
-      "checked_at": "2026-09-27T19:55:15Z",
+      "checked_at": "2026-09-27T20:20:21Z",
       "items": 34,
       "status": "ok",
       "error": ""
@@ -76,7 +76,7 @@
       "url": "https://www.bseindia.com/data/xml/notices.xml",
       "verified": "Feed address confirmed through a third-party reader. BSE refused a direct test fetch (HTTP 403), so it may block automated access.",
       "note": "Dominated by mutual fund platform notices.",
-      "checked_at": "2026-09-27T19:55:17Z",
+      "checked_at": "2026-09-27T20:20:27Z",
       "items": 2,
       "status": "ok",
       "error": ""
@@ -89,7 +89,7 @@
       "url": "https://www.nseclearing.in/resources/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-27T19:55:17Z",
+      "checked_at": "2026-09-27T20:20:27Z",
       "items": 0,
       "status": "blocked",
       "error": "The site's robots.txt disallows this address."
@@ -102,10 +102,10 @@
       "url": "https://nsdl.co.in/business/circular.php",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-27T19:55:17Z",
-      "items": 8,
-      "status": "ok",
-      "error": ""
+      "checked_at": "2026-09-27T20:20:27Z",
+      "items": 0,
+      "status": "empty",
+      "error": "Page loaded but no circular links matched. The page layout may have changed."
     },
     {
       "id": "cdsl",
@@ -114,8 +114,8 @@
       "kind": "page",
       "url": "https://www.cdslindia.com/Publications/Communique.aspx/DP-COMMUNIQUES-INDEX.aspx",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
-      "note": "",
-      "checked_at": "2026-09-27T19:55:25Z",
+      "note": "On 28 Sep 2026 this page returned 'Internal Error Occurred' even in a browser-style fetch. It may be unreliable.",
+      "checked_at": "2026-09-27T20:20:32Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed."
@@ -125,10 +125,10 @@
       "regulator": "NCDEX",
       "name": "NCDEX circulars",
       "kind": "page",
-      "url": "https://www.ncdex.com/Circulars/CircularHome.aspx",
+      "url": "https://www.ncdex.com/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-27T19:55:26Z",
+      "checked_at": "2026-09-27T20:20:33Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed."
@@ -136,12 +136,12 @@
     {
       "id": "ifsca",
       "regulator": "IFSCA",
-      "name": "IFSCA legal framework",
+      "name": "IFSCA circulars",
       "kind": "page",
-      "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=",
+      "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Relevant to brokers and fintechs operating in GIFT City.",
-      "checked_at": "2026-09-27T19:55:28Z",
+      "checked_at": "2026-09-27T20:20:35Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed."
@@ -154,7 +154,7 @@
       "url": "https://www.npci.org.in/circulars/upi",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "UPI operating circulars for payment apps and PSPs.",
-      "checked_at": "2026-09-27T19:55:31Z",
+      "checked_at": "2026-09-27T20:20:38Z",
       "items": 0,
       "status": "blocked",
       "error": "The site's robots.txt disallows this address."
@@ -167,10 +167,170 @@
       "url": "https://www.mcxindia.com/",
       "verified": "",
       "note": "Not connected. MCX's robots.txt disallows automated access to its RSS page. Connect it once a permitted source is confirmed.",
-      "checked_at": "2026-09-27T19:55:32Z",
+      "checked_at": "2026-09-27T20:20:38Z",
       "items": 0,
       "status": "not_connected",
       "error": ""
     }
-  ]
+  ],
+  "last_run": {
+    "at": "2026-09-27T20:29:57Z",
+    "added": 0,
+    "set_aside": 1,
+    "failed": 25,
+    "deferred": 36,
+    "triage_retries": 0,
+    "failures": [
+      {
+        "regulator": "RBI",
+        "title": "Foreign Exchange Management (Export and Import of Goods and Services) (Amendment) Regulations, 2026",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13714&Mode=0",
+        "error": "AttributeError: 'ThinkingBlock' object has no attribute 'text'"
+      },
+      {
+        "regulator": "NSE",
+        "title": "Submission of Associates details by Clearing Members",
+        "url": "https://nsearchives.nseindia.com/content/circulars/CMPL76570.zip",
+        "error": "AttributeError: 'ThinkingBlock' object has no attribute 'text'"
+      },
+      {
+        "regulator": "NSE",
+        "title": "Applicability of Enhanced Surveillance Measure (ESM)",
+        "url": "https://nsearchives.nseindia.com/content/circulars/SURV76566.zip",
+        "error": "AttributeError: 'ThinkingBlock' object has no attribute 'text'"
+      },
+      {
+        "regulator": "NSE",
+        "title": "Revised ratios for conversion of USDINR 1 million equivalent",
+        "url": "https://nsearchives.nseindia.com/content/circulars/SURV76565.pdf",
+        "error": "AttributeError: 'ThinkingBlock' object has no attribute 'text'"
+      },
+      {
+        "regulator": "NSE",
+        "title": "Applicability of Short-Term Additional Surveillance Measure (ST-ASM)",
+        "url": "https://nsearchives.nseindia.com/content/circulars/SURV76562.zip",
+        "error": "AttributeError: 'ThinkingBlock' object has no attribute 'text'"
+      },
+      {
+        "regulator": "NSE",
+        "title": "Applicability of Additional Surveillance Measure (ASM)",
+        "url": "https://nsearchives.nseindia.com/content/circulars/SURV76561.zip",
+        "error": "AttributeError: 'ThinkingBlock' object has no attribute 'text'"
+      },
+      {
+        "regulator": "NSE",
+        "title": "Mock trading on Saturday, September 26, 2026 - No new version release",
+        "url": "https://nsearchives.nseindia.com/content/circulars/CMTR76542.pdf",
+        "error": "AttributeError: 'ThinkingBlock' object has no attribute 'text'"
+      },
+      {
+        "regulator": "NSE",
+        "title": "Mock trading on Saturday, September 26, 2026 - No new version release",
+        "url": "https://nsearchives.nseindia.com/content/circulars/EGR76541.pdf",
+        "error": "AttributeError: 'ThinkingBlock' object has no attribute 'text'"
+      },
+      {
+        "regulator": "NSE",
+        "title": "Mock trading on Saturday, September 26, 2026 - No new version release",
+        "url": "https://nsearchives.nseindia.com/content/circulars/SLBS76540.pdf",
+        "error": "AttributeError: 'ThinkingBlock' object has no attribute 'text'"
+      },
+      {
+        "regulator": "RBI",
+        "title": "Designation of terrorist organisation under clause (a) of sub-section (1) of section 35 of the Unlawful Activities (Prevention) Act, 1967 and listed in the Firs",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13713&Mode=0",
+        "error": "AttributeError: 'ThinkingBlock' object has no attribute 'text'"
+      },
+      {
+        "regulator": "RBI",
+        "title": "Novation of OTC Derivative Contracts",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13706&Mode=0",
+        "error": "AttributeError: 'ThinkingBlock' object has no attribute 'text'"
+      },
+      {
+        "regulator": "SEBI",
+        "title": "Review of Position Limits for Clients and Penalty Provisions for Violation / Breach of Position Limits for Commodity Derivatives Segment",
+        "url": "https://www.sebi.gov.in/legal/circulars/sep-2026/review-of-position-limits-for-clients-and-penalty-provisions-for-violation-breach-of-position-limits-for-commodity-derivatives-segment_104387.html",
+        "error": "AttributeError: 'ThinkingBlock' object has no attribute 'text'"
+      },
+      {
+        "regulator": "SEBI",
+        "title": "Relaxation in timeline with respect to Accredited Investor mandate for Angel Funds",
+        "url": "https://www.sebi.gov.in/legal/circulars/sep-2026/relaxation-in-timeline-with-respect-to-accredited-investor-mandate-for-angel-funds_104323.html",
+        "error": "AttributeError: 'ThinkingBlock' object has no attribute 'text'"
+      },
+      {
+        "regulator": "SEBI",
+        "title": "Ease of regulatory compliances for FPIs investing only in Government Securities",
+        "url": "https://www.sebi.gov.in/legal/circulars/sep-2026/ease-of-regulatory-compliances-for-fpis-investing-only-in-government-securities_104319.html",
+        "error": "AttributeError: 'ThinkingBlock' object has no attribute 'text'"
+      },
+      {
+        "regulator": "SEBI",
+        "title": "Extension of timeline for implementation of provisions of SEBI Circular dated June 15, 2026 on norms for base price, price bands, call auction in pre-open sessi",
+        "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/extension-of-timeline-for-implementation-of-provisions-of-sebi-circular-dated-june-15-2026-on-norms-for-base-price-price-bands-call-auction-in-pre-open-session-and-close-out-procedure-for-exchange-_104094.html",
+        "error": "AttributeError: 'ThinkingBlock' object has no attribute 'text'"
+      },
+      {
+        "regulator": "SEBI",
+        "title": "Alignment of SEBI's Cyber Incident Reporting Portal with FIRE Format",
+        "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/alignment-of-sebi-s-cyber-incident-reporting-portal-with-fire-format_103915.html",
+        "error": "AttributeError: 'ThinkingBlock' object has no attribute 'text'"
+      },
+      {
+        "regulator": "SEBI",
+        "title": "IT Resilience Index for Market Infrastructure Institutions (MIIs)",
+        "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/it-resilience-index-for-market-infrastructure-institutions-miis-_103913.html",
+        "error": "AttributeError: 'ThinkingBlock' object has no attribute 'text'"
+      },
+      {
+        "regulator": "SEBI",
+        "title": "Acceptance of digitally signed Power of Attorney from FPIs",
+        "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/acceptance-of-digitally-signed-power-of-attorney-from-fpis_103824.html",
+        "error": "AttributeError: 'ThinkingBlock' object has no attribute 'text'"
+      },
+      {
+        "regulator": "SEBI",
+        "title": "Enabling sharing of information by KYC Registration Agencies (KRAs) with entities regulated by International Financial Services Centres Authority",
+        "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/enabling-sharing-of-information-by-kyc-registration-agencies-kras-with-entities-regulated-by-international-financial-services-centres-authority_103823.html",
+        "error": "AttributeError: 'ThinkingBlock' object has no attribute 'text'"
+      },
+      {
+        "regulator": "SEBI",
+        "title": "Revision of Application Form for Mutual Fund Registration",
+        "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/revision-of-application-form-for-mutual-fund-registration_103721.html",
+        "error": "AttributeError: 'ThinkingBlock' object has no attribute 'text'"
+      },
+      {
+        "regulator": "SEBI",
+        "title": "Modification in the regulatory framework for Online Bond Platform Providers (OBPPs) including measures for promoting ease of doing business",
+        "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/modification-in-the-regulatory-framework-for-online-bond-platform-providers-obpps-including-measures-for-promoting-ease-of-doing-business_103647.html",
+        "error": "AttributeError: 'ThinkingBlock' object has no attribute 'text'"
+      },
+      {
+        "regulator": "SEBI",
+        "title": "Framework for Calculation of Net Distributable Cash Flows for InvITs",
+        "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/framework-for-calculation-of-net-distributable-cash-flows-for-invits_103644.html",
+        "error": "AttributeError: 'ThinkingBlock' object has no attribute 'text'"
+      },
+      {
+        "regulator": "SEBI",
+        "title": "Review of Inclusion of Historical Scenarios in Stress Testing for Commodity Derivatives Segment",
+        "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/review-of-inclusion-of-historical-scenarios-in-stress-testing-for-commodity-derivatives-segment_103521.html",
+        "error": "AttributeError: 'ThinkingBlock' object has no attribute 'text'"
+      },
+      {
+        "regulator": "SEBI",
+        "title": "Amendment to SEBI (Issue and Listing of Municipal Debt Securities) Regulations, 2015 (“ILMDS Regulations”)",
+        "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/amendment-to-sebi-issue-and-listing-of-municipal-debt-securities-regulations-2015-ilmds-regulations-_103488.html",
+        "error": "AttributeError: 'ThinkingBlock' object has no attribute 'text'"
+      },
+      {
+        "regulator": "SEBI",
+        "title": "Extension of timeline for enrolment with PaRRVA as specified in SEBI Circular No. HO/38/14/(4)2026-MIRSD-POD/I/10557/2026 dated April 29, 2026",
+        "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/extension-of-timeline-for-enrolment-with-parrva-as-specified-in-sebi-circular-no-ho-38-14-4-2026-mirsd-pod-i-10557-2026-dated-april-29-2026_103314.html",
+        "error": "AttributeError: 'ThinkingBlock' object has no attribute 'text'"
+      }
+    ]
+  }
 }

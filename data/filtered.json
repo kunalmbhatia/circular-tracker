@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T20:10:26Z",
+  "generated_at": "2026-09-27T20:29:57Z",
   "items": [
     {
       "title": "Exim Bank’s GOI-supported Line of Credit (LOC) for ₹ 4,850 crores the Government of Maldives, for financing various developmental projects in Maldives",
@@ -306,6 +306,15 @@
       "source": "bse",
       "reason": "State securities auction facility, banking-specific operation",
       "decided_at": "2026-09-27T19:55:46Z"
+    },
+    {
+      "title": "Suspension of trading in T-Bills, State Government Bonds, Sovereign Gold Bonds and Government Securities - On account of redemption",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76558.pdf",
+      "date": "2026-09-25",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Single security suspension; routine corporate action",
+      "decided_at": "2026-09-27T20:20:41Z"
     }
   ]
 }
