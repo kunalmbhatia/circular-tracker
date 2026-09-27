@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T22:49:47Z",
+  "generated_at": "2026-09-27T23:05:32Z",
   "schema_version": "2.0",
   "circulars": [
     {
@@ -3305,6 +3305,79 @@
       "title": "Master Circular for Merchant Bankers",
       "regulator": "SEBI",
       "source": "sebi-master"
+    },
+    {
+      "title": "Extension of timelines with repect to compliance of Digital Accessibility Circulars.",
+      "regulator": "SEBI",
+      "source": "sebi-circulars",
+      "date": "2026-07-31",
+      "source_url": "https://www.sebi.gov.in/legal/circulars/jul-2026/extension-of-timelines-with-repect-to-compliance-of-digital-accessibility-circulars-_103277.html",
+      "doc_type": "Fresh Circular",
+      "circular_no": "NOT STATED IN SOURCE",
+      "parent_circular_no": null,
+      "impact_areas": [],
+      "applicability": "Not determined",
+      "intent": null,
+      "action_required": null,
+      "effective_date": null,
+      "key_dates": [],
+      "implements": [],
+      "source_excerpt_citations": [],
+      "overall_confidence": "Needs Review",
+      "validator_version": 3,
+      "unreadable": true,
+      "confidence_flags": {
+        "all_fields": "The document has no machine-readable text (likely a scanned image), so it couldn't be classified after 3 attempts. Read the original."
+      },
+      "sample_data": false
+    },
+    {
+      "circular_no": "HO/19/34/11(2)2026-AFD-POD1/I/13764/2026",
+      "date": "2026-06-16",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "AIFs/PMS"
+      ],
+      "applicability": "All Alternative Investment Funds (AIFs) and Venture Capital Funds (VCFs) registered under erstwhile SEBI (Venture Capital Funds) Regulations, 1996",
+      "intent": "SEBI is laying down conditions and procedures under which AIFs/VCFs may retain liquidation proceeds beyond their permissible fund life, obtain 'Inoperative Fund' status, and eventually surrender registration, following amendments to the AIF Regulations.",
+      "action_required": "AIFs/VCFs retaining monies beyond permissible fund life must satisfy specified conditions (litigation notice, 75% investor consent, or substantiated operational expenses), invest retained monies per Regulation 15(1)(f), apply for Inoperative Fund status via Annexure A to inoperativeaif@sebi.gov.in, and submit an Annual Status Report (Annexure C) to SEBI (via Intermediary portal) and investors within 30 calendar days from the end of March of every financial year.",
+      "effective_date": "2026-06-16",
+      "key_dates": [
+        {
+          "label": "Circular effective date",
+          "date": "2026-06-16",
+          "quote": "This circular shall come into force with immediate effect."
+        },
+        {
+          "label": "AIF Regulations amendment/notification date",
+          "date": "2026-04-18",
+          "quote": "SEBI (Alternative Investment Funds) Regulations, 2012 ... have been amended and notified on April 18, 2026"
+        },
+        {
+          "label": "AIF Master Circular reference date",
+          "date": "2026-06-03",
+          "quote": "The SEBI Master Circular for AIFs dated June 03, 2026 has also been updated with the provisions of this circular."
+        }
+      ],
+      "impact_summary": "AIFs and erstwhile VCFs winding up schemes are affected: they gain flexibility to retain liquidation proceeds beyond permissible fund life under specified conditions, can seek 'Inoperative Fund' tagging with certain compliance exemptions (Annexure B), and must file periodic status reports until liabilities are resolved and monies distributed.",
+      "overall_confidence": "Certain",
+      "confidence_flags": {},
+      "source_excerpt_citations": [
+        "SEBI (Alternative Investment Funds) Regulations, 2012 (“AIF Regulations”) have been amended and notified on April 18, 2026",
+        "This circular shall come into force with immediate effect.",
+        "The report shall be submitted on SEBI Intermediary portal within 30 calendar days from the end of March of every financial year.",
+        "The SEBI Master Circular for AIFs dated June 03, 2026 has also been updated with the provisions of this circular."
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.sebi.gov.in/legal/circulars/jun-2026/guidelines-for-winding-up-of-aifs-with-respect-to-retention-of-proceeds-and-inoperative-fund-status_102171.html",
+      "sample_data": false,
+      "title": "Guidelines for winding up of AIFs with respect to retention of proceeds and  ‘Inoperative Fund’ status",
+      "regulator": "SEBI",
+      "source": "sebi-circulars"
     }
   ],
   "sources": [
@@ -3316,7 +3389,7 @@
       "url": "https://www.sebi.gov.in/sebirss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Holds about five days of items, mixed with orders and press releases. Only circulars are kept.",
-      "checked_at": "2026-09-27T22:34:48Z",
+      "checked_at": "2026-09-27T23:04:35Z",
       "items": 0,
       "status": "ok",
       "error": ""
@@ -3329,7 +3402,7 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Backstop for circulars that scroll off the RSS feed.",
-      "checked_at": "2026-09-27T22:34:49Z",
+      "checked_at": "2026-09-27T23:04:36Z",
       "items": 25,
       "status": "ok",
       "error": ""
@@ -3342,7 +3415,7 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-27T22:34:49Z",
+      "checked_at": "2026-09-27T23:04:37Z",
       "items": 25,
       "status": "ok",
       "error": ""
@@ -3355,7 +3428,7 @@
       "url": "https://rbi.org.in/notifications_rss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Includes bank-only prudential rules and foreign-exchange regulations. Triage keeps the ones that affect brokers and fintechs.",
-      "checked_at": "2026-09-27T22:34:50Z",
+      "checked_at": "2026-09-27T23:04:37Z",
       "items": 10,
       "status": "ok",
       "error": ""
@@ -3368,7 +3441,7 @@
       "url": "https://nsearchives.nseindia.com/content/RSS/Circulars.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Carries about one day of circulars (around 30 a day, mostly routine), so it's checked every 2 hours.",
-      "checked_at": "2026-09-27T22:34:51Z",
+      "checked_at": "2026-09-27T23:04:39Z",
       "items": 34,
       "status": "ok",
       "error": ""
@@ -3381,7 +3454,7 @@
       "url": "https://www.bseindia.com/data/xml/notices.xml",
       "verified": "Feed address confirmed through a third-party reader. BSE refused a direct test fetch (HTTP 403), so it may block automated access.",
       "note": "Dominated by mutual fund platform notices.",
-      "checked_at": "2026-09-27T22:34:52Z",
+      "checked_at": "2026-09-27T23:04:39Z",
       "items": 2,
       "status": "ok",
       "error": ""
@@ -3394,7 +3467,7 @@
       "url": "https://www.nseclearing.in/resources/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-27T22:34:53Z",
+      "checked_at": "2026-09-27T23:04:40Z",
       "items": 0,
       "status": "blocked",
       "error": "The site's robots.txt disallows this address."
@@ -3407,7 +3480,7 @@
       "url": "https://nsdl.co.in/business/circular.php",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-27T22:34:54Z",
+      "checked_at": "2026-09-27T23:04:40Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed."
@@ -3420,7 +3493,7 @@
       "url": "https://www.cdslindia.com/Publications/Communique.aspx/DP-COMMUNIQUES-INDEX.aspx",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "On 28 Sep 2026 this page returned 'Internal Error Occurred' even in a browser-style fetch. It may be unreliable.",
-      "checked_at": "2026-09-27T22:35:01Z",
+      "checked_at": "2026-09-27T23:04:49Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed."
@@ -3433,7 +3506,7 @@
       "url": "https://www.ncdex.com/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-27T22:35:02Z",
+      "checked_at": "2026-09-27T23:04:50Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed."
@@ -3446,7 +3519,7 @@
       "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Relevant to brokers and fintechs operating in GIFT City.",
-      "checked_at": "2026-09-27T22:35:04Z",
+      "checked_at": "2026-09-27T23:04:51Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed."
@@ -3459,7 +3532,7 @@
       "url": "https://www.npci.org.in/circulars/upi",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "UPI operating circulars for payment apps and PSPs.",
-      "checked_at": "2026-09-27T22:35:07Z",
+      "checked_at": "2026-09-27T23:04:54Z",
       "items": 0,
       "status": "blocked",
       "error": "The site's robots.txt disallows this address."
@@ -3472,29 +3545,20 @@
       "url": "https://www.mcxindia.com/",
       "verified": "",
       "note": "Not connected. MCX's robots.txt disallows automated access to its RSS page. Connect it once a permitted source is confirmed.",
-      "checked_at": "2026-09-27T22:35:07Z",
+      "checked_at": "2026-09-27T23:04:54Z",
       "items": 0,
       "status": "not_connected",
       "error": ""
     }
   ],
   "last_run": {
-    "at": "2026-09-27T22:49:47Z",
-    "added": 24,
+    "at": "2026-09-27T23:05:32Z",
+    "added": 2,
     "set_aside": 0,
-    "failed": 1,
+    "failed": 0,
     "deferred": 0,
     "triage_retries": 0,
-    "failures": [
-      {
-        "regulator": "SEBI",
-        "title": "Extension of timelines with repect to compliance of Digital Accessibility Circulars.",
-        "url": "https://www.sebi.gov.in/legal/circulars/jul-2026/extension-of-timelines-with-repect-to-compliance-of-digital-accessibility-circulars-_103277.html",
-        "error": "NoDocumentText: No circular text found: the PDF at https://www.sebi.gov.in/sebi_data/attachdocs/jul-2026/1785493077212.pdf was unreadable, and the page itself has only 237 characters of text."
-      }
-    ]
+    "failures": []
   },
-  "attempts": {
-    "https://www.sebi.gov.in/legal/circulars/jul-2026/extension-of-timelines-with-repect-to-compliance-of-digital-accessibility-circulars-_103277.html": 2
-  }
+  "attempts": {}
 }
