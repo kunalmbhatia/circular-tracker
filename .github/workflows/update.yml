@@ -8,6 +8,18 @@ on:
     # GitHub may delay or occasionally skip scheduled runs under load.
     - cron: "17 */2 * * *"
   workflow_dispatch: {}   # lets you trigger a run manually from the Actions tab
+  # Also run straight away when the pipeline's code changes, so a fix takes
+  # effect without anyone clicking "Run workflow". (Note: GitHub's "Re-run jobs"
+  # button re-runs the OLD commit; use "Run workflow" to run the latest code.)
+  push:
+    branches: [main]
+    paths: ["scraper/**", ".github/workflows/update.yml"]
+
+# Never let two runs overlap (a scheduled run and a push-triggered one, say):
+# the second waits for the first to finish.
+concurrency:
+  group: update-circular-data
+  cancel-in-progress: false
 
 permissions:
   contents: write
