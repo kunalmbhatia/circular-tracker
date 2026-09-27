@@ -2,7 +2,7 @@
   "generated_at": "2026-09-27T20:10:26Z",
   "items": [
     {
-      "title": "Exim Bank’s GOI-supported Line of Credit (LOC) for &#8377; 4,850 crores the Government of Maldives, for financing various developmental projects in Maldives",
+      "title": "Exim Bank’s GOI-supported Line of Credit (LOC) for ₹ 4,850 crores the Government of Maldives, for financing various developmental projects in Maldives",
       "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13712&Mode=0",
       "date": "2026-09-23",
       "regulator": "RBI",
@@ -305,33 +305,6 @@
       "regulator": "BSE",
       "source": "bse",
       "reason": "State securities auction facility, banking-specific operation",
-      "decided_at": "2026-09-27T19:55:46Z"
-    },
-    {
-      "title": "Data Seeking Request (opens in new tab)",
-      "url": "https://nsdl.com/nsdl/2026-04/Annexure%20A%20-%20Data%20Seeking%20Request%20Form.pdf",
-      "date": null,
-      "regulator": "NSDL",
-      "source": "nsdl",
-      "reason": "Data request procedures, internal administrative matter",
-      "decided_at": "2026-09-27T19:55:46Z"
-    },
-    {
-      "title": "Guidelines to Seek Data (opens in new tab)",
-      "url": "https://nsdl.com/nsdl/2026-04/Guidelines%20to%20Seek%20Data.pdf",
-      "date": null,
-      "regulator": "NSDL",
-      "source": "nsdl",
-      "reason": "Data request guidelines, internal administrative matter",
-      "decided_at": "2026-09-27T19:55:46Z"
-    },
-    {
-      "title": "Policy for Sharing Data for the Purpose of Research / Analysis (opens in new tab)",
-      "url": "https://nsdl.com/nsdl/2026-04/Policy%20for%20Sharing%20Data%20for%20the%20Purpose%20of%20Research%20%20Analysis%20Data%20List%20for%20Depositories.pdf",
-      "date": null,
-      "regulator": "NSDL",
-      "source": "nsdl",
-      "reason": "Research data sharing policy, internal administrative matter",
       "decided_at": "2026-09-27T19:55:46Z"
     }
   ]

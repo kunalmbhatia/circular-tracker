@@ -22,15 +22,16 @@ SEBI_RSS = b"""<?xml version="1.0"?><rss version="2.0"><channel>
 </channel></rss>"""
 RBI_RSS = b"""<?xml version="1.0"?><rss version="2.0"><channel>
 <item><title>Designation of terrorist organisation under clause (a) of sub-section (1) of section 35 of the Unlawful Activities (Prevention) Act, 1967</title><link>https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13713&amp;Mode=0</link><pubDate>Thu, 24 Sep 2026 17:15:00</pubDate></item>
-<item><title>Exim Bank's GOI-supported Line of Credit (LOC) for the Government of Maldives</title><link>https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13712&amp;Mode=0</link><pubDate>Wed, 23 Sep 2026 16:55:00</pubDate></item>
+<item><title>Exim Bank&amp;#8217;s GOI-supported Line of Credit (LOC) for &amp;#8377; 4,850 crore to the Government of Maldives</title><link>https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13712&amp;Mode=0</link><pubDate>Wed, 23 Sep 2026 16:55:00</pubDate></item>
 </channel></rss>"""
 NSE_RSS = b"""<?xml version="1.0"?><rss version="2.0"><channel>
 <item><title>Submission of Associates details by Clearing Members</title><link>https://nsearchives.nseindia.com/content/circulars/CMPL76570.zip</link><pubDate>Fri, 25 Sep 2026 18:10:00 +0530</pubDate></item>
 <item><title>Listing of further issues of securities</title><link>https://nsearchives.nseindia.com/content/circulars/CML76569.pdf</link><pubDate>Fri, 25 Sep 2026 17:40:00 +0530</pubDate></item>
 <item><title>Face Value Split - BLS E-Services Limited (BLSE)</title><link>https://nsearchives.nseindia.com/content/circulars/CML76548.pdf</link><pubDate>Fri, 25 Sep 2026 16:00:00 +0530</pubDate></item>
 </channel></rss>"""
-NSDL_PAGE = """<table><tr><td>24/09/2026</td><td>NSDL/POLICY/2026/0101</td><td>Revised procedure for KYC of Beneficial Owners</td><td><a href="/downloads/circulars/2026/09/policy-0101.pdf">Download</a></td></tr>
-<tr><td>22/09/2026</td><td>NSDL/POLICY/2026/0099</td><td>Holiday on account of Id-e-Milad</td><td><a href="/downloads/circulars/2026/09/policy-0099.pdf">Download</a></td></tr></table>"""
+NSDL_PAGE = """<ul class="menu"><li><a href="https://nsdl.com/nsdl/2026-07/Composition%20of%20Board%20Committees.pdf">Composition of Committee <span class="sr">(opens in new tab)</span></a></li></ul>
+<table><tr><td>24 September 2026</td><td><a href="/downloadables/pdf/2026-0101-Policy-Revised_procedure_for_KYC.pdf">2026-0101-Policy-Revised procedure for KYC of Beneficial Owners (opens in new tab)</a></td></tr>
+<tr><td>22/09/2026</td><td><a href="/downloadables/pdf/2026-0099-Policy-Holiday.pdf">2026-0099-Policy-Holiday on account of Id-e-Milad</a></td></tr></table>"""
 SEBI_LIST = """<table><tr><td>Sep 26, 2026</td><td><a href="/legal/circulars/sep-2026/framework_104800.html">Framework for trading preferences of retail investors</a></td></tr></table>"""
 
 ROBOTS = {"www.mcxindia.com": "User-agent: *\nDisallow: /tools/", "www.bseindia.com": "User-agent: *\nDisallow: /"}
@@ -100,10 +101,13 @@ def test_parsers_and_health():
     urls = [i["url"] for i in items]
     assert len(urls) == len(set(urls)), "SEBI RSS + listing overlap must be de-duplicated"
     nsdl = [i for i in items if i["regulator"] == "NSDL"]
-    assert nsdl[0]["title"].startswith("NSDL/POLICY/2026/0101 Revised procedure for KYC"), nsdl[0]["title"]
-    assert nsdl[0]["date"] == "2026-09-24", "dd/mm/yyyy must be read as Indian day-first"
+    assert len(nsdl) == 2, [i["title"] for i in nsdl]                       # undated menu PDF excluded
+    assert nsdl[0]["title"] == "2026-0101-Policy-Revised procedure for KYC of Beneficial Owners", nsdl[0]["title"]
+    assert nsdl[0]["date"] == "2026-09-24" and nsdl[1]["date"] == "2026-09-22", "dd/mm/yyyy must be read day-first"
     rbi = [i for i in items if i["regulator"] == "RBI"][0]
     assert rbi["date"] == "2026-09-24" and "&Mode=0" in rbi["url"]
+    exim = [i for i in items if i["title"].startswith("Exim")][0]
+    assert "₹ 4,850" in exim["title"] and "&#" not in exim["title"], exim["title"]   # double-escaped entities decoded
     print("ok  parsers, robots.txt, de-duplication, layout-change detection, Indian dates")
 
 
@@ -161,6 +165,55 @@ def test_pipeline_end_to_end():
     print(f"ok  pipeline: {len(regs)} classified ({', '.join(regs)}), {len(filt['items'])} set aside with reasons, idle run makes no write")
 
 
+def test_sebi_viewer_and_title_only_guard():
+    import extract_text as X
+    page = """<html><body><h1>Review of Inclusion</h1><iframe src='../../../web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/aug-2026/1786537329546.pdf'></iframe></body></html>"""
+    assert X.find_pdf_link(page, "https://www.sebi.gov.in/legal/circulars/aug-2026/x_103521.html") == \
+        "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2026/1786537329546.pdf"
+    class R:
+        def __init__(s, body, ct): s.content = body.encode(); s.text = body; s.headers = {"Content-Type": ct}
+        def raise_for_status(s): pass
+    class S:
+        def get(s, url, **kw): return R("<html><body><h1>Title only</h1><p>Sep 09, 2026</p></body></html>", "text/html")
+    try:
+        X.fetch_circular_text("https://www.sebi.gov.in/legal/circulars/x.html", session=S())
+        raise AssertionError("title-only page must not be classified")
+    except X.NoDocumentText as e:
+        print("ok  SEBI viewer PDF found; title-only page refused:", str(e)[:70])
+
+
+def test_rate_limit_and_cap():
+    install_fakes()
+    import main as M
+    tmp = tempfile.mkdtemp()
+    M.DATA_PATH, M.FILTERED_PATH = os.path.join(tmp, "c.json"), os.path.join(tmp, "f.json")
+    M.triage = lambda items: [(i, True, "keep") for i in items]
+    M.fetch_circular_text = lambda url: ("Full circular text " * 20, url)
+    M.allowed = lambda url: True
+    M.PAUSE_SECONDS = 0
+    M.MAX_CLASSIFY = 3
+    class RateLimitError(Exception): pass
+    calls = []
+    def fake_classify(text, source_url, known_circular_numbers=None, regulator="SEBI"):
+        calls.append(source_url)
+        if len(calls) == 2:
+            raise RateLimitError("429")
+        return {"circular_no": "NOT STATED IN SOURCE", "doc_type": "Fresh Circular", "overall_confidence": "Needs Review",
+                "confidence_flags": {}, "source_url": source_url}
+    M.classify_circular = fake_classify
+    os.environ["ANTHROPIC_API_KEY"] = "test"
+    try:
+        M.main()
+    except SystemExit as e:
+        assert e.code in (None, 0), e.code          # deferrals are not failures
+    d = json.load(open(M.DATA_PATH))
+    lr = d["last_run"]
+    assert len(calls) == 2 and lr["added"] == 1 and lr["failed"] == 0 and lr["deferred"] >= 2, lr
+    shutil.rmtree(tmp)
+    print(f"ok  cap + rate limit: 1 added, stopped at the limit, {lr['deferred']} deferred to later runs, none counted as failed")
+
+
 if __name__ == "__main__":
     test_parsers_and_health(); test_triage_override(); test_pipeline_end_to_end()
+    test_sebi_viewer_and_title_only_guard(); test_rate_limit_and_cap()
     print("ALL PIPELINE TESTS PASS")

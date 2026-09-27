@@ -155,7 +155,8 @@ def _validate(record, known_circular_numbers, source_text=None):
 def classify_circular(source_text, source_url, known_circular_numbers=None, client=None, regulator="SEBI"):
     """Returns a dict matching data/circulars.json's record schema, with
     validation checks applied on top of the model's own output."""
-    client = client or Anthropic()
+    # New API accounts have low per-minute limits; the SDK waits and retries on 429s.
+    client = client or Anthropic(max_retries=8)
 
     truncated = source_text[:60000]  # keep prompts bounded; SEBI circulars are short relative to this
     message = client.messages.create(

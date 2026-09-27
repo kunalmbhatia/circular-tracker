@@ -59,6 +59,42 @@ def _text_from_zip(blob):
     return "\n\n".join(p for p in parts if p).strip()
 
 
+MIN_BODY_CHARS = 1500
+
+_PDF_IN_TEXT = re.compile(r"""https?://[^\s"'<>]+?\.pdf\b""", re.I)
+
+
+class NoDocumentText(Exception):
+    """The page has no readable circular text (only its title and navigation)."""
+
+
+def _unwrap_viewer(url):
+    """SEBI and others show PDFs through a viewer: /web/?file=https://.../x.pdf"""
+    from urllib.parse import urlparse, parse_qs, unquote
+    q = parse_qs(urlparse(url).query)
+    for key in ("file", "url", "src", "doc"):
+        if key in q and ".pdf" in q[key][0].lower():
+            return unquote(q[key][0])
+    return url
+
+
+def find_pdf_link(html, base_url):
+    """Finds the circular's PDF in links, iframes, embeds or objects, unwrapping
+    viewer URLs. Falls back to any absolute .pdf URL in the page source."""
+    soup = BeautifulSoup(html, "lxml")
+    candidates = []
+    for tag, attr in (("iframe", "src"), ("embed", "src"), ("object", "data"), ("a", "href")):
+        for el in soup.find_all(tag):
+            v = (el.get(attr) or "").strip()
+            if v and ".pdf" in v.lower():
+                candidates.append(_unwrap_viewer(urljoin(base_url, v)))
+    if not candidates:
+        candidates = [_unwrap_viewer(m.group(0)) for m in _PDF_IN_TEXT.finditer(html)]
+    # Prefer document stores over incidental PDFs such as site-wide guides.
+    candidates.sort(key=lambda u: 0 if re.search(r"attachdocs|/circulars?/|downloadables|uploads", u, re.I) else 1)
+    return candidates[0] if candidates else None
+
+
 def fetch_circular_text(detail_url, session=None):
     """Returns (text, pdf_url_or_none). Raises requests.RequestException on network failure."""
     session = session or requests.Session()
@@ -74,23 +110,25 @@ def fetch_circular_text(detail_url, session=None):
         return _text_from_zip(resp.content), detail_url
 
     html = resp.text
-
-    soup = BeautifulSoup(html, "lxml")
-    pdf_link = None
-    for a in soup.find_all("a", href=True):
-        if a["href"].lower().endswith(".pdf"):
-            pdf_link = urljoin(detail_url, a["href"])
-            break
+    pdf_link = find_pdf_link(html, detail_url)
 
     if pdf_link:
         try:
-            pdf_resp = session.get(pdf_link, headers=HEADERS, timeout=60)
+            pdf_resp = session.get(pdf_link, headers=HEADERS, timeout=90)
             pdf_resp.raise_for_status()
             pdf_text = _extract_pdf_text(pdf_resp.content)
             if pdf_text and len(pdf_text) > 200:
                 return pdf_text, pdf_link
-            print(f"[extract_text] PDF at {pdf_link} yielded little/no text, falling back to HTML", file=sys.stderr)
-        except (requests.RequestException, Exception) as e:
+            print(f"[extract_text] PDF at {pdf_link} yielded little/no text (scanned image?)", file=sys.stderr)
+        except Exception as e:
             print(f"[extract_text] WARNING: could not extract PDF ({pdf_link}): {e}", file=sys.stderr)
 
-    return _extract_html_body_text(html, detail_url), pdf_link
+    body = _extract_html_body_text(html, detail_url)
+    if len(body) < MIN_BODY_CHARS:
+        # Only the page's title, date and menus: classifying this would describe the
+        # title, not the circular. Fail loudly instead, so the item is retried and the
+        # reason is recorded.
+        raise NoDocumentText(
+            f"No circular text found: {'the PDF at ' + pdf_link + ' was unreadable' if pdf_link else 'no PDF link on the page'}, "
+            f"and the page itself has only {len(body)} characters of text.")
+    return body, pdf_link

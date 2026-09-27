@@ -1172,6 +1172,13 @@ function showSources(){
       '<div class="mm">'+(s.error?'<span style="color:var(--crit-ink)">'+esc(s.error)+'</span><br>':'')+(s.note?esc(s.note)+'<br>':'')+(s.verified?esc(s.verified):'')+(s.url&&s.kind!=="none"?' · <a href="'+esc(s.url)+'" target="_blank" rel="noopener noreferrer">Source</a>':'')+'</div></div>'+
       '<div style="text-align:right"><span class="st'+(st[0]?" status "+st[0]:"")+'">'+(st[0]?ICON[st[0]]:"")+st[1]+'</span>'+(when?'<div class="mm mono" style="margin-top:4px">'+when+(s.status==="ok"?" · "+plural(s.items,"item"):"")+'</div>':"")+'</div></div>';
   });
+  var lr=RAW.last_run;
+  if(lr){
+    var at=new Date(lr.at).toLocaleString("en-IN",{day:"2-digit",month:"short",hour:"2-digit",minute:"2-digit",timeZone:"Asia/Kolkata"})+" IST";
+    var head='<div class="mgroup">Last run · '+at+'</div><div class="mm" style="margin:4px 0 8px">'+plural(lr.added,"circular")+' added · '+lr.set_aside+' set aside · '+(lr.failed?'<span style="color:var(--crit-ink)">'+lr.failed+' could not be processed</span>':'none failed')+(lr.deferred?' · '+lr.deferred+' waiting for the next run':'')+'</div>';
+    (lr.failures||[]).slice(0,12).forEach(function(f){head+='<div class="mrow"><div><span class="reg">'+esc(f.regulator||"")+'</span></div><div><div class="mt">'+esc(f.title||f.url)+'</div><div class="mm">'+esc(f.error||"")+(f.url?' · <a href="'+esc(f.url)+'" target="_blank" rel="noopener noreferrer">Original</a>':'')+'</div></div><span></span></div>';});
+    html=head+'<div class="mgroup">Sources</div>'+html;
+  }
   var ok=src.filter(function(s){return s.status==="ok";}).length,live=src.filter(function(s){return s.kind!=="none";}).length;
   openModal("Sources",(RAW.generated_at?ok+" of "+live+" connected sources answered on the last run. ":"The pipeline hasn't run yet, so no source has been checked. ")+"Sources are checked every 2 hours, and each site's robots.txt is respected.",html);
 }

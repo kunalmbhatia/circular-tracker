@@ -85,16 +85,17 @@ SOURCES = [
      "url": "https://www.nseclearing.in/resources/circulars", "link_filter": r"\.(pdf|zip)(\?|$)",
      "triage": True, "verified": UNTESTED_PAGE, "note": ""},
     {"id": "nsdl", "regulator": "NSDL", "name": "NSDL circulars to participants", "kind": "page",
-     "url": "https://nsdl.co.in/business/circular.php", "link_filter": r"\.pdf(\?|$)",
+     "url": "https://nsdl.co.in/business/circular.php", "link_filter": r"/downloadables/pdf/\d{4}-\d{3,4}-",
      "triage": True, "verified": UNTESTED_PAGE, "note": ""},
     {"id": "cdsl", "regulator": "CDSL", "name": "CDSL communiqués to DPs", "kind": "page",
      "url": "https://www.cdslindia.com/Publications/Communique.aspx/DP-COMMUNIQUES-INDEX.aspx",
-     "link_filter": r"/Communique/.+\.pdf", "triage": True, "verified": UNTESTED_PAGE, "note": ""},
+     "link_filter": r"/Communique/.+\.pdf", "triage": True, "verified": UNTESTED_PAGE,
+     "note": "On 28 Sep 2026 this page returned 'Internal Error Occurred' even in a browser-style fetch. It may be unreliable."},
     {"id": "ncdex", "regulator": "NCDEX", "name": "NCDEX circulars", "kind": "page",
-     "url": "https://www.ncdex.com/Circulars/CircularHome.aspx", "link_filter": r"\.pdf(\?|$)",
+     "url": "https://www.ncdex.com/circulars", "link_filter": r"/uploads/circulars/.+\.pdf",
      "triage": True, "verified": UNTESTED_PAGE, "note": ""},
-    {"id": "ifsca", "regulator": "IFSCA", "name": "IFSCA legal framework", "kind": "page",
-     "url": "https://ifsca.gov.in/Legal/Index/ogGPf3wx5GE=", "link_filter": r"(/Document/Legal/.+\.pdf|ViewFile)",
+    {"id": "ifsca", "regulator": "IFSCA", "name": "IFSCA circulars", "kind": "page",
+     "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=", "link_filter": r"(/Document/Legal/.+\.pdf|ViewFile)",
      "triage": True, "verified": UNTESTED_PAGE,
      "note": "Relevant to brokers and fintechs operating in GIFT City."},
     {"id": "npci", "regulator": "NPCI", "name": "NPCI UPI circulars", "kind": "page",
@@ -172,8 +173,15 @@ def _local(tag):
     return tag.rsplit("}", 1)[-1].lower()
 
 
+_NOISE = re.compile(r"\((opens in (a )?new (tab|window))\)|\bopens in (a )?new (tab|window)\b|\((pdf|zip)[^)]*\)", re.I)
+
+
 def _clean(s):
-    return " ".join((s or "").split())
+    """Collapse whitespace, decode HTML entities left in feeds (&#8377; -> ₹),
+    and drop screen-reader hints such as "(opens in new tab)"."""
+    import html as _html
+    s = _html.unescape(_html.unescape(s or ""))
+    return " ".join(_NOISE.sub("", s).split())
 
 
 def parse_rss(content, src):
@@ -242,9 +250,12 @@ def parse_page(html, src):
             title = _clean(re.sub(r"\b(download|view|pdf|click here)\b", "", row_text, flags=re.I))
             for rx in (_ISO, _D_MON_Y, _MON_D_Y, _DMY_NUM):
                 title = _clean(rx.sub("", title))
-        if len(title) < 12:
+        date = parse_date(row_text) or parse_date(href)
+        if len(title) < 12 or not date:
+            # Real circular listings always date each row. An undated PDF link is
+            # almost always site navigation (a brochure, a committee list).
             continue
-        out.append({"title": title[:400], "url": url, "date": parse_date(row_text),
+        out.append({"title": title[:400], "url": url, "date": date,
                     "category": "Circular", "source": src["id"], "regulator": src["regulator"]})
     return out
 

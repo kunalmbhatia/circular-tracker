@@ -72,7 +72,7 @@ def triage(items, client=None):
     if not items:
         return []
     from anthropic import Anthropic
-    client = client or Anthropic()
+    client = client or Anthropic(max_retries=8)
     results = []
     for start in range(0, len(items), BATCH):
         batch = items[start:start + BATCH]
