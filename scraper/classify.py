@@ -171,9 +171,14 @@ def _validate(record, known_circular_numbers, source_text=None):
 
     parent_no = record.get("parent_circular_no")
     if parent_no and parent_no != "NOT STATED IN SOURCE":
-        if src is not None and _letters(parent_no) not in src:
-            flag("parent_circular_no", f"Parent circular number {parent_no!r} was not found in the document text.")
-        elif known_circular_numbers is not None and parent_no not in known_circular_numbers:
+        # The model sometimes lists several parents in one field ("A, B and C dated ...").
+        # Check each reference-looking part; ignore joining words and dates.
+        parts = [p.strip() for p in re.split(r",|;|\band\b|\bdated\b", parent_no)]
+        refs = [p for p in parts if CIRCULAR_NO_HINT_RE.search(p) and "/" in p] or [parent_no]
+        missing_refs = [p for p in refs if src is not None and _letters(p) not in src]
+        if missing_refs:
+            flag("parent_circular_no", f"Parent circular number(s) not found in the document text: {', '.join(missing_refs)[:160]}.")
+        elif known_circular_numbers is not None and not any(p in known_circular_numbers for p in refs):
             flag("parent_circular_no",
                  "The parent circular is cited in the text but isn't in this register yet (it may predate the "
                  "tracker), so the link can't be followed here.", level="Inferred")
