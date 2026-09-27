@@ -66,89 +66,129 @@ to classify responsibly, set overall_confidence to "Needs Review" and explain
 why in confidence_flags rather than filling fields with best guesses."""
 
 
-CIRCULAR_NO_HINT_RE = re.compile(r"[A-Z]{2,}.*\d{4}.*\d")
+# Any issuer's reference: a letter group plus a 4-digit year somewhere
+# (SEBI/HO/..., NSE/SURV/..., FEMA 23(R)/(1)/2026-RB, RBI/2026-27/41...).
+CIRCULAR_NO_HINT_RE = re.compile(r"[A-Za-z]{2,}.*(19|20)\d{2}|(19|20)\d{2}.*[A-Za-z]{2,}")
 ISO_DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+VALIDATOR_VERSION = 2
+ELLIPSIS_RE = re.compile(r"\.{3,}|\u2026|\[\s*\.\.\.\s*\]")
 
 
 def _norm_ws(s):
-    """Collapse whitespace and unify quote/dash characters so a verbatim quote
-    still matches text extracted from a PDF (line breaks, curly quotes)."""
-    s = (s or "").replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"')
-    s = s.replace("–", "-").replace("—", "-")
+    """Collapse whitespace and unify quote/dash characters."""
+    s = (s or "").replace("\u2019", "'").replace("\u2018", "'").replace("\u201c", '"').replace("\u201d", '"')
+    s = s.replace("\u2013", "-").replace("\u2014", "-")
     return re.sub(r"\s+", " ", s).strip().lower()
 
 
+def _letters(s):
+    """Letters and digits only. PDF extraction mangles punctuation, hyphenation,
+    ligatures and spacing; comparing on this form tolerates all of that while an
+    invented sentence still won't match."""
+    s = (s or "").replace("\ufb01", "fi").replace("\ufb02", "fl")
+    return re.sub(r"[^0-9a-z]", "", s.lower())
+
+
+def quote_in_source(quote, source_letters):
+    """True if the quote appears in the source. An elided quote ('A ... B') passes
+    when every part appears in order; parts under 12 characters are ignored."""
+    parts = [_letters(p) for p in ELLIPSIS_RE.split(quote or "")]
+    parts = [p for p in parts if len(p) >= 12] or [_letters(quote)]
+    pos = 0
+    for p in parts:
+        i = source_letters.find(p, pos)
+        if i < 0:
+            return False
+        pos = i + len(p)
+    return True
+
+
 def _validate(record, known_circular_numbers, source_text=None):
-    """Layer deterministic checks on top of the model's own confidence flags.
-    Mutates and returns record. Never removes a Needs Review flag the model set."""
+    """Layer deterministic checks on top of the model's own confidence.
+
+    Two severities:
+      Needs Review  - something may be WRONG (a quote not in the text, a malformed
+                      field, an internal contradiction).
+      Inferred      - nothing is wrong, but something is unconfirmed (the parent
+                      circular isn't in this register yet).
+    The model's own flags are never removed."""
     flags = dict(record.get("confidence_flags") or {})
-    worst = record.get("overall_confidence", "Needs Review")
+    record["model_confidence"] = record.get("overall_confidence", "Needs Review")
+    rank = {"Certain": 0, "Inferred": 1, "Needs Review": 2}
+    worst = record["model_confidence"] if record["model_confidence"] in rank else "Needs Review"
 
-    def downgrade(reason_key, reason):
+    def flag(key, reason, level="Needs Review"):
         nonlocal worst
-        flags[reason_key] = reason
-        worst = "Needs Review"
+        flags[key] = reason
+        if rank[level] > rank[worst]:
+            worst = level
 
-    # Every quote the model offers as evidence must exist in the source text.
-    # This is the strongest anti-fabrication check available: a model can
-    # invent a plausible-sounding excerpt, but it can't make it appear in the PDF.
-    if source_text:
-        haystack = _norm_ws(source_text)
-        missing = [q for q in (record.get("source_excerpt_citations") or []) if q and _norm_ws(q) not in haystack]
+    src = _letters(source_text) if source_text else None
+
+    # Every quote offered as evidence must exist in the source text: a model can
+    # invent a plausible excerpt, but it can't make it appear in the PDF.
+    if src is not None:
+        missing = [q for q in (record.get("source_excerpt_citations") or []) if q and not quote_in_source(q, src)]
         if missing:
-            downgrade("source_excerpt_citations",
-                      f"{len(missing)} quoted excerpt(s) could not be found in the circular text — possible fabrication.")
+            flag("source_excerpt_citations",
+                 f"{len(missing)} quoted excerpt(s) could not be found in the circular text — possible fabrication: "
+                 + "; ".join(repr(m[:80]) for m in missing[:2]))
 
     clean_dates = []
     for kd in record.get("key_dates") or []:
         if not isinstance(kd, dict):
             continue
         date, quote = kd.get("date"), kd.get("quote")
+        if date in (None, "", "NOT STATED IN SOURCE"):
+            continue                      # nothing asserted, nothing to check
         if not (isinstance(date, str) and ISO_DATE_RE.match(date)):
-            downgrade("key_dates", f"A key date was not in YYYY-MM-DD form: {date!r}.")
+            flag("key_dates", f"A key date was not in YYYY-MM-DD form: {date!r}.")
             continue
-        if source_text and (not quote or _norm_ws(quote) not in _norm_ws(source_text)):
-            downgrade("key_dates", f"The quote supporting key date {date} was not found in the circular text.")
+        if src is not None and (not quote or not quote_in_source(quote, src)):
+            flag("key_dates", f"The quote supporting key date {date} was not found in the circular text.")
             kd["unverified"] = True
         clean_dates.append(kd)
     record["key_dates"] = clean_dates
 
-    # Cross-regulator links are only as good as the number they cite: it must
-    # appear in this document's own text.
+    # Cross-regulator links are only as good as the number they cite.
     kept = []
     for im in record.get("implements") or []:
         no = (im or {}).get("circular_no") if isinstance(im, dict) else None
         if not no or no == "NOT STATED IN SOURCE":
             continue
-        if source_text and _norm_ws(no) not in _norm_ws(source_text):
-            downgrade("implements", f"Cited circular number {no!r} was not found in the document text.")
+        if src is not None and _letters(no) not in src:
+            flag("implements", f"Cited circular number {no!r} was not found in the document text.")
             continue
         kept.append(im)
     record["implements"] = kept
 
     circ_no = record.get("circular_no")
-    if circ_no and circ_no != "NOT STATED IN SOURCE" and not CIRCULAR_NO_HINT_RE.search(circ_no):
-        downgrade("circular_no", "Extracted value doesn't look like a SEBI circular number format — verify manually.")
+    if circ_no and circ_no != "NOT STATED IN SOURCE":
+        if not CIRCULAR_NO_HINT_RE.search(circ_no):
+            flag("circular_no", f"{circ_no!r} doesn't look like a circular reference number — verify manually.")
+        elif src is not None and _letters(circ_no) not in src:
+            flag("circular_no", f"Circular number {circ_no!r} was not found in the document text.")
 
     parent_no = record.get("parent_circular_no")
-    if parent_no and parent_no not in (None, "NOT STATED IN SOURCE") and known_circular_numbers is not None:
-        if parent_no not in known_circular_numbers:
-            downgrade(
-                "parent_circular_no",
-                "Parent circular number not found in this tracker's existing dataset — it may predate this "
-                "tracker, or the number may be mistyped. Verify against the source before treating the mapping as confirmed.",
-            )
+    if parent_no and parent_no != "NOT STATED IN SOURCE":
+        if src is not None and _letters(parent_no) not in src:
+            flag("parent_circular_no", f"Parent circular number {parent_no!r} was not found in the document text.")
+        elif known_circular_numbers is not None and parent_no not in known_circular_numbers:
+            flag("parent_circular_no",
+                 "The parent circular is cited in the text but isn't in this register yet (it may predate the "
+                 "tracker), so the link can't be followed here.", level="Inferred")
 
     doc_type = record.get("doc_type")
     valid_types = {"Fresh Circular", "Amendment", "Addendum", "Corrigendum", "Master Circular", "FAQ/Clarification"}
     if doc_type not in valid_types:
-        downgrade("doc_type", f"Model returned an unrecognized doc_type value: {doc_type!r}.")
+        flag("doc_type", f"Model returned an unrecognized doc_type value: {doc_type!r}.")
 
     if doc_type in {"Amendment", "Addendum", "Corrigendum"} and not parent_no:
-        downgrade("parent_circular_no", f"doc_type is {doc_type!r} but no parent circular was identified — inconsistent, needs a human look.")
+        flag("parent_circular_no", f"doc_type is {doc_type!r} but no parent circular was identified — inconsistent, needs a human look.")
 
     record["confidence_flags"] = flags
     record["overall_confidence"] = worst
+    record["validator_version"] = VALIDATOR_VERSION
     return record
 
 

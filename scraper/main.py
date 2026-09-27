@@ -30,7 +30,7 @@ import datetime
 sys.path.insert(0, os.path.dirname(__file__))
 from sources import collect_all, SOURCE_BY_ID, allowed
 from extract_text import fetch_circular_text
-from classify import classify_circular
+from classify import classify_circular, VALIDATOR_VERSION
 from triage import triage
 
 ROOT = os.path.join(os.path.dirname(__file__), "..", "data")
@@ -42,6 +42,7 @@ KEEP_FILTERED_DAYS = 180
 # (2 hours later), so a backlog drains steadily instead of tripping API rate
 # limits on a new account. Newest circulars go first.
 MAX_CLASSIFY = int(os.environ.get("MAX_CLASSIFY_PER_RUN", "60"))
+MAX_ATTEMPTS = 3   # after this many runs with no readable text, record the circular anyway, flagged
 PAUSE_SECONDS = float(os.environ.get("CLASSIFY_PAUSE_SECONDS", "4"))
 
 
@@ -97,6 +98,19 @@ def main():
           f"({len(direct)} direct, {len(screen)} to screen)", file=sys.stderr)
 
     relevant, triage_failed, newly_set_aside = list(direct), 0, 0
+
+    # Records checked by an older validator are classified again, so the whole
+    # register is held to the same rules. (Validation needs the circular's text,
+    # which isn't stored, so this re-reads and re-classifies them.)
+    stale_recs = [r for r in records if r.get("validator_version") != VALIDATOR_VERSION and r.get("source_url")]
+    if stale_recs:
+        records = [r for r in records if r not in stale_recs]
+        for r in stale_recs:
+            relevant.append({"title": r.get("title", ""), "url": r["source_url"], "date": r.get("date"),
+                             "regulator": r.get("regulator", "SEBI"), "source": r.get("source", "sebi-rss"),
+                             "triage_reason": r.get("triage_reason"), "_prior": r})
+        print(f"[main] {len(stale_recs)} record(s) re-queued for the current validator", file=sys.stderr)
+    attempts = data.get("attempts", {})
     try:
         for item, include, reason in triage(screen):
             if include:
@@ -110,18 +124,21 @@ def main():
         triage_failed = len(screen)
         print(f"[main] ERROR: triage failed ({e}); {triage_failed} item(s) will be retried next run.", file=sys.stderr)
 
-    known = known_numbers(records)
+    known = known_numbers(records) | known_numbers([i['_prior'] for i in relevant if i.get('_prior')])
     added, failed, deferred = 0, 0, 0
     failures = []
     relevant.sort(key=lambda i: i.get("date") or "", reverse=True)
     if len(relevant) > MAX_CLASSIFY:
         deferred = len(relevant) - MAX_CLASSIFY
+        records.extend(i["_prior"] for i in relevant[MAX_CLASSIFY:] if i.get("_prior"))
         relevant = relevant[:MAX_CLASSIFY]
         print(f"[main] {deferred} circular(s) deferred to later runs (limit {MAX_CLASSIFY} per run)", file=sys.stderr)
     rate_limited = False
     for n, item in enumerate(relevant):
         if rate_limited:
             deferred += 1
+            if item.get("_prior"):
+                records.append(item["_prior"])     # keep the old record until it can be redone
             continue
         if n:
             time.sleep(PAUSE_SECONDS)
@@ -146,11 +163,33 @@ def main():
             if not rec.get("date") or rec["date"] == "NOT STATED IN SOURCE":
                 rec["date"] = item.get("date")
             records.append(rec)
+            attempts.pop(item["url"], None)
             if rec.get("circular_no") and rec["circular_no"] != "NOT STATED IN SOURCE":
                 known.add(rec["circular_no"])
             added += 1
             print(f"[main] + [{rec['regulator']}] {item['title'][:70]} -> {rec['doc_type']} ({rec['overall_confidence']})", file=sys.stderr)
         except Exception as e:
+            if item.get("_prior"):
+                records.append(item["_prior"])     # a failed redo never loses the existing record
+            if type(e).__name__ == "NoDocumentText":
+                n_try = attempts.get(item["url"], 0) + 1
+                attempts[item["url"]] = n_try
+                if n_try >= MAX_ATTEMPTS and not item.get("_prior"):
+                    # Probably a scanned PDF. List it so users still see it exists,
+                    # clearly flagged, instead of retrying (and failing) forever.
+                    records.append({"title": item.get("title", ""), "regulator": item.get("regulator"), "source": item.get("source"),
+                                    "date": item.get("date"), "source_url": item.get("url"), "doc_type": "Fresh Circular",
+                                    "circular_no": "NOT STATED IN SOURCE", "parent_circular_no": None, "impact_areas": [],
+                                    "applicability": "Not determined", "intent": None, "action_required": None,
+                                    "effective_date": None, "key_dates": [], "implements": [], "source_excerpt_citations": [],
+                                    "overall_confidence": "Needs Review", "validator_version": VALIDATOR_VERSION,
+                                    "confidence_flags": {"all_fields": f"The document has no machine-readable text (likely a scanned image), "
+                                                                       f"so it couldn't be classified after {n_try} attempts. Read the original."},
+                                    "sample_data": False})
+                    attempts.pop(item["url"], None)
+                    added += 1
+                    print(f"[main] recorded unreadable document after {n_try} attempts: {item['url']}", file=sys.stderr)
+                    continue
             if type(e).__name__ in ("RateLimitError", "OverloadedError"):
                 rate_limited = True
                 deferred += 1
@@ -178,9 +217,9 @@ def main():
 
     last_run = {"at": _iso(_now()), "added": added, "set_aside": newly_set_aside, "failed": failed,
                 "deferred": deferred, "triage_retries": triage_failed, "failures": failures[:40]}
-    if added or newly_set_aside or pruned or status_changed or stale or had_samples or failed:
+    if added or newly_set_aside or pruned or status_changed or stale or had_samples or failed or stale_recs:
         data.update({"generated_at": _iso(_now()), "schema_version": "2.0", "circulars": records,
-                     "sources": health, "last_run": last_run})
+                     "sources": health, "last_run": last_run, "attempts": attempts})
         data.pop("note", None)
         write(DATA_PATH, data)
         write(FILTERED_PATH, {"generated_at": _iso(_now()), "items": set_aside})
