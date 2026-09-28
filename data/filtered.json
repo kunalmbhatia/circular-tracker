@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T14:04:38Z",
+  "generated_at": "2026-09-28T20:41:45Z",
   "items": [
     {
       "title": "Exim Bank’s GOI-supported Line of Credit (LOC) for ₹ 4,850 crores the Government of Maldives, for financing various developmental projects in Maldives",
@@ -639,6 +639,177 @@
       "source": "bse",
       "reason": "Specific auction notice; no ecosystem-wide obligation change",
       "decided_at": "2026-09-28T13:59:32Z"
+    },
+    {
+      "title": "Listing of further issues of securities",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76593.pdf",
+      "date": "2026-09-28",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Routine listing of further issues, no obligation change",
+      "decided_at": "2026-09-28T20:34:55Z"
+    },
+    {
+      "title": "Listing of Equity Shares of GSPL Transmission Limited pursuant to the Scheme of Arrangement",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76590.zip",
+      "date": "2026-09-28",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Single company listing via scheme, no market-wide obligation",
+      "decided_at": "2026-09-28T20:34:55Z"
+    },
+    {
+      "title": "Listing of Equity Shares of Varmora Granito Limited (IPO)",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76587.zip",
+      "date": "2026-09-28",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Single company IPO listing, no obligation change",
+      "decided_at": "2026-09-28T20:34:55Z"
+    },
+    {
+      "title": "Daily Bulletin",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260928-52/20260928-52.pdf",
+      "date": "2026-09-28",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Daily bulletin; assess content for specific obligations",
+      "decided_at": "2026-09-28T20:34:55Z"
+    },
+    {
+      "title": "Scheme of Arrangement (Demerger) of K. M. Sugar Mills Ltd. (Scrip code- 532673)",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260928-51/20260928-51.pdf",
+      "date": "2026-09-28",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company scheme of arrangement, no obligation",
+      "decided_at": "2026-09-28T20:34:55Z"
+    },
+    {
+      "title": "Public issue of BLACK OPAL CONSULTANTS LIMITED -Allocation to Anchor Investor",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260928-50/20260928-50.pdf",
+      "date": "2026-09-28",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single issue allocation details, no obligation change",
+      "decided_at": "2026-09-28T20:34:55Z"
+    },
+    {
+      "title": "CORPORATE ACTION IN SLB SECURITIES",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260928-49/20260928-49.pdf",
+      "date": "2026-09-28",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single stock corporate action, no obligation change",
+      "decided_at": "2026-09-28T20:34:55Z"
+    },
+    {
+      "title": "Launch of New Fund Offer (NFO) with SIP Facility of WHITEOAK CAPITAL Mutual Fund on BSE StAR MF Platform - Update",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260928-48/20260928-48.pdf",
+      "date": "2026-09-28",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single mutual fund scheme NFO launch, no obligation",
+      "decided_at": "2026-09-28T20:34:55Z"
+    },
+    {
+      "title": "Merger of Scheme of HDFC Mutual Fund on BSE StAR MF Platform",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260928-47/20260928-47.pdf",
+      "date": "2026-09-28",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single mutual fund scheme merger, no obligation",
+      "decided_at": "2026-09-28T20:34:55Z"
+    },
+    {
+      "title": "Change in Minimum Systematic Investment Plan (SIP) amount in Motilal Oswal Special Opportunities Fund on BSE StAR MF Platform",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260928-46/20260928-46.pdf",
+      "date": "2026-09-28",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single fund's SIP amount change, no obligation",
+      "decided_at": "2026-09-28T20:34:55Z"
+    },
+    {
+      "title": "Launch of ETF NFO of NIPPON INDIA Mutual Fund on BSE StAR MF Platform",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260928-45/20260928-45.pdf",
+      "date": "2026-09-28",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single ETF NFO launch, no obligation change",
+      "decided_at": "2026-09-28T20:34:55Z"
+    },
+    {
+      "title": "Listing of New Securities of IRB InvIT Fund",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260928-44/20260928-44.pdf",
+      "date": "2026-09-28",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single InvIT securities listing, no obligation",
+      "decided_at": "2026-09-28T20:34:55Z"
+    },
+    {
+      "title": "Merger of Scheme of Axis Mutual Fund on BSE StAR MF Platform",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260928-43/20260928-43.pdf",
+      "date": "2026-09-28",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single mutual fund scheme merger, no obligation",
+      "decided_at": "2026-09-28T20:34:55Z"
+    },
+    {
+      "title": "Listing of Equity Shares of Varmora Granito Limited",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260928-42/20260928-42.pdf",
+      "date": "2026-09-28",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company equity listing, no obligation change",
+      "decided_at": "2026-09-28T20:34:55Z"
+    },
+    {
+      "title": "Listing of Equity Shares of GSPL Transmission Limited",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260928-41/20260928-41.pdf",
+      "date": "2026-09-28",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company equity listing, no obligation change",
+      "decided_at": "2026-09-28T20:34:55Z"
+    },
+    {
+      "title": "Listing of Equity Shares of HIMALAYA NUTRAVEDICS INDIA LIMITED",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260928-40/20260928-40.pdf",
+      "date": "2026-09-28",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company equity listing, no obligation change",
+      "decided_at": "2026-09-28T20:34:55Z"
+    },
+    {
+      "title": "Listing of Equity Shares of Anand Seamless Limited",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260928-37/20260928-37.pdf",
+      "date": "2026-09-28",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company equity listing, no obligation change",
+      "decided_at": "2026-09-28T20:34:55Z"
+    },
+    {
+      "title": "Part Redemption of Debentures of Companies",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260928-36/20260928-36.pdf",
+      "date": "2026-09-28",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Corporate debenture redemption action, no obligation",
+      "decided_at": "2026-09-28T20:34:55Z"
+    },
+    {
+      "title": "Rights Issues of NATCO PHARMA LTD (Scrip Code- 524816)",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260928-35/20260928-35.pdf",
+      "date": "2026-09-28",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company rights issue, no obligation change",
+      "decided_at": "2026-09-28T20:34:55Z"
     }
   ]
 }
