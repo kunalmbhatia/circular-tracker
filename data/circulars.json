@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T05:26:54Z",
+  "generated_at": "2026-09-28T07:33:10Z",
   "schema_version": "2.0",
   "circulars": [
     {
@@ -1886,124 +1886,6 @@
       "source": "sebi-master"
     },
     {
-      "circular_no": "29/2026",
-      "date": "2026-09-25",
-      "doc_type": "Fresh Circular",
-      "parent_circular_no": "NCL/CMPL/62689 dated June 28, 2024; NCL/CMPL/63029 dated July 22, 2024",
-      "parent_circular_date": "2024-06-28",
-      "implements": [
-        {
-          "regulator": "SEBI",
-          "circular_no": "SEBI/HO/MRD/MRD-PoD-3/P/CIR/2024/65",
-          "date": "2024-05-29"
-        }
-      ],
-      "impact_areas": [
-        "Clearing Corporations",
-        "Stock Brokers",
-        "Trading Operations"
-      ],
-      "applicability": "All Members (Clearing Members, including Trading Members cleared by them)",
-      "intent": "NCL is rolling out a new online portal for Clearing Members to submit/declare their group and associate entity details (including any listed securities/debt instruments), migrating existing declarations, in order to enforce SEBI's restriction on CCs accepting collateral issued by a CM/TM's own group or associate entities.",
-      "action_required": "Clearing Members must upload group/associate entity details (categorized as CMS, CMA, TMS, TMA) via the new NCL portal (https://ims.connect2nsccl.com/NCLMemberPortal/) starting September 28, 2026, submit mandatory 'NIL' declarations where no associates exist, review migrated data from the old portal, and report any change in group/associate entities within 7 working days of occurrence; submissions on the existing (old) portal will be discontinued with effect from September 27, 2026.",
-      "effective_date": "2026-09-28",
-      "key_dates": [
-        {
-          "label": "New NCL portal go-live for associate details upload",
-          "date": "2026-09-28",
-          "quote": "Clearing Members can now upload the group and associate entities details through the new portal of NCL...starting from September 28, 2026"
-        },
-        {
-          "label": "Discontinuation of submissions on existing portal",
-          "date": "2026-09-27",
-          "quote": "The submissions to the existing portal shall be discontinued with effect September 27, 2026"
-        }
-      ],
-      "impact_summary": "Clearing Members of NSE Clearing Limited (NCL) are required to migrate to and use a new online portal for declaring group/associate entity and listed instrument details in compliance with SEBI's collateral exposure norms, with the old portal being phased out.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "parent_circular_no": "Parent circular number 'NCL/CMPL/62689 dated June 28, 2024; NCL/CMPL/63029 dated July 22, 2024' was not found in the document text.",
-        "effective_date": "Two distinct operative dates exist — Sept 28, 2026 (new portal live) and Sept 27, 2026 (old portal discontinued) — effective_date reflects the primary new-system start date; both are captured in key_dates.",
-        "doc_type": "Classified as Fresh Circular since it introduces a new portal/process rather than explicitly amending clause text of a prior circular, though it builds directly on two earlier NCL circulars."
-      },
-      "source_excerpt_citations": [
-        "This is further to the NCL circular NCL/CMPL/62689 dated June 28, 2024 and NCL/CMPL/63029 dated July 22, 2024",
-        "in compliance with SEBI Circular No SEBI/HO/MRD/MRD-PoD-3/P/CIR/2024/65 dated May 29, 2024",
-        "CCs shall not accept collateral including FDs, BGs, equity, or debt securities issued by CMs/TMs themselves or their group or associate entities",
-        "Clearing Members can now upload the group and associate entities details through the new portal of NCL...starting from September 28, 2026",
-        "The submissions to the existing portal shall be discontinued with effect September 27, 2026",
-        "In case if the member does not have an associate under any of the above categories, it is mandatory that “NIL” declaration is provided to NCL",
-        "Any change in Clearing Members group and Associate Entities pursuant to the initial submissions, shall be informed to the Clearing Corporations within 7 working days"
-      ],
-      "model_confidence": "Needs Review",
-      "validator_version": 3,
-      "source_url": "https://nsearchives.nseindia.com/content/circulars/CMPL76570.zip",
-      "sample_data": false,
-      "title": "Submission of Associates details by Clearing Members",
-      "regulator": "NSE",
-      "source": "nse",
-      "triage_reason": "Associates disclosure by clearing members is direct regulatory obligation"
-    },
-    {
-      "circular_no": "NSE/SURV/76566",
-      "date": "2026-09-25",
-      "doc_type": "Fresh Circular",
-      "parent_circular_no": "NSE/SURV/56948, NSE/SURV/57609, NSE/SURV/63361, NSE/SURV/64066, NSE/SURV/64400, NSE/SURV/69315",
-      "parent_circular_date": "2023-06-02, 2023-07-18, 2024-08-09, 2024-09-20, 2024-10-04, 2025-07-25",
-      "implements": [],
-      "impact_areas": [
-        "Surveillance/Market Abuse",
-        "Stock Brokers",
-        "Trading Operations"
-      ],
-      "applicability": "All NSE Members",
-      "intent": "NSE is updating the list of securities under the Enhanced Surveillance Measure (ESM) framework, adding new securities that meet inclusion criteria, removing eligible securities, and providing a consolidated list, while imposing margin and settlement segment changes on the newly added securities.",
-      "action_required": "Members must apply a minimum 100% margin w.e.f. September 29, 2026 on all open positions as on September 28, 2026 and on new positions created from September 29, 2026, and must shift qualifying securities from Rolling Settlement (EQ/SM) to Trade-for-Trade (BE/ST) segment w.e.f. September 29, 2026; Stage II securities move to Trade for Trade with 2% price band under Periodic Call Auction w.e.f. September 28, 2026.",
-      "effective_date": "2026-09-29",
-      "key_dates": [
-        {
-          "label": "100% margin applicability on open positions",
-          "date": "2026-09-28",
-          "quote": "minimum 100% margin w.e.f. September 29, 2026, on all open positions as on September 28, 2026"
-        },
-        {
-          "label": "100% margin applicability start / new positions",
-          "date": "2026-09-29",
-          "quote": "and new positions created from September 29, 2026"
-        },
-        {
-          "label": "Shift to Trade-for-Trade segment",
-          "date": "2026-09-29",
-          "quote": "shall be shifted from Rolling Settlement segment (Series: EQ/SM) to Trade-for-Trade segment (Series: BE/ST) w.e.f. September 29, 2026"
-        },
-        {
-          "label": "Stage II Periodic Call Auction with 2% price band",
-          "date": "2026-09-28",
-          "quote": "securities shifting to Stage II shall be under Trade for Trade with price band of 2% under Periodic Call Auction w.e.f. September 28, 2026"
-        }
-      ],
-      "impact_summary": "All NSE members must apply enhanced margins and segment changes for securities newly added to the ESM framework as per Annexure I, remove requirements for securities moving out per Annexure II, and refer to the consolidated list in Annexure III, with specific effective dates for margin, price band, and settlement segment changes.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "parent_circular_no": "Parent circular number 'NSE/SURV/56948, NSE/SURV/57609, NSE/SURV/63361, NSE/SURV/64066, NSE/SURV/64400, NSE/SURV/69315' was not found in the document text.",
-        "parent_circular_date": "Corresponds to the six dates given for the six referenced circular numbers, in the same order as listed in the source."
-      },
-      "source_excerpt_citations": [
-        "This is with reference to Exchange Circular nos. NSE/SURV/56948, NSE/SURV/57609, NSE/SURV/63361, NSE/SURV/64066, NSE/SURV/64400, and NSE/SURV/69315",
-        "shall attract a minimum 100% margin w.e.f. September 29, 2026, on all open positions as on September 28, 2026",
-        "shall be shifted from Rolling Settlement segment (Series: EQ/SM) to Trade-for-Trade segment (Series: BE/ST) w.e.f. September 29, 2026",
-        "securities shifting to Stage II shall be under Trade for Trade with price band of 2% under Periodic Call Auction w.e.f. September 28, 2026"
-      ],
-      "model_confidence": "Certain",
-      "validator_version": 3,
-      "source_url": "https://nsearchives.nseindia.com/content/circulars/SURV76566.zip",
-      "sample_data": false,
-      "title": "Applicability of Enhanced Surveillance Measure (ESM)",
-      "regulator": "NSE",
-      "source": "nse",
-      "triage_reason": "Enhanced Surveillance Measure affects trading operations and risk management for brokers"
-    },
-    {
       "circular_no": "NSE/SURV/76565",
       "date": "2026-09-25",
       "doc_type": "Amendment",
@@ -2051,55 +1933,6 @@
       "regulator": "NSE",
       "source": "nse",
       "triage_reason": "USDINR conversion ratios affect margin calculations and trading systems"
-    },
-    {
-      "circular_no": "740/2026",
-      "date": "2026-09-25",
-      "doc_type": "Fresh Circular",
-      "parent_circular_no": "NSE/SURV/39265, NSE/SURV/46557, NSE/SURV/52144, NSE/SURV/58558, NSE/SURV/64066",
-      "parent_circular_date": "2018-10-27, 2020-12-04, 2022-04-28, 2023-09-25, 2024-09-20",
-      "implements": [],
-      "impact_areas": [
-        "Surveillance/Market Abuse",
-        "Margin Trading",
-        "Stock Brokers"
-      ],
-      "applicability": "All NSE Members",
-      "intent": "NSE is notifying members of securities newly meeting the criteria for inclusion under Short-Term Additional Surveillance Measure (ST-ASM) Stage I and Stage II, and specifying the enhanced margin requirements applicable to these securities as a market surveillance measure.",
-      "action_required": "Members must apply the specified margin rates (50% or existing margin, whichever is higher, capped at 100% for Stage I securities; 100% or existing margin, whichever is higher, capped at 100% for Stage II securities) on all open positions as on September 28, 2026 and on new positions created from September 29, 2026.",
-      "effective_date": "2026-09-29",
-      "key_dates": [
-        {
-          "label": "ST-ASM Stage I margin effective date",
-          "date": "2026-09-29",
-          "quote": "maximum rate of margin capped at 100% w.e.f. September 29, 2026 on all open positions"
-        },
-        {
-          "label": "ST-ASM Stage II margin effective date",
-          "date": "2026-09-29",
-          "quote": "margin capped at 100%. w.e.f. September 29, 2026 on all open positions as on September 28, 2026"
-        }
-      ],
-      "impact_summary": "NSE trading members are affected as certain securities have been shortlisted under ST-ASM Stage I and Stage II, triggering higher margin requirements (up to 100%) on open and new positions in those scrips from September 29, 2026.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "parent_circular_no": "Parent circular number 'NSE/SURV/39265, NSE/SURV/46557, NSE/SURV/52144, NSE/SURV/58558, NSE/SURV/64066' was not found in the document text.",
-        "doc_type": "Classified as Fresh Circular since it appears to be a routine periodic ST-ASM listing update rather than an explicit amendment to a specific prior circular's provisions, though the recurring 'further to' pattern could also suggest a series of linked/amending circulars."
-      },
-      "source_excerpt_citations": [
-        "This is further to Exchange Circular nos. NSE/SURV/39265, NSE/SURV/46557, NSE/SURV/52144, NSE/SURV/58558 and NSE/SURV/64066",
-        "the securities as per attached Annexure I have satisfied the criteria for inclusion under ST-ASM Stage I",
-        "Applicable rate of margin shall be 50% or existing margin, whichever is higher, subject to maximum rate of margin capped at 100% w.e.f. September 29, 2026",
-        "shortlisting of securities under ASM is purely on account of market surveillance, and it should not be construed as an adverse action"
-      ],
-      "model_confidence": "Needs Review",
-      "validator_version": 3,
-      "source_url": "https://nsearchives.nseindia.com/content/circulars/SURV76562.zip",
-      "sample_data": false,
-      "title": "Applicability of Short-Term Additional Surveillance Measure (ST-ASM)",
-      "regulator": "NSE",
-      "source": "nse",
-      "triage_reason": "Short-term ASM affects trading operations and surveillance obligations"
     },
     {
       "circular_no": "NSE/SURV/76561",
@@ -2153,116 +1986,6 @@
       "regulator": "NSE",
       "source": "nse",
       "triage_reason": "Additional Surveillance Measure affects trading operations and risk management"
-    },
-    {
-      "circular_no": "134/2026",
-      "date": "2026-09-25",
-      "doc_type": "Fresh Circular",
-      "parent_circular_no": null,
-      "parent_circular_date": null,
-      "implements": [
-        {
-          "regulator": "SEBI",
-          "circular_no": "SEBI/HO/MRD1/DSAP/CIR/P/2020/234",
-          "date": null
-        }
-      ],
-      "impact_areas": [
-        "Trading Operations",
-        "Stock Exchanges",
-        "Stock Brokers"
-      ],
-      "applicability": "All NSE Members enabled for trading in the Capital Market (CM) segment",
-      "intent": "NSE is conducting a mock trading session in the Capital Market segment to test a new NEAT+ software version and DR-site connectivity ahead of the version's live rollout, while allowing members to also satisfy SEBI's software testing requirements.",
-      "action_required": "Members must participate in the mock trading session scheduled on Saturday, September 26, 2026 as per the timings specified, use NEAT+ version 7.9.0 explicitly for CAS, note that NEAT+ version 7.8.9 will be discontinued (mock) from October 10, 2026, and re-login into the live environment to ensure smooth connectivity for Monday, September 28, 2026.",
-      "effective_date": "2026-09-26",
-      "key_dates": [
-        {
-          "label": "Mock trading session date",
-          "date": "2026-09-26",
-          "quote": "Exchange shall be conducting a mock trading session in the Capital Market segment on Saturday, September 26, 2026"
-        },
-        {
-          "label": "Discontinuation of NEAT+ 7.8.9 (mock)",
-          "date": "2026-10-10",
-          "quote": "7.8.9 /cmftp/common/NEATPlus789 October 10, 2026 (mock)"
-        },
-        {
-          "label": "Resumption of live trading",
-          "date": "2026-09-28",
-          "quote": "re-login into live environment to ensure smooth connectivity for Monday, September 28, 2026"
-        }
-      ],
-      "impact_summary": "All NSE Capital Market segment members are required to participate in a scheduled mock trading session to test the new NEAT+ 7.9.0 version and DR-site functionality, ensuring readiness before the discontinuation of the older software version and resumption of live trading.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "parent_circular_no": "The circular references several other NSE circulars (e.g., NSE/MSD/76159, NSE/MSD/73993) for procedural details, but none is explicitly stated as being amended or superseded by this circular, so treated as standalone.",
-        "implements": "The SEBI circular is referenced as an alternative compliance route for software testing, not explicitly stated as being implemented by this circular, so inclusion is an inference.",
-        "source_excerpt_citations": "1 quoted excerpt(s) could not be found in the circular text — possible fabrication: 'Below new NEAT+ version should be used explicitly for CAS: NEAT+ 7.9.0'"
-      },
-      "source_excerpt_citations": [
-        "Exchange shall be conducting a mock trading session in the Capital Market segment on Saturday, September 26, 2026",
-        "Below new NEAT+ version should be used explicitly for CAS: NEAT+ 7.9.0",
-        "7.8.9 /cmftp/common/NEATPlus789 October 10, 2026 (mock)",
-        "Refer to circular NSE/MSD/46441 and SEBI circular SEBI/HO/MRD1/DSAP/CIR/P/2020/234. Members may use either Mock Trading or Simulated Environment to meet regulatory requirements.",
-        "re-login into live environment to ensure smooth connectivity for Monday, September 28, 2026"
-      ],
-      "model_confidence": "Inferred",
-      "validator_version": 3,
-      "source_url": "https://nsearchives.nseindia.com/content/circulars/CMTR76542.pdf",
-      "sample_data": false,
-      "title": "Mock trading on Saturday, September 26, 2026 - No new version release",
-      "regulator": "NSE",
-      "source": "nse",
-      "triage_reason": "Mock trading notification requires testing of trading systems by participants"
-    },
-    {
-      "circular_no": "35/2026",
-      "date": "2026-09-25",
-      "doc_type": "Fresh Circular",
-      "parent_circular_no": "NSE/MSD/76159",
-      "parent_circular_date": "2026-09-03",
-      "implements": [],
-      "impact_areas": [
-        "Stock Brokers",
-        "Trading Operations",
-        "Commodity Derivatives Segment"
-      ],
-      "applicability": "All Members trading in the Electronic Gold Receipts (EGR) segment on NSE",
-      "intent": "NSE is notifying members of a mock trading session in the EGR segment ahead of a live trading day, clarifying no new NEATPlus software version is being released, and reminding members of installation/login parameters.",
-      "action_required": "Members must participate in the mock trading session on Saturday, September 26, 2026 as per the stated session timings, ensure NEATPlus EGR Version 1.0.1 is installed per the referenced circular, and use provided login/broadcast parameters.",
-      "effective_date": "2026-09-26",
-      "key_dates": [
-        {
-          "label": "Mock trading session date",
-          "date": "2026-09-26",
-          "quote": "Exchange will be conducting a mock trading session in the Electronic Gold Receipts (EGR) segment on Saturday, September 26, 2026"
-        },
-        {
-          "label": "Referenced installation circular date",
-          "date": "2026-09-03",
-          "quote": "as per the circular NSE/MSD/76159 dated September 03, 2026"
-        }
-      ],
-      "impact_summary": "All NSE members active in the EGR (Electronic Gold Receipts) segment are affected; they must join the scheduled mock trading session and ensure correct NEATPlus version/installation compliance with no financial obligation arising from the mock trades.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "source_excerpt_citations": "1 quoted excerpt(s) could not be found in the circular text — possible fabrication: 'Trades during mock sessions will not result in any fund pay-in or pay-out.'",
-        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
-      },
-      "source_excerpt_citations": [
-        "Exchange will be conducting a mock trading session in the Electronic Gold Receipts (EGR) segment on Saturday, September 26, 2026",
-        "Members are requested to refer updated NEATPlus installation procedure as per the circular NSE/MSD/76159 dated September 03, 2026",
-        "Trades during mock sessions will not result in any fund pay-in or pay-out."
-      ],
-      "model_confidence": "Certain",
-      "validator_version": 3,
-      "source_url": "https://nsearchives.nseindia.com/content/circulars/EGR76541.pdf",
-      "sample_data": false,
-      "title": "Mock trading on Saturday, September 26, 2026 - No new version release",
-      "regulator": "NSE",
-      "source": "nse",
-      "triage_reason": "Mock trading notification requires testing of trading systems by participants"
     },
     {
       "circular_no": "30/2026",
@@ -2372,51 +2095,6 @@
       "triage_reason": "Terrorist designation requires client screening and sanctions compliance by all entities"
     },
     {
-      "circular_no": "HO/(449)2026-ITD-5_DIV1/I/19448/2026",
-      "date": "2026-08-24",
-      "doc_type": "Fresh Circular",
-      "parent_circular_no": "NOT STATED IN SOURCE",
-      "parent_circular_date": "NOT STATED IN SOURCE",
-      "implements": [],
-      "impact_areas": [
-        "Cyber Security/Cyber Resilience",
-        "Stock Brokers",
-        "Depository Participants",
-        "Clearing Corporations",
-        "Stock Exchanges",
-        "Mutual Funds/AMCs",
-        "AIFs/PMS",
-        "Investment Advisers/Research Analysts",
-        "Corporate Bonds/Debt Market",
-        "KYC/AML"
-      ],
-      "applicability": "All SEBI-regulated entities including AIFs, Bankers to an Issue/SCSBs, Clearing Corporations, CIS, CRAs, Custodians, Debenture Trustees, Depositories, DDPs, Depository Participants, Investment Advisers/Research Analysts, KRAs, Merchant Bankers, Mutual Funds/AMCs, Portfolio Managers, RTAs, Stock Brokers, Stock Exchanges, VCFs, and BSE (IAASB/RAASB)",
-      "intent": "SEBI seeks to streamline and harmonise cyber incident reporting by aligning its Incident Reporting Portal with the FSB-developed FIRE format, enabling structured, staged reporting across the incident lifecycle.",
-      "action_required": "Regulated Entities must continue reporting cyber incidents to mkt_incidents@sebi.gov.in within 6 hours and via SEBI's Incident Reporting Portal (https://siportal.sebi.gov.in) within 24 hours, now following the FIRE format for structured/staged reporting (initial, updates, closure), and must put in place systems including amendments to relevant bye-laws, rules and regulations to implement the circular.",
-      "effective_date": "NOT STATED IN SOURCE",
-      "key_dates": [],
-      "impact_summary": "All SEBI-regulated entities across the securities market ecosystem (brokers, depositories, exchanges, clearing corporations, AMCs, AIFs, RTAs, CRAs, etc.) must report cyber incidents using the newly aligned FIRE-based structured format on SEBI's Incident Reporting Portal, improving standardization and cross-border comparability of incident reporting.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "parent_circular_no": "Text references 'applicable SEBI circulars' on cyber security/CSCRF framework generally and Annexure-O(B) of the CSCRF framework, but no specific circular number/date is cited, so cannot be filled with certainty.",
-        "effective_date": "No explicit effective date is stated separately from the issue date; only reporting timelines (6 hours/24 hours) are given as relative periods.",
-        "source_excerpt_citations": "4 quoted excerpt(s) could not be found in the circular text — possible fabrication: 'SEBI has aligned its Incident Reporting Portal with “Format for Incident Reporti'; 'report cyber incident through mkt_incidents@sebi.gov.in within 6 hours and SEBI '"
-      },
-      "source_excerpt_citations": [
-        "SEBI has aligned its Incident Reporting Portal with “Format for Incident Reporting Exchange (FIRE)” Framework developed by Financial Stability Board (FSB)",
-        "report cyber incident through mkt_incidents@sebi.gov.in within 6 hours and SEBI Incident Reporting Portal within 24 hours",
-        "This circular should be read in conjunction with the applicable SEBI circulars (including but not limited to Cybersecurity and Cyber Resilience framework)",
-        "issued in exercise of powers conferred under Section 11 (1) of the Securities and Exchange Board of India Act, 1992"
-      ],
-      "model_confidence": "Certain",
-      "validator_version": 3,
-      "source_url": "https://www.sebi.gov.in/legal/circulars/aug-2026/alignment-of-sebi-s-cyber-incident-reporting-portal-with-fire-format_103915.html",
-      "sample_data": false,
-      "title": "Alignment of SEBI's Cyber Incident Reporting Portal with FIRE Format",
-      "regulator": "SEBI",
-      "source": "sebi-circulars"
-    },
-    {
       "circular_no": "HO/38/13/11(14)2026-MIRSD-POD/I/17111/2026",
       "date": "2026-07-23",
       "doc_type": "Fresh Circular",
@@ -2456,371 +2134,6 @@
       "source": "sebi-circulars"
     },
     {
-      "circular_no": "HO/38/11/(9)2026-MIRSD-POD/I/15382/2026",
-      "date": "2026-07-03",
-      "doc_type": "Amendment",
-      "parent_circular_no": "Master Circular for Stock Brokers",
-      "parent_circular_date": "2025-06-17",
-      "implements": [],
-      "impact_areas": [
-        "Stock Brokers",
-        "Depository Participants",
-        "Clearing Corporations",
-        "Stock Exchanges",
-        "Margin Trading",
-        "Trading Operations"
-      ],
-      "applicability": "Recognized Stock Exchanges, Depositories, and Stock Brokers (Trading Members/Clearing Members)",
-      "intent": "SEBI amends the Master Circular provisions on handling of clients' unpaid securities to align them with the mandatory direct pay-out of securities to client demat accounts and to address operational challenges raised by the Brokers' Industry Standards Forum.",
-      "action_required": "Stock exchanges must issue operational guidelines (in consultation with depositories) within 30 days from the date of issuance of this circular; exchanges/depositories must notify members/participants, disseminate on websites, amend bye-laws/rules/regulations, and put systems in place for implementation.",
-      "effective_date": "NOT STATED IN SOURCE",
-      "key_dates": [],
-      "impact_summary": "Stock brokers, stock exchanges and depositories must revise processes for pledging, releasing, invoking and auto-releasing clients' unpaid securities under a new CUSPA framework, with phased implementation timelines tied to future operational guidelines rather than fixed calendar dates.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "effective_date": "The circular specifies effective timelines only as durations relative to future events (issuance of operational guidelines, issuance of this circular), not as fixed calendar dates, so an absolute effective_date cannot be stated.",
-        "key_dates": "All compliance deadlines are stated as relative periods (e.g., '30 days', 'three months', 'six months') rather than explicit calendar dates, per instructions these cannot be converted to calendar dates.",
-        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
-      },
-      "source_excerpt_citations": [
-        "Paragraph 46 of the Master Circular for Stock Brokers dated June 17, 2025",
-        "it has been decided to amend Paragraph 46 of the Master Circular as under",
-        "Stock exchanges shall issue operational guidelines for implementation...within 30 days from the date of issuance of this circular",
-        "shall come into force with effect from three months from the date of issuance of operational guidelines by stock exchanges",
-        "shall come into force with effect from six months from the date of issuance of this circular"
-      ],
-      "model_confidence": "Needs Review",
-      "validator_version": 3,
-      "source_url": "https://www.sebi.gov.in/legal/circulars/jul-2026/handling-of-client-s-unpaid-securities-by-trading-members_102584.html",
-      "sample_data": false,
-      "title": "Handling of Client’s Unpaid Securities by Trading Members",
-      "regulator": "SEBI",
-      "source": "sebi-circulars"
-    },
-    {
-      "circular_no": "HO/19/34/11(6)2025-AFD-POD1/I/12928/2026",
-      "date": "2026-06-03",
-      "doc_type": "Master Circular",
-      "parent_circular_no": "SEBI/HO/AFD-1/AFD-1-PoD/P/CIR/2024/39",
-      "parent_circular_date": "2024-05-07",
-      "implements": [],
-      "impact_areas": [
-        "AIFs/PMS",
-        "Depository Participants",
-        "Investor Grievance/SCORES",
-        "Foreign Exchange (FEMA)",
-        "KYC/AML",
-        "Corporate Bonds/Debt Market"
-      ],
-      "applicability": "All Alternative Investment Funds, All Custodians, All Depositories, All Registrar to an Issue and Share Transfer Agents",
-      "intent": "SEBI consolidates all circulars issued under the AIF Regulations (up to May 31, 2026) into a single Master Circular for ease of reference by AIFs and market stakeholders, superseding the prior 2024 Master Circular and rescinding the individual circulars listed in Annexure 24.",
-      "action_required": "AIFs (through trustee/sponsor/manager) must ensure ongoing compliance with all consolidated provisions, and the manager's Compliance Test Report must include compliance with all chapters of this Master Circular; various operational filings (PPM filings, CDS reporting, overseas investment reporting, conversion reporting) continue per the specific timelines stated within each chapter.",
-      "effective_date": "NOT STATED IN SOURCE",
-      "key_dates": [
-        {
-          "label": "Previous Master Circular date (superseded)",
-          "date": "2024-05-07",
-          "quote": "Master Circular for AIFs dated May 07, 2024 was issued as a compilation of such relevant circulars",
-          "unverified": true
-        },
-        {
-          "label": "Cut-off date for circulars incorporated",
-          "date": "2026-05-31",
-          "quote": "provisions of such circulars issued till May 31, 2026 have been incorporated in this Master Circular"
-        },
-        {
-          "label": "Circular issued date",
-          "date": "2026-06-03",
-          "quote": "Issued on: June 03, 2026"
-        },
-        {
-          "label": "Master Circular last updated date",
-          "date": "2026-09-07",
-          "quote": "Last updated on: September 07, 2026"
-        },
-        {
-          "label": "Winding up guidelines circular date",
-          "date": "2026-06-16",
-          "quote": "Jun 16, 2026 HO/19/34/11(2)2026-AFD-POD1/I/13764/2026",
-          "unverified": true
-        },
-        {
-          "label": "GARUDA mechanism circular date",
-          "date": "2026-07-30",
-          "quote": "Jul 30, 2026 HO/19/19/11(2)2026-AFD-RAC2/I/17617/2026",
-          "unverified": true
-        },
-        {
-          "label": "Angel Fund AI mandate relaxation circular date",
-          "date": "2026-09-07",
-          "quote": "Sep 07, 2026 HO/19/34/11(7)2025-AFD-POD1/I/20626/2026",
-          "unverified": true
-        }
-      ],
-      "impact_summary": "This Master Circular affects all SEBI-registered Alternative Investment Funds, their custodians, depositories, and RTAs by consolidating the entire body of AIF-related SEBI circulars (through May 31, 2026) into one reference document, rescinding prior circulars while preserving actions already taken under them.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "effective_date": "No explicit 'effective from' date is stated; only issuance and last-updated dates are given, so effective_date is marked as not stated.",
-        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here.",
-        "key_dates": "The quote supporting key date 2026-09-07 was not found in the circular text."
-      },
-      "source_excerpt_citations": [
-        "SEBI’s Master Circular No. SEBI/HO/AFD-1/AFD-1-PoD/P/CIR/2024/39 for AIFs dated May 07, 2024 was issued",
-        "The provisions of such circulars issued till May 31, 2026 have been incorporated in this Master Circular, which supersedes",
-        "all directions/instructions contained in the circulars listed out in Annexure 24 to this Master Circular shall stand rescinded",
-        "the ‘Compliance Test Report’ prepared by the manager of the AIF ... includes compliance with the provisions of all chapters"
-      ],
-      "model_confidence": "Certain",
-      "validator_version": 3,
-      "source_url": "https://www.sebi.gov.in/legal/master-circulars/jun-2026/master-circular-for-alternative-investment-funds-aifs-_101817.html",
-      "sample_data": false,
-      "title": "Master Circular for Alternative Investment Funds (AIFs)",
-      "regulator": "SEBI",
-      "source": "sebi-master"
-    },
-    {
-      "circular_no": "HO/43/15/12(3)2025-ISD-POD2/I/11734/2026",
-      "date": "2026-05-15",
-      "doc_type": "Master Circular",
-      "parent_circular_no": "SEBI/HO/ISD/ISD-PoD-2/P/CIR/2024/126",
-      "parent_circular_date": "2024-09-23",
-      "implements": [],
-      "impact_areas": [
-        "Surveillance/Market Abuse",
-        "Insider Trading",
-        "Stock Exchanges",
-        "Depository Participants",
-        "Clearing Corporations",
-        "Listed Companies (LODR/Disclosure)",
-        "Stock Brokers"
-      ],
-      "applicability": "All Recognized Stock Exchanges, All Depositories, All Listed Companies, SEBI-registered Intermediaries, and Fiduciaries under PIT Regulations",
-      "intent": "SEBI consolidates all prior surveillance-related circulars (on trading rules, unauthenticated news, financial disincentives for MII surveillance lapses, PIT disclosures, and trading window closure) into a single updated Master Circular so stakeholders can access current requirements in one place, superseding the September 23, 2024 version.",
-      "action_required": "Stock exchanges, depositories, listed companies, intermediaries and fiduciaries must comply with the consolidated surveillance provisions herein (e.g., maintain PIT disclosures, report Code of Conduct violations, implement PAN-ISIN freeze framework for trading window closure, and MIIs must remit any financial disincentives to SEBI-IPEF within 15 working days of imposition); all previously listed circulars relating to surveillance stand rescinded except as saved by paragraph 4.",
-      "effective_date": "NOT STATED IN SOURCE",
-      "key_dates": [
-        {
-          "label": "Circular issued date",
-          "date": "2023-03-23",
-          "quote": "Issued on: March 23, 2023"
-        },
-        {
-          "label": "Last updated date",
-          "date": "2026-05-15",
-          "quote": "Last updated on: May 15, 2026"
-        },
-        {
-          "label": "Prior Master Circular being updated",
-          "date": "2024-09-23",
-          "quote": "the Master Circular dated September 23, 2024, on the subject, is being further updated"
-        }
-      ],
-      "impact_summary": "Stock exchanges, depositories, listed companies and SEBI-registered intermediaries/fiduciaries are affected as this consolidates and updates all surveillance-related compliance obligations, including MII financial disincentives, insider trading disclosures, and trading window closure via PAN freezing, rescinding prior circulars on the subject.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "date": "The document header shows conflicting dates ('Issued on: March 23, 2023' vs 'Last updated on: May 15, 2026'), and the circular number itself embeds '2025' and '2026', creating ambiguity about the actual issuance date of this specific version; May 15, 2026 was chosen as it is explicitly labeled the most recent update.",
-        "effective_date": "No explicit 'effective date' clause is stated in the source; the circular takes effect upon issuance per standard practice but this is not stated verbatim.",
-        "parent_circular_no": "Parent circular number 'SEBI/HO/ISD/ISD-PoD-2/P/CIR/2024/126' was not found in the document text."
-      },
-      "source_excerpt_citations": [
-        "Issued on: March 23, 2023",
-        "Last updated on: May 15, 2026",
-        "the Master Circular dated September 23, 2024, on the subject, is being further updated",
-        "all directions/ instructions contained in the Circulars listed out in the Appendix to this Master Circular shall stand rescinded",
-        "shall be credited by the MII concerned, within 15 working days, to the Investor Protection and Education Fund"
-      ],
-      "model_confidence": "Needs Review",
-      "validator_version": 3,
-      "source_url": "https://www.sebi.gov.in/legal/master-circulars/may-2026/master-circular-on-surveillance-of-securities-market_101473.html",
-      "sample_data": false,
-      "title": "Master Circular on Surveillance of Securities Market",
-      "regulator": "SEBI",
-      "source": "sebi-master"
-    },
-    {
-      "circular_no": "HO/38/12/11(1)2026-MIRSD-POD/I/4360/2026",
-      "date": "2026-02-06",
-      "doc_type": "Master Circular",
-      "parent_circular_no": null,
-      "parent_circular_date": null,
-      "implements": [],
-      "impact_areas": [
-        "Investment Advisers/Research Analysts",
-        "KYC/AML",
-        "Cyber Security/Cyber Resilience",
-        "Investor Grievance/SCORES",
-        "Listed Companies (LODR/Disclosure)"
-      ],
-      "applicability": "Research Analysts, Proxy Advisors, and Research Analyst Administration and Supervisory Body (RAASB, i.e. BSE Limited)",
-      "intent": "SEBI consolidates all prior circulars, directions and guidelines applicable to Research Analysts into a single Master Circular so that RAs and stakeholders can access all applicable provisions in one place, rescinding the individually listed prior circulars.",
-      "action_required": "Research Analysts and research entities must comply with the consolidated guidelines on qualification, deposit requirements, fees, client segregation, KYC, model portfolios, advertisement code, AI disclosures, compliance audits, grievance display, and periodic reporting as detailed in the circular and its annexures; RAASB (BSE) must operationalize supervisory processes and issue related bye-laws/SOPs.",
-      "effective_date": "NOT STATED IN SOURCE",
-      "key_dates": [
-        {
-          "label": "Partnership firm re-registration deadline",
-          "date": "2025-09-30",
-          "quote": "was required to apply for registration ... latest by September 30, 2025"
-        },
-        {
-          "label": "Model portfolio guideline compliance deadline",
-          "date": "2025-06-30",
-          "quote": "shall ensure compliance with the model portfolio guidelines latest by June 30, 2025"
-        },
-        {
-          "label": "RAASB/IAASB recognition effective date",
-          "date": "2024-07-25",
-          "quote": "The above provisions have become effective on July 25, 2024"
-        },
-        {
-          "label": "BSE recognition as RAASB/IAASB start",
-          "date": "2024-07-25",
-          "quote": "as RAASB and IAASB for a period of five years starting from July 25, 2024"
-        },
-        {
-          "label": "Proxy advisor procedural guidelines applicability (clauses 2.1(c),(e))",
-          "date": "2021-02-01",
-          "quote": "provisions of Clause 2.1(c) and 2.1(e) became applicable with effect from February 01, 2021"
-        },
-        {
-          "label": "Proxy advisor procedural guidelines applicability (other clauses)",
-          "date": "2021-01-01",
-          "quote": "All other provisions of clause 2.1 became applicable with effect from January 01, 2021"
-        },
-        {
-          "label": "Grievance resolution clause applicability",
-          "date": "2021-01-01",
-          "quote": "The provisions under this clause became applicable with effect from January 01, 2021"
-        }
-      ],
-      "impact_summary": "This Master Circular affects all SEBI-registered Research Analysts, research entities, and proxy advisors by consolidating and rescinding numerous prior circulars into one reference document covering registration, fees, KYC, audits, advertisements, AI use, and grievance redressal, while preserving legal continuity of past actions taken under the rescinded circulars.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "parent_circular_no": "Text is a Master Circular that rescinds numerous individual SEBI circulars listed in an Appendix not fully reproduced in the given source, so no single parent circular can be identified; set to null as the document is structurally a standalone consolidation rather than an amendment to one specific circular.",
-        "effective_date": "The circular states its issue date (Feb 06, 2026) but does not explicitly state an overall 'effective date' distinct from issuance; many individual provisions carry their own historical effective dates.",
-        "overall_confidence": "Document is extremely long (107 pages) and only partially reproduced (truncated mid-section); full Appendix list of rescinded circulars and later sections (KYC, AML, cybersecurity, UPI, PwD Act, FAQs, reporting) are not visible in the provided text, so completeness of impact_areas and key_dates cannot be guaranteed."
-      },
-      "source_excerpt_citations": [
-        "this Master Circular is issued",
-        "all directions/instructions contained in the Circulars listed out in the Appendix ... shall stand rescinded",
-        "This Master Circular is issued in exercise of powers conferred under Section 11(1) of the Securities and Exchange Board of India Act, 1992",
-        "was required to apply for registration ... latest by September 30, 2025",
-        "shall ensure compliance with the model portfolio guidelines latest by June 30, 2025",
-        "The above provisions have become effective on July 25, 2024"
-      ],
-      "model_confidence": "Needs Review",
-      "validator_version": 3,
-      "source_url": "https://www.sebi.gov.in/legal/master-circulars/feb-2026/master-circular-for-research-analysts_99571.html",
-      "sample_data": false,
-      "title": "Master Circular for Research Analysts",
-      "regulator": "SEBI",
-      "source": "sebi-master"
-    },
-    {
-      "circular_no": "HO/38/13/(4)2026-MIRSD-POD/I/4298/2026",
-      "date": "2026-02-06",
-      "doc_type": "Master Circular",
-      "parent_circular_no": null,
-      "parent_circular_date": null,
-      "implements": [],
-      "impact_areas": [
-        "Depository Participants",
-        "KYC/AML",
-        "Cyber Security/Cyber Resilience",
-        "Investor Grievance/SCORES",
-        "Corporate Bonds/Debt Market",
-        "Listed Companies (LODR/Disclosure)",
-        "Other"
-      ],
-      "applicability": "All registered Registrars to an Issue and Share Transfer Agents (RTAs)",
-      "intent": "SEBI consolidates all existing circulars applicable to RTAs into a single master circular to enable easy access to applicable norms, rescinding the underlying individual circulars while preserving actions taken under them.",
-      "action_required": "RTAs must comply with all provisions consolidated in this Master Circular (registration, reporting, QRTA monitoring, BCP-DR, investor servicing, dematerialization norms etc.) as the previously issued individual circulars listed in the Appendix stand rescinded to the extent they relate to RTAs.",
-      "effective_date": "2026-02-06",
-      "key_dates": [],
-      "impact_summary": "This Master Circular consolidates SEBI's regulatory framework for RTAs covering registration, reporting, cyber resilience, demat processing, investor grievance redressal and other operational norms, rescinding the individual circulars it replaces while preserving past actions taken under them.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "key_dates": "Most dates in the text are relative timeframes (e.g., 'within 3 months', 'within 30 days') rather than fixed calendar dates, so date fields are left null per instructions not to compute dates.",
-        "parent_circular_no": "This is a Master Circular that rescinds numerous prior circulars listed in an Appendix (not shown in provided text), rather than amending a single parent circular; no single parent is identifiable from the given excerpt.",
-        "impact_areas": "The source text is a very long master circular covering many topics; only a subset of impact_areas could be confirmed from the visible portion of text provided.",
-        "circular_no": "Circular number appears in header exactly as stated; format is unusual (HO/38/13/(4)2026-MIRSD-POD/I/4298/2026) but taken verbatim from source."
-      },
-      "source_excerpt_citations": [
-        "Master Circular for Registrars to an Issue and Share Transfer Agents",
-        "all directions/instructions contained in the Circulars listed out in the Appendix to this Master Circular shall stand rescinded",
-        "This Master Circular is issued in exercise of powers conferred under Section 11(1) of the Securities and Exchange Board of India Act, 1992",
-        "An RTA shall be categorized as a QRTA if at any time during a financial year, the combined number of physical and demat folios...exceeds 2 crore",
-        "issue securities to the securities holder/claimant in dematerialised form, directly in the demat account...within 30 days"
-      ],
-      "model_confidence": "Needs Review",
-      "validator_version": 3,
-      "source_url": "https://www.sebi.gov.in/legal/master-circulars/feb-2026/master-circular-for-registrars-to-an-issue-and-share-transfer-agents_99567.html",
-      "sample_data": false,
-      "title": "Master Circular for Registrars to an Issue and Share Transfer Agents",
-      "regulator": "SEBI",
-      "source": "sebi-master"
-    },
-    {
-      "circular_no": "HO/49/14/14(7)2025-CFD-POD2/I/3762/2026",
-      "date": "2026-01-30",
-      "doc_type": "Master Circular",
-      "parent_circular_no": "Master Circular dated November 11, 2024",
-      "parent_circular_date": "2024-11-11",
-      "implements": [],
-      "impact_areas": [
-        "Listed Companies (LODR/Disclosure)",
-        "Stock Exchanges",
-        "Depository Participants",
-        "ESG/BRSR",
-        "Corporate Bonds/Debt Market"
-      ],
-      "applicability": "All listed entities, All Recognized Stock Exchanges, All Depositories, and Other Stakeholders (Statutory Auditors, DPs, RTAs, material subsidiaries, e-voting service providers, ASSOCHAM, FICCI, CII, etc.)",
-      "intent": "SEBI seeks to consolidate all applicable circulars issued under the LODR Regulations into a single updated reference document so that listed entities and other stakeholders can access current compliance requirements at one place.",
-      "action_required": "Recognized Stock Exchanges and Depositories must bring the contents of this circular to the notice of all stakeholders and put in place necessary systems and infrastructure for monitoring and implementation; all listed entities, stock exchanges, depositories and other stakeholders shall comply with the provisions of this circular to the extent applicable.",
-      "effective_date": "NOT STATED IN SOURCE",
-      "key_dates": [
-        {
-          "label": "Original Master Circular issuance",
-          "date": "2023-07-11",
-          "quote": "a Master Circular for compliance with the provisions of the LODR Regulations by listed entities dated July 11, 2023 was issued"
-        },
-        {
-          "label": "First update of Master Circular",
-          "date": "2024-11-11",
-          "quote": "the Master Circular dated July 11, 2023 was updated and issued on November 11, 2024"
-        },
-        {
-          "label": "Cut-off date for circulars consolidated in this update",
-          "date": "2025-12-30",
-          "quote": "The Master Circular dated November 11, 2024 is updated to include all relevant circulars that were issued till December 30, 2025"
-        },
-        {
-          "label": "Last updated date of this Master Circular",
-          "date": "2026-01-30",
-          "quote": "Last updated on: January 30, 2026"
-        }
-      ],
-      "impact_summary": "All listed entities, stock exchanges, depositories and related stakeholders (auditors, RTAs, industry bodies) are affected, as this consolidated Master Circular restates and updates all existing SEBI circulars on LODR compliance, rescinding prior standalone circulars while preserving actions already taken under them.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "effective_date": "The document is a consolidation of many circulars each with their own effective dates; no single overarching 'effective date' is stated for the Master Circular as a whole.",
-        "source_excerpt_citations": "1 quoted excerpt(s) could not be found in the circular text — possible fabrication: 'The Recognized Stock Exchanges and Depositories are directed to bring the conten'",
-        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
-      },
-      "source_excerpt_citations": [
-        "a Master Circular for compliance with the provisions of the LODR Regulations by listed entities dated July 11, 2023 was issued",
-        "The Master Circular dated November 11, 2024 is updated to include all relevant circulars that were issued till December 30, 2025",
-        "all directions/instructions contained in the Circulars listed out in the Appendix to this Master Circular shall stand rescinded",
-        "The Recognized Stock Exchanges and Depositories are directed to bring the contents of this circular to the notice of the all the stakeholders"
-      ],
-      "model_confidence": "Certain",
-      "validator_version": 3,
-      "source_url": "https://www.sebi.gov.in/legal/master-circulars/jan-2026/master-circular-for-compliance-with-the-provisions-of-the-securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015-by-listed-entities_99432.html",
-      "sample_data": false,
-      "title": "Master Circular for compliance with the provisions of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 by listed entities",
-      "regulator": "SEBI",
-      "source": "sebi-master"
-    },
-    {
       "circular_no": "HO/49/14/14(6)2025-CFD-PoD1/I/2771/2026",
       "date": "2026-01-19",
       "doc_type": "Master Circular",
@@ -2855,62 +2168,6 @@
       "source_url": "https://www.sebi.gov.in/legal/master-circulars/jan-2026/master-circular-for-framework-on-social-stock-exchange-_99166.html",
       "sample_data": false,
       "title": "Master Circular for Framework on Social Stock Exchange.",
-      "regulator": "SEBI",
-      "source": "sebi-master"
-    },
-    {
-      "circular_no": "SEBI/HO/DDHS-PoD-1/P/CIR/2025/117",
-      "date": "2025-08-13",
-      "doc_type": "Master Circular",
-      "parent_circular_no": "NOT STATED IN SOURCE",
-      "parent_circular_date": "NOT STATED IN SOURCE",
-      "implements": [],
-      "impact_areas": [
-        "Corporate Bonds/Debt Market",
-        "Stock Exchanges",
-        "Depository Participants",
-        "Investor Grievance/SCORES"
-      ],
-      "applicability": "All Registered Debenture Trustees, Trustees Association of India (TAI), Registered Credit Rating Agencies, Issuers of listed/proposed-to-be-listed Debt Securities and Municipal Debt Securities, Recognized Stock Exchanges, and Recognized Depositories",
-      "intent": "SEBI consolidates all existing procedural, disclosure and monitoring circulars applicable to Debenture Trustees into a single Master Circular to give market stakeholders one consolidated reference point for the corporate bond market regulatory framework.",
-      "action_required": "Debenture Trustees must comply with all conditions laid down in the Master Circular, maintain necessary systems/infrastructure for implementation, and their Boards must ensure compliance; the circular also lists detailed operational obligations across chapters (due diligence, security/covenant monitoring system usage, disclosures, grievance redressal, outsourcing, conflict-of-interest policy, FINNET 2.0 registration, etc.).",
-      "effective_date": "2025-08-13",
-      "key_dates": [
-        {
-          "label": "Master Circular compilation date",
-          "date": "2025-08-13",
-          "quote": "This Master Circular is a compilation of the existing circulars as on August 13, 2025, with consequent changes."
-        },
-        {
-          "label": "Deadline for issuers to enter existing outstanding debt security details in the system",
-          "date": "2023-01-31",
-          "quote": "issuers were required to enter the details in the system on or before January 31, 2023"
-        },
-        {
-          "label": "Deadline for Debenture Trustees to verify system entries for outstanding debt securities",
-          "date": "2023-02-28",
-          "quote": "Debenture Trustees were required to verify the same by February 28, 2023"
-        }
-      ],
-      "impact_summary": "This Master Circular consolidates all existing SEBI circulars governing Debenture Trustees (due diligence, security/covenant monitoring, disclosures, investor grievances, outsourcing, conflict of interest, FIU-India registration, etc.) into a single reference document, superseding the previously issued individual circulars listed in Annex-1, and applies to Debenture Trustees, Credit Rating Agencies, Issuers, Stock Exchanges and Depositories involved in the corporate bond market.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "parent_circular_no": "The text states superseded circulars are listed in Annex-1, but Annex-1 (with actual circular numbers/dates) is not included in the provided source text, so exact parent circular numbers cannot be verified verbatim.",
-        "impact_areas": "No exact category exists for 'Debenture Trustees' as a regulated entity type in the allowed list; closest available tags (Corporate Bonds/Debt Market, Stock Exchanges, Depository Participants) were selected based on subject matter.",
-        "effective_date": "The text does not explicitly state a separate 'effective date' distinct from the circular issuance/compilation date of August 13, 2025.",
-        "source_excerpt_citations": "1 quoted excerpt(s) could not be found in the circular text — possible fabrication: 'the list of existing circulars for Debenture Trustees which have been superseded'"
-      },
-      "source_excerpt_citations": [
-        "This Master Circular is a compilation of the existing circulars as on August 13, 2025, with consequent changes.",
-        "the list of existing circulars for Debenture Trustees which have been superseded by this Master Circular is placed at Annex-1",
-        "The Debenture Trustees are directed to comply with the conditions laid down in this Master Circular.",
-        "issuers were required to enter the details in the system on or before January 31, 2023 and Debenture Trustees were required to verify the same by February 28, 2023."
-      ],
-      "model_confidence": "Needs Review",
-      "validator_version": 3,
-      "source_url": "https://www.sebi.gov.in/legal/master-circulars/aug-2025/master-circular-for-debenture-trustees-dts-_96073.html",
-      "sample_data": false,
-      "title": "Master Circular for Debenture Trustees (DTs)",
       "regulator": "SEBI",
       "source": "sebi-master"
     },
@@ -3009,127 +2266,6 @@
       "source": "sebi-master"
     },
     {
-      "circular_no": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/95",
-      "date": "2025-06-27",
-      "doc_type": "Master Circular",
-      "parent_circular_no": "SEBI/HO/MIRSD-PoD-1/P/CIR/2024/49",
-      "parent_circular_date": "2024-05-21",
-      "implements": [],
-      "impact_areas": [
-        "Investment Advisers/Research Analysts",
-        "KYC/AML",
-        "Cyber Security/Cyber Resilience",
-        "Investor Grievance/SCORES",
-        "Listed Companies (LODR/Disclosure)",
-        "Payments/UPI"
-      ],
-      "applicability": "All Research Analysts and the Research Analysts Administration and Supervisory Body (RAASB)",
-      "intent": "SEBI consolidates all existing circulars/directions applicable to Research Analysts into a single Master Circular for ease of reference, superseding the prior Master Circular and incorporating subsequent guidelines issued up to June 20, 2025.",
-      "action_required": "Research Analysts and research entities must comply with the consolidated requirements (deposit, fee, client segregation, KYC, model portfolio, website, audit, advertisement code, etc.) by the specific deadlines stated within each clause, e.g. deposit compliance 'latest by September 30, 2025' and fee-related provisions 'latest by June 30, 2025'.",
-      "effective_date": "NOT STATED IN SOURCE",
-      "key_dates": [
-        {
-          "label": "Deposit requirement compliance deadline",
-          "date": "2025-09-30",
-          "quote": "The existing RAs shall ensure compliance with the deposit requirement latest by September 30, 2025"
-        },
-        {
-          "label": "Fee-related provisions compliance deadline (existing clients)",
-          "date": "2025-06-30",
-          "quote": "RAs shall ensure compliance with aforesaid fee related provisions latest by June 30, 2025"
-        },
-        {
-          "label": "Client-level segregation compliance deadline",
-          "date": "2025-09-30",
-          "quote": "RA/research entity shall ensure compliance under this clause latest by September 30, 2025"
-        },
-        {
-          "label": "Model portfolio guidelines compliance deadline",
-          "date": "2025-06-30",
-          "quote": "shall ensure compliance with the model portfolio guidelines latest by June 30, 2025"
-        },
-        {
-          "label": "Telephone recording (KYC) compliance deadline",
-          "date": "2024-09-30",
-          "quote": "compliance with the requirements of maintenance of telephone recording latest by September 30, 2024"
-        },
-        {
-          "label": "Other KYC requirements compliance deadline",
-          "date": "2025-06-30",
-          "quote": "shall ensure the compliance with the other requirements under this clause latest by June 30, 2025"
-        },
-        {
-          "label": "Additional audit requirements start",
-          "date": "2025-03-31",
-          "quote": "compliance with the additional audit requirements under this clause starting with for audit report of the financial year ending March 31, 2025"
-        },
-        {
-          "label": "Website details confirmation deadline",
-          "date": "2025-06-30",
-          "quote": "confirm the details of its website to RAASB and compliance with requirements under this clause by June 30, 2025"
-        },
-        {
-          "label": "RAASB/IAASB framework effective date",
-          "date": "2024-07-25",
-          "quote": "The above provisions have become effective on July 25, 2024"
-        },
-        {
-          "label": "BSE RAASB/IAASB recognition start",
-          "date": "2024-07-25",
-          "quote": "recognition ... as RAASB and IAASB for a period of five years starting from July 25, 2024"
-        },
-        {
-          "label": "Proxy advisor clauses 2.1(c),(e) applicability",
-          "date": "2021-02-01",
-          "quote": "The provisions of Clause 2.1(c) and 2.1(e) became applicable with effect from February 01, 2021"
-        },
-        {
-          "label": "Other proxy advisor clause 2.1 applicability",
-          "date": "2021-01-01",
-          "quote": "All other provisions of clause 2.1 became applicable with effect from January 01, 2021"
-        },
-        {
-          "label": "Grievance resolution clause applicability",
-          "date": "2021-01-01",
-          "quote": "The provisions under this clause became applicable with effect from January 01, 2021",
-          "unverified": true
-        },
-        {
-          "label": "Partnership firm re-registration deadline (no qualified partner)",
-          "date": "2025-09-30",
-          "quote": "apply for registration as a research analyst in the form of a limited liability partnership or a body corporate latest by September 30, 2025"
-        },
-        {
-          "label": "Cutoff for circulars incorporated into this Master Circular",
-          "date": "2025-06-20",
-          "quote": "provisions of such circulars issued until June 20, 2025 have been incorporated in this Master Circular"
-        }
-      ],
-      "impact_summary": "All SEBI-registered Research Analysts (and proxy advisors under the RA Regulations) must align with a consolidated set of compliance requirements—covering deposits, fees, client segregation, KYC, AI disclosures, model portfolios, advertisements, audits and grievance redressal—many with hard deadlines in mid-to-late 2025, with RAASB (BSE) responsible for administration and supervision.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "parent_circular_date": "Source text contains an internal inconsistency: it first refers to the prior Master Circular as 'dated June May 21, 2024' and later as 'the Master Circular for RAs dated May 21, 2025' — likely a typographical error in the original; 2024-05-21 taken as most probable correct date based on the circular number's own year (2024/49).",
-        "effective_date": "No single overarching 'effective date' is stated for the Master Circular itself; only clause-specific effective/compliance dates are given.",
-        "key_dates": "The quote supporting key date 2021-01-01 was not found in the circular text.",
-        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
-      },
-      "source_excerpt_citations": [
-        "SEBI Master Circular No. SEBI/HO/MIRSD-PoD-1/P/CIR/2024/49 dated June May 21, 2024 for RAs",
-        "this Master Circular, which supersedes the Master Circular for RAs dated May 21, 2025",
-        "The provisions of such circulars issued until June 20, 2025 have been incorporated in this Master Circular",
-        "The existing RAs shall ensure compliance with the deposit requirement latest by September 30, 2025",
-        "RAs shall ensure compliance with aforesaid fee related provisions latest by June 30, 2025",
-        "The above provisions have become effective on July 25, 2024"
-      ],
-      "model_confidence": "Inferred",
-      "validator_version": 3,
-      "source_url": "https://www.sebi.gov.in/legal/master-circulars/jun-2025/master-circular-for-research-analysts_94840.html",
-      "sample_data": false,
-      "title": "Master Circular for Research Analysts",
-      "regulator": "SEBI",
-      "source": "sebi-master"
-    },
-    {
       "circular_no": "SEBI/HO/MRD/MRD-PoD-1/P/CIR/2024/168",
       "date": "2024-12-03",
       "doc_type": "Master Circular",
@@ -3179,130 +2315,6 @@
       "source_url": "https://www.sebi.gov.in/legal/master-circulars/dec-2024/master-circular-for-depositories_89245.html",
       "sample_data": false,
       "title": "Master Circular for Depositories",
-      "regulator": "SEBI",
-      "source": "sebi-master"
-    },
-    {
-      "circular_no": "HO/49/14/15(3)2026-CFD-POD1/I/16178/2026",
-      "date": "2023-09-26",
-      "doc_type": "Master Circular",
-      "parent_circular_no": null,
-      "parent_circular_date": null,
-      "implements": [],
-      "impact_areas": [
-        "Investor Grievance/SCORES",
-        "Cyber Security/Cyber Resilience",
-        "KYC/AML",
-        "Corporate Bonds/Debt Market",
-        "Other"
-      ],
-      "applicability": "All Registered Merchant Bankers",
-      "intent": "SEBI consolidates all existing circulars applicable to Merchant Bankers into a single Master Circular to give stakeholders access to all applicable regulatory instructions at one place, updated to reconcile with amended MB Regulations.",
-      "action_required": "Merchant Bankers must comply with the consolidated provisions including registration, capital adequacy/liquid net worth re-categorization, certification requirements, outsourcing restrictions, disclosure of track record, Investor Charter publication, half-yearly reporting and other obligations per the timelines specified within the circular (e.g., re-categorization Phase I by March 31, 2027 and Phase II by March 31, 2028; certification compliance by January 02, 2027; compliance officer independence by April 03, 2026).",
-      "effective_date": "2026-01-03",
-      "key_dates": [
-        {
-          "label": "MB Regulations amendment effective date",
-          "date": "2026-01-03",
-          "quote": "amended vide notification dated December 5, 2025 which has come into effect from January 3, 2026"
-        },
-        {
-          "label": "Phase I compliance for capital adequacy/liquid net worth",
-          "date": "2027-03-31",
-          "quote": "Phase (I) - on or before March 31, 2027",
-          "unverified": true
-        },
-        {
-          "label": "Phase II compliance for capital adequacy/liquid net worth",
-          "date": "2028-03-31",
-          "quote": "Phase (II) - on or before March 31, 2028",
-          "unverified": true
-        },
-        {
-          "label": "Deadline to intimate category continuation",
-          "date": "2027-03-31",
-          "quote": "on or before [March 31, 2027], about the category that an MB intends to continue",
-          "unverified": true
-        },
-        {
-          "label": "New category effective date",
-          "date": "2027-04-01",
-          "quote": "intends to continue from [April 01, 2027]"
-        },
-        {
-          "label": "Certification deadline for existing employees",
-          "date": "2027-01-02",
-          "quote": "an existing employee shall obtain requisite certification within one year from effective date, i.e., on or before January 02, 2027"
-        },
-        {
-          "label": "Certification deadline for compliance officer",
-          "date": "2027-01-02",
-          "quote": "an existing compliance officer shall obtain requisite certifications within one year i.e., on or before January 02, 2027"
-        },
-        {
-          "label": "Compliance officer independence deadline",
-          "date": "2026-04-03",
-          "quote": "existing MBs shall comply with the requirement... within ninety days from the effective date, i.e., on or before April 03, 2026"
-        },
-        {
-          "label": "Principal officer experience requirement deadline",
-          "date": "2027-01-02",
-          "quote": "existing MBs shall comply with this requirement within one year from the effective date i.e., on or before January 02, 2027"
-        },
-        {
-          "label": "Underwriting obligations compliance deadline",
-          "date": "2028-01-02",
-          "quote": "existing MBs shall comply with this requirement within two years from the effective date, i.e., by January 02, 2028"
-        },
-        {
-          "label": "First minimum revenue assessment",
-          "date": "2029-04-01",
-          "quote": "The first assessment w.r.t. minimum revenue from permitted activities by MBs, will be carried out with effect from April 01, 2029",
-          "unverified": true
-        },
-        {
-          "label": "Disclosure deadline for non-SEBI regulated activities",
-          "date": "2026-02-02",
-          "quote": "shall make the said disclosure on its website, within thirty days from the effective date, i.e., on or before February 02, 2026"
-        },
-        {
-          "label": "SBU segregation deadline",
-          "date": "2026-12-31",
-          "quote": "The segregation shall be done on or before December 31, 2026"
-        },
-        {
-          "label": "Marketing-only disclosure applicability",
-          "date": "2026-01-03",
-          "quote": "This requirement shall be applicable to the public issues filed with SEBI or stock exchange(s), on or after the effective date, i.e., w.e.f. January 03, 2026"
-        },
-        {
-          "label": "Outsourcing closure deadline for core activities",
-          "date": "2026-04-03",
-          "quote": "shall be required to close the same within ninety days from the Effective Date. i.e., on or before April 03, 2026"
-        },
-        {
-          "label": "Compliance report submission for non-SEBI activities",
-          "date": "2026-12-31",
-          "quote": "submit a compliance report to the Board, [on or before December 31, 2026.]"
-        }
-      ],
-      "impact_summary": "This Master Circular affects all SEBI-registered Merchant Bankers by consolidating registration, capital adequacy, certification, outsourcing, disclosure and reporting requirements into a single reference document, rescinding prior standalone circulars while embedding phased compliance timelines from recent regulatory amendments.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "key_dates": "The quote supporting key date 2029-04-01 was not found in the circular text."
-      },
-      "source_excerpt_citations": [
-        "this Master Circular is issued",
-        "all directions/instructions contained in the circulars listed out in the Appendix to this Master Circular shall stand rescinded",
-        "This Master Circular has been updated to reconcile with the MB Regulations as amended vide notification dated December 5, 2025",
-        "Merchant Bankers are required to submit half-yearly reports to SEBI in electronic form",
-        "Merchant Bankers shall not outsource its core merchant banking activities from the effective date"
-      ],
-      "model_confidence": "Certain",
-      "validator_version": 3,
-      "source_url": "https://www.sebi.gov.in/legal/master-circulars/jul-2026/master-circular-for-merchant-bankers_102815.html",
-      "sample_data": false,
-      "title": "Master Circular for Merchant Bankers",
       "regulator": "SEBI",
       "source": "sebi-master"
     },
@@ -3378,6 +2390,1070 @@
       "title": "Guidelines for winding up of AIFs with respect to retention of proceeds and  ‘Inoperative Fund’ status",
       "regulator": "SEBI",
       "source": "sebi-circulars"
+    },
+    {
+      "circular_no": "29/2026",
+      "date": "2026-09-25",
+      "doc_type": "Amendment",
+      "parent_circular_no": "NCL/CMPL/62689",
+      "parent_circular_date": "2024-06-28",
+      "implements": [
+        {
+          "regulator": "SEBI",
+          "circular_no": "SEBI/HO/MRD/MRD-PoD-3/P/CIR/2024/65",
+          "date": "2024-05-29"
+        }
+      ],
+      "impact_areas": [
+        "Clearing Corporations",
+        "Stock Brokers"
+      ],
+      "applicability": "Clearing Members (and Trading Members clearing through them) of NSE Clearing Limited",
+      "intent": "NCL is moving the mandatory submission of clearing members' group/associate entity declarations (required under SEBI's collateral-exposure norms) from the existing system to a new dedicated NCL member portal.",
+      "action_required": "Clearing Members must upload/submit group and associate entity details (or a mandatory 'NIL' declaration) under categories CMS, CMA, TMS and TMA via the new portal https://ims.connect2nsccl.com/NCLMemberPortal/ starting September 28, 2026, review migrated data submitted earlier under NCL/CMPL/62689, and report any change in associate/group entities to NCL within 7 working days of occurrence; submissions on the existing portal are discontinued from September 27, 2026.",
+      "effective_date": "2026-09-28",
+      "key_dates": [
+        {
+          "label": "New portal submission start date",
+          "date": "2026-09-28",
+          "quote": "starting from September 28, 2026"
+        },
+        {
+          "label": "Old portal submission discontinuation",
+          "date": "2026-09-27",
+          "quote": "shall be discontinued with effect September 27, 2026"
+        }
+      ],
+      "impact_summary": "Clearing Members (and the Trading Members clearing through them) of NSE Clearing Limited must switch to a new online portal for submitting mandatory associate/group entity declarations used to enforce SEBI's restriction on CCs accepting collateral from CM/TM group or associate entities.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here.",
+        "doc_type": "Classified as Amendment because it changes the operative submission mechanism (new portal) and discontinues the prior portal established by NCL/CMPL/62689, rather than being a standalone fresh requirement.",
+        "effective_date": "Two distinct operative dates exist — September 28, 2026 (new portal live) and September 27, 2026 (old portal discontinued); effective_date reflects the new-system start date per the text's own phrasing, with both dates captured in key_dates."
+      },
+      "source_excerpt_citations": [
+        "This is further to the NCL circular NCL/CMPL/62689 dated June 28, 2024 and NCL/CMPL/63029 dated July 22, 2024",
+        "in compliance with SEBI Circular No SEBI/HO/MRD/MRD-PoD-3/P/CIR/2024/65 dated May 29, 2024",
+        "Clearing Members can now upload the group and associate entities details through the new portal of NCL",
+        "The submissions to the existing portal shall be discontinued with effect September 27, 2026",
+        "Any change in Clearing Members group and Associate Entities pursuant to the initial submissions, shall be informed to the Clearing Corporations within 7 working days of the occurrence of the change."
+      ],
+      "model_confidence": "Inferred",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/CMPL76570.zip",
+      "sample_data": false,
+      "title": "Submission of Associates details by Clearing Members",
+      "retried": true,
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "Associates disclosure by clearing members is direct regulatory obligation"
+    },
+    {
+      "circular_no": "NSE/SURV/76566",
+      "date": "2026-09-25",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "NSE/SURV/56948, NSE/SURV/57609, NSE/SURV/63361, NSE/SURV/64066, NSE/SURV/64400, and NSE/SURV/69315",
+      "parent_circular_date": "2023-06-02, 2023-07-18, 2024-08-09, 2024-09-20, 2024-10-04, and 2025-07-25",
+      "implements": [],
+      "impact_areas": [
+        "Surveillance/Market Abuse",
+        "Trading Operations",
+        "Stock Brokers"
+      ],
+      "applicability": "All NSE Members",
+      "intent": "The circular notifies members of updates to the list of securities under the Enhanced Surveillance Measure (ESM) framework, specifying additions, exits, and associated margin and settlement changes.",
+      "action_required": "Members must apply a minimum 100% margin on securities listed in Annexure I on all open positions as on September 28, 2026 and new positions created from September 29, 2026, and shift qualifying securities from Rolling Settlement (EQ/SM) to Trade-for-Trade (BE/ST) segment w.e.f. September 29, 2026; securities in Annexure II may exit the framework.",
+      "effective_date": "2026-09-29",
+      "key_dates": [
+        {
+          "label": "Minimum margin and open position reference date",
+          "date": "2026-09-28",
+          "quote": "shall attract a minimum 100% margin w.e.f. September 29, 2026, on all open positions as on September 28, 2026"
+        },
+        {
+          "label": "New margin and segment shift effective date",
+          "date": "2026-09-29",
+          "quote": "and new positions created from September 29, 2026"
+        },
+        {
+          "label": "Segment shift effective date",
+          "date": "2026-09-29",
+          "quote": "shall be shifted from Rolling Settlement segment (Series: EQ/SM) to Trade-for-Trade segment (Series: BE/ST) w.e.f. September 29, 2026"
+        },
+        {
+          "label": "Stage II price band effective date",
+          "date": "2026-09-28",
+          "quote": "securities shifting to Stage II shall be under Trade for Trade with price band of 2% under Periodic Call Auction w.e.f. September 28, 2026"
+        },
+        {
+          "label": "Prior circular date",
+          "date": "2023-06-02",
+          "quote": "NSE/SURV/56948, NSE/SURV/57609, NSE/SURV/63361,\nNSE/SURV/64066, NSE/SURV/64400, and NSE/SURV/69315 dated June 02, 2023"
+        }
+      ],
+      "impact_summary": "NSE members trading in securities listed under the ESM framework must apply enhanced margins and comply with segment/settlement shifts, affecting trading and risk management for the specified scrips.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "parent_circular_date": "Six parent circular dates correspond in order to six parent circular numbers; schema expects a single ISO date but multiple dates are stated in the source, so all six are listed comma-separated in the stated order.",
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
+      },
+      "source_excerpt_citations": [
+        "This is with reference to Exchange Circular nos. NSE/SURV/56948, NSE/SURV/57609, NSE/SURV/63361,",
+        "NSE/SURV/64066, NSE/SURV/64400, and NSE/SURV/69315 dated June 02, 2023, July 18, 2023, August",
+        "09, 2024, September 20, 2024, October 04, 2024, and July 25, 2025 respectively",
+        "shall attract a minimum 100% margin w.e.f. September 29, 2026, on all open positions as on September 28, 2026",
+        "shall be shifted from Rolling Settlement segment (Series: EQ/SM) to Trade-for-Trade segment (Series: BE/ST) w.e.f. September 29, 2026",
+        "securities shifting to Stage II shall be under Trade for Trade with price band of 2% under Periodic Call Auction w.e.f. September 28, 2026"
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/SURV76566.zip",
+      "sample_data": false,
+      "title": "Applicability of Enhanced Surveillance Measure (ESM)",
+      "retried": true,
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "Enhanced Surveillance Measure affects trading operations and risk management for brokers"
+    },
+    {
+      "circular_no": "740/2026",
+      "date": "2026-09-25",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "NSE/SURV/64066",
+      "parent_circular_date": "2024-09-20",
+      "implements": [],
+      "impact_areas": [
+        "Stock Brokers",
+        "Surveillance/Market Abuse",
+        "Margin Trading",
+        "Trading Operations"
+      ],
+      "applicability": "All NSE Members",
+      "intent": "NSE is notifying members that certain securities have met the criteria for inclusion under Short-Term Additional Surveillance Measure (ST-ASM) Stage I and Stage II, requiring imposition of additional margin requirements as a surveillance action.",
+      "action_required": "Members must apply the specified additional margin rates (50% for Stage I, 100% for Stage II, subject to a cap of 100%) on all open positions as on September 28, 2026 and on new positions created from September 29, 2026, for securities listed in Annexure I.",
+      "effective_date": "2026-09-29",
+      "key_dates": [
+        {
+          "label": "ST-ASM Stage I margin effective date",
+          "date": "2026-09-29",
+          "quote": "subject to maximum rate of margin capped at 100% w.e.f. September 29, 2026 on all open positions"
+        },
+        {
+          "label": "Open positions reference date",
+          "date": "2026-09-28",
+          "quote": "on all open positions as on September 28, 2026 and new positions created from September 29, 2026"
+        },
+        {
+          "label": "ST-ASM Stage II margin effective date",
+          "date": "2026-09-29",
+          "quote": "subject to maximum rate of margin capped at 100%. w.e.f. September 29, 2026 on all open positions"
+        }
+      ],
+      "impact_summary": "NSE members trading in the newly shortlisted ST-ASM securities (Annexure I) must apply higher margin requirements (50% for Stage I, 100% for Stage II) on open and new positions starting September 29, 2026, as part of ongoing market surveillance measures.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here.",
+        "doc_type": "This is a routine periodic notification applying an existing ASM/ST-ASM framework (established via prior circulars) to newly identified securities, rather than amending the framework itself; classified as Fresh Circular since no specific provision of a prior circular is being altered."
+      },
+      "source_excerpt_citations": [
+        "This is further to Exchange Circular nos. NSE/SURV/39265, NSE/SURV/46557, NSE/SURV/52144, NSE/SURV/58558 and NSE/SURV/64066",
+        "dated October 27, 2018, December 04, 2020, April 28, 2022 September 25, 2023 and September 20, 2024 respectively",
+        "the securities as per attached Annexure I have satisfied the criteria for inclusion under ST-ASM Stage I",
+        "Applicable rate of margin shall be 50% or existing margin, whichever is higher, subject to maximum rate of margin capped at 100% w.e.f. September 29, 2026",
+        "Applicable margin rate shall be 100% or existing margin whichever is higher subject to maximum rate of margin capped at 100%. w.e.f. September 29, 2026"
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/SURV76562.zip",
+      "sample_data": false,
+      "title": "Applicability of Short-Term Additional Surveillance Measure (ST-ASM)",
+      "retried": true,
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "Short-term ASM affects trading operations and surveillance obligations"
+    },
+    {
+      "circular_no": "134/2026",
+      "date": "2026-09-25",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Stock Brokers",
+        "Trading Operations"
+      ],
+      "applicability": "All Members enabled for trading in the Capital Market (CM) segment on NSE",
+      "intent": "NSE is organizing a mock trading session in the Capital Market segment to let members test connectivity, software and the newer NEAT+ version ahead of the planned discontinuation of the older version.",
+      "action_required": "Members must participate in the mock trading session on Saturday, September 26, 2026 using NEAT+ 7.9.0 (mandatory for CAS), clear/manually purge outstanding orders where applicable, and re-login into the live environment (Live Re-login window 16:00–16:30) to ensure smooth connectivity for the live market resuming Monday, September 28, 2026; NEAT+ version 7.8.9 will be discontinued as per the mock discontinuation date October 10, 2026 (mock).",
+      "effective_date": "2026-09-26",
+      "key_dates": [
+        {
+          "label": "Mock trading session date",
+          "date": "2026-09-26",
+          "quote": "Mock trading on Saturday, September 26, 2026 –No new version release"
+        },
+        {
+          "label": "NEAT+ 7.8.9 discontinuation date (mock)",
+          "date": "2026-10-10",
+          "quote": "7.8.9 /cmftp/common/NEATPlus789 October 10, 2026 (mock)"
+        },
+        {
+          "label": "Live market resumption date",
+          "date": "2026-09-28",
+          "quote": "ensure smooth connectivity for Monday, September 28, 2026."
+        }
+      ],
+      "impact_summary": "All NSE Capital Market segment trading members must participate in the September 26, 2026 mock session to validate the new NEAT+ 7.9.0 software and connectivity ahead of the phased discontinuation of NEAT+ 7.8.9, ensuring uninterrupted trading when live markets reopen on September 28, 2026.",
+      "overall_confidence": "Certain",
+      "confidence_flags": {
+        "parent_circular_no": "No circular is explicitly stated as being amended or superseded by this one; references to NSE/MSD/76159, NSE/MSD/73993, NSE/MSD/74511 and NSE/MSD/46441 are procedural cross-references only, so this is treated as a standalone fresh circular with no parent.",
+        "implements": "The SEBI circular SEBI/HO/MRD1/DSAP/CIR/P/2020/234 is cited only as an alternative compliance route ('Members may use either Mock Trading or Simulated Environment to meet regulatory requirements') and is not stated to be implemented by this circular, so it is excluded from 'implements' rather than assumed.",
+        "effective_date": "The text does not label any date as an 'effective date'; September 26, 2026 is inferred as the operative date since it is the date of the mock session this circular governs."
+      },
+      "source_excerpt_citations": [
+        "Mock trading on Saturday, September 26, 2026 –No new version release",
+        "Below new NEAT+ version should be used explicitly for CAS:",
+        "The existing NEAT+ exe version shall be discontinued as per below:",
+        "7.8.9 /cmftp/common/NEATPlus789 October 10, 2026 (mock)",
+        "Members are requested to refer updated NEATPlus installation procedure as per the circular\nNSE/MSD/76159 dated September 03, 2026.",
+        "Refer to circular NSE/MSD/46441 and SEBI\ncircular SEBI/HO/MRD1/DSAP/CIR/P/2020/234.",
+        "Members may use either Mock Trading or Simulated Environment to meet regulatory\nrequirements.",
+        "ensure smooth connectivity for Monday, September\n28, 2026."
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/CMTR76542.pdf",
+      "sample_data": false,
+      "title": "Mock trading on Saturday, September 26, 2026 - No new version release",
+      "retried": true,
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "Mock trading notification requires testing of trading systems by participants"
+    },
+    {
+      "circular_no": "35/2026",
+      "date": "2026-09-25",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "NSE/MSD/76159",
+      "parent_circular_date": "2026-09-03",
+      "implements": [],
+      "impact_areas": [
+        "Stock Brokers",
+        "Trading Operations",
+        "Commodity Derivatives Segment"
+      ],
+      "applicability": "All Members trading in the Electronic Gold Receipts (EGR) segment",
+      "intent": "NSE is notifying members of a mock trading session for the EGR segment ahead of a system/version update readiness check, with no new NEAT+ version release this time.",
+      "action_required": "Members must participate in the mock trading session on Saturday, September 26, 2026 as per the specified session timings, ensure NEATPlus version 1.0.1 is installed per the referenced installation procedure, and use the default password 'Neat@EG1' for login testing.",
+      "effective_date": "2026-09-26",
+      "key_dates": [
+        {
+          "label": "Mock trading session date",
+          "date": "2026-09-26",
+          "quote": "Exchange will be conducting a mock trading session in the Electronic Gold Receipts (EGR) segment on Saturday, September 26, 2026"
+        },
+        {
+          "label": "Referenced circular date for NEATPlus installation procedure",
+          "date": "2026-09-03",
+          "quote": "as per the circular NSE/MSD/76159 dated September 03, 2026"
+        }
+      ],
+      "impact_summary": "Stock brokers/members trading in NSE's Electronic Gold Receipts segment must take part in a scheduled mock trading session and confirm their NEATPlus terminal setup is compliant with the referenced installation procedure; no financial settlement occurs during the mock session.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here.",
+        "impact_areas": "EGR (Electronic Gold Receipts) is not explicitly defined in the source text as commodity derivatives; classified under 'Commodity Derivatives Segment' based on inference from context, not an explicit label in the text."
+      },
+      "source_excerpt_citations": [
+        "Mock trading on Saturday, September 26, 2026 – No new version release",
+        "Members are requested to refer updated NEATPlus installation procedure as per the circular NSE/MSD/76159 dated September 03, 2026.",
+        "Password Default password shall be “Neat@EG1”",
+        "Exchange will be conducting a mock trading session in the Electronic Gold Receipts (EGR) segment on Saturday,\nSeptember 26, 2026 ."
+      ],
+      "model_confidence": "Inferred",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/EGR76541.pdf",
+      "sample_data": false,
+      "title": "Mock trading on Saturday, September 26, 2026 - No new version release",
+      "retried": true,
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "Mock trading notification requires testing of trading systems by participants"
+    },
+    {
+      "circular_no": "HO/(449)2026-ITD-5_DIV1/I/19448/2026",
+      "date": "2026-08-24",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "NOT STATED IN SOURCE",
+      "parent_circular_date": "NOT STATED IN SOURCE",
+      "implements": [],
+      "impact_areas": [
+        "Cyber Security/Cyber Resilience",
+        "Stock Brokers",
+        "Depository Participants",
+        "Clearing Corporations",
+        "Stock Exchanges",
+        "Mutual Funds/AMCs",
+        "AIFs/PMS",
+        "Investment Advisers/Research Analysts",
+        "Corporate Bonds/Debt Market"
+      ],
+      "applicability": "All SEBI Regulated Entities (AIFs, BTIs/SCSBs, Clearing Corporations, CIS, CRAs, Custodians, Debenture Trustees, Depositories, DDPs/DPs, IAs/RAs, KRAs, Merchant Bankers, Mutual Funds/AMCs, Portfolio Managers, RTAs, Stock Brokers, Stock Exchanges, VCFs, IAASB/RAASB)",
+      "intent": "SEBI seeks to streamline and standardize cyber incident reporting by regulated entities by aligning its Incident Reporting Portal with the FSB's FIRE format, improving consistency and cross-jurisdictional harmonisation of incident data.",
+      "action_required": "Regulated Entities must report cyber incidents through SEBI's Cyber Incident Reporting Portal (https://siportal.sebi.gov.in) using the FIRE format, report incidents in stages (initial, updates, closure), and put in place necessary systems including amendments to relevant bye-laws, rules and regulations, if any, to implement the circular.",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [],
+      "impact_summary": "All categories of SEBI-regulated entities across the securities market ecosystem (brokers, depositories, exchanges, AIFs, MFs, RTAs, custodians, etc.) must now report cyber incidents via SEBI's Incident Reporting Portal in the FSB-developed FIRE format, with staged reporting from initial detection through resolution.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "parent_circular_no": "Text references 'applicable SEBI circulars' on Cybersecurity and Cyber Resilience framework and Annexure-O(B) of CSCRF generally, but no specific circular number or date is cited.",
+        "effective_date": "No explicit effective date is stated separately from the issue date; only relative reporting timelines (6 hours/24 hours) are given, which per instructions cannot be converted into calendar dates.",
+        "key_dates": "The only time-related references in the text are relative periods ('within 6 hours', 'within 24 hours') rather than explicit calendar dates, so no entries could be included per the rule against computing dates from relative periods.",
+        "source_excerpt_citations": "6 quoted excerpt(s) could not be found in the circular text — possible fabrication: 'the frequency and sophistication of cyber incidents are also on the rise'; 'mandating that all regulated entities report cyber incident through mkt_incident'"
+      },
+      "source_excerpt_citations": [
+        "the frequency and sophistication of cyber incidents are also on the rise",
+        "mandating that all regulated entities report cyber incident through mkt_incidents@sebi.gov.in within 6 hours and SEBI Incident Reporting Portal within 24 hours",
+        "SEBI has aligned its Incident Reporting Portal with \"Format for Incident Reporting Exchange (FIRE)\" Framework developed by Financial Stability Board (FSB)",
+        "Regulated Entities (REs) shall report cyber incidents through the Cyber Incident Reporting Portal of SEBI",
+        "This circular should be read in conjunction with the applicable SEBI circulars",
+        "This circular is issued in exercise of powers conferred under Section 11 (1)"
+      ],
+      "model_confidence": "Inferred",
+      "validator_version": 3,
+      "source_url": "https://www.sebi.gov.in/legal/circulars/aug-2026/alignment-of-sebi-s-cyber-incident-reporting-portal-with-fire-format_103915.html",
+      "sample_data": false,
+      "title": "Alignment of SEBI's Cyber Incident Reporting Portal with FIRE Format",
+      "retried": true,
+      "regulator": "SEBI",
+      "source": "sebi-circulars"
+    },
+    {
+      "circular_no": "HO/38/11/(9)2026-MIRSD-POD/I/15382/2026",
+      "date": "2026-07-03",
+      "doc_type": "Amendment",
+      "parent_circular_no": "NOT STATED IN SOURCE",
+      "parent_circular_date": "2025-06-17",
+      "implements": [],
+      "impact_areas": [
+        "Stock Brokers",
+        "Depository Participants",
+        "Clearing Corporations",
+        "Stock Exchanges",
+        "Margin Trading",
+        "Trading Operations"
+      ],
+      "applicability": "All recognized Stock Exchanges, All Depositories, All Stock Brokers",
+      "intent": "SEBI seeks to revise the framework for handling clients' unpaid securities by trading members to align with mandatory direct pay-out to demat accounts and evolving market practices, in response to industry representations.",
+      "action_required": "Stock exchanges must issue operational guidelines for implementation, in consultation with depositories, within 30 days from the date of issuance of this circular; TMs/CMs must formulate and communicate a policy for handling unpaid securities per the amended Paragraph 46; exchanges/depositories must notify members, disseminate on websites, amend bye-laws/rules/regulations, and put in place appropriate systems.",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [],
+      "impact_summary": "Stock brokers, clearing members, stock exchanges and depositories must overhaul processes for pledging, releasing, invoking and extending pledges on clients' unpaid securities, with exchanges required to issue operational guidelines and phased implementation timelines tied to that issuance rather than fixed calendar dates.",
+      "overall_confidence": "Certain",
+      "confidence_flags": {
+        "effective_date": "The circular states implementation timelines only as durations relative to future events ('within 30 days from the date of issuance of this circular', 'three months from the date of issuance of operational guidelines', 'six months from the date of issuance of this circular'), not as fixed calendar dates, so no absolute effective_date can be stated.",
+        "key_dates": "All compliance-relevant timelines in the text are expressed as relative periods (e.g., 'within 30 days', 'three months', 'six months', 'five trading days') rather than explicit calendar dates; per instructions these cannot be converted into dated key_dates entries.",
+        "parent_circular_no": "The text refers to 'the Master Circular for Stock Brokers dated June 17, 2025' without stating a specific circular number for it, so the number cannot be confirmed from source."
+      },
+      "source_excerpt_citations": [
+        "Paragraph 46 of the Master Circular for Stock Brokers dated June 17, 2025",
+        "Stock exchanges shall issue operational guidelines for implementation of provisions of this circular, in consultation with depositories within 30 days from the date of issuance of this circular.",
+        "The amended provisions of Paragraph 46.1 to 46.11 of Master Circular shall come into force with effect from three months from the date of issuance of operational guidelines by stock exchanges.",
+        "The amended provisions of Paragraph 46.12 to 46.14 of Master Circular shall come into force with effect from six months from the date of issuance of this circular."
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.sebi.gov.in/legal/circulars/jul-2026/handling-of-client-s-unpaid-securities-by-trading-members_102584.html",
+      "sample_data": false,
+      "title": "Handling of Client’s Unpaid Securities by Trading Members",
+      "retried": true,
+      "regulator": "SEBI",
+      "source": "sebi-circulars"
+    },
+    {
+      "circular_no": "HO/19/34/11(6)2025-AFD-POD1/I/12928/2026",
+      "date": "2026-06-03",
+      "doc_type": "Master Circular",
+      "parent_circular_no": "SEBI/HO/AFD-1/AFD-1-PoD/P/CIR/2024/39",
+      "parent_circular_date": "2024-05-07",
+      "implements": [],
+      "impact_areas": [
+        "AIFs/PMS",
+        "Corporate Bonds/Debt Market",
+        "Foreign Exchange (FEMA)",
+        "KYC/AML",
+        "Investor Grievance/SCORES"
+      ],
+      "applicability": "All Alternative Investment Funds (AIFs), All Custodians, All Depositories, All Registrar to an Issue and Share Transfer Agents",
+      "intent": "SEBI consolidates all its circulars issued under the AIF Regulations up to May 31, 2026 into a single Master Circular so that AIFs and other stakeholders can access all applicable requirements in one place, superseding the prior 2024 Master Circular.",
+      "action_required": "AIFs, their trustees/sponsors/managers, custodians, depositories and RTAs must comply with the consolidated provisions across all chapters of this Master Circular going forward; the manager must ensure the Compliance Test Report under para 21.2 includes compliance with the provisions of all chapters of this Master Circular; entities must continue to give effect to actions, applications and obligations arising under the now-rescinded circulars as if they continued to be in force.",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [
+        {
+          "label": "Date of issuance of Master Circular",
+          "date": "2026-06-03",
+          "quote": "Issued on: June 03, 2026"
+        },
+        {
+          "label": "Last updated date of Master Circular",
+          "date": "2026-09-07",
+          "quote": "Last updated on: September 07, 2026"
+        },
+        {
+          "label": "Cut-off date for circulars incorporated into this Master Circular",
+          "date": "2026-05-31",
+          "quote": "The provisions of such circulars issued till May 31, 2026 have been incorporated in this Master Circular"
+        },
+        {
+          "label": "Date of superseded prior Master Circular for AIFs",
+          "date": "2024-05-07",
+          "quote": "SEBI’s Master Circular No. SEBI/HO/AFD-1/AFD-1-PoD/P/CIR/2024/39 for AIFs dated May 07, 2024 was issued as a compilation"
+        },
+        {
+          "label": "Date of circular on winding up of AIFs/Inoperative Fund status incorporated",
+          "date": "2026-06-16",
+          "quote": "Jun 16, 2026 HO/19/34/11(2)2026-AFD-POD1/I/13764/2026",
+          "unverified": true
+        },
+        {
+          "label": "Date of GARUDA mechanism circular incorporated",
+          "date": "2026-07-30",
+          "quote": "Jul 30, 2026 HO/19/19/11(2)2026-AFD-RAC2/I/17617/2026",
+          "unverified": true
+        },
+        {
+          "label": "Date of circular on Accredited Investor mandate relaxation for Angel Funds incorporated",
+          "date": "2026-09-07",
+          "quote": "Sep 07, 2026 HO/19/34/11(7)2025-AFD-POD1/I/20626/ 2026",
+          "unverified": true
+        }
+      ],
+      "impact_summary": "All SEBI-registered AIFs, their sponsors/managers/trustees, custodians, depositories and RTAs are affected, as this Master Circular consolidates and supersedes prior AIF-related SEBI circulars into a single reference document covering registration, fund-raising, investment conditions, governance, reporting, and winding-up norms.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "key_dates": "The quote supporting key date 2026-09-07 was not found in the circular text.",
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
+      },
+      "source_excerpt_citations": [
+        "Issued on: June 03, 2026",
+        "Last updated on: September 07, 2026",
+        "The provisions of such circulars issued till May 31, 2026 have been incorporated in this Master Circular, which supersedes the Master Circular for AIFs dated May 07, 2024",
+        "SEBI’s Master Circular No. SEBI/HO/AFD-1/AFD-1-PoD/P/CIR/2024/39 for AIFs dated May 07, 2024 was issued as a compilation",
+        "all directions/instructions contained in the circulars listed out in Annexure 24 to this Master Circular shall stand rescinded",
+        "the ‘Compliance Test Report’ prepared by the manager of the AIF, in terms of para 21.2 of this Master Circular, includes compliance with the provisions of all chapters"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.sebi.gov.in/legal/master-circulars/jun-2026/master-circular-for-alternative-investment-funds-aifs-_101817.html",
+      "sample_data": false,
+      "title": "Master Circular for Alternative Investment Funds (AIFs)",
+      "retried": true,
+      "regulator": "SEBI",
+      "source": "sebi-master"
+    },
+    {
+      "circular_no": "HO/43/15/12(3)2025-ISD-POD2/I/11734/2026",
+      "date": "2026-05-15",
+      "doc_type": "Master Circular",
+      "parent_circular_no": "NOT STATED IN SOURCE",
+      "parent_circular_date": "2024-09-23",
+      "implements": [],
+      "impact_areas": [
+        "Stock Exchanges",
+        "Depository Participants",
+        "Clearing Corporations",
+        "Listed Companies (LODR/Disclosure)",
+        "Insider Trading",
+        "Surveillance/Market Abuse",
+        "Stock Brokers"
+      ],
+      "applicability": "All Recognized Stock Exchanges, All Depositories, All Listed Companies, Intermediaries registered with SEBI, and Fiduciaries as per SEBI (Prohibition of Insider Trading) Regulations, 2015",
+      "intent": "SEBI consolidates all its circulars on surveillance of the securities market into a single updated Master Circular, incorporating recent additions such as the financial disincentives framework for MIIs, trading window exemptions for NCS/OFS/RE subscriptions, and extension of the PAN-freeze mechanism to immediate relatives of designated persons, while rescinding the superseded standalone circulars.",
+      "action_required": "MIIs must implement the Financial Disincentives for Surveillance Related Lapses framework and credit any imposed disincentive to the SEBI-IPEF within 15 working days of imposition; listed companies, intermediaries and fiduciaries must maintain PIT disclosures in the prescribed formats (Annexures 1-3) and report Code of Conduct violations to stock exchanges; depositories and stock exchanges must operate the PAN-ISIN freeze system for trading window closures per Annexures 4-6 and submit quarterly reports to SEBI.",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [
+        {
+          "label": "Circular issued",
+          "date": "2023-03-23",
+          "quote": "Issued on: March 23, 2023"
+        },
+        {
+          "label": "Circular last updated",
+          "date": "2026-05-15",
+          "quote": "Last updated on: May 15, 2026"
+        }
+      ],
+      "impact_summary": "Stock exchanges, depositories, listed companies, market intermediaries and fiduciaries are affected: they must follow consolidated surveillance rules including insider trading disclosure formats, trading window closure/PAN-freeze mechanics, and MIIs face financial disincentives for surveillance-related lapses.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "date": "Header shows two dates ('Issued on: March 23, 2023' and 'Last updated on: May 15, 2026'); the 'Last updated on' date is used as it reflects the operative date of this consolidated version of the Master Circular, but the source does not explicitly clarify which date should be treated as the document's authoritative date.",
+        "effective_date": "The text does not contain an explicit 'effective date' clause; it only states issuance and last-updated dates, so this field cannot be confirmed.",
+        "parent_circular_no": "Paragraph 2 refers to 'the Master Circular dated September 23, 2024' without stating its circular number in prose; the number SEBI/HO/ISD/ISD-PoD-2/P/CIR/2024/126 only appears in the Appendix table split across a line break, so it is not confirmed verbatim as a continuous string in the source."
+      },
+      "source_excerpt_citations": [
+        "Issued on: March 23, 2023",
+        "Last updated on: May 15, 2026",
+        "the Master Circular dated September 23, 2024, on the subject, is being further updated",
+        "shall be credited by the MII concerned, within 15 working days, to the Investor Protection and Education Fund",
+        "with the issuance of this Master Circular, all directions/ instructions contained in the Circulars listed out in the Appendix to this Master Circular shall stand rescinded"
+      ],
+      "model_confidence": "Inferred",
+      "validator_version": 3,
+      "source_url": "https://www.sebi.gov.in/legal/master-circulars/may-2026/master-circular-on-surveillance-of-securities-market_101473.html",
+      "sample_data": false,
+      "title": "Master Circular on Surveillance of Securities Market",
+      "retried": true,
+      "regulator": "SEBI",
+      "source": "sebi-master"
+    },
+    {
+      "circular_no": "HO/38/12/11(1)2026-MIRSD-POD/I/4360/2026",
+      "date": "2026-02-06",
+      "doc_type": "Master Circular",
+      "parent_circular_no": "NOT STATED IN SOURCE",
+      "parent_circular_date": "NOT STATED IN SOURCE",
+      "implements": [],
+      "impact_areas": [
+        "Investment Advisers/Research Analysts",
+        "KYC/AML",
+        "Investor Grievance/SCORES",
+        "Cyber Security/Cyber Resilience",
+        "Listed Companies (LODR/Disclosure)",
+        "Stock Exchanges"
+      ],
+      "applicability": "All Research Analysts and the Research Analyst Administration and Supervisory Body (RAASB)",
+      "intent": "SEBI consolidates all prior circulars applicable to Research Analysts into a single Master Circular so that RAs and market stakeholders can access all applicable requirements in one place, while rescinding the individual circulars listed in the Appendix.",
+      "action_required": "Research Analysts and research entities must comply with the consolidated guidelines herein (e.g. deposit maintenance, fee limits, client-level segregation, model portfolio guidelines, KYC/record-keeping, compliance audits, advertisement code, AI-tool disclosures) as the individual circulars listed in the Appendix stand rescinded to the extent they relate to Research Analysts; RAASB must implement systems for deposit revision 'latest by 30th April of the subsequent financial year' and other administrative processes.",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [
+        {
+          "label": "Master Circular issuance date",
+          "date": "2026-02-06",
+          "quote": "HO/38/12/11(1)2026-MIRSD-POD/I/4360/2026 February 06, 2026"
+        },
+        {
+          "label": "RAASB/IAASB framework effective date",
+          "date": "2024-07-25",
+          "quote": "The above provisions have become effective on July 25, 2024 (ninetieth day from the date of publication"
+        },
+        {
+          "label": "BSE recognition as RAASB/IAASB start date",
+          "date": "2024-07-25",
+          "quote": "recognition ... for administration and supervision of Research Analysts (‘RAs’) and Investment Advisers (‘IAs’) respectively as RAASB and IAASB for a period of five years starting from July 25, 2024",
+          "unverified": true
+        },
+        {
+          "label": "Deadline for partnership firm re-registration as LLP/body corporate",
+          "date": "2025-09-30",
+          "quote": "was required to apply for registration as a research analyst in the form of a limited liability partnership or a body corporate latest by September 30, 2025"
+        },
+        {
+          "label": "Deadline for compliance with model portfolio guidelines",
+          "date": "2025-06-30",
+          "quote": "RAs engaged in providing model portfolio (s) to their clients shall ensure compliance with the model portfolio guidelines latest by June 30, 2025"
+        },
+        {
+          "label": "Financial year reference for client-level segregation certificate",
+          "date": "2025-03-31",
+          "quote": "obtained within six months from the end of the financial year starting from for the financial year ending March 31, 2025"
+        },
+        {
+          "label": "Financial year reference for additional audit requirements",
+          "date": "2025-03-31",
+          "quote": "RA/research entity shall ensure compliance with the additional audit requirements under this clause starting with for audit report of the financial year ending March 31, 2025"
+        },
+        {
+          "label": "Proxy advisor guideline provisions (clauses 2.1c, 2.1e) effective date",
+          "date": "2021-02-01",
+          "quote": "The provisions of Clause 2.1(c) and 2.1(e) became applicable with effect from February 01, 2021"
+        },
+        {
+          "label": "Other proxy advisor guideline provisions effective date",
+          "date": "2021-01-01",
+          "quote": "All other provisions of clause 2.1 became applicable with effect from January 01, 2021"
+        },
+        {
+          "label": "Grievance resolution clause (proxy advisers) effective date",
+          "date": "2021-01-01",
+          "quote": "The provisions under this clause became applicable with effect from January 01, 2021"
+        }
+      ],
+      "impact_summary": "All SEBI-registered Research Analysts, research entities, and proxy advisors are affected; the circular consolidates and rescinds prior individual circulars (to the extent relating to RAs), covering qualification/certification, deposit, fee limits, client segregation, KYC, audits, advertisement code, AI disclosures, and RAASB/IAASB administration, replacing them with unified guidance while preserving past actions taken under the rescinded circulars.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "parent_circular_no": "The Master Circular rescinds numerous individual SEBI circulars referenced throughout the text (footnotes) and lists them in an Appendix that is not reproduced in the provided source, so no single parent circular can be verbatim-confirmed; set to 'NOT STATED IN SOURCE'.",
+        "effective_date": "The text states the issuance date (February 06, 2026) but does not explicitly designate an overall 'effective date' for the Master Circular as a whole; individual provisions carry their own historical effective dates cited separately in key_dates.",
+        "impact_areas": "Table of contents references additional sections (KYC/AML, cybersecurity CSCRF, UPI IDs, PwD Act compliance, FAQs) whose full text is not reproduced in the truncated source, so impact_areas beyond what is visible in the given excerpt could be incomplete.",
+        "key_dates": "The quote supporting key date 2024-07-25 was not found in the circular text.",
+        "overall_confidence": "Document is a 107-page Master Circular of which only a partial excerpt (through Section 11) was provided; the Appendix list of rescinded circulars and multiple later sections were not visible, limiting full verification of completeness."
+      },
+      "source_excerpt_citations": [
+        "With the issuance of this Master Circular, all directions/instructions contained in the Circulars listed out in the Appendix to this Master Circular shall stand rescinded",
+        "The above provisions have become effective on July 25, 2024 (ninetieth day from the date of publication in the Official Gazette",
+        "was required to apply for registration as a research analyst in the form of a limited liability partnership or a body corporate latest by September 30, 2025",
+        "RAs engaged in providing model portfolio (s) to their clients shall ensure compliance with the model portfolio guidelines latest by June 30, 2025",
+        "The provisions of Clause 2.1(c) and 2.1(e) became applicable with effect from February 01, 2021",
+        "recognition ... for a period of five years starting from July 25, 2024"
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://www.sebi.gov.in/legal/master-circulars/feb-2026/master-circular-for-research-analysts_99571.html",
+      "sample_data": false,
+      "title": "Master Circular for Research Analysts",
+      "retried": true,
+      "regulator": "SEBI",
+      "source": "sebi-master"
+    },
+    {
+      "circular_no": "HO/38/13/(4)2026-MIRSD-POD/I/4298/2026",
+      "date": "2026-02-06",
+      "doc_type": "Master Circular",
+      "parent_circular_no": "NOT STATED IN SOURCE",
+      "parent_circular_date": "NOT STATED IN SOURCE",
+      "implements": [],
+      "impact_areas": [
+        "Depository Participants",
+        "Stock Exchanges",
+        "Clearing Corporations",
+        "Mutual Funds/AMCs",
+        "AIFs/PMS",
+        "KYC/AML",
+        "Cyber Security/Cyber Resilience",
+        "Listed Companies (LODR/Disclosure)",
+        "FPI",
+        "Insider Trading",
+        "Takeover Code",
+        "Investor Grievance/SCORES",
+        "Corporate Bonds/Debt Market",
+        "Data Protection/Privacy",
+        "Payments/UPI"
+      ],
+      "applicability": "All registered Registrars to an Issue and Share Transfer Agents (RTAs)",
+      "intent": "SEBI consolidates all its prior circulars applicable to RTAs into a single Master Circular so that RTAs and other market stakeholders can access all applicable instructions in one place, while rescinding the underlying individual circulars listed in the Appendix.",
+      "action_required": "RTAs must comply with all consolidated obligations set out in this Master Circular going forward (e.g. registration via SI Portal, maintenance of records for a minimum of 8 years, half-yearly regulatory compliance reports within three months of expiry of the half year, net-worth certificate submission not later than three months from close of each financial year, QRTA enhanced monitoring compliance reports within 60 days of expiry of each calendar quarter), as the previously separate circulars listed in the Appendix stand rescinded to the extent they relate to RTAs.",
+      "effective_date": "2026-02-06",
+      "key_dates": [],
+      "impact_summary": "The circular affects all SEBI-registered RTAs, consolidating registration, reporting, demat/remat, transfer, investor-servicing, cyber security/BCP-DR (for Qualified RTAs), grievance-redressal, AML/KYC and primary-market-related obligations that were previously spread across numerous separate circulars, which now stand rescinded to the extent they relate to RTAs.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "parent_circular_no": "This is a Master Circular that rescinds numerous prior circulars listed in an Appendix not included in the provided source text; no single parent circular is identifiable, so this is marked NOT STATED IN SOURCE rather than null, since the text explicitly references being non-standalone (it rescinds cited circulars).",
+        "impact_areas": "The provided source text is a partial extract of a 294-page Master Circular; impact areas listed are only those directly evidenced by visible text/TOC entries. Additional impact areas likely exist in unseen portions (e.g. Reporting Requirements formats, Annexures) of the document.",
+        "key_dates": "Nearly all timelines in the visible text are relative periods (e.g. 'within 30 days', 'within 3 months', '60 days from categorisation') rather than fixed calendar dates, so per instructions no computed dates are included.",
+        "effective_date": "Text states rescission and consolidation take effect 'with the issuance of this Master Circular,' implying the circular's own issuance date functions as the effective date, though no separate explicit 'effective date' clause is stated."
+      },
+      "source_excerpt_citations": [
+        "this Master Circular is issued. This Master Circular has been updated to incorporate the provisions of the Circular(s)",
+        "all directions/instructions contained in the Circulars listed out in the Appendix to this Master Circular shall stand rescinded",
+        "duly attested by the Depository Participant ('DP') and duly filled in demat conversion request form",
+        "Cyber Security and Cyber Resilience framework for Registrars to an Issue and Share Transfer Agents",
+        "Investor grievance through the SEBI Complaints Redress system (SCORES) Platform",
+        "Guidelines on Anti-Money Laundering (AML) Standards and Combating the Financing of Terrorism (CFT)",
+        "Enhanced disclosures in case of listed debt securities",
+        "Investment by Foreign Portfolio Investors (FPI) through primary market issuances",
+        "Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 2011 (SAST Regulations)",
+        "Model Tripartite Agreement ... as per Regulation 7(4) of SEBI (LODR) Regulation, 2015",
+        "Securities and Exchange Board of India (Prohibition of Insider Trading) Regulations, 2015",
+        "Collection of stamp duty on issue, transfer and sale of units of AIFs",
+        "RTA inter-operable Platform for enhancing investors' experience in Mutual Fund transactions",
+        "QRTAs shall lay down appropriate protocols, processes and controls for its activities",
+        "Streamlining the process of IPOs with UPI in ASBA and redressal of investor grievances",
+        "obtain approval/NOC from all the stock exchanges/clearing corporations/depositories, where the incumbent is a member/depository participant"
+      ],
+      "model_confidence": "Inferred",
+      "validator_version": 3,
+      "source_url": "https://www.sebi.gov.in/legal/master-circulars/feb-2026/master-circular-for-registrars-to-an-issue-and-share-transfer-agents_99567.html",
+      "sample_data": false,
+      "title": "Master Circular for Registrars to an Issue and Share Transfer Agents",
+      "retried": true,
+      "regulator": "SEBI",
+      "source": "sebi-master"
+    },
+    {
+      "circular_no": "HO/49/14/14(7)2025-CFD-POD2/I/3762/2026",
+      "date": "2026-01-30",
+      "doc_type": "Master Circular",
+      "parent_circular_no": "NOT STATED IN SOURCE",
+      "parent_circular_date": "2024-11-11",
+      "implements": [],
+      "impact_areas": [
+        "Listed Companies (LODR/Disclosure)",
+        "Depository Participants",
+        "Stock Exchanges",
+        "ESG/BRSR"
+      ],
+      "applicability": "All listed entities (with specified securities listed), all Recognized Stock Exchanges, all Depositories, and 'Other Stakeholders' (Statutory Auditors, Depository Participants, Registrar and Transfer Agents, Material Subsidiaries, e-voting service providers, ASSOCHAM, FICCI, CII, etc.)",
+      "intent": "SEBI consolidates all circulars issued under the LODR Regulations into a single updated Master Circular so that listed entities, exchanges, depositories and other stakeholders can access the currently applicable provisions in one place, rescinding the individual circulars being consolidated.",
+      "action_required": "Recognized Stock Exchanges and Depositories must bring the contents of this circular to the notice of all stakeholders and put in place systems/infrastructure for monitoring and implementation; all listed entities, stock exchanges, depositories and other stakeholders must comply with the provisions of this circular to the extent applicable. No specific numerical deadline is stated for this compliance action.",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [
+        {
+          "label": "First Master Circular issued",
+          "date": "2023-07-11",
+          "quote": "dated July 11, 2023 was issued by consolidating all relevant circulars issued"
+        },
+        {
+          "label": "Master Circular updated (first revision)",
+          "date": "2024-11-11",
+          "quote": "was updated and issued on November 11, 2024 by consolidating all relevant circulars issued till September 30, 2024"
+        },
+        {
+          "label": "Cut-off date for circulars consolidated in current update",
+          "date": "2025-12-30",
+          "quote": "is updated to include all relevant circulars that were issued till December 30, 2025"
+        },
+        {
+          "label": "Current Master Circular update date",
+          "date": "2026-01-30",
+          "quote": "Last updated on: January 30, 2026"
+        }
+      ],
+      "impact_summary": "All listed entities, recognized stock exchanges, depositories and allied stakeholders (auditors, RTAs, e-voting providers, industry chambers) must follow this consolidated set of LODR compliance requirements, as the previously separate circulars on the same subject stand rescinded.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "effective_date": "The Master Circular consolidates numerous underlying circulars, each carrying its own effective date; the text does not state a single overarching effective date for the Master Circular document itself.",
+        "parent_circular_no": "The text refers to prior Master Circulars dated July 11, 2023 and November 11, 2024 issued by SEBI, but no specific circular number is stated for either in the source text, so only the date could be captured."
+      },
+      "source_excerpt_citations": [
+        "MASTER CIRCULAR",
+        "dated July 11, 2023 was issued by consolidating all relevant circulars issued",
+        "was updated and issued on November 11, 2024 by consolidating all relevant circulars issued till September 30, 2024",
+        "is updated to include all relevant circulars that were issued till December 30, 2025",
+        "all directions/instructions contained in the Circulars listed out in the Appendix to this Master Circular shall stand rescinded",
+        "The Recognized Stock Exchanges and Depositories are directed to",
+        "bring the contents of this circular to the notice of the all the stakeholders",
+        "put in place necessary systems and infrastructure for monitoring and implementation of this circular",
+        "All listed entities, recognized stock exchanges and depositories, other stakeholders shall\ncomply with the provisions of this circular to the extent applicable."
+      ],
+      "model_confidence": "Inferred",
+      "validator_version": 3,
+      "source_url": "https://www.sebi.gov.in/legal/master-circulars/jan-2026/master-circular-for-compliance-with-the-provisions-of-the-securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015-by-listed-entities_99432.html",
+      "sample_data": false,
+      "title": "Master Circular for compliance with the provisions of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 by listed entities",
+      "retried": true,
+      "regulator": "SEBI",
+      "source": "sebi-master"
+    },
+    {
+      "circular_no": "SEBI/HO/DDHS-PoD-1/P/CIR/2025/117",
+      "date": "2025-08-13",
+      "doc_type": "Master Circular",
+      "parent_circular_no": "NOT STATED IN SOURCE",
+      "parent_circular_date": "NOT STATED IN SOURCE",
+      "implements": [],
+      "impact_areas": [
+        "Corporate Bonds/Debt Market"
+      ],
+      "applicability": "Debenture Trustees, Credit Rating Agencies, Issuers of Debt Securities/Municipal Debt Securities, Recognized Stock Exchanges, and Recognized Depositories",
+      "intent": "SEBI consolidates all existing circulars applicable to Debenture Trustees into a single Master Circular so that stakeholders can access all applicable procedural, disclosure and due-diligence requirements at one place.",
+      "action_required": "Debenture Trustees must comply with the conditions laid down in this Master Circular, including due diligence, security/covenant monitoring on the Security and Covenant Monitoring System, disclosures, grievance redress and reporting requirements described chapter-wise; Boards of Debenture Trustees are responsible for ensuring compliance.",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [
+        {
+          "label": "Compilation date of Master Circular",
+          "date": "2025-08-13",
+          "quote": "This Master Circular is a compilation of the existing circulars as on August 13, 2025, with consequent changes."
+        },
+        {
+          "label": "Deadline for Issuers to enter existing outstanding debt security details in the system",
+          "date": "2023-01-31",
+          "quote": "issuers were required to enter the details in the system on or before January 31, 2023"
+        },
+        {
+          "label": "Deadline for Debenture Trustees to verify system entries",
+          "date": "2023-02-28",
+          "quote": "Debenture Trustees were required to verify the same by February 28, 2023"
+        },
+        {
+          "label": "Applicability start date for ISIN-based system requirement",
+          "date": "2022-04-01",
+          "quote": "Applicable for all issues made on or after April 01, 2022"
+        }
+      ],
+      "impact_summary": "The circular consolidates and updates all existing SEBI requirements for Debenture Trustees, Credit Rating Agencies, Issuers of listed debt/municipal debt securities, Stock Exchanges and Depositories, covering registration, due diligence, security/covenant monitoring, disclosures, grievance redress and reporting obligations.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "parent_circular_no": "The text states that superseded circulars are listed in Annex-1, but Annex-1 (containing the actual circular numbers/dates) is not included in the provided source text, so exact parent circular numbers cannot be verified verbatim.",
+        "impact_areas": "No exact category exists for 'Debenture Trustees' as a regulated entity type in the allowed list; 'Corporate Bonds/Debt Market' was selected as the closest subject-matter fit.",
+        "effective_date": "The text does not explicitly state a separate 'effective date' distinct from the Master Circular's compilation/issuance date of August 13, 2025."
+      },
+      "source_excerpt_citations": [
+        "This Master Circular is a compilation of the existing circulars as on August 13, 2025, with consequent changes.",
+        "The Debenture Trustees are directed to comply with the conditions laid down in this Master Circular.",
+        "issuers were required to enter the details in the system on or before January 31, 2023 and Debenture Trustees were required to verify the same by February 28, 2023.",
+        "Applicable for all issues made on or after April 01, 2022"
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://www.sebi.gov.in/legal/master-circulars/aug-2025/master-circular-for-debenture-trustees-dts-_96073.html",
+      "sample_data": false,
+      "title": "Master Circular for Debenture Trustees (DTs)",
+      "retried": true,
+      "regulator": "SEBI",
+      "source": "sebi-master"
+    },
+    {
+      "circular_no": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/95",
+      "date": "2025-06-27",
+      "doc_type": "Master Circular",
+      "parent_circular_no": "SEBI/HO/MIRSD-PoD-1/P/CIR/2024/49",
+      "parent_circular_date": "NOT STATED IN SOURCE",
+      "implements": [],
+      "impact_areas": [
+        "Investment Advisers/Research Analysts",
+        "KYC/AML",
+        "Investor Grievance/SCORES",
+        "Cyber Security/Cyber Resilience",
+        "Stock Exchanges",
+        "Listed Companies (LODR/Disclosure)"
+      ],
+      "applicability": "Research Analysts (individual and non-individual RAs), research entities, Proxy Advisors, and the Research Analyst Administration and Supervisory Body (RAASB/BSE Limited)",
+      "intent": "SEBI consolidates all circulars/directions issued to Research Analysts into a single Master Circular for ease of reference, while also incorporating and clarifying several substantive requirements (deposit norms, fees, AI use, client segregation, KYC, audits, advertising code, change-in-control approval etc.) issued since the prior Master Circular.",
+      "action_required": "Research Analysts and research entities must comply with numerous clause-specific requirements including maintaining prescribed deposits, complying with fee limits, client-level segregation of research/distribution activities, KYC record maintenance, website disclosures, compliance audits, and reporting; specific deadlines are stated within key_dates below (e.g. 'latest by September 30, 2025' for deposit and segregation compliance, 'latest by June 30, 2025' for fee, model portfolio, and website compliance).",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [
+        {
+          "label": "Deposit requirement compliance deadline for existing RAs",
+          "date": "2025-09-30",
+          "quote": "The existing RAs shall ensure compliance with the deposit requirement latest by September 30, 2025."
+        },
+        {
+          "label": "Deadline for partnership firm to register as LLP/body corporate if no partner qualifies",
+          "date": "2025-09-30",
+          "quote": "shall apply for registration as a research analyst in the form of a limited liability partnership or a body corporate latest by September 30, 2025."
+        },
+        {
+          "label": "Fee-related provisions compliance for existing clients",
+          "date": "2025-06-30",
+          "quote": "For existing clients, RAs shall ensure compliance with aforesaid fee related provisions latest by June 30, 2025."
+        },
+        {
+          "label": "Client-level segregation compliance deadline",
+          "date": "2025-09-30",
+          "quote": "RA/research entity shall ensure compliance under this clause latest by September 30, 2025."
+        },
+        {
+          "label": "Model portfolio guidelines compliance deadline",
+          "date": "2025-06-30",
+          "quote": "RAs engaged in providing model portfolio (s) to their clients shall ensure compliance with the model portfolio guidelines latest by June 30, 2025."
+        },
+        {
+          "label": "Telephone recording maintenance compliance deadline",
+          "date": "2024-09-30",
+          "quote": "RA/research entity shall ensure the compliance with the requirements of maintenance of telephone recording latest by September 30, 2024."
+        },
+        {
+          "label": "Other KYC record-keeping requirements compliance deadline",
+          "date": "2025-06-30",
+          "quote": "RA/research entity shall ensure the compliance with the other requirements under this clause latest by June 30, 2025."
+        },
+        {
+          "label": "Website details confirmation deadline",
+          "date": "2025-06-30",
+          "quote": "RA/research entity shall confirm the details of its website to RAASB and compliance with requirements under this clause by June 30, 2025."
+        },
+        {
+          "label": "Applicability of proxy advisor clauses 2.1(c) and 2.1(e)",
+          "date": "2021-02-01",
+          "quote": "The provisions of Clause 2.1(c) and 2.1(e) became applicable with effect from February 01, 2021."
+        },
+        {
+          "label": "Applicability of other proxy advisor provisions under clause 2.1",
+          "date": "2021-01-01",
+          "quote": "All other provisions of clause 2.1 became applicable with effect from January 01, 2021."
+        },
+        {
+          "label": "Applicability of grievance resolution provisions for proxy advisers",
+          "date": "2021-01-01",
+          "quote": "The provisions under this clause became applicable with effect from January 01, 2021.",
+          "unverified": true
+        },
+        {
+          "label": "RAASB/IAASB framework effective date",
+          "date": "2024-07-25",
+          "quote": "The above provisions have become effective on July 25, 2024"
+        },
+        {
+          "label": "BSE recognition as RAASB/IAASB start date",
+          "date": "2024-07-25",
+          "quote": "for a period of five years starting from July 25, 2024"
+        },
+        {
+          "label": "Revised SEBI fee structure effective date",
+          "date": "2024-07-25",
+          "quote": "have been revised by way of amendment to the RA Regulations, coming into effect from July 25, 2024."
+        },
+        {
+          "label": "Annual certificate on client-level segregation applicable from FY end",
+          "date": "2025-03-31",
+          "quote": "Such annual certificate shall be obtained within six months from the end of the financial year starting from for the financial year ending March 31, 2025"
+        },
+        {
+          "label": "Additional audit requirements applicable from FY end",
+          "date": "2025-03-31",
+          "quote": "RA/research entity shall ensure the compliance with the additional audit requirements under this clause starting with for audit report of the financial year ending March 31, 2025.",
+          "unverified": true
+        }
+      ],
+      "impact_summary": "All SEBI-registered Research Analysts, research entities and Proxy Advisors must comply with a wide range of consolidated obligations relating to deposits, fees, client segregation, KYC, audits, advertising, change-in-control approvals and use of AI tools, with several clause-specific compliance deadlines falling in mid-to-late 2025; RAASB (BSE Limited) is the supervisory body implementing much of this framework.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "parent_circular_date": "The source text is internally inconsistent, first stating the prior Master Circular as 'dated June May 21, 2024' and later referring to 'the Master Circular for RAs dated May 21, 2025' — these two statements conflict and neither can be confirmed as the intended date without guessing, so this is marked NOT STATED IN SOURCE.",
+        "effective_date": "The document does not state a single overarching effective date for the Master Circular as a whole; it only contains clause-specific effective/compliance dates, which are captured individually in key_dates.",
+        "overall_confidence": "Set to Needs Review because of the unresolved date inconsistency for the parent circular, which prevents full certainty on that field.",
+        "key_dates": "The quote supporting key date 2025-03-31 was not found in the circular text.",
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
+      },
+      "source_excerpt_citations": [
+        "SEBI Master Circular No. SEBI/HO/MIRSD-PoD-1/P/CIR/2024/49 dated June May 21, 2024 for RAs was a compilation",
+        "which supersedes the Master Circular for RAs dated May 21, 2025",
+        "The existing RAs shall ensure compliance with the deposit requirement latest by September 30, 2025.",
+        "RA/research entity shall ensure compliance under this clause latest by September 30, 2025.",
+        "The above provisions have become effective on July 25, 2024",
+        "This Master Circular in respect of RAs is being issued."
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://www.sebi.gov.in/legal/master-circulars/jun-2025/master-circular-for-research-analysts_94840.html",
+      "sample_data": false,
+      "title": "Master Circular for Research Analysts",
+      "retried": true,
+      "regulator": "SEBI",
+      "source": "sebi-master"
+    },
+    {
+      "circular_no": "HO/49/14/15(3)2026-CFD-POD1/I/16178/2026",
+      "date": "2023-09-26",
+      "doc_type": "Master Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Investor Grievance/SCORES",
+        "Cyber Security/Cyber Resilience",
+        "Takeover Code",
+        "KYC/AML",
+        "Other"
+      ],
+      "applicability": "Merchant Bankers registered with SEBI",
+      "intent": "SEBI consolidates all its circulars applicable to Merchant Bankers into one Master Circular, reconciling them with recent amendments to the MB Regulations and rescinding the underlying circulars, so that Merchant Bankers and other stakeholders have single-point access to all applicable requirements.",
+      "action_required": "Merchant Bankers must comply with the consolidated requirements and timelines set out in the Master Circular, including re-categorizing as Category I/II and meeting phased capital adequacy/liquid net worth requirements, obtaining NISM certifications, ensuring compliance officer independence, disclosing non-SEBI regulated activities, segregating business units, closing outsourced core activities, and submitting half-yearly reports and certificates, by the specific dates stated in the circular (e.g. on or before April 03, 2026; on or before January 02, 2027; on or before March 31, 2027/2028; on or before December 31, 2026).",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [
+        {
+          "label": "Circular issued date",
+          "date": "2023-09-26",
+          "quote": "Issued on: September 26, 2023"
+        },
+        {
+          "label": "Master Circular last updated",
+          "date": "2026-07-14",
+          "quote": "Last updated on: July 14, 2026"
+        },
+        {
+          "label": "MB Regulations amendment notification and effective date",
+          "date": "2026-01-03",
+          "quote": "notification dated December 5, 2025 which has come into effect from January 3, 2026"
+        },
+        {
+          "label": "Phase I capital adequacy/liquid net worth deadline",
+          "date": "2027-03-31",
+          "quote": "March 31, 2027]16 March 31, 2028]16"
+        },
+        {
+          "label": "Phase II capital adequacy/liquid net worth deadline",
+          "date": "2028-03-31",
+          "quote": "March 31, 2027]16 March 31, 2028]16"
+        },
+        {
+          "label": "Existing MB category continuation deadline",
+          "date": "2027-03-31",
+          "quote": "An existing MB shall continue to work as Category I or Category II till [March 31, 2027]17."
+        },
+        {
+          "label": "New category effective date",
+          "date": "2027-04-01",
+          "quote": "about the category that an MB intends to continue from [April 01, 2027]18"
+        },
+        {
+          "label": "NISM certification deadline for existing employees",
+          "date": "2027-01-02",
+          "quote": "an existing employee shall obtain requisite certification within one year from effective date, i.e., on or before January 02, 2027."
+        },
+        {
+          "label": "NISM certification deadline for existing compliance officers",
+          "date": "2027-01-02",
+          "quote": "an existing compliance officer shall obtain requisite certifications within one year i.e., on or before January 02, 2027."
+        },
+        {
+          "label": "Compliance officer independence deadline",
+          "date": "2026-04-03",
+          "quote": "within ninety days from the effective date, i.e., on or before April 03, 2026."
+        },
+        {
+          "label": "Principal officer experience compliance deadline",
+          "date": "2027-01-02",
+          "quote": "existing MBs shall comply with this requirement within one year from the effective date i.e., on or before January 02, 2027."
+        },
+        {
+          "label": "Underwriting obligations compliance deadline",
+          "date": "2028-01-02",
+          "quote": "existing MBs shall comply with this requirement within two years from the effective date, i.e., by January 02, 2028."
+        },
+        {
+          "label": "First minimum revenue assessment date",
+          "date": "2029-04-01",
+          "quote": "revenue from permitted activities by MBs, will be carried out with effect from April 01, 2029."
+        },
+        {
+          "label": "Disclosure requirement applicability for marketing-only issues",
+          "date": "2026-01-03",
+          "quote": "on or after the effective date, i.e., w.e.f. January 03, 2026."
+        },
+        {
+          "label": "SBU segregation deadline",
+          "date": "2026-12-31",
+          "quote": "The segregation shall be done on or before December 31, 2026"
+        },
+        {
+          "label": "Website disclosure deadline for non-SEBI regulated activities",
+          "date": "2026-02-02",
+          "quote": "within thirty days from the effective date, i.e., on or before February 02, 2026."
+        },
+        {
+          "label": "Compliance report deadline for existing non-SEBI regulated mandates",
+          "date": "2026-12-31",
+          "quote": "submit a compliance report to the Board, on or before December 31, 2026."
+        },
+        {
+          "label": "Outsourced core activity closure deadline",
+          "date": "2026-04-03",
+          "quote": "within ninety days from the Effective Date. i.e., on or before April 03, 2026."
+        }
+      ],
+      "impact_summary": "This Master Circular consolidates SEBI's requirements applicable to Merchant Bankers, incorporating recent MB Regulations amendments (effective January 3, 2026) covering registration, capital adequacy/liquid net worth, certification, compliance officer/principal officer eligibility, underwriting limits, minimum revenue, outsourcing restrictions, conflict-of-interest, and disclosure obligations, thereby affecting all SEBI-registered Merchant Bankers.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "date": "Header states 'Issued on: September 26, 2023' yet the circular number and content reference amendments and circulars dated 2025-2026; this internal inconsistency in the source could not be resolved.",
+        "parent_circular_no": "This Master Circular consolidates and rescinds multiple prior SEBI circulars (dated May 02, 2017; January 02, 2026; June 11, 2026, among others listed in the Appendix) rather than amending a single identifiable parent, so no single parent circular could be designated.",
+        "effective_date": "The document does not state an explicit effective date for the Master Circular itself; dates labeled 'effective date' throughout refer to the underlying MB Regulations amendment (January 3, 2026), not the Master Circular's own effective date.",
+        "key_dates (Phase I/II table)": "Source table text is disordered by page/column layout (e.g. 'Phase (I) - on or before [Phase (II) - on or before / March 31, 2027]16 March 31, 2028]16'), so the quote reflects the verbatim scrambled text rather than a clean sentence."
+      },
+      "source_excerpt_citations": [
+        "MASTER CIRCULAR HO/49/14/15(3)2026-CFD-POD1/I/16178/2026 Issued on: September 26, 2023",
+        "Last updated on: July 14, 2026",
+        "notification dated December 5, 2025 which has come into effect from January 3, 2026",
+        "all directions/instructions contained in the circulars listed out in the Appendix to this Master Circular shall stand rescinded",
+        "This Master Circular is issued in exercise of the powers conferred under Section 11(1) of the Securities and Exchange Board of India Act, 1992"
+      ],
+      "model_confidence": "Inferred",
+      "validator_version": 3,
+      "source_url": "https://www.sebi.gov.in/legal/master-circulars/jul-2026/master-circular-for-merchant-bankers_102815.html",
+      "sample_data": false,
+      "title": "Master Circular for Merchant Bankers",
+      "retried": true,
+      "regulator": "SEBI",
+      "source": "sebi-master"
     }
   ],
   "sources": [
@@ -3389,10 +3465,12 @@
       "url": "https://www.sebi.gov.in/sebirss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Holds about five days of items, mixed with orders and press releases. Only circulars are kept.",
-      "checked_at": "2026-09-28T05:26:34Z",
+      "checked_at": "2026-09-28T07:16:56Z",
       "items": 0,
       "status": "ok",
-      "error": ""
+      "error": "",
+      "streak": 0,
+      "covered": true
     },
     {
       "id": "sebi-circulars",
@@ -3402,10 +3480,12 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Backstop for circulars that scroll off the RSS feed.",
-      "checked_at": "2026-09-28T05:26:35Z",
+      "checked_at": "2026-09-28T07:16:57Z",
       "items": 25,
       "status": "ok",
-      "error": ""
+      "error": "",
+      "streak": 0,
+      "covered": true
     },
     {
       "id": "sebi-master",
@@ -3415,10 +3495,12 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-28T05:26:35Z",
+      "checked_at": "2026-09-28T07:16:58Z",
       "items": 25,
       "status": "ok",
-      "error": ""
+      "error": "",
+      "streak": 0,
+      "covered": true
     },
     {
       "id": "rbi",
@@ -3428,10 +3510,12 @@
       "url": "https://rbi.org.in/notifications_rss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Includes bank-only prudential rules and foreign-exchange regulations. Triage keeps the ones that affect brokers and fintechs.",
-      "checked_at": "2026-09-28T05:26:36Z",
+      "checked_at": "2026-09-28T07:16:58Z",
       "items": 10,
       "status": "ok",
-      "error": ""
+      "error": "",
+      "streak": 0,
+      "covered": true
     },
     {
       "id": "nse",
@@ -3441,10 +3525,12 @@
       "url": "https://nsearchives.nseindia.com/content/RSS/Circulars.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Carries about one day of circulars (around 30 a day, mostly routine), so it's checked every 2 hours.",
-      "checked_at": "2026-09-28T05:26:38Z",
+      "checked_at": "2026-09-28T07:17:00Z",
       "items": 34,
       "status": "ok",
-      "error": ""
+      "error": "",
+      "streak": 0,
+      "covered": true
     },
     {
       "id": "bse",
@@ -3454,10 +3540,12 @@
       "url": "https://www.bseindia.com/data/xml/notices.xml",
       "verified": "Feed address confirmed through a third-party reader. BSE refused a direct test fetch (HTTP 403), so it may block automated access.",
       "note": "Dominated by mutual fund platform notices.",
-      "checked_at": "2026-09-28T05:26:39Z",
-      "items": 2,
+      "checked_at": "2026-09-28T07:17:01Z",
+      "items": 4,
       "status": "ok",
-      "error": ""
+      "error": "",
+      "streak": 0,
+      "covered": true
     },
     {
       "id": "nse-clearing",
@@ -3467,10 +3555,12 @@
       "url": "https://www.nseclearing.in/resources/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-28T05:26:39Z",
+      "checked_at": "2026-09-28T07:17:01Z",
       "items": 0,
       "status": "blocked",
-      "error": "The site's robots.txt disallows this address."
+      "error": "The site's robots.txt disallows this address.",
+      "streak": 1,
+      "covered": false
     },
     {
       "id": "nsdl",
@@ -3480,10 +3570,12 @@
       "url": "https://nsdl.co.in/business/circular.php",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-28T05:26:40Z",
+      "checked_at": "2026-09-28T07:17:02Z",
       "items": 0,
       "status": "empty",
-      "error": "Page loaded but no circular links matched. The page layout may have changed."
+      "error": "Page loaded but no circular links matched. The page layout may have changed.",
+      "streak": 1,
+      "covered": true
     },
     {
       "id": "cdsl",
@@ -3493,10 +3585,12 @@
       "url": "https://www.cdslindia.com/Publications/Communique.aspx/DP-COMMUNIQUES-INDEX.aspx",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "On 28 Sep 2026 this page returned 'Internal Error Occurred' even in a browser-style fetch. It may be unreliable.",
-      "checked_at": "2026-09-28T05:26:48Z",
+      "checked_at": "2026-09-28T07:17:13Z",
       "items": 0,
       "status": "empty",
-      "error": "Page loaded but no circular links matched. The page layout may have changed."
+      "error": "Page loaded but no circular links matched. The page layout may have changed.",
+      "streak": 1,
+      "covered": true
     },
     {
       "id": "ncdex",
@@ -3506,10 +3600,12 @@
       "url": "https://www.ncdex.com/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-28T05:26:49Z",
+      "checked_at": "2026-09-28T07:17:14Z",
       "items": 0,
       "status": "empty",
-      "error": "Page loaded but no circular links matched. The page layout may have changed."
+      "error": "Page loaded but no circular links matched. The page layout may have changed.",
+      "streak": 1,
+      "covered": true
     },
     {
       "id": "ifsca",
@@ -3519,10 +3615,12 @@
       "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Relevant to brokers and fintechs operating in GIFT City.",
-      "checked_at": "2026-09-28T05:26:51Z",
+      "checked_at": "2026-09-28T07:17:16Z",
       "items": 0,
       "status": "empty",
-      "error": "Page loaded but no circular links matched. The page layout may have changed."
+      "error": "Page loaded but no circular links matched. The page layout may have changed.",
+      "streak": 1,
+      "covered": true
     },
     {
       "id": "npci",
@@ -3532,10 +3630,12 @@
       "url": "https://www.npci.org.in/circulars/upi",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "UPI operating circulars for payment apps and PSPs.",
-      "checked_at": "2026-09-28T05:26:54Z",
+      "checked_at": "2026-09-28T07:17:31Z",
       "items": 0,
       "status": "blocked",
-      "error": "The site's robots.txt disallows this address."
+      "error": "The site's robots.txt disallows this address.",
+      "streak": 1,
+      "covered": false
     },
     {
       "id": "mcx",
@@ -3545,20 +3645,37 @@
       "url": "https://www.mcxindia.com/",
       "verified": "",
       "note": "Not connected. MCX's robots.txt disallows automated access to its RSS page. Connect it once a permitted source is confirmed.",
-      "checked_at": "2026-09-28T05:26:54Z",
+      "checked_at": "2026-09-28T07:17:31Z",
       "items": 0,
       "status": "not_connected",
-      "error": ""
+      "error": "",
+      "streak": 0,
+      "covered": false
     }
   ],
   "last_run": {
-    "at": "2026-09-28T05:26:54Z",
-    "added": 0,
-    "set_aside": 0,
+    "at": "2026-09-28T07:33:10Z",
+    "added": 15,
+    "set_aside": 4,
     "failed": 0,
     "deferred": 0,
     "triage_retries": 0,
     "failures": []
   },
-  "attempts": {}
+  "attempts": {},
+  "source_streaks": {
+    "sebi-rss": 0,
+    "sebi-circulars": 0,
+    "sebi-master": 0,
+    "rbi": 0,
+    "nse": 0,
+    "bse": 0,
+    "nse-clearing": 1,
+    "nsdl": 1,
+    "cdsl": 1,
+    "ncdex": 1,
+    "ifsca": 1,
+    "npci": 1,
+    "mcx": 0
+  }
 }

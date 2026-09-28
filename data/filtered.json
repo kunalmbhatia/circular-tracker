@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T05:26:54Z",
+  "generated_at": "2026-09-28T07:33:10Z",
   "items": [
     {
       "title": "Exim Bank’s GOI-supported Line of Credit (LOC) for ₹ 4,850 crores the Government of Maldives, for financing various developmental projects in Maldives",
@@ -315,6 +315,42 @@
       "source": "nse",
       "reason": "Single security suspension; routine corporate action",
       "decided_at": "2026-09-27T20:20:41Z"
+    },
+    {
+      "title": "Listing of new securities of Mardia Samyoung Capillary Tubes Company Limited",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260928-4/20260928-4.pdf",
+      "date": "2026-09-28",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "New listing of a specific company; no ecosystem-wide obligation",
+      "decided_at": "2026-09-28T07:17:33Z"
+    },
+    {
+      "title": "Change in Group of Equity Shares of FX Multitech Limited",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260928-3/20260928-3.pdf",
+      "date": "2026-09-28",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Stock-specific corporate action; no obligation for regulated entities",
+      "decided_at": "2026-09-28T07:17:33Z"
+    },
+    {
+      "title": "Change in Group of Equity shares of ROBOKIDZ EDUVENTURES LIMITED",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260928-2/20260928-2.pdf",
+      "date": "2026-09-28",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Stock-specific corporate action; no obligation for regulated entities",
+      "decided_at": "2026-09-28T07:17:33Z"
+    },
+    {
+      "title": "Change in Group of Equity Shares of Vivekanand Cotspin Limited",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260928-1/20260928-1.pdf",
+      "date": "2026-09-28",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Stock-specific corporate action; no obligation for regulated entities",
+      "decided_at": "2026-09-28T07:17:33Z"
     }
   ]
 }
