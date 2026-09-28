@@ -127,7 +127,7 @@ def test_pipeline_end_to_end():
     install_fakes()
     import main as M
     tmp = tempfile.mkdtemp()
-    M.DATA_PATH, M.FILTERED_PATH = os.path.join(tmp, "c.json"), os.path.join(tmp, "f.json")
+    M.DATA_PATH, M.FILTERED_PATH, M.ALERT_PATH = os.path.join(tmp, "c.json"), os.path.join(tmp, "f.json"), os.path.join(tmp, "a.md")
     json.dump({"generated_at": None, "circulars": [{"sample_data": True, "title": "seed"}]}, open(M.DATA_PATH, "w"))
     M.triage = lambda items: triage_mod.triage(items, client=FakeTriageClient())
     M.fetch_circular_text = lambda url: ("Full circular text " * 20, url)
@@ -190,7 +190,7 @@ def test_rate_limit_and_cap():
     install_fakes()
     import main as M
     tmp = tempfile.mkdtemp()
-    M.DATA_PATH, M.FILTERED_PATH = os.path.join(tmp, "c.json"), os.path.join(tmp, "f.json")
+    M.DATA_PATH, M.FILTERED_PATH, M.ALERT_PATH = os.path.join(tmp, "c.json"), os.path.join(tmp, "f.json"), os.path.join(tmp, "a.md")
     M.triage = lambda items: [(i, True, "keep") for i in items]
     M.fetch_circular_text = lambda url: ("Full circular text " * 20, url)
     M.allowed = lambda url: True
@@ -221,7 +221,7 @@ def test_requeue_and_unreadable():
     install_fakes()
     import main as M, extract_text as X
     tmp = tempfile.mkdtemp()
-    M.DATA_PATH, M.FILTERED_PATH = os.path.join(tmp, "c.json"), os.path.join(tmp, "f.json")
+    M.DATA_PATH, M.FILTERED_PATH, M.ALERT_PATH = os.path.join(tmp, "c.json"), os.path.join(tmp, "f.json"), os.path.join(tmp, "a.md")
     old = {"title": "Old SEBI circular", "regulator": "SEBI", "source_url": "https://www.sebi.gov.in/legal/circulars/old_1.html",
            "date": "2026-09-01", "overall_confidence": "Needs Review", "circular_no": "SEBI/HO/OLD/2026/1"}
     json.dump({"generated_at": "2026-09-27T00:00:00Z", "circulars": [old]}, open(M.DATA_PATH, "w"))
