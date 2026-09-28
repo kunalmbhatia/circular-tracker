@@ -23,6 +23,7 @@ concurrency:
 
 permissions:
   contents: write
+  issues: write     # to open/close the "needs attention" issue for the maintainer
 
 jobs:
   update:
@@ -58,4 +59,20 @@ jobs:
             git commit -m "Update circular data ($(date -u +%Y-%m-%d))"
             git pull --rebase --autostash origin main
             git push
+          fi
+
+      - name: Alert the maintainer, or clear the alert
+        # One open issue at most. GitHub emails the repository owner when it opens.
+        # It updates while the problem lasts and closes itself once the run is healthy.
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TITLE="Circular Tracker needs attention"
+          OPEN=$(gh issue list --state open --search "in:title \"$TITLE\"" --json number --jq '.[0].number' || true)
+          if [ -f health_alert.md ]; then
+            if [ -n "$OPEN" ]; then gh issue edit "$OPEN" --body-file health_alert.md
+            else gh issue create --title "$TITLE" --body-file health_alert.md; fi
+          elif [ -n "$OPEN" ]; then
+            gh issue close "$OPEN" --comment "Resolved automatically: the latest run was healthy."
           fi

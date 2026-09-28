@@ -66,6 +66,7 @@
   --bar-bg:rgba(10,13,18,.8);
 }
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--page);color:var(--ink);font:14px/1.5 var(--f-ui);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 button,input,select{font:inherit;color:inherit}
@@ -276,6 +277,21 @@ button.fresh:hover{background:var(--line)}
 .mgroup{font:600 11px/1 var(--f-ui);letter-spacing:.09em;text-transform:uppercase;color:var(--ink-3);padding:20px 0 4px}
 @media (max-width:760px){.mrow{grid-template-columns:minmax(0,1fr);gap:6px}.modal-wrap{padding:0}.modal{max-height:100vh;height:100%;border-radius:0}}
 
+.flags.plain li{display:block;padding:9px 0}
+details.tech{margin-top:10px;font-size:12.5px;color:var(--ink-3)}
+details.tech summary{cursor:pointer;padding:4px 0}
+.qlabel{font-size:12px;color:var(--ink-3);margin:18px 0 0}
+.intro{margin-top:16px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr)) auto;gap:14px 22px;padding:16px 18px;border-radius:12px;border:1px solid var(--line);background:var(--surface);font-size:13px;color:var(--ink-2);line-height:1.5}
+.intro b{display:block;color:var(--ink);font-weight:600;margin-bottom:3px}
+.intro .icon-btn{align-self:start}
+.cov{list-style:none;margin:0;padding:0}
+.cov li{display:grid;grid-template-columns:118px minmax(0,1fr);gap:16px;padding:10px 0;border-bottom:1px solid var(--line);font-size:13.5px}
+.cov li:last-child{border-bottom:0}
+.cov .why{color:var(--ink-3);font-size:12.5px;margin-top:2px}
+.steps{margin:0;padding-left:18px;font-size:13.5px;line-height:1.6;color:var(--ink-2)}
+.steps li{margin-bottom:6px}
+@media (max-width:760px){.intro{grid-template-columns:1fr;position:relative;padding-right:48px}.intro .icon-btn{position:absolute;top:8px;right:8px}}
+
 /* ---------- Drawer ---------- */
 .drawer{position:fixed;top:0;right:0;bottom:0;width:min(580px,100vw);background:var(--raised);border-left:1px solid var(--line);box-shadow:var(--shadow-3);z-index:40;display:flex;flex-direction:column;transform:translateX(104%);visibility:hidden;transition:transform .34s var(--ease),visibility 0s linear .34s;padding-top:env(safe-area-inset-top,0px)}
 .drawer.open{transform:none;visibility:visible;transition:transform .34s var(--ease),visibility 0s}
@@ -455,6 +471,13 @@ button.fresh:hover{background:var(--line)}
     <button class="icon-btn" id="noticeClose" type="button" aria-label="Dismiss notice"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
   </div>
 
+  <div class="intro" id="intro" hidden>
+    <div><b>What this is</b>Every circular that changes how brokers and fintechs operate, from SEBI, RBI, the exchanges and more, checked every 2 hours.</div>
+    <div><b>Open any circular</b>You'll see what it asks you to do, its deadlines, and which earlier circular it changes.</div>
+    <div><b>“Verified” means</b>each detail was matched word for word to the circular. If it says <i>Check the original</i>, read the source before acting.</div>
+    <button class="icon-btn" type="button" id="introClose" aria-label="Dismiss"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+  </div>
+
   <section class="masthead" aria-labelledby="pageTitle">
     <div>
       <p class="eyebrow">SEBI · RBI · Exchanges · Depositories · NPCI · IFSCA</p>
@@ -516,7 +539,7 @@ button.fresh:hover{background:var(--line)}
         <div class="chips" id="chips"></div>
       </div>
       <div class="list-wrap">
-        <div class="list-head" aria-hidden="true"><span>Issued</span><span>Circular</span><span>Segment</span><span>Verification</span></div>
+        <div class="list-head" aria-hidden="true"><span>Issued</span><span>Circular</span><span>Segment</span><span>Accuracy</span></div>
         <ul class="list" id="list" aria-label="Circulars"></ul>
       </div>
     </div>
@@ -583,9 +606,9 @@ var TYPES=[
 ];
 var TYPE_BY={};TYPES.forEach(function(t,i){t.i=i;TYPE_BY[t.key]=t;});
 var CONF=[
-  {key:"Certain",label:"Certain",cls:"good",desc:"Every field is backed by text quoted from the circular, and the record passed every automated check."},
-  {key:"Inferred",label:"Inferred",cls:"warn",desc:"Some fields were reasonably derived rather than stated outright. Check them against the original."},
-  {key:"Needs Review",label:"Needs review",cls:"crit",desc:"The classifier or a validator could not confirm one or more fields against the circular text."}
+  {key:"Certain",label:"Verified",cls:"good",desc:"Every detail on this page was matched word for word to the circular itself."},
+  {key:"Inferred",label:"Verified, with notes",cls:"good",desc:"The details match the circular. A note below explains one thing we couldn't confirm, usually a link to an older circular that isn't in this register yet."},
+  {key:"Needs Review",label:"Check the original",cls:"warn",desc:"We couldn't match every detail to the circular's text, so some of the summary may be wrong. Read the original before relying on it."}
 ];
 var CONF_BY={};CONF.forEach(function(c){CONF_BY[c.key]=c;});
 var REG_FULL={"SEBI":"Securities and Exchange Board of India","RBI":"Reserve Bank of India","NSE":"National Stock Exchange of India","BSE":"BSE Limited","NSE Clearing":"NSE Clearing Limited","NSDL":"National Securities Depository Limited","CDSL":"Central Depository Services (India) Limited","NCDEX":"National Commodity & Derivatives Exchange","MCX":"Multi Commodity Exchange of India","IFSCA":"International Financial Services Centres Authority","NPCI":"National Payments Corporation of India"};
@@ -716,26 +739,27 @@ function renderFresh(){
   var dot=$("#freshDot"),txt=$("#freshText"),wrap=$("#fresh");
   if(!RAW.generated_at){
     dot.className="dot warn";txt.textContent="Sample data";
-    wrap.title="The pipeline hasn't run yet. Select to see source status.";
+    wrap.title="Select to see what's covered.";
     return;
   }
   var g=new Date(RAW.generated_at),h=(Date.now()-g.getTime())/36e5;
   var when=g.toLocaleString("en-IN",{day:"2-digit",month:"short",hour:"2-digit",minute:"2-digit",timeZone:"Asia/Kolkata"})+" IST";
   dot.className="dot "+(h<30?"good":h<72?"warn":"crit");
-  txt.textContent=h<30?"Updated "+when:(h<72?"Updated "+when:"Stale · "+when);
-  var bad=(RAW.sources||[]).filter(function(s){return s.status==="failed"||s.status==="empty";}).length;
-  if(bad&&h<72){dot.className="dot warn";txt.textContent+=" · "+plural(bad,"source")+" failing";}
-  wrap.title="Data last refreshed "+g.toLocaleString("en-IN",{dateStyle:"full",timeStyle:"short",timeZone:"Asia/Kolkata"})+" IST. Select to see source status.";
+  var ago=h<1?"just now":h<24?Math.round(h)+"h ago":Math.round(h/24)+"d ago";
+  txt.textContent=h<72?"Updated "+ago:"Not updated since "+when;
+  wrap.title="Checked for new circulars "+g.toLocaleString("en-IN",{dateStyle:"full",timeStyle:"short",timeZone:"Asia/Kolkata"})+" IST. Select to see what's covered.";
 }
 function renderFigs(){
   var last30=RECS.filter(function(r){return r._d&&r._d>=new Date(TODAY.getTime()-30*DAY);}).length;
-  var review=RECS.filter(function(r){return r._conf==="Needs Review";}).length;
-  var onlyReview=F.conf.size===1&&F.conf.has("Needs Review");
+  var due=0,limit=new Date(TODAY.getTime()+90*DAY);
+  RECS.forEach(function(r){var ds=[parseISO(r.effective_date)].concat((r.key_dates||[]).map(function(k){return parseISO(k.date);}));
+    if(ds.some(function(d){return d&&d>=TODAY&&d<=limit;}))due++;});
+  var regs={};RECS.forEach(function(r){regs[r._reg]=1;});
   var f=$("#figs");
   f.innerHTML=
-    '<button class="fig" type="button" data-fig="all" title="Show every circular"><span class="n">'+RECS.length+'</span><span class="l">Circulars in register</span></button>'+
+    '<button class="fig" type="button" data-fig="all" title="Show every circular"><span class="n">'+RECS.length+'</span><span class="l">Circulars from '+Object.keys(regs).length+' regulators</span></button>'+
     '<button class="fig" type="button" data-fig="30" aria-pressed="'+(F.range==="30")+'"><span class="n">'+last30+'</span><span class="l">Issued in last 30 days</span></button>'+
-    '<button class="fig'+(review?" crit":"")+'" type="button" data-fig="review" aria-pressed="'+onlyReview+'"><span class="n">'+(review?ICON.crit:"")+review+'</span><span class="l">Awaiting verification</span></button>';
+    '<button class="fig" type="button" data-fig="due" title="Circulars with an effective date or deadline in the next 90 days"><span class="n">'+due+'</span><span class="l">With deadlines in next 90 days</span></button>';
 }
 
 /* ---------------- Render: chart ---------------- */
@@ -857,11 +881,11 @@ function facetDefs(){
   var regSet={};RECS.forEach(function(r){regSet[r._reg]=1;});(RAW.sources||[]).forEach(function(s){if(s.regulator)regSet[s.regulator]=1;});
   var regs=REG_ORDER.filter(function(k){return regSet[k];}).concat(Object.keys(regSet).filter(function(k){return REG_ORDER.indexOf(k)<0;}));
   return [
-    {dim:"reg",title:"Issued by",values:regs,get:function(r){return [r._reg];},fixed:true,limit:6,full:function(k){return REG_FULL[k]||k;}},
+    {dim:"reg",title:"Issued by",values:regs.filter(function(k){return RECS.some(function(r){return r._reg===k;})||F.reg.has(k);}),get:function(r){return [r._reg];},fixed:true,limit:6,full:function(k){return REG_FULL[k]||k;}},
     {dim:"type",title:"Document type",values:TYPES.map(function(t){return t.key;}),label:function(k){return TYPE_BY[k].label;},sw:function(k){return "var("+TYPE_BY[k].v+")";},get:function(r){return [r.doc_type];},fixed:true},
     {dim:"area",title:"Market segment",values:Object.keys(areaSet),get:function(r){return r._areas;},limit:7},
     {dim:"appl",title:"Applies to",values:Object.keys(applSet),get:function(r){return [r._appl];},limit:6},
-    {dim:"conf",title:"Verification",values:CONF.map(function(c){return c.key;}),label:function(k){return CONF_BY[k].label;},get:function(r){return [r._conf];},fixed:true}
+    {dim:"conf",title:"Accuracy check",values:CONF.map(function(c){return c.key;}),label:function(k){return CONF_BY[k].label;},get:function(r){return [r._conf];},fixed:true}
   ];
 }
 function renderFacets(){
@@ -920,7 +944,7 @@ function renderToolbar(){
   $("#chips").innerHTML=chips.join("");
   $("#exportNote").textContent="Exports the "+plural(visible.length,"circular")+" in the current view.";
   var ab=$("#asideBtn"),na=asideVisible().length;
-  ab.hidden=!ASIDE.length;ab.textContent=plural(na,"routine notice")+" set aside";
+  ab.hidden=!ASIDE.length;ab.textContent=plural(na,"routine notice")+" hidden";
 }
 function hl(text){
   var s=esc(text);if(!F.q)return s;
@@ -952,7 +976,7 @@ function rowHTML(r){
     '<span class="c-date"><span class="rd">'+dd+'</span><span class="ry">'+yy+'</span></span>'+
     '<span class="c-main"><span class="rtype"><span class="reg" title="'+esc(REG_FULL[r._reg]||r._reg)+'">'+esc(r._reg)+'</span><i class="sw" style="--c:var('+t.v+')"></i>'+esc(t.label)+'</span><span class="rtitle">'+hl(r.title)+'</span><span class="rmeta">'+meta+'</span></span>'+
     '<span class="c-tags">'+tags+'</span>'+
-    '<span class="c-status"><span class="status '+c.cls+'">'+ICON[c.cls]+c.label+'</span>'+(eff?'<span class="eff">Effective '+fmtDay(eff)+'</span>':'')+'</span>'+
+    '<span class="c-status"><span class="status '+c.cls+'" title="'+esc(c.desc)+'">'+ICON[c.cls]+(r._conf==="Needs Review"?c.label:"Verified")+'</span>'+(eff?'<span class="eff">Effective '+fmtDay(eff)+'</span>':'')+'</span>'+
   '</button></li>';
 }
 function renderList(){
@@ -1007,6 +1031,20 @@ function lineage(r){
   if(ib.length||UPSTREAM[r._reg])html+=chainItem("Implemented by",ib.length?ib.map(recButton).join('<div style="height:8px"></div>'):'<div class="cx">No exchange, depository or other body in this register has issued a circular implementing this one yet.</div>');
   return html+'</ol>';
 }
+function plainFlag(k,v){
+  v=String(v||"");
+  if(k==="source_excerpt_citations")return "One of the quotes we extracted couldn't be found word for word in the circular.";
+  if(k==="key_dates")return "One of the dates couldn't be matched to a sentence in the circular. Confirm deadlines in the original.";
+  if(k==="parent_circular_no"&&/isn't in this register/.test(v))return "It changes an older circular that isn't in this register yet, so that link can't be opened here.";
+  if(k==="parent_circular_no")return "We couldn't confirm which earlier circular this one changes.";
+  if(k==="circular_no")return "We couldn't confirm the circular's reference number.";
+  if(k==="implements")return "We couldn't confirm which circular from another regulator this one carries out.";
+  if(k==="doc_type")return "It wasn't clear whether this is a new circular or a change to an earlier one.";
+  if(k==="all_fields"&&/scanned|readable text/.test(v))return "The circular is a scanned image, so it couldn't be read automatically. Open the original.";
+  if(k==="recheck")return "We couldn't re-read the document recently, so this summary is from an earlier check.";
+  if(k==="effective_date")return "The circular gives more than one start date; see the original for which applies to you.";
+  return "Note: "+v.replace(/\s+/g," ").slice(0,180);
+}
 function humanField(k){return ({applicability:"Applies to",impact_summary:"Impact",implements:"Implements",intent:"Intent",action_required:"Action required",all_fields:"All fields",circular_no:"Circular number",parent_circular_no:"Parent circular",impact_areas:"Market segment",doc_type:"Document type",key_dates:"Key dates",source_excerpt_citations:"Quoted evidence",effective_date:"Effective date"})[k]||k.replace(/_/g," ");}
 function drawerHTML(r){
   var t=TYPE_BY[r.doc_type]||{label:r.doc_type||"Unclassified",v:"--ink-4"},c=CONF_BY[r._conf];
@@ -1028,10 +1066,15 @@ function drawerHTML(r){
   h+='<dt>Who is affected, and how</dt><dd'+(pend(r.impact_summary)?' class="pending"':'')+'>'+esc(pend(r.impact_summary)?"Not extracted yet.":r.impact_summary)+'</dd>';
   h+='</dl></section>';
   h+='<section class="sec"><h3>Lineage</h3>'+lineage(r)+'</section>';
-  h+='<section class="sec"><h3>Verification</h3><div class="verify '+c.cls+'">'+ICON[c.cls]+'<div><b>'+c.label+'</b>'+c.desc+'</div></div>';
+  h+='<section class="sec"><h3>How we checked this</h3><div class="verify '+c.cls+'">'+ICON[c.cls]+'<div><b>'+c.label+'</b>'+c.desc+'</div></div>';
   var flags=r.confidence_flags||{},fk=Object.keys(flags);
-  if(fk.length)h+='<ul class="flags">'+fk.map(function(k){return '<li><span>'+esc(humanField(k))+'</span><span>'+esc(flags[k])+'</span></li>';}).join("")+'</ul>';
-  (r.source_excerpt_citations||[]).forEach(function(q){h+='<blockquote class="excerpt">'+esc(q)+'</blockquote>';});
+  if(fk.length){
+    var notes=[];fk.forEach(function(k){var t=plainFlag(k,flags[k]);if(notes.indexOf(t)<0)notes.push(t);});
+    h+='<ul class="flags plain">'+notes.map(function(t){return '<li>'+esc(t)+'</li>';}).join("")+'</ul>';
+    h+='<details class="tech"><summary>Technical detail</summary><ul class="flags">'+fk.map(function(k){return '<li><span>'+esc(humanField(k))+'</span><span>'+esc(flags[k])+'</span></li>';}).join("")+'</ul></details>';
+  }
+  var qs=r.source_excerpt_citations||[];
+  if(qs.length){h+='<p class="qlabel">Quoted from the circular</p>';qs.forEach(function(q){h+='<blockquote class="excerpt">'+esc(q)+'</blockquote>';});}
   h+='</section>';
   return h;
 }
@@ -1093,10 +1136,10 @@ function renderPalette(){
     facetDefs().forEach(function(fd){fd.values.forEach(function(v){var lab=fd.label?fd.label(v):v;if(t.every(function(x){return lab.toLowerCase().indexOf(x)>=0;})){items.push({g:"Filters",kind:"filter",dim:fd.dim,val:v,icon:ICON.filter,title:esc(fd.title)+": "+esc(lab),sub:F[fd.dim].has(v)?"Already applied":"Add this filter",ui:true});}});});
   }
   var acts=[
-    {title:"Show circulars awaiting verification",run:function(){F.conf=new Set(["Needs Review"]);update();}},
+    {title:"Show circulars to check against the original",run:function(){F.conf=new Set(["Needs Review"]);update();}},
     {title:"Show circulars issued in the last 30 days",run:function(){F.range="30";update();}},
     {title:"Reset all filters",run:resetAll},
-    {title:"Show source status",run:showSources},
+    {title:"What's covered, and how it works",run:showSources},
     {title:"Review notices set aside as routine",run:showAside},
     {title:"Export current view to Excel",run:function(){doExport("xlsx");}},
     {title:"Copy link to current view",run:copyViewLink},
@@ -1158,29 +1201,37 @@ function showAside(){
     if(a.regulator!==g){g=a.regulator;html+='<div class="mgroup">'+esc(g)+'</div>';}
     html+='<div class="mrow"><div class="md">'+(a.date?fmtDay(a.date):"—")+'</div><div><div class="mt doc">'+esc(a.title)+'</div><div class="mm">'+esc(a.reason||"")+(a.url?' · <a href="'+esc(a.url)+'" target="_blank" rel="noopener noreferrer">Original</a>':"")+'</div></div><span></span></div>';
   });
-  openModal("Set aside as routine",
+  openModal("Routine notices hidden from the register",
     "Notices from mixed feeds that were screened out because they concern one company, security or scheme, or are bank-only rules. They're listed here so the filter can be checked."+(ASIDE.some(function(a){return a.sample_data;})?" These are sample decisions made by hand.":""),html);
 }
 var ST={ok:["good","Working"],empty:["warn","Page changed"],failed:["crit","Failing"],blocked:["warn","Blocked by site"],not_connected:["","Not connected"],pending:["","Not run yet"]};
 function showSources(){
-  var src=RAW.sources||[];
-  var html=src.length?"":'<div class="state" style="padding:36px 0"><p>This data file has no source report yet.</p></div>';
-  src.forEach(function(s){
-    var st=ST[s.status]||["",s.status],when=s.checked_at?new Date(s.checked_at).toLocaleString("en-IN",{day:"2-digit",month:"short",hour:"2-digit",minute:"2-digit",timeZone:"Asia/Kolkata"})+" IST":"";
-    var kind={rss:"RSS feed",sebi_listing:"Listing page",page:"Listing page",none:"—"}[s.kind]||s.kind;
-    html+='<div class="mrow"><div><span class="reg">'+esc(s.regulator)+'</span></div><div><div class="mt">'+esc(s.name)+' <span style="color:var(--ink-3);font-weight:400">· '+kind+'</span></div>'+
-      '<div class="mm">'+(s.error?'<span style="color:var(--crit-ink)">'+esc(s.error)+'</span><br>':'')+(s.note?esc(s.note)+'<br>':'')+(s.verified?esc(s.verified):'')+(s.url&&s.kind!=="none"?' · <a href="'+esc(s.url)+'" target="_blank" rel="noopener noreferrer">Source</a>':'')+'</div></div>'+
-      '<div style="text-align:right"><span class="st'+(st[0]?" status "+st[0]:"")+'">'+(st[0]?ICON[st[0]]:"")+st[1]+'</span>'+(when?'<div class="mm mono" style="margin-top:4px">'+when+(s.status==="ok"?" · "+plural(s.items,"item"):"")+'</div>':"")+'</div></div>';
+  var src=(RAW.sources||[]).filter(function(x){return x.regulator;});
+  var byReg={};src.forEach(function(x){(byReg[x.regulator]=byReg[x.regulator]||[]).push(x);});
+  var covered=[],notYet=[];
+  REG_ORDER.concat(Object.keys(byReg).filter(function(k){return REG_ORDER.indexOf(k)<0;})).forEach(function(reg){
+    var list=byReg[reg];if(!list)return;
+    var ok=list.some(function(x){return x.covered===true||(x.covered===undefined&&x.status==="ok");});
+    if(ok)covered.push(reg);
+    else{
+      var why=list.some(function(x){return x.status==="blocked";})?"Its website doesn't permit automated reading, so we respect that."
+             :list.every(function(x){return x.status==="not_connected";})?"Not connected yet."
+             :"Temporarily unavailable. We're notified automatically and it's being fixed.";
+      notYet.push({reg:reg,why:why});
+    }
   });
-  var lr=RAW.last_run;
-  if(lr){
-    var at=new Date(lr.at).toLocaleString("en-IN",{day:"2-digit",month:"short",hour:"2-digit",minute:"2-digit",timeZone:"Asia/Kolkata"})+" IST";
-    var head='<div class="mgroup">Last run · '+at+'</div><div class="mm" style="margin:4px 0 8px">'+plural(lr.added,"circular")+' added · '+lr.set_aside+' set aside · '+(lr.failed?'<span style="color:var(--crit-ink)">'+lr.failed+' could not be processed</span>':'none failed')+(lr.deferred?' · '+lr.deferred+' waiting for the next run':'')+'</div>';
-    (lr.failures||[]).slice(0,12).forEach(function(f){head+='<div class="mrow"><div><span class="reg">'+esc(f.regulator||"")+'</span></div><div><div class="mt">'+esc(f.title||f.url)+'</div><div class="mm">'+esc(f.error||"")+(f.url?' · <a href="'+esc(f.url)+'" target="_blank" rel="noopener noreferrer">Original</a>':'')+'</div></div><span></span></div>';});
-    html=head+'<div class="mgroup">Sources</div>'+html;
-  }
-  var ok=src.filter(function(s){return s.status==="ok";}).length,live=src.filter(function(s){return s.kind!=="none";}).length;
-  openModal("Sources",(RAW.generated_at?ok+" of "+live+" connected sources answered on the last run. ":"The pipeline hasn't run yet, so no source has been checked. ")+"Sources are checked every 2 hours, and each site's robots.txt is respected.",html);
+  var n=RECS.length,when=RAW.generated_at?new Date(RAW.generated_at).toLocaleString("en-IN",{dateStyle:"medium",timeStyle:"short",timeZone:"Asia/Kolkata"})+" IST":"not yet";
+  var html='<div class="mgroup">Covered</div><ul class="cov">'+covered.map(function(r){
+      var c=RECS.filter(function(x){return x._reg===r;}).length;
+      return '<li><span class="reg" style="justify-self:start">'+esc(r)+'</span><div>'+esc(REG_FULL[r]||r)+'<div class="why">'+plural(c,"circular")+' in the register</div></div></li>';}).join("")+'</ul>';
+  if(notYet.length)html+='<div class="mgroup">Not covered yet</div><ul class="cov">'+notYet.map(function(x){
+      return '<li><span class="reg" style="justify-self:start">'+esc(x.reg)+'</span><div>'+esc(REG_FULL[x.reg]||x.reg)+'<div class="why">'+esc(x.why)+'</div></div></li>';}).join("")+'</ul>';
+  html+='<div class="mgroup">How it works</div><ol class="steps">'+
+    '<li>Every 2 hours we check each regulator\'s official website or feed for new circulars.</li>'+
+    '<li>Routine notices (a single company\'s listing, one fund\'s launch) are set aside; you can review them from the link above the list.</li>'+
+    '<li>Each remaining circular is read in full and summarised by AI, then every quote, date and reference number is checked word for word against the document.</li>'+
+    '<li>Anything that fails a check is re-done once automatically. If it still fails, it\'s marked <b>Check the original</b>.</li></ol>';
+  openModal("What's covered","Last checked for new circulars: "+when+". "+plural(n,"circular")+" tracked.",html);
 }
 
 /* ---------------- Actions ---------------- */
@@ -1244,6 +1295,8 @@ function bind(){
   $("#brandLink").addEventListener("click",function(e){e.preventDefault();closeDrawer();resetAll();window.scrollTo({top:0,behavior:reduceMotion?"auto":"smooth"});});
   $("#themeBtn").addEventListener("click",toggleTheme);
   $("#fresh").addEventListener("click",showSources);
+  try{if(!localStorage.getItem("sct-intro"))$("#intro").hidden=false;}catch(e){$("#intro").hidden=false;}
+  $("#introClose").addEventListener("click",function(){$("#intro").hidden=true;try{localStorage.setItem("sct-intro","1");}catch(e){}});
   $("#asideBtn").addEventListener("click",showAside);
   $("#mClose").addEventListener("click",closeModal);
   $("#modalWrap").addEventListener("mousedown",function(e){if(e.target===e.currentTarget)closeModal();});
@@ -1263,7 +1316,7 @@ function bind(){
     var b=e.target.closest("[data-fig]");if(!b)return;var k=b.getAttribute("data-fig");
     if(k==="all")resetAll();
     else if(k==="30"){F.range=F.range==="30"?"all":"30";customOpen=false;update();}
-    else if(k==="review"){var on=F.conf.size===1&&F.conf.has("Needs Review");F.conf=on?new Set():new Set(["Needs Review"]);update();}
+    else if(k==="due"){var up=$("#upcoming");if(up)up.scrollIntoView({behavior:reduceMotion?"auto":"smooth",block:"center"});}
   });
 
   var fac=$("#facets");

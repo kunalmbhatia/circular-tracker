@@ -219,7 +219,7 @@ def parse_json_object(raw):
     return None
 
 
-def classify_circular(source_text, source_url, known_circular_numbers=None, client=None, regulator="SEBI"):
+def classify_circular(source_text, source_url, known_circular_numbers=None, client=None, regulator="SEBI", feedback=None):
     """Returns a dict matching data/circulars.json's record schema, with
     validation checks applied on top of the model's own output."""
     # New API accounts have low per-minute limits; the SDK waits and retries on 429s.
@@ -232,7 +232,11 @@ def classify_circular(source_text, source_url, known_circular_numbers=None, clie
         # for the JSON answer after it.
         max_tokens=16000,
         system=SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": f"ISSUED BY: {regulator}\n\nSOURCE TEXT:\n\n{truncated}"}],
+        messages=[{"role": "user", "content": f"ISSUED BY: {regulator}\n\nSOURCE TEXT:\n\n{truncated}" + (
+            "\n\nA PREVIOUS ATTEMPT ON THIS DOCUMENT FAILED THESE AUTOMATED CHECKS:\n" + feedback +
+            "\nFix them. Copy every quote character for character from the source text above, without "
+            "shortening or joining sentences. If a value can't be confirmed from the text, use "
+            "\"NOT STATED IN SOURCE\" rather than guessing." if feedback else "")}],
     )
     if getattr(message, "stop_reason", None) == "max_tokens":
         raise ValueError("The model's answer was cut off by the length limit; will retry next run.")

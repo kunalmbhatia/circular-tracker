@@ -133,10 +133,10 @@ def test_pipeline_end_to_end():
     M.fetch_circular_text = lambda url: ("Full circular text " * 20, url)
     M.allowed = lambda url: True
     calls = []
-    def fake_classify(text, source_url, known_circular_numbers=None, regulator="SEBI"):
+    def fake_classify(text, source_url, known_circular_numbers=None, regulator="SEBI", feedback=None):
         calls.append(regulator)
         return {"circular_no": "NOT STATED IN SOURCE", "date": None, "doc_type": "Fresh Circular",
-                "overall_confidence": "Needs Review", "confidence_flags": {}, "source_url": source_url, "validator_version": 3}
+                "overall_confidence": "Certain", "confidence_flags": {}, "source_url": source_url, "validator_version": 3}
     M.classify_circular = fake_classify
     os.environ["ANTHROPIC_API_KEY"] = "test"
     code = None
@@ -154,7 +154,11 @@ def test_pipeline_end_to_end():
         assert want in titles, (want, titles)
     assert all(f["reason"] for f in filt["items"])
     assert len(data["sources"]) == len(sources.SOURCES)
-    # Second run: nothing new, heartbeat not due -> no write
+    # Let failure streaks of the broken fake sources reach their cap (3 runs),
+    # then an idle run must write nothing.
+    for _ in range(2):
+        try: M.main()
+        except SystemExit: pass
     mtime = os.path.getmtime(M.DATA_PATH)
     try:
         M.main()
@@ -194,7 +198,7 @@ def test_rate_limit_and_cap():
     M.MAX_CLASSIFY = 3
     class RateLimitError(Exception): pass
     calls = []
-    def fake_classify(text, source_url, known_circular_numbers=None, regulator="SEBI"):
+    def fake_classify(text, source_url, known_circular_numbers=None, regulator="SEBI", feedback=None):
         calls.append(source_url)
         if len(calls) == 2:
             raise RateLimitError("429")
@@ -228,7 +232,7 @@ def test_requeue_and_unreadable():
         if "CMPL76570" in url: raise X.NoDocumentText("scanned")
         return ("text " * 400, url)
     M.fetch_circular_text = fetch
-    M.classify_circular = lambda text, source_url, known_circular_numbers=None, regulator="SEBI": {
+    M.classify_circular = lambda text, source_url, known_circular_numbers=None, regulator="SEBI", feedback=None: {
         "circular_no": "X/2026/1", "doc_type": "Fresh Circular", "overall_confidence": "Certain",
         "confidence_flags": {}, "source_url": source_url, "validator_version": 3}
     os.environ["ANTHROPIC_API_KEY"] = "test"
@@ -245,7 +249,42 @@ def test_requeue_and_unreadable():
     print("ok  old record re-checked once (not duplicated); unreadable PDF listed after 3 tries and run goes green")
 
 
+def test_self_correction_and_alerts():
+    install_fakes()
+    import main as M
+    tmp = tempfile.mkdtemp()
+    M.DATA_PATH, M.FILTERED_PATH, M.ALERT_PATH = os.path.join(tmp, "c.json"), os.path.join(tmp, "f.json"), os.path.join(tmp, "alert.md")
+    bad = {"title": "Flagged circular", "regulator": "SEBI", "source_url": "https://www.sebi.gov.in/legal/circulars/flag_1.html",
+           "date": "2026-09-01", "overall_confidence": "Needs Review", "validator_version": 3,
+           "confidence_flags": {"source_excerpt_citations": "1 quoted excerpt(s) could not be found"}}
+    json.dump({"generated_at": "2026-09-27T00:00:00Z", "circulars": [bad]}, open(M.DATA_PATH, "w"))
+    M.triage = lambda items: [(i, True, "keep") for i in items]
+    M.allowed = lambda url: True
+    M.PAUSE_SECONDS = 0; M.MAX_CLASSIFY = 60
+    M.fetch_circular_text = lambda url: ("text " * 400, url)
+    seen = []
+    def cls(text, source_url, known_circular_numbers=None, regulator="SEBI", feedback=None):
+        seen.append((source_url, feedback))
+        return {"circular_no": "X/2026/1", "doc_type": "Fresh Circular", "overall_confidence": "Needs Review",
+                "confidence_flags": {"x": "still wrong"}, "source_url": source_url, "validator_version": 3}
+    M.classify_circular = cls
+    os.environ["ANTHROPIC_API_KEY"] = "test"
+    for _ in range(3):
+        try: M.main()
+        except SystemExit as e: assert e.code in (None, 0), e.code
+    fb = [f for u, f in seen if u == bad["source_url"]]
+    assert len(fb) == 1 and "could not be found" in fb[0], fb           # retried exactly once, with the reason
+    d = json.load(open(M.DATA_PATH))
+    by = {h["id"]: h for h in d["sources"]}
+    assert by["cdsl"]["streak"] == 3 and by["cdsl"]["covered"] is False and by["sebi-rss"]["covered"] is True
+    assert by["bse"]["covered"] is False                                # robots-blocked: never shown as covered
+    alert = open(M.ALERT_PATH).read()
+    assert "CDSL" in alert and "BSE" not in alert, alert                # policy blocks aren't alarms
+    shutil.rmtree(tmp)
+    print("ok  flagged circular retried once with its failure reasons; dead sources auto-marked not covered + alert raised; runs stay green")
+
+
 if __name__ == "__main__":
     test_parsers_and_health(); test_triage_override(); test_pipeline_end_to_end()
-    test_sebi_viewer_and_title_only_guard(); test_rate_limit_and_cap(); test_requeue_and_unreadable()
+    test_sebi_viewer_and_title_only_guard(); test_rate_limit_and_cap(); test_requeue_and_unreadable(); test_self_correction_and_alerts()
     print("ALL PIPELINE TESTS PASS")

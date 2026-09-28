@@ -71,6 +71,35 @@ def known_numbers(records):
     return {r["circular_no"] for r in records if r.get("circular_no") and r["circular_no"] != "NOT STATED IN SOURCE"}
 
 
+ALERT_PATH = os.path.join(ROOT, "..", "health_alert.md")
+TRIAGE_FAILED = [0]
+
+
+def write_alert(health, failures):
+    """Writes health_alert.md when the maintainer should act, deletes it when not.
+    The workflow turns it into a GitHub issue (which GitHub emails to the owner)
+    and closes the issue once the problem clears. Readers never see these errors."""
+    broken = [h for h in health if h["status"] in ("failed", "empty") and h.get("streak", 0) >= 3]
+    lines = []
+    if broken:
+        lines.append("## Sources that have stopped working\n")
+        lines.append("Each of these has failed 3 or more runs in a row. The site now shows them as not covered.\n")
+        for h in broken:
+            what = ("The page loads but no circulars matched: its layout has probably changed and the parser in "
+                    "scraper/sources.py needs updating." if h["status"] == "empty" else f"Error: {h['error']}")
+            lines.append(f"- **{h['name']}** ({h['url']}): {what}")
+    if len(failures) >= 5 or TRIAGE_FAILED[0]:
+        lines.append("\n## Many circulars failed in the last run\n")
+        for f in failures[:10]:
+            lines.append(f"- {f.get('regulator')}: {f.get('title','')[:90]} — {f.get('error','')[:150]}")
+    if lines:
+        with open(ALERT_PATH, "w", encoding="utf-8") as fh:
+            fh.write("The Circular Tracker needs attention. This issue closes itself once the problem is resolved.\n\n"
+                     + "\n".join(lines) + "\n")
+    elif os.path.exists(ALERT_PATH):
+        os.remove(ALERT_PATH)
+
+
 def main():
     if not os.environ.get("ANTHROPIC_API_KEY"):
         print("ERROR: ANTHROPIC_API_KEY is not set. Set it as an environment variable "
@@ -98,6 +127,7 @@ def main():
           f"({len(direct)} direct, {len(screen)} to screen)", file=sys.stderr)
 
     relevant, triage_failed, newly_set_aside = list(direct), 0, 0
+    failures = []
 
     # Records checked by an older validator are classified again, so the whole
     # register is held to the same rules. (Validation needs the circular's text,
@@ -106,12 +136,20 @@ def main():
     stale_recs = [r for r in records if r.get("source_url") and r.get("validator_version") != VALIDATOR_VERSION
                   and not r.get("unreadable")
                   and (r.get("validator_version", 0) < 2 or r.get("overall_confidence") == "Needs Review")]
+    # Self-correction: a circular that failed a check is re-done ONCE, with the
+    # specific failures fed back to the model. If it fails again it stays flagged
+    # for readers ("check the original"), and is never retried in a loop.
+    stale_recs += [r for r in records if r.get("source_url") and r not in stale_recs and not r.get("unreadable")
+                   and r.get("validator_version") == VALIDATOR_VERSION
+                   and r.get("overall_confidence") == "Needs Review" and not r.get("retried")]
     if stale_recs:
         records = [r for r in records if r not in stale_recs]
         for r in stale_recs:
             relevant.append({"title": r.get("title", ""), "url": r["source_url"], "date": r.get("date"),
                              "regulator": r.get("regulator", "SEBI"), "source": r.get("source", "sebi-rss"),
-                             "triage_reason": r.get("triage_reason"), "_prior": r})
+                             "triage_reason": r.get("triage_reason"), "_prior": r,
+                             "_feedback": "\n".join(f"- {k}: {v}" for k, v in (r.get("confidence_flags") or {}).items())
+                                          if r.get("validator_version") == VALIDATOR_VERSION else None})
         print(f"[main] {len(stale_recs)} record(s) re-queued for the current validator", file=sys.stderr)
     attempts = data.get("attempts", {})
     try:
@@ -125,11 +163,12 @@ def main():
                 newly_set_aside += 1
     except Exception as e:
         triage_failed = len(screen)
+        TRIAGE_FAILED[0] = triage_failed
+        failures.append({"regulator": "all", "title": f"Screening of {triage_failed} new notices", "error": str(e)[:200]})
         print(f"[main] ERROR: triage failed ({e}); {triage_failed} item(s) will be retried next run.", file=sys.stderr)
 
     known = known_numbers(records) | known_numbers([i['_prior'] for i in relevant if i.get('_prior')])
     added, failed, deferred = 0, 0, 0
-    failures = []
     relevant.sort(key=lambda i: i.get("date") or "", reverse=True)
     if len(relevant) > MAX_CLASSIFY:
         deferred = len(relevant) - MAX_CLASSIFY
@@ -156,9 +195,11 @@ def main():
                 failures.append({"regulator": item.get("regulator"), "title": item.get("title", "")[:160],
                                  "url": item.get("url"), "error": "Document had little or no extractable text (possibly a scanned image)."})
                 continue
-            rec = classify_circular(text, source_url=item["url"], known_circular_numbers=known,
+            rec = classify_circular(text, source_url=item["url"], known_circular_numbers=known, feedback=item.get("_feedback"),
                                     regulator=item["regulator"])
             rec["title"] = item["title"]
+            if item.get("_feedback"):
+                rec["retried"] = True
             rec["regulator"] = item["regulator"]
             rec["source"] = item["source"]
             if item.get("triage_reason"):
@@ -215,6 +256,20 @@ def main():
     set_aside = [f for f in set_aside if (f.get("date") or f.get("decided_at", "")[:10] or "9999") >= cutoff]
     pruned = before - len(set_aside)
 
+    # Source health over time. One bad run is noise; a source failing 3 runs in a
+    # row is broken, which readers see only as "not covered right now", while the
+    # maintainer gets an alert (see write_alert).
+    streaks = dict(data.get("source_streaks", {}))
+    prev_streaks = dict(streaks)
+    for h in health:
+        bad = h["status"] in ("failed", "empty", "blocked")
+        # Capped at 3 so a long outage doesn't change the file (and commit) every run.
+        streaks[h["id"]] = min(streaks.get(h["id"], 0) + 1, 3) if bad else 0
+        h["streak"] = streaks[h["id"]]
+        h["covered"] = h["status"] == "ok" or (h["status"] in ("failed", "empty") and streaks[h["id"]] < 3)
+    data["source_streaks"] = streaks
+    write_alert(health, failures)
+
     prev_status = {h["id"]: h["status"] for h in data.get("sources", [])}
     status_changed = prev_status != {h["id"]: h["status"] for h in health}
     last = data.get("generated_at")
@@ -227,7 +282,8 @@ def main():
 
     last_run = {"at": _iso(_now()), "added": added, "set_aside": newly_set_aside, "failed": failed,
                 "deferred": deferred, "triage_retries": triage_failed, "failures": failures[:40]}
-    if added or newly_set_aside or pruned or status_changed or stale or had_samples or failed or stale_recs:
+    if added or newly_set_aside or pruned or status_changed or stale or had_samples or failed or stale_recs \
+            or streaks != prev_streaks:
         data.update({"generated_at": _iso(_now()), "schema_version": "2.0", "circulars": records,
                      "sources": health, "last_run": last_run, "attempts": attempts})
         data.pop("note", None)
@@ -246,8 +302,9 @@ def main():
         with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as f:
             f.write(f"### Circular Tracker run\n\n{summary}\n")
 
-    if failed or triage_failed:
-        sys.exit(1)
+    # Individual failures are retried next run and reported to the maintainer via
+    # the alert issue, so they don't turn the run red. Only a total outage does
+    # (exit 2 above), because then nothing was checked at all.
 
 
 if __name__ == "__main__":
