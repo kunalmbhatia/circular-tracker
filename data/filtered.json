@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T02:01:07Z",
+  "generated_at": "2026-09-29T08:35:36Z",
   "items": [
     {
       "title": "Exim Bank’s GOI-supported Line of Credit (LOC) for ₹ 4,850 crores the Government of Maldives, for financing various developmental projects in Maldives",
@@ -810,6 +810,87 @@
       "source": "bse",
       "reason": "Single company rights issue, no obligation change",
       "decided_at": "2026-09-28T20:34:55Z"
+    },
+    {
+      "title": "Launch of Whiteoak Capital Diversified Equity Small Cap Active FOF on NSE MF Invest Platform",
+      "url": "https://nsearchives.nseindia.com/content/circulars/NMF76596.pdf",
+      "date": "2026-09-29",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Single mutual fund scheme launch; routine listing",
+      "decided_at": "2026-09-29T08:33:54Z"
+    },
+    {
+      "title": "Listing of privately placed securities on the debt market segment of the Exchange",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260929-12/20260929-12.pdf",
+      "date": "2026-09-29",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Corporate action; single security listing",
+      "decided_at": "2026-09-29T08:33:54Z"
+    },
+    {
+      "title": "Demat Auction 724",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260929-11/20260929-11.pdf",
+      "date": "2026-09-29",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Specific auction event; no systemic obligation",
+      "decided_at": "2026-09-29T08:33:54Z"
+    },
+    {
+      "title": "Change in Group of Equity Shares of ANAND SEAMLESS LIMITED",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260929-6/20260929-6.pdf",
+      "date": "2026-09-29",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single security corporate action; surveillance classification only",
+      "decided_at": "2026-09-29T08:33:54Z"
+    },
+    {
+      "title": "Change in the Group of Equity Shares of HIMALAYA NUTRAVEDICS INDIA LIMITED",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260929-5/20260929-5.pdf",
+      "date": "2026-09-29",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single security corporate action; surveillance classification only",
+      "decided_at": "2026-09-29T08:33:54Z"
+    },
+    {
+      "title": "SME IPO Draft Offer Document",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260929-4/20260929-4.pdf",
+      "date": "2026-09-29",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single SME IPO; routine regulatory approval process",
+      "decided_at": "2026-09-29T08:33:54Z"
+    },
+    {
+      "title": "SME IPO - Draft Offer Document",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260929-3/20260929-3.pdf",
+      "date": "2026-09-29",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single SME IPO; routine regulatory approval process",
+      "decided_at": "2026-09-29T08:33:54Z"
+    },
+    {
+      "title": "SME IPO - Draft Offer Document",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260929-2/20260929-2.pdf",
+      "date": "2026-09-29",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single SME IPO; routine regulatory approval process",
+      "decided_at": "2026-09-29T08:33:54Z"
+    },
+    {
+      "title": "Non-Competitive Bidding for Auction of GoI dated Securities (G-secs) on October 01, 2026",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260929-1/20260929-1.pdf",
+      "date": "2026-09-29",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Government securities auction; prudential bank matter only",
+      "decided_at": "2026-09-29T08:33:54Z"
     }
   ]
 }

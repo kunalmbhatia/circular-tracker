@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T02:01:07Z",
+  "generated_at": "2026-09-29T08:35:36Z",
   "schema_version": "2.0",
   "circulars": [
     {
@@ -4740,6 +4740,522 @@
       "regulator": "BSE",
       "source": "bse",
       "triage_reason": "Debenture trading suspension affects market operations"
+    },
+    {
+      "circular_no": "Notice No. 20260929-10",
+      "date": "2026-09-29",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Margin Trading",
+        "Clearing Corporations",
+        "Stock Brokers"
+      ],
+      "applicability": "Members of BSE trading in the Equity Derivatives segment",
+      "intent": "To inform members of the schedule of trade dates, last dates for client margin reporting, and penalty dates applicable for the Equity Derivatives segment for October 2026.",
+      "action_required": "Members must report client margin for each trade date by the corresponding 'Last Date of Margin Reporting' as per the published schedule (e.g., for trade date 01-10-2026, report by 09-10-2026), failing which penalty applies from the stated 'Penalty Date' (e.g., 12-10-2026 for the first entry).",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [
+        {
+          "label": "First trade date margin reporting deadline",
+          "date": "2026-10-09",
+          "quote": "01-10-2026 09-10-2026 12-10-2026"
+        },
+        {
+          "label": "First trade date penalty date",
+          "date": "2026-10-12",
+          "quote": "01-10-2026 09-10-2026 12-10-2026"
+        },
+        {
+          "label": "Last trade date margin reporting deadline",
+          "date": "2026-11-06",
+          "quote": "30-10-2026 06-11-2026 09-11-2026"
+        },
+        {
+          "label": "Last trade date penalty date",
+          "date": "2026-11-09",
+          "quote": "30-10-2026 06-11-2026 09-11-2026"
+        }
+      ],
+      "impact_summary": "BSE members trading in the Equity Derivatives segment must adhere to the specified client margin reporting timelines for October 2026 trade dates to avoid penalties.",
+      "overall_confidence": "Certain",
+      "confidence_flags": {
+        "effective_date": "The notice provides a schedule of dates but does not explicitly state a single 'effective date' for the notice itself.",
+        "key_dates": "The full table contains 20 rows of trade/reporting/penalty dates; only representative first and last entries are cited due to volume, though all rows are compliance-relevant."
+      },
+      "source_excerpt_citations": [
+        "The schedule for client margin reporting for October 2026 shall be as under for Equity Derivatives segment",
+        "01-10-2026 09-10-2026 12-10-2026",
+        "30-10-2026 06-11-2026 09-11-2026",
+        "For and on behalf of BSE Clearing Limited (Formerly known as Indian Clearing Corporation Limited.)"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260929-10/20260929-10.pdf",
+      "sample_data": false,
+      "title": "Client margin reporting schedule for October 2026 Equity Derivatives Segment",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Margin reporting schedule; affects clearing members, stock brokers"
+    },
+    {
+      "circular_no": "20260929-9",
+      "date": "2026-09-29",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Clearing Corporations",
+        "Stock Brokers",
+        "Margin Trading",
+        "Trading Operations"
+      ],
+      "applicability": "Trading/Clearing Members in the Currency Derivatives Segment",
+      "intent": "BSE Clearing Limited is publishing the monthly schedule of client margin reporting deadlines and associated penalty dates for the Currency Derivatives segment for October 2026 trades.",
+      "action_required": "Members must report client margin for each trade date by the corresponding 'Last Date of Margin Reporting'; failure to do so before the 'Penalty Date' will attract penalty as per the published schedule.",
+      "effective_date": "2026-10-01",
+      "key_dates": [
+        {
+          "label": "Trade Date",
+          "date": "2026-10-01",
+          "quote": "01-10-2026 09-10-2026 12-10-2026"
+        },
+        {
+          "label": "Last Date of Margin Reporting",
+          "date": "2026-10-09",
+          "quote": "01-10-2026 09-10-2026 12-10-2026"
+        },
+        {
+          "label": "Penalty Date",
+          "date": "2026-10-12",
+          "quote": "01-10-2026 09-10-2026 12-10-2026"
+        },
+        {
+          "label": "Trade Date",
+          "date": "2026-10-05",
+          "quote": "05-10-2026 12-10-2026 13-10-2026"
+        },
+        {
+          "label": "Last Date of Margin Reporting",
+          "date": "2026-10-12",
+          "quote": "05-10-2026 12-10-2026 13-10-2026"
+        },
+        {
+          "label": "Penalty Date",
+          "date": "2026-10-13",
+          "quote": "05-10-2026 12-10-2026 13-10-2026"
+        },
+        {
+          "label": "Trade Date",
+          "date": "2026-10-06",
+          "quote": "06-10-2026 13-10-2026 14-10-2026"
+        },
+        {
+          "label": "Last Date of Margin Reporting",
+          "date": "2026-10-13",
+          "quote": "06-10-2026 13-10-2026 14-10-2026"
+        },
+        {
+          "label": "Penalty Date",
+          "date": "2026-10-14",
+          "quote": "06-10-2026 13-10-2026 14-10-2026"
+        },
+        {
+          "label": "Trade Date",
+          "date": "2026-10-07",
+          "quote": "07-10-2026 14-10-2026 15-10-2026"
+        },
+        {
+          "label": "Last Date of Margin Reporting",
+          "date": "2026-10-14",
+          "quote": "07-10-2026 14-10-2026 15-10-2026"
+        },
+        {
+          "label": "Penalty Date",
+          "date": "2026-10-15",
+          "quote": "07-10-2026 14-10-2026 15-10-2026"
+        },
+        {
+          "label": "Trade Date",
+          "date": "2026-10-08",
+          "quote": "08-10-2026 15-10-2026 16-10-2026"
+        },
+        {
+          "label": "Last Date of Margin Reporting",
+          "date": "2026-10-15",
+          "quote": "08-10-2026 15-10-2026 16-10-2026"
+        },
+        {
+          "label": "Penalty Date",
+          "date": "2026-10-16",
+          "quote": "08-10-2026 15-10-2026 16-10-2026"
+        },
+        {
+          "label": "Trade Date",
+          "date": "2026-10-09",
+          "quote": "09-10-2026 16-10-2026 19-10-2026"
+        },
+        {
+          "label": "Last Date of Margin Reporting",
+          "date": "2026-10-16",
+          "quote": "09-10-2026 16-10-2026 19-10-2026"
+        },
+        {
+          "label": "Penalty Date",
+          "date": "2026-10-19",
+          "quote": "09-10-2026 16-10-2026 19-10-2026"
+        },
+        {
+          "label": "Trade Date",
+          "date": "2026-10-12",
+          "quote": "12-10-2026 19-10-2026 21-10-2026"
+        },
+        {
+          "label": "Last Date of Margin Reporting",
+          "date": "2026-10-19",
+          "quote": "12-10-2026 19-10-2026 21-10-2026"
+        },
+        {
+          "label": "Penalty Date",
+          "date": "2026-10-21",
+          "quote": "12-10-2026 19-10-2026 21-10-2026"
+        },
+        {
+          "label": "Trade Date",
+          "date": "2026-10-13",
+          "quote": "13-10-2026 21-10-2026 22-10-2026"
+        },
+        {
+          "label": "Last Date of Margin Reporting",
+          "date": "2026-10-21",
+          "quote": "13-10-2026 21-10-2026 22-10-2026"
+        },
+        {
+          "label": "Penalty Date",
+          "date": "2026-10-22",
+          "quote": "13-10-2026 21-10-2026 22-10-2026"
+        },
+        {
+          "label": "Trade Date",
+          "date": "2026-10-14",
+          "quote": "14-10-2026 22-10-2026 23-10-2026"
+        },
+        {
+          "label": "Last Date of Margin Reporting",
+          "date": "2026-10-22",
+          "quote": "14-10-2026 22-10-2026 23-10-2026"
+        },
+        {
+          "label": "Penalty Date",
+          "date": "2026-10-23",
+          "quote": "14-10-2026 22-10-2026 23-10-2026"
+        },
+        {
+          "label": "Trade Date",
+          "date": "2026-10-15",
+          "quote": "15-10-2026 23-10-2026 26-10-2026"
+        },
+        {
+          "label": "Last Date of Margin Reporting",
+          "date": "2026-10-23",
+          "quote": "15-10-2026 23-10-2026 26-10-2026"
+        },
+        {
+          "label": "Penalty Date",
+          "date": "2026-10-26",
+          "quote": "15-10-2026 23-10-2026 26-10-2026"
+        },
+        {
+          "label": "Trade Date",
+          "date": "2026-10-16",
+          "quote": "16-10-2026 26-10-2026 27-10-2026"
+        },
+        {
+          "label": "Last Date of Margin Reporting",
+          "date": "2026-10-26",
+          "quote": "16-10-2026 26-10-2026 27-10-2026"
+        },
+        {
+          "label": "Penalty Date",
+          "date": "2026-10-27",
+          "quote": "16-10-2026 26-10-2026 27-10-2026"
+        },
+        {
+          "label": "Trade Date",
+          "date": "2026-10-19",
+          "quote": "19-10-2026 27-10-2026 28-10-2026"
+        },
+        {
+          "label": "Last Date of Margin Reporting",
+          "date": "2026-10-27",
+          "quote": "19-10-2026 27-10-2026 28-10-2026"
+        },
+        {
+          "label": "Penalty Date",
+          "date": "2026-10-28",
+          "quote": "19-10-2026 27-10-2026 28-10-2026"
+        },
+        {
+          "label": "Trade Date",
+          "date": "2026-10-21",
+          "quote": "21-10-2026 28-10-2026 29-10-2026"
+        },
+        {
+          "label": "Last Date of Margin Reporting",
+          "date": "2026-10-28",
+          "quote": "21-10-2026 28-10-2026 29-10-2026"
+        },
+        {
+          "label": "Penalty Date",
+          "date": "2026-10-29",
+          "quote": "21-10-2026 28-10-2026 29-10-2026"
+        },
+        {
+          "label": "Trade Date",
+          "date": "2026-10-22",
+          "quote": "22-10-2026 29-10-2026 30-10-2026"
+        },
+        {
+          "label": "Last Date of Margin Reporting",
+          "date": "2026-10-29",
+          "quote": "22-10-2026 29-10-2026 30-10-2026"
+        },
+        {
+          "label": "Penalty Date",
+          "date": "2026-10-30",
+          "quote": "22-10-2026 29-10-2026 30-10-2026"
+        },
+        {
+          "label": "Trade Date",
+          "date": "2026-10-23",
+          "quote": "23-10-2026 30-10-2026 02-11-2026"
+        },
+        {
+          "label": "Last Date of Margin Reporting",
+          "date": "2026-10-30",
+          "quote": "23-10-2026 30-10-2026 02-11-2026"
+        },
+        {
+          "label": "Penalty Date",
+          "date": "2026-11-02",
+          "quote": "23-10-2026 30-10-2026 02-11-2026"
+        },
+        {
+          "label": "Trade Date",
+          "date": "2026-10-26",
+          "quote": "26-10-2026 02-11-2026 03-11-2026"
+        },
+        {
+          "label": "Last Date of Margin Reporting",
+          "date": "2026-11-02",
+          "quote": "26-10-2026 02-11-2026 03-11-2026"
+        },
+        {
+          "label": "Penalty Date",
+          "date": "2026-11-03",
+          "quote": "26-10-2026 02-11-2026 03-11-2026"
+        },
+        {
+          "label": "Trade Date",
+          "date": "2026-10-27",
+          "quote": "27-10-2026 03-11-2026 04-11-2026"
+        },
+        {
+          "label": "Last Date of Margin Reporting",
+          "date": "2026-11-03",
+          "quote": "27-10-2026 03-11-2026 04-11-2026"
+        },
+        {
+          "label": "Penalty Date",
+          "date": "2026-11-04",
+          "quote": "27-10-2026 03-11-2026 04-11-2026"
+        },
+        {
+          "label": "Trade Date",
+          "date": "2026-10-28",
+          "quote": "28-10-2026 04-11-2026 05-11-2026"
+        },
+        {
+          "label": "Last Date of Margin Reporting",
+          "date": "2026-11-04",
+          "quote": "28-10-2026 04-11-2026 05-11-2026"
+        },
+        {
+          "label": "Penalty Date",
+          "date": "2026-11-05",
+          "quote": "28-10-2026 04-11-2026 05-11-2026"
+        },
+        {
+          "label": "Trade Date",
+          "date": "2026-10-29",
+          "quote": "29-10-2026 05-11-2026 06-11-2026"
+        },
+        {
+          "label": "Last Date of Margin Reporting",
+          "date": "2026-11-05",
+          "quote": "29-10-2026 05-11-2026 06-11-2026"
+        },
+        {
+          "label": "Penalty Date",
+          "date": "2026-11-06",
+          "quote": "29-10-2026 05-11-2026 06-11-2026"
+        },
+        {
+          "label": "Trade Date",
+          "date": "2026-10-30",
+          "quote": "30-10-2026 06-11-2026 09-11-2026"
+        },
+        {
+          "label": "Last Date of Margin Reporting",
+          "date": "2026-11-06",
+          "quote": "30-10-2026 06-11-2026 09-11-2026"
+        },
+        {
+          "label": "Penalty Date",
+          "date": "2026-11-09",
+          "quote": "30-10-2026 06-11-2026 09-11-2026"
+        }
+      ],
+      "impact_summary": "Trading and clearing members in BSE's Currency Derivatives segment must adhere to the specified client margin reporting deadlines for each October 2026 trade date, with penalties applying if reporting is not completed by the stated penalty dates.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "doc_type": "Classified as 'Fresh Circular' as this is a standalone periodic schedule notice with no stated parent/amended circular, though it is a routine recurring communication rather than a policy circular.",
+        "circular_no": "'20260929-9' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "The schedule for client margin reporting for October 2026 shall be as under for Currency Derivatives segment",
+        "Notice No. 20260929-9",
+        "For and on behalf of BSE Clearing Limited"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260929-9/20260929-9.pdf",
+      "sample_data": false,
+      "title": "Client margin reporting schedule for October 2026 Currency Derivatives Segment",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Margin reporting schedule; affects clearing members, stock brokers"
+    },
+    {
+      "circular_no": "Notice No. 20260929-8",
+      "date": "2026-09-29",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Clearing Corporations",
+        "Commodity Derivatives Segment",
+        "Margin Trading"
+      ],
+      "applicability": "Members of BSE Clearing Limited (Commodity Derivatives Segment)",
+      "intent": "BSE Clearing Limited is publishing the monthly schedule of trade dates, margin reporting deadlines and penalty dates for client margin reporting in the Commodity Derivatives segment for October 2026.",
+      "action_required": "Members must report client margins for each listed trade date by the corresponding 'Last Date of Margin Reporting'; failure to do so before the 'Penalty Date' will attract penalty as per the published schedule.",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [
+        {
+          "label": "Margin reporting deadline for trade date 01-10-2026",
+          "date": "2026-10-09",
+          "quote": "01-10-2026 09-10-2026 12-10-2026"
+        },
+        {
+          "label": "Penalty date for trade date 01-10-2026",
+          "date": "2026-10-12",
+          "quote": "01-10-2026 09-10-2026 12-10-2026"
+        },
+        {
+          "label": "Margin reporting deadline for trade date 30-10-2026",
+          "date": "2026-11-06",
+          "quote": "30-10-2026 06-11-2026 09-11-2026"
+        },
+        {
+          "label": "Penalty date for trade date 30-10-2026",
+          "date": "2026-11-09",
+          "quote": "30-10-2026 06-11-2026 09-11-2026"
+        }
+      ],
+      "impact_summary": "This is a routine operational notice affecting BSE Clearing Limited members trading in the Commodity Derivatives segment, laying out the specific client margin reporting and penalty timelines for October 2026.",
+      "overall_confidence": "Certain",
+      "confidence_flags": {
+        "effective_date": "The notice provides a full schedule of dates rather than a single 'effective date'; no explicit effective date is stated in the text."
+      },
+      "source_excerpt_citations": [
+        "The schedule for client margin reporting for October 2026 shall be as under for Commodity Derivatives segment",
+        "01-10-2026 09-10-2026 12-10-2026",
+        "30-10-2026 06-11-2026 09-11-2026"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260929-8/20260929-8.pdf",
+      "sample_data": false,
+      "title": "Client margin reporting schedule for October 2026 for Commodity Derivatives Segment",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Margin reporting schedule; affects clearing members, stock brokers"
+    },
+    {
+      "circular_no": "20260929-7",
+      "date": "2026-09-29",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Stock Brokers",
+        "Clearing Corporations",
+        "Commodity Derivatives Segment",
+        "Trading Operations"
+      ],
+      "applicability": "Members of BSE Clearing Limited dealing in the Electronic Gold Receipts (EGR) segment",
+      "intent": "BSE Clearing Limited communicates the monthly schedule of client margin reporting deadlines and applicable penalty dates for trades in the Electronic Gold Receipts segment for October 2026.",
+      "action_required": "Members must report client margins for each trade date by the corresponding 'Last Date of Margin Reporting' as per the published schedule; failure to do so before the 'Penalty Date' attracts penalty.",
+      "effective_date": "2026-10-01",
+      "key_dates": [
+        {
+          "label": "First trade date margin reporting deadline",
+          "date": "2026-10-09",
+          "quote": "01-10-2026 09-10-2026 12-10-2026"
+        },
+        {
+          "label": "First trade date penalty date",
+          "date": "2026-10-12",
+          "quote": "01-10-2026 09-10-2026 12-10-2026"
+        },
+        {
+          "label": "Last trade date margin reporting deadline",
+          "date": "2026-11-06",
+          "quote": "30-10-2026 06-11-2026 09-11-2026"
+        },
+        {
+          "label": "Last trade date penalty date",
+          "date": "2026-11-09",
+          "quote": "30-10-2026 06-11-2026 09-11-2026"
+        }
+      ],
+      "impact_summary": "Trading/clearing members active in BSE's Electronic Gold Receipts segment must adhere to the specified monthly schedule for reporting client margins to avoid penalties, per each trade date from 01-10-2026 to 30-10-2026.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "key_dates": "Full table contains 21 trade-date rows each with its own reporting and penalty dates; only representative first/last entries are extracted due to volume, though all rows are compliance-relevant.",
+        "effective_date": "Not explicitly labeled 'effective date' in source; inferred from first trade date (01-10-2026) in the schedule.",
+        "circular_no": "'20260929-7' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "The schedule for client margin reporting for October 2026 shall be as under for Electronic Gold Receipts segment",
+        "01-10-2026 09-10-2026 12-10-2026",
+        "30-10-2026 06-11-2026 09-11-2026",
+        "For and on behalf of BSE Clearing Limited (Formerly known as Indian Clearing Corporation Limited.)"
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260929-7/20260929-7.pdf",
+      "sample_data": false,
+      "title": "Client margin reporting schedule for October 2026 Electronic Gold Receipts Segment",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Margin reporting schedule; affects clearing members, stock brokers"
     }
   ],
   "sources": [
@@ -4751,7 +5267,7 @@
       "url": "https://www.sebi.gov.in/sebirss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Holds about five days of items, mixed with orders and press releases. Only circulars are kept.",
-      "checked_at": "2026-09-29T01:59:12Z",
+      "checked_at": "2026-09-29T08:33:31Z",
       "items": 0,
       "status": "ok",
       "error": "",
@@ -4766,7 +5282,7 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Backstop for circulars that scroll off the RSS feed.",
-      "checked_at": "2026-09-29T01:59:14Z",
+      "checked_at": "2026-09-29T08:33:33Z",
       "items": 25,
       "status": "ok",
       "error": "",
@@ -4781,7 +5297,7 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-29T01:59:15Z",
+      "checked_at": "2026-09-29T08:33:34Z",
       "items": 25,
       "status": "ok",
       "error": "",
@@ -4796,7 +5312,7 @@
       "url": "https://rbi.org.in/notifications_rss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Includes bank-only prudential rules and foreign-exchange regulations. Triage keeps the ones that affect brokers and fintechs.",
-      "checked_at": "2026-09-29T01:59:15Z",
+      "checked_at": "2026-09-29T08:33:34Z",
       "items": 10,
       "status": "ok",
       "error": "",
@@ -4811,8 +5327,8 @@
       "url": "https://nsearchives.nseindia.com/content/RSS/Circulars.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Carries about one day of circulars (around 30 a day, mostly routine), so it's checked every 2 hours.",
-      "checked_at": "2026-09-29T01:59:17Z",
-      "items": 25,
+      "checked_at": "2026-09-29T08:33:35Z",
+      "items": 1,
       "status": "ok",
       "error": "",
       "streak": 0,
@@ -4826,8 +5342,8 @@
       "url": "https://www.bseindia.com/data/xml/notices.xml",
       "verified": "Feed address confirmed through a third-party reader. BSE refused a direct test fetch (HTTP 403), so it may block automated access.",
       "note": "Dominated by mutual fund platform notices.",
-      "checked_at": "2026-09-29T01:59:19Z",
-      "items": 52,
+      "checked_at": "2026-09-29T08:33:36Z",
+      "items": 12,
       "status": "ok",
       "error": "",
       "streak": 0,
@@ -4841,7 +5357,7 @@
       "url": "https://www.nseclearing.in/resources/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-29T01:59:19Z",
+      "checked_at": "2026-09-29T08:33:36Z",
       "items": 0,
       "status": "blocked",
       "error": "The site's robots.txt disallows this address.",
@@ -4856,7 +5372,7 @@
       "url": "https://nsdl.co.in/business/circular.php",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-29T01:59:20Z",
+      "checked_at": "2026-09-29T08:33:37Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -4871,7 +5387,7 @@
       "url": "https://www.cdslindia.com/Publications/Communique.aspx/DP-COMMUNIQUES-INDEX.aspx",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "On 28 Sep 2026 this page returned 'Internal Error Occurred' even in a browser-style fetch. It may be unreliable.",
-      "checked_at": "2026-09-29T01:59:29Z",
+      "checked_at": "2026-09-29T08:33:45Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -4886,7 +5402,7 @@
       "url": "https://www.ncdex.com/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-29T01:59:30Z",
+      "checked_at": "2026-09-29T08:33:46Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -4901,7 +5417,7 @@
       "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Relevant to brokers and fintechs operating in GIFT City.",
-      "checked_at": "2026-09-29T01:59:31Z",
+      "checked_at": "2026-09-29T08:33:48Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -4916,7 +5432,7 @@
       "url": "https://www.npci.org.in/circulars/upi",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "UPI operating circulars for payment apps and PSPs.",
-      "checked_at": "2026-09-29T01:59:34Z",
+      "checked_at": "2026-09-29T08:33:51Z",
       "items": 0,
       "status": "blocked",
       "error": "The site's robots.txt disallows this address.",
@@ -4931,7 +5447,7 @@
       "url": "https://www.mcxindia.com/",
       "verified": "",
       "note": "Not connected. MCX's robots.txt disallows automated access to its RSS page. Connect it once a permitted source is confirmed.",
-      "checked_at": "2026-09-29T01:59:34Z",
+      "checked_at": "2026-09-29T08:33:51Z",
       "items": 0,
       "status": "not_connected",
       "error": "",
@@ -4940,9 +5456,9 @@
     }
   ],
   "last_run": {
-    "at": "2026-09-29T02:01:07Z",
-    "added": 2,
-    "set_aside": 0,
+    "at": "2026-09-29T08:35:36Z",
+    "added": 4,
+    "set_aside": 9,
     "failed": 0,
     "deferred": 0,
     "triage_retries": 0,
