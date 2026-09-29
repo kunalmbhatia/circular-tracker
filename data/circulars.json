@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T20:41:45Z",
+  "generated_at": "2026-09-29T02:01:07Z",
   "schema_version": "2.0",
   "circulars": [
     {
@@ -4458,56 +4458,6 @@
       "triage_reason": "Trading settlement cycle exclusions affect trading operations"
     },
     {
-      "circular_no": "20260928-34",
-      "date": "2026-09-28",
-      "doc_type": "Fresh Circular",
-      "parent_circular_no": null,
-      "parent_circular_date": null,
-      "implements": [],
-      "impact_areas": [
-        "Corporate Bonds/Debt Market",
-        "Trading Operations"
-      ],
-      "applicability": "Trading Members of BSE",
-      "intent": "BSE is informing trading members that several companies have fixed record dates for redemption of their listed Commercial Papers, requiring a halt in dealing ahead of redemption.",
-      "action_required": "Trading Members are advised not to deal in the Commercial Paper of the listed companies as per the record dates/ex-dates specified in the table (e.g. 06/10/2026, 14/10/2026, 15/10/2026).",
-      "effective_date": "NOT STATED IN SOURCE",
-      "key_dates": [
-        {
-          "label": "Record Date/Ex Date for Infina Finance Pvt Ltd CP (IFPL-7-10-26-CP)",
-          "date": "2026-10-06",
-          "quote": "06/10/2026 06/10/2026 2027"
-        },
-        {
-          "label": "Record Date/Ex Date for multiple CPs (e.g. 360 ONE Prime, Muthoot Fincorp, Bajaj Finance)",
-          "date": "2026-10-14",
-          "quote": "14/10/2026 14/10/2026 2027"
-        },
-        {
-          "label": "Record Date/Ex Date for multiple CPs (e.g. Navi Finserv, Kotak Mahindra Prime, Axis Finance)",
-          "date": "2026-10-15",
-          "quote": "15/10/2026 15/10/2026 2027"
-        }
-      ],
-      "impact_summary": "Trading members dealing in the Commercial Papers of the listed companies must stop trading in these instruments ahead of their respective redemption record dates as notified by BSE.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "circular_no": "'20260928-34' doesn't look like a circular reference number — verify manually."
-      },
-      "source_excerpt_citations": [
-        "Trading Members of the Exchange are hereby advised not to deal in the Commercial Paper of the Companies",
-        "the following Companies has fixed Record Date for the purpose of Redemption of Commercial Paper"
-      ],
-      "model_confidence": "Certain",
-      "validator_version": 3,
-      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260928-34/20260928-34.pdf",
-      "sample_data": false,
-      "title": "Suspension of Trading in Commercial Paper",
-      "regulator": "BSE",
-      "source": "bse",
-      "triage_reason": "Trading suspension affects market operations and settlement"
-    },
-    {
       "circular_no": "Notice No. 20260928-33",
       "date": "2026-09-28",
       "doc_type": "Fresh Circular",
@@ -4557,64 +4507,236 @@
       "triage_reason": "SEBI final order may impose obligations on fintech ecosystem"
     },
     {
-      "circular_no": "20260928-32",
+      "circular_no": "20260928-34",
       "date": "2026-09-28",
       "doc_type": "Fresh Circular",
       "parent_circular_no": null,
       "parent_circular_date": null,
       "implements": [],
       "impact_areas": [
+        "Corporate Bonds/Debt Market",
+        "Stock Brokers",
+        "Stock Exchanges"
+      ],
+      "applicability": "Trading Members of BSE (Debt Segment)",
+      "intent": "BSE is informing trading members that several companies have fixed record dates for redemption of their listed Commercial Paper and directing that trading in these instruments be suspended around those dates.",
+      "action_required": "Trading Members of the Exchange are advised not to deal in the Commercial Paper of the listed companies as per the Record Date/Ex Date mentioned for each ISIN.",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [
+        {
+          "label": "Record Date - Infina Finance Private Limited (IFPL-7-10-26-CP)",
+          "date": "2026-10-06",
+          "quote": "IFPL-7-10-26-CP INE879F14NK3 06/10/2026 06/10/2026 2027"
+        },
+        {
+          "label": "Record Date - 360 ONE Prime Limited",
+          "date": "2026-10-14",
+          "quote": "360OPL-15-10-26-CP INE248U14SP8 14/10/2026 14/10/2026 2027",
+          "unverified": true
+        },
+        {
+          "label": "Record Date - Muthoot Fincorp Limited",
+          "date": "2026-10-14",
+          "quote": "MFL-30-1-26-CP INE549K14CE8 14/10/2026 14/10/2026 2027"
+        },
+        {
+          "label": "Record Date - InCred Financial Services Limited",
+          "date": "2026-10-14",
+          "quote": "IFSL-15-10-26-CP INE321N14414 14/10/2026 14/10/2026 2027"
+        },
+        {
+          "label": "Record Date - Infina Finance Private Limited (IFPL-15-10-26-CP)",
+          "date": "2026-10-14",
+          "quote": "IFPL-15-10-26-CP INE879F14MX8 14/10/2026 14/10/2026 2027"
+        },
+        {
+          "label": "Record Date - Bajaj Financial Securities Limited (BFSL-15-10-26-CP)",
+          "date": "2026-10-14",
+          "quote": "BFSL-15-10-26-CP INE01C314FJ5 14/10/2026 14/10/2026 2027"
+        },
+        {
+          "label": "Record Date - Bajaj Finance Limited (BFL-15-10-26-CP)",
+          "date": "2026-10-14",
+          "quote": "BFL-15-10-26-CP INE296A14I26 14/10/2026 14/10/2026 2027"
+        },
+        {
+          "label": "Record Date - Ashoka Buildcon Limited",
+          "date": "2026-10-14",
+          "quote": "ABL-19-10-26-CP INE442H14550 14/10/2026 14/10/2026 2027"
+        },
+        {
+          "label": "Record Date - Aditya Birla Housing Finance Limited",
+          "date": "2026-10-14",
+          "quote": "ABHFL-15-10-26-CP INE831R14GI7 14/10/2026 14/10/2026 2027",
+          "unverified": true
+        },
+        {
+          "label": "Record Date - Navi Finserv Limited",
+          "date": "2026-10-15",
+          "quote": "NFL-16-10-26-CP INE342T14EQ9 15/10/2026 15/10/2026 2027"
+        },
+        {
+          "label": "Record Date - Kotak Mahindra Prime Limited",
+          "date": "2026-10-15",
+          "quote": "KMPL-16-10-26-CP INE916D146P1 15/10/2026 15/10/2026 2027",
+          "unverified": true
+        },
+        {
+          "label": "Record Date - Muthoot Mcred Limited",
+          "date": "2026-10-15",
+          "quote": "MML-16-10-26-CP INE101Q14348 15/10/2026 15/10/2026 2027"
+        },
+        {
+          "label": "Record Date - Bajaj Finance Limited (BFL-16-10-26-CP)",
+          "date": "2026-10-15",
+          "quote": "BFL-16-10-26-CP INE296A14H92 15/10/2026 15/10/2026 2027"
+        },
+        {
+          "label": "Record Date - Bajaj Financial Securities Limited (BFSL-16-10-26-CP)",
+          "date": "2026-10-15",
+          "quote": "BFSL-16-10-26-CP INE01C314GM7 15/10/2026 15/10/2026 2027"
+        },
+        {
+          "label": "Record Date - Sikka Ports & Terminals Ltd",
+          "date": "2026-10-15",
+          "quote": "SPTL-16-10-26-CP INE941D14774 15/10/2026 15/10/2026 2027"
+        },
+        {
+          "label": "Record Date - Poonawalla Fincorp Limited",
+          "date": "2026-10-15",
+          "quote": "PFL-16-10-26-CP INE511C14ZU2 15/10/2026 15/10/2026 2027"
+        },
+        {
+          "label": "Record Date - Axis Finance Limited",
+          "date": "2026-10-15",
+          "quote": "AFL-16-10-26-CP INE891K14QG9 15/10/2026 15/10/2026 2027"
+        }
+      ],
+      "impact_summary": "Trading Members dealing in the Debt segment are affected: BSE lists specific Commercial Paper ISINs of multiple NBFCs/companies with fixed redemption record dates and instructs members not to trade these instruments around those dates.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "circular_no": "'20260928-34' doesn't look like a circular reference number — verify manually.",
+        "key_dates": "The quote supporting key date 2026-10-15 was not found in the circular text."
+      },
+      "source_excerpt_citations": [
+        "Notice No. 20260928-34",
+        "Subject Suspension of Trading in Commercial Paper",
+        "Trading Members of the Exchange are hereby advised not to deal in the Commercial Paper of the Companies as mentioned under: -",
+        "the following Companies has fixed Record Date for the purpose of Redemption of Commercial Paper"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260928-34/20260928-34.pdf",
+      "sample_data": false,
+      "title": "Suspension of Trading in Commercial Paper",
+      "retried": true,
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Trading suspension affects market operations and settlement"
+    },
+    {
+      "circular_no": "20260928-32",
+      "date": "2026-09-28",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "NOT STATED IN SOURCE",
+      "parent_circular_date": "NOT STATED IN SOURCE",
+      "implements": [],
+      "impact_areas": [
         "Stock Brokers",
         "Corporate Bonds/Debt Market",
         "Trading Operations"
       ],
-      "applicability": "Trading Members of BSE (Debt Segment)",
-      "intent": "To inform trading members of record dates fixed by various companies for interest payment/redemption of their listed NCDs/bonds so that trading in those debentures can be suspended accordingly.",
-      "action_required": "Trading Members are advised not to deal in the listed debentures of the specified companies around their respective record/ex/settlement dates as tabulated (ranging from 03/10/2026 to 15/10/2026).",
+      "applicability": "Trading Members of BSE dealing in listed Non-Convertible Debentures/Bonds/REIT units of the named companies",
+      "intent": "BSE is notifying trading members that several listed companies have fixed record dates for interest payment or redemption on their NCDs/Bonds/REIT units, and is instructing members to refrain from trading these instruments around those dates.",
+      "action_required": "Trading Members are advised not to deal in the Debentures/NCDs/REIT units of the listed companies on the Record Date/Ex Date/Settlement Date mentioned against each ISIN in the table.",
       "effective_date": "NOT STATED IN SOURCE",
       "key_dates": [
         {
-          "label": "Record date - Power Grid NCD",
+          "label": "Record Date/Ex Date - Power Grid Corporation of India Limited NCD (INE752E07OC4)",
           "date": "2026-10-03",
-          "quote": "Record Date ... 03/10/2026 01/10/2026 2027"
+          "quote": "INE752E07OC4 03/10/2026 01/10/2026 2027"
         },
         {
-          "label": "Record date - Manba Finance NCD",
+          "label": "Record Date/Ex Date - Embassy Office Parks REIT (INE041007084)",
+          "date": "2026-10-03",
+          "quote": "INE041007084 03/10/2026 01/10/2026 2027"
+        },
+        {
+          "label": "Record Date/Ex Date - Manba Finance Limited (INE939X07184)",
           "date": "2026-10-11",
-          "quote": "MFL-11.35%-27-10-26-PVT ... 11/10/2026 09/10/2026 2027",
-          "unverified": true
+          "quote": "INE939X07184 11/10/2026 09/10/2026 2027"
         },
         {
-          "label": "Record date - multiple NCDs (Kosamattam, Sikka Ports, Muthoot Capital)",
+          "label": "Record Date/Ex Date - Kosamattam Finance Limited (INE403Q08233)",
           "date": "2026-10-13",
-          "quote": "13/10/2026 13/10/2026 2027"
+          "quote": "INE403Q08233 13/10/2026 13/10/2026 2027"
         },
         {
-          "label": "Record date - InCred Financial NCD",
+          "label": "Record Date/Ex Date - Sikka Ports & Terminals Ltd (INE941D07158)",
+          "date": "2026-10-13",
+          "quote": "INE941D07158 13/10/2026 13/10/2026 2027"
+        },
+        {
+          "label": "Record Date/Ex Date - Muthoot Capital Services Ltd. (INE296G07192)",
+          "date": "2026-10-13",
+          "quote": "INE296G07192 13/10/2026 13/10/2026 2027"
+        },
+        {
+          "label": "Record Date/Ex Date - InCred Financial Services Limited (INE321N07459)",
           "date": "2026-10-14",
-          "quote": "14/10/2026 14/10/2026 2027"
+          "quote": "INE321N07459 14/10/2026 14/10/2026 2027"
         },
         {
-          "label": "Record date - multiple NCDs (Muthoot Fincorp, Indel Money, others)",
+          "label": "Record Date/Ex Date - Muthoot Fincorp Limited NCDs (multiple ISINs incl. INE549K07EU4)",
           "date": "2026-10-15",
-          "quote": "15/10/2026 15/10/2026 2027"
+          "quote": "INE549K07EU4 15/10/2026 15/10/2026 2027"
+        },
+        {
+          "label": "Record Date/Ex Date - Indel Money Limited NCDs (multiple ISINs incl. INE0BUS07CB9)",
+          "date": "2026-10-15",
+          "quote": "INE0BUS07CB9 15/10/2026 15/10/2026 2027"
+        },
+        {
+          "label": "Record Date/Ex Date - Lendingkart Finance Limited (INE090W07618)",
+          "date": "2026-10-15",
+          "quote": "INE090W07618 15/10/2026 15/10/2026 2027"
+        },
+        {
+          "label": "Record Date/Ex Date - JM Financial Home Loans Limited (INE01A207146)",
+          "date": "2026-10-15",
+          "quote": "INE01A207146 15/10/2026 15/10/2026 2027"
+        },
+        {
+          "label": "Record Date/Ex Date - Vivriti Capital Limited (INE01HV07585)",
+          "date": "2026-10-15",
+          "quote": "INE01HV07585 15/10/2026 15/10/2026 2027"
+        },
+        {
+          "label": "Record Date/Ex Date - Navi Finserv Limited (INE342T07643)",
+          "date": "2026-10-15",
+          "quote": "INE342T07643 15/10/2026 15/10/2026 2027"
         }
       ],
-      "impact_summary": "This BSE notice instructs trading members not to deal in specified corporate NCDs/bonds around their record dates for interest/redemption payments, affecting brokers active in the debt segment.",
+      "impact_summary": "Trading members of BSE dealing in the listed NCDs, bonds and REIT units of the named issuers are informed of upcoming record dates for interest/redemption and are directed not to trade these instruments on the specified record/ex dates.",
       "overall_confidence": "Needs Review",
       "confidence_flags": {
-        "key_dates": "The quote supporting key date 2026-10-11 was not found in the circular text.",
-        "circular_no": "'20260928-32' doesn't look like a circular reference number — verify manually."
+        "circular_no": "'20260928-32' doesn't look like a circular reference number — verify manually.",
+        "parent_circular_no": "The notice does not reference any parent or prior circular, nor does it explicitly state it is standalone, so this cannot be confirmed either way.",
+        "effective_date": "No single 'effective date' is labeled in the text; only per-company record/ex dates are given, captured in key_dates.",
+        "overall_confidence": "Marked for review because the document departs from typical SEBI/exchange circular numbering format and contains only a notice number, not a formal circular reference."
       },
       "source_excerpt_citations": [
-        "Trading Members of the Exchange are hereby advised not to deal in the Debentures of the Companies",
-        "Companies have fixed Record Date for the purpose of Payment of Interest/ Redemption of the following Non-Convertible Debentures/Bonds"
+        "Trading Members of the Exchange are hereby advised not to deal in the Debentures of the Companies as mentioned under",
+        "Trading Members of the Exchange are hereby informed that the following Companies have fixed Record Date for the purpose of Payment of Interest/ Redemption",
+        "INE752E07OC4 03/10/2026 01/10/2026 2027",
+        "INE939X07184 11/10/2026 09/10/2026 2027"
       ],
-      "model_confidence": "Certain",
+      "model_confidence": "Needs Review",
       "validator_version": 3,
       "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260928-32/20260928-32.pdf",
       "sample_data": false,
       "title": "Suspension of Trading in Debentures of Companies",
+      "retried": true,
       "regulator": "BSE",
       "source": "bse",
       "triage_reason": "Debenture trading suspension affects market operations"
@@ -4629,7 +4751,7 @@
       "url": "https://www.sebi.gov.in/sebirss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Holds about five days of items, mixed with orders and press releases. Only circulars are kept.",
-      "checked_at": "2026-09-28T20:34:31Z",
+      "checked_at": "2026-09-29T01:59:12Z",
       "items": 0,
       "status": "ok",
       "error": "",
@@ -4644,7 +4766,7 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Backstop for circulars that scroll off the RSS feed.",
-      "checked_at": "2026-09-28T20:34:32Z",
+      "checked_at": "2026-09-29T01:59:14Z",
       "items": 25,
       "status": "ok",
       "error": "",
@@ -4659,7 +4781,7 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-28T20:34:33Z",
+      "checked_at": "2026-09-29T01:59:15Z",
       "items": 25,
       "status": "ok",
       "error": "",
@@ -4674,7 +4796,7 @@
       "url": "https://rbi.org.in/notifications_rss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Includes bank-only prudential rules and foreign-exchange regulations. Triage keeps the ones that affect brokers and fintechs.",
-      "checked_at": "2026-09-28T20:34:33Z",
+      "checked_at": "2026-09-29T01:59:15Z",
       "items": 10,
       "status": "ok",
       "error": "",
@@ -4689,7 +4811,7 @@
       "url": "https://nsearchives.nseindia.com/content/RSS/Circulars.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Carries about one day of circulars (around 30 a day, mostly routine), so it's checked every 2 hours.",
-      "checked_at": "2026-09-28T20:34:35Z",
+      "checked_at": "2026-09-29T01:59:17Z",
       "items": 25,
       "status": "ok",
       "error": "",
@@ -4704,7 +4826,7 @@
       "url": "https://www.bseindia.com/data/xml/notices.xml",
       "verified": "Feed address confirmed through a third-party reader. BSE refused a direct test fetch (HTTP 403), so it may block automated access.",
       "note": "Dominated by mutual fund platform notices.",
-      "checked_at": "2026-09-28T20:34:37Z",
+      "checked_at": "2026-09-29T01:59:19Z",
       "items": 52,
       "status": "ok",
       "error": "",
@@ -4719,7 +4841,7 @@
       "url": "https://www.nseclearing.in/resources/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-28T20:34:37Z",
+      "checked_at": "2026-09-29T01:59:19Z",
       "items": 0,
       "status": "blocked",
       "error": "The site's robots.txt disallows this address.",
@@ -4734,7 +4856,7 @@
       "url": "https://nsdl.co.in/business/circular.php",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-28T20:34:38Z",
+      "checked_at": "2026-09-29T01:59:20Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -4749,7 +4871,7 @@
       "url": "https://www.cdslindia.com/Publications/Communique.aspx/DP-COMMUNIQUES-INDEX.aspx",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "On 28 Sep 2026 this page returned 'Internal Error Occurred' even in a browser-style fetch. It may be unreliable.",
-      "checked_at": "2026-09-28T20:34:43Z",
+      "checked_at": "2026-09-29T01:59:29Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -4764,7 +4886,7 @@
       "url": "https://www.ncdex.com/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-28T20:34:44Z",
+      "checked_at": "2026-09-29T01:59:30Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -4779,7 +4901,7 @@
       "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Relevant to brokers and fintechs operating in GIFT City.",
-      "checked_at": "2026-09-28T20:34:46Z",
+      "checked_at": "2026-09-29T01:59:31Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -4794,7 +4916,7 @@
       "url": "https://www.npci.org.in/circulars/upi",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "UPI operating circulars for payment apps and PSPs.",
-      "checked_at": "2026-09-28T20:34:49Z",
+      "checked_at": "2026-09-29T01:59:34Z",
       "items": 0,
       "status": "blocked",
       "error": "The site's robots.txt disallows this address.",
@@ -4809,7 +4931,7 @@
       "url": "https://www.mcxindia.com/",
       "verified": "",
       "note": "Not connected. MCX's robots.txt disallows automated access to its RSS page. Connect it once a permitted source is confirmed.",
-      "checked_at": "2026-09-28T20:34:49Z",
+      "checked_at": "2026-09-29T01:59:34Z",
       "items": 0,
       "status": "not_connected",
       "error": "",
@@ -4818,9 +4940,9 @@
     }
   ],
   "last_run": {
-    "at": "2026-09-28T20:41:45Z",
-    "added": 19,
-    "set_aside": 19,
+    "at": "2026-09-29T02:01:07Z",
+    "added": 2,
+    "set_aside": 0,
     "failed": 0,
     "deferred": 0,
     "triage_retries": 0,
