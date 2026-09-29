@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T16:40:13Z",
+  "generated_at": "2026-09-29T22:23:02Z",
   "schema_version": "2.0",
   "circulars": [
     {
@@ -5404,50 +5404,6 @@
       "triage_reason": "UAPA sanctions list updates require KYC/AML screening by all regulated entities"
     },
     {
-      "circular_no": "111/2026 (NCL/CMPT/76619)",
-      "date": "2026-09-29",
-      "doc_type": "Fresh Circular",
-      "parent_circular_no": "108/2026 (NCL/CMPT/76459)",
-      "parent_circular_date": "2026-09-21",
-      "implements": [],
-      "impact_areas": [
-        "Clearing Corporations",
-        "Stock Brokers",
-        "FPI",
-        "Trading Operations"
-      ],
-      "applicability": "All Members of NSE Clearing Limited",
-      "intent": "To inform members of the applicable MWPL, trading member, FII/FPI and mutual fund position limits for three newly introduced individual securities, continuing from earlier related circulars.",
-      "action_required": "Members are advised to take note of the specified position limits (MWPL, TM-wise, FPI Category I & II, MF, client and proprietary limits) applicable to ANANDRATHI, ENRIN and UJJIVANSFB, effective from the trade date September 30, 2026.",
-      "effective_date": "2026-09-30",
-      "key_dates": [
-        {
-          "label": "Effective date of applicable limits",
-          "date": "2026-09-30",
-          "quote": "same shall be effective from the trade date September 30, 2026"
-        }
-      ],
-      "impact_summary": "NSE Clearing members are informed of newly applicable position limits (MWPL, TM, FPI, MF) for three individual securities, effective from the specified trade date; this is an operational/informational circular for trading and clearing compliance.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here.",
-        "circular_no": "Circular number '111/2026 (NCL/CMPT/76619)' was not found in the document text."
-      },
-      "source_excerpt_citations": [
-        "In pursuance to circular no. 050/2026 (NCL/CMPT/73997) dated April 30, 2026 and circular no. 108/2026 (NCL/CMPT/76459) dated September 21, 2026",
-        "same shall be effective from the trade date September 30, 2026",
-        "Sub: Applicable MWPL, TM, FII/FPI & MF limits for Introduction of 3 Individual Securities"
-      ],
-      "model_confidence": "Certain",
-      "validator_version": 3,
-      "source_url": "https://nsearchives.nseindia.com/content/circulars/CMPT76619.pdf",
-      "sample_data": false,
-      "title": "Applicable MWPL , TM , FII/FPI & MF limits for Introduction of 3 Individual Securities",
-      "regulator": "NSE",
-      "source": "nse",
-      "triage_reason": "MWPL, trading limits affect broker operations and risk management"
-    },
-    {
       "circular_no": "NSE/SURV/76613",
       "date": "2026-09-29",
       "doc_type": "Fresh Circular",
@@ -5488,219 +5444,6 @@
       "regulator": "NSE",
       "source": "nse",
       "triage_reason": "IBC surveillance measures affect broker operations and client margin rules"
-    },
-    {
-      "circular_no": "750/2026",
-      "date": "2026-09-29",
-      "doc_type": "Fresh Circular",
-      "parent_circular_no": "NSE/SURV/64066",
-      "parent_circular_date": "2024-09-20",
-      "implements": [],
-      "impact_areas": [
-        "Surveillance/Market Abuse",
-        "Margin Trading",
-        "Stock Brokers"
-      ],
-      "applicability": "All NSE Members",
-      "intent": "NSE periodically identifies securities meeting ASM criteria and applies additional surveillance margin measures to curb potential market abuse/excessive speculation in those securities.",
-      "action_required": "Members must apply the specified margin rates (50% or existing, whichever higher, capped at 100% for Stage I; 100% or existing, whichever higher, capped at 100% for Stage II) on all open positions as on September 30, 2026 and new positions created from October 01, 2026, for securities listed in Annexure I.",
-      "effective_date": "2026-10-01",
-      "key_dates": [
-        {
-          "label": "Reference date for open positions",
-          "date": "2026-09-30",
-          "quote": "on all open positions as on September 30, 2026"
-        },
-        {
-          "label": "Effective date of margin measures / new positions",
-          "date": "2026-10-01",
-          "quote": "w.e.f. October 01, 2026 on all open positions ... and new positions created from October 01, 2026"
-        }
-      ],
-      "impact_summary": "All NSE trading members are affected; securities newly classified under ST-ASM Stage I or II will attract higher margin requirements (up to 100%) starting October 1, 2026, impacting trading and margin operations for the listed securities.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here.",
-        "circular_no": "Document has two reference numbers - 'Download Ref No: NSE/SURV/76612' and 'Circular Ref. No: 750/2026'; the latter was chosen as the primary circular_no since it matches the conventional circular numbering format."
-      },
-      "source_excerpt_citations": [
-        "This is further to Exchange Circular nos. NSE/SURV/39265, NSE/SURV/46557, NSE/SURV/52144, NSE/SURV/58558 and NSE/SURV/64066",
-        "the securities as per attached Annexure I have satisfied the criteria for inclusion under ST-ASM Stage I",
-        "Applicable rate of margin shall be 50% or existing margin, whichever is higher, subject to maximum rate of margin capped at 100%",
-        "w.e.f. October 01, 2026 on all open positions as on September 30, 2026 and new positions created from October 01, 2026"
-      ],
-      "model_confidence": "Needs Review",
-      "validator_version": 3,
-      "source_url": "https://nsearchives.nseindia.com/content/circulars/SURV76612.zip",
-      "sample_data": false,
-      "title": "Applicability of Short-Term Additional Surveillance Measure (ST-ASM)",
-      "regulator": "NSE",
-      "source": "nse",
-      "triage_reason": "Short-term additional surveillance affects trading operations and margin"
-    },
-    {
-      "circular_no": "749/2026",
-      "date": "2026-09-29",
-      "doc_type": "Fresh Circular",
-      "parent_circular_no": "NSE/SURV/39265, NSE/SURV/45111, NSE/SURV/46557, NSE/SURV/48506, NSE/SURV/52090, NSE/SURV/63362, NSE/SURV/64066",
-      "parent_circular_date": "2018-10-27, 2020-07-22, 2020-12-04, 2021-06-04, 2022-04-22, 2024-08-09, 2024-09-20",
-      "implements": [],
-      "impact_areas": [
-        "Surveillance/Market Abuse",
-        "Stock Brokers",
-        "Trading Operations"
-      ],
-      "applicability": "All NSE Members / Market Participants",
-      "intent": "NSE is notifying members that certain securities have met the criteria for inclusion under the Long Term Additional Surveillance Measure (ASM) framework, triggering enhanced margin and trading restrictions.",
-      "action_required": "Apply 100% margin w.e.f. October 05, 2026 on all open positions as on October 01, 2026 and on new positions created from October 05, 2026 onwards; shift securities qualifying under criteria VII (Stage IV) from Rolling Settlement (EQ) to Trade-for-Trade (BE) segment w.e.f. October 05, 2026.",
-      "effective_date": "2026-10-05",
-      "key_dates": [
-        {
-          "label": "Margin rate effective date",
-          "date": "2026-10-05",
-          "quote": "Applicable rate of margin shall be 100% w.e.f. October 05, 2026 on all open positions"
-        },
-        {
-          "label": "Open positions reference date",
-          "date": "2026-10-01",
-          "quote": "100% on all open positions as on October 01, 2026",
-          "unverified": true
-        },
-        {
-          "label": "Segment shift effective date",
-          "date": "2026-10-05",
-          "quote": "shall be shifted from Rolling Settlement segment (Series: EQ) to Trade-for-Trade segment (Series: BE) w.e.f. October 05, 2026"
-        }
-      ],
-      "impact_summary": "NSE members trading in the listed securities under the Long Term ASM framework must apply 100% margin on open and new positions and observe the shift of qualifying scrips to the Trade-for-Trade segment, effective October 05, 2026.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "key_dates": "The quote supporting key date 2026-10-01 was not found in the circular text.",
-        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
-      },
-      "source_excerpt_citations": [
-        "the securities as per the attached Annexure have satisfied the criteria for inclusion under Long Term Additional Surveillance Measure",
-        "Applicable rate of margin shall be 100% w.e.f. October 05, 2026 on all open positions as on October 01, 2026",
-        "shifted from Rolling Settlement segment (Series: EQ) to Trade-for-Trade segment (Series: BE) w.e.f. October 05, 2026"
-      ],
-      "model_confidence": "Certain",
-      "validator_version": 3,
-      "source_url": "https://nsearchives.nseindia.com/content/circulars/SURV76611.zip",
-      "sample_data": false,
-      "title": "Applicability of Additional Surveillance Measure (ASM)",
-      "regulator": "NSE",
-      "source": "nse",
-      "triage_reason": "Additional surveillance measures affect broker operations and risk management"
-    },
-    {
-      "circular_no": "137/2026",
-      "date": "2026-09-29",
-      "doc_type": "Fresh Circular",
-      "parent_circular_no": "NSE/CMTR/73927",
-      "parent_circular_date": "2026-04-28",
-      "implements": [],
-      "impact_areas": [
-        "Stock Brokers",
-        "Trading Operations"
-      ],
-      "applicability": "All Members (Stock Brokers) of NSE Capital Market Segment",
-      "intent": "NSE is notifying members that certain scrips will not be available for T+0 rolling settlement trading on a specific date due to index rebalancing affecting T+0 derivatives eligibility.",
-      "action_required": "Members must note that the listed scrips (e.g., AMBUJACEM, ASHOKLEY, BANKBARODA, etc.) shall not be available for trading in the T+0 rolling settlement cycle on September 30, 2026.",
-      "effective_date": "2026-09-30",
-      "key_dates": [
-        {
-          "label": "Scrips unavailable for T+0 trading",
-          "date": "2026-09-30",
-          "quote": "below T+0 securities shall not be available for trading on September 30, 2026"
-        }
-      ],
-      "impact_summary": "Stock brokers/trading members are informed that a specific list of securities will be excluded from T+0 rolling settlement trading on September 30, 2026, due to index rebalancing affecting T+0 derivatives contracts.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "source_excerpt_citations": "1 quoted excerpt(s) could not be found in the circular text — possible fabrication: 'Security is either moving in /out of the index on which T0 derivatives contracts'",
-        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
-      },
-      "source_excerpt_citations": [
-        "This is reference to Exchange circular no. NSE/CMTR/73927 dated April 28, 2026 regarding Capital Market Consolidated Circular.",
-        "below T+0 securities shall not be available for trading on September 30, 2026",
-        "Security is either moving in /out of the index on which T0 derivatives contracts are available for trading due to Index rebalancing."
-      ],
-      "model_confidence": "Certain",
-      "validator_version": 3,
-      "source_url": "https://nsearchives.nseindia.com/content/circulars/CMTR76609.pdf",
-      "sample_data": false,
-      "title": "Scrips not available for trading in T+0 rolling settlement cycle on September 30, 2026",
-      "regulator": "NSE",
-      "source": "nse",
-      "triage_reason": "Settlement cycle rules affect broker operations and systems"
-    },
-    {
-      "circular_no": "0348/2026",
-      "date": "2026-10-29",
-      "doc_type": "Amendment",
-      "parent_circular_no": "NCL/COM/76325",
-      "parent_circular_date": "NOT STATED IN SOURCE",
-      "implements": [
-        {
-          "regulator": "NSE",
-          "circular_no": "NSE/COM/76535",
-          "date": "2026-09-24"
-        }
-      ],
-      "impact_areas": [
-        "Commodity Derivatives Segment",
-        "Clearing Corporations",
-        "Trading Operations"
-      ],
-      "applicability": "All Members of the Commodity Derivatives Segment (NSE Clearing Limited)",
-      "intent": "NCL revises the settlement calendar for compulsory delivery and the GST details reporting calendar for October 2026, following a modification in contract parameters of Gold Mini Futures and Gold Mini Options on Futures and a partial modification of an earlier circular.",
-      "action_required": "Members must follow the revised delivery settlement schedule and GST details confirmation/uploading windows set out in Annexure 1 and Annexure 2, ensure necessary GST registration and licenses, timely invoicing, and filing of statutory GST returns within stipulated dates.",
-      "effective_date": "NOT STATED IN SOURCE",
-      "key_dates": [
-        {
-          "label": "Circular issue date",
-          "date": "2026-10-29",
-          "quote": "Download Ref No: NCL/COM/76608 Date: October 29, 2026"
-        },
-        {
-          "label": "Referenced NSE circular date",
-          "date": "2026-09-24",
-          "quote": "circular no. NSE/COM/76535 dated September 24, 2026"
-        },
-        {
-          "label": "GOLDM expiry date (example)",
-          "date": "2026-10-26",
-          "quote": "GOLDM IMS T+1 26-Oct-26 10:00 AM -9:00 PM 26-Oct-26"
-        },
-        {
-          "label": "GOLDM final expiry date in schedule",
-          "date": "2026-10-28",
-          "quote": "GOLDM IMS T+1 28-Oct-26 10:00 AM -9:00 PM 28-Oct-26"
-        }
-      ],
-      "impact_summary": "Commodity derivatives segment members are affected by revised compulsory delivery settlement timelines and GST reporting windows for October 2026 expiry contracts, following changes to Gold Mini Futures/Options contract parameters.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "circular_no": "Document has two reference numbers - 'Download Ref No: NCL/COM/76608' and 'Circular Ref. No: 0348/2026'; chose the latter as the conventional circular number but both appear in source.",
-        "effective_date": "No explicit 'effective date' clause is stated; the schedules apply to October 2026 contracts but no single effective date sentence is given.",
-        "parent_circular_date": "Text refers to 'partial modification of NCL/COM/76325' without stating its date.",
-        "key_dates": "Only a small representative subset of the extensive settlement/GST schedule tables is listed due to volume; full detail is in Annexures 1 and 2.",
-        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
-      },
-      "source_excerpt_citations": [
-        "Revised Settlement Calendar (Compulsory Delivery) & GST details reporting calendar for October 2026",
-        "This is with reference to circular no. NSE/COM/76535 dated September 24, 2026",
-        "partial modification of NCL/COM/76325 NSE Clearing Limited hereby notifies Revised Settlement Calendar",
-        "All the member accepting/ giving delivery of commodities/ goods shall have the necessary GST Registration"
-      ],
-      "model_confidence": "Needs Review",
-      "validator_version": 3,
-      "source_url": "https://nsearchives.nseindia.com/content/circulars/COM76608.zip",
-      "sample_data": false,
-      "title": "Commodity Derivatives Segment - Revised Settlement Calendar (Compulsory Delivery) & GST details reporting calendar for October 2026.",
-      "regulator": "NSE",
-      "source": "nse",
-      "triage_reason": "Settlement calendar and reporting affect broker operations"
     },
     {
       "circular_no": "NSE/FAOP/76606",
@@ -5808,148 +5551,6 @@
       "regulator": "NSE",
       "source": "nse",
       "triage_reason": "Enhanced surveillance affects trading operations and margin requirements"
-    },
-    {
-      "circular_no": "20260929-61",
-      "date": "2026-09-29",
-      "doc_type": "Fresh Circular",
-      "parent_circular_no": null,
-      "parent_circular_date": null,
-      "implements": [],
-      "impact_areas": [
-        "Commodity Derivatives Segment",
-        "Stock Exchanges",
-        "Clearing Corporations"
-      ],
-      "applicability": "NOT STATED IN SOURCE - likely Stock Brokers/Clearing Members (Derivatives Segment)",
-      "intent": "The notice appears to communicate Market Wide Position Limits for newly introduced scrips in the Equity Derivatives Segment, but no substantive body text is provided to confirm the specific problem or goal.",
-      "action_required": "NOT STATED IN SOURCE",
-      "effective_date": null,
-      "key_dates": [],
-      "impact_summary": "This notice from BSE (via BSECL) relates to Market Wide Position Limits for newly added derivatives scrips, likely affecting stock brokers and clearing members in the Derivatives Segment, but the actual substantive content/details are not present in the provided text.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "general": "The source text contains only notice metadata (number, date, category, segment, department, subject) with no attachment or body text explaining the actual position limits, affected scrips, applicability details, or any dates/deadlines. Extraction is limited to what is explicitly stated.",
-        "applicability": "No explicit statement of which entities must comply; inferred generically from segment/category but not confirmed in text.",
-        "action_required": "No actionable instructions are stated in the available text.",
-        "impact_areas": "Selected based on 'Derivatives Segment' and 'Settlement/RMS' category mentioned, but no further detail is given to confirm scope.",
-        "circular_no": "'20260929-61' doesn't look like a circular reference number — verify manually."
-      },
-      "source_excerpt_citations": [
-        "Market Wide Position Limits for newly introduced Scrips in Equity",
-        "Derivatives Segment",
-        "Category Settlement/RMS",
-        "Segment Derivatives",
-        "Department BSECL"
-      ],
-      "model_confidence": "Needs Review",
-      "validator_version": 3,
-      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260929-61/20260929-61.pdf",
-      "sample_data": false,
-      "title": "Market Wide Position Limits for newly introduced Scrips in Equity Derivatives Segment",
-      "regulator": "BSE",
-      "source": "bse",
-      "triage_reason": "MWPL for new derivatives contracts affect broker risk management"
-    },
-    {
-      "circular_no": "20260929-53",
-      "date": "2026-09-29",
-      "doc_type": "Fresh Circular",
-      "parent_circular_no": null,
-      "parent_circular_date": null,
-      "implements": [],
-      "impact_areas": [
-        "Mutual Funds/AMCs",
-        "Payments/UPI",
-        "Trading Operations"
-      ],
-      "applicability": "BSE StAR MF Members (Mutual Fund segment)",
-      "intent": "NPCI has revised the NACH Mandate Form, and BSE is notifying members that the updated form will be made available on the BSE StAR MF platform to align with the new NPCI standard.",
-      "action_required": "Members must note that the revised NACH Mandate Form will be available on BSE StAR MF from 1st October 2026; the existing form remains valid only up to 30th September 2026, after which destination banks may reject non-compliant mandates.",
-      "effective_date": "2026-10-01",
-      "key_dates": [
-        {
-          "label": "Revised NACH Mandate Form available",
-          "date": "2026-10-01",
-          "quote": "BSE StAR MF shall make the revised NACH Mandate Form available on its platform with effect from 1st October 2026"
-        },
-        {
-          "label": "Existing form validity end date",
-          "date": "2026-09-30",
-          "quote": "the existing NACH Mandate Form shall continue to remain valid up to 30th September 2026"
-        }
-      ],
-      "impact_summary": "BSE StAR MF Members must transition to the NPCI-revised NACH Mandate Form by 1 October 2026, as the old form's validity ends on 30 September 2026 and banks may reject non-compliant mandates thereafter.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "implements": "The NPCI circular is referenced only as an attachment ('Annexure I - NPCI Circular on Revision of NACH Mandate Form') without a specific circular number or date stated in the source text.",
-        "doc_type": "Classified as Fresh Circular since it is a standalone BSE notice implementing an external NPCI change, not amending a prior BSE circular.",
-        "circular_no": "'20260929-53' doesn't look like a circular reference number — verify manually."
-      },
-      "source_excerpt_citations": [
-        "National Payments Corporation of India (NPCI) has revised the NACH Mandate Form.",
-        "BSE StAR MF shall make the revised NACH Mandate Form available on its platform with effect from 1st October 2026",
-        "the existing NACH Mandate Form shall continue to remain valid up to 30th September 2026",
-        "Encl.: Annexure I - NPCI Circular on Revision of NACH Mandate Form."
-      ],
-      "model_confidence": "Inferred",
-      "validator_version": 3,
-      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260929-53/20260929-53.pdf",
-      "sample_data": false,
-      "title": "Revision in NACH Mandate Form",
-      "regulator": "BSE",
-      "source": "bse",
-      "triage_reason": "Revision in NACH Mandate Form affects payment processing"
-    },
-    {
-      "circular_no": "20260929-50",
-      "date": "2026-09-29",
-      "doc_type": "Fresh Circular",
-      "parent_circular_no": "20260807-39",
-      "parent_circular_date": "2026-08-07",
-      "implements": [],
-      "impact_areas": [
-        "Surveillance/Market Abuse",
-        "Trading Operations",
-        "Stock Brokers"
-      ],
-      "applicability": "BSE Trading Members / Market Participants",
-      "intent": "BSE is updating the list of securities subject to Additional Surveillance Measure (ASM) for companies undergoing Insolvency Resolution Process under IBC, adding new entries and removing others based on periodic review.",
-      "action_required": "Members must note the updated Annexure lists of securities entering/exiting the IBC surveillance framework effective September 30, 2026, and factor this into trading/compliance for the concerned scrips.",
-      "effective_date": "2026-09-30",
-      "key_dates": [
-        {
-          "label": "Securities added to IBC surveillance framework",
-          "date": "2026-09-30",
-          "quote": "have satisfied the criteria under Additional Surveillance Measure ... with effect from September 30, 2026"
-        },
-        {
-          "label": "Securities removed from IBC surveillance framework",
-          "date": "2026-09-30",
-          "quote": "moving out from IBC Framework, w.e.f. September 30, 2026"
-        }
-      ],
-      "impact_summary": "BSE trading members are informed of changes to the list of securities under the IBC-related Additional Surveillance Measure, affecting price bands and trading conditions for the listed scrips from September 30, 2026.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "doc_type": "This is a routine periodic list-update notice referencing multiple prior BSE notices on the same framework; unclear if it should be classified as Fresh Circular or Amendment since no new rule is introduced, only list revision.",
-        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here.",
-        "circular_no": "'20260929-50' doesn't look like a circular reference number — verify manually."
-      },
-      "source_excerpt_citations": [
-        "With reference to the Exchange notice no. 20180608-34 dated June 08, 2018, Exchange notice no. 20220520-52 dated May 20, 2022",
-        "Exchange notice no. 20260807-39 dated August 07, 2026 in respect of Additional Surveillance Measure",
-        "have satisfied the criteria under Additional Surveillance Measure for Companies relating to the Insolvency Resolution Process (IRP)",
-        "moving out from IBC Framework, w.e.f. September 30, 2026 is given in Annexure II"
-      ],
-      "model_confidence": "Needs Review",
-      "validator_version": 3,
-      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260929-50/20260929-50.pdf",
-      "sample_data": false,
-      "title": "Surveillance Measure for securities under IBC",
-      "regulator": "BSE",
-      "source": "bse",
-      "triage_reason": "Surveillance measure affects trading operations and risk rules"
     },
     {
       "circular_no": "Notice No. 20260929-49",
@@ -6093,101 +5694,6 @@
       "triage_reason": "Enhanced surveillance measure affects trading operations"
     },
     {
-      "circular_no": "20260929-47",
-      "date": "2026-09-29",
-      "doc_type": "Fresh Circular",
-      "parent_circular_no": "20240920-71, 20181027-1, 20190719-33, 20201204-56, 20230925-49, 20240920-63",
-      "parent_circular_date": "2024-09-20",
-      "implements": [],
-      "impact_areas": [
-        "Stock Brokers",
-        "Surveillance/Market Abuse",
-        "Trading Operations",
-        "Margin Trading"
-      ],
-      "applicability": "Trading Members/Stock Brokers on BSE Equity Segment",
-      "intent": "BSE is notifying that certain securities have met the criteria for inclusion under the Short-Term Additional Surveillance Measure (ST-ASM) Stage I and Stage II, triggering enhanced margin requirements as part of ongoing market surveillance.",
-      "action_required": "Members must apply the applicable margin rate (50% or existing margin, whichever is higher, capped at 100% for Stage I; 100% or existing margin, whichever is higher, capped at 100% for Stage II) on all open positions as on September 30, 2026 and new positions created from October 01, 2026, for securities listed in Annexure I.",
-      "effective_date": "2026-10-01",
-      "key_dates": [
-        {
-          "label": "ST-ASM Stage I margin applicability",
-          "date": "2026-10-01",
-          "quote": "w.e.f. October 01, 2026 on all open positions as on September 30, 2026 and new positions created"
-        },
-        {
-          "label": "ST-ASM Stage II margin applicability",
-          "date": "2026-10-01",
-          "quote": "w.e.f. October 01, 2026 on all open positions as on September 30, 2026 and new positions"
-        }
-      ],
-      "impact_summary": "Trading members/brokers dealing in the specifically listed securities (Annexure I) must apply significantly higher margin rates (50%-100%) from October 1, 2026 due to the securities' inclusion under the ST-ASM surveillance framework, aimed at curbing excessive volatility rather than penalizing the issuer.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "parent_circular_no": "Parent circular number(s) not found in the document text: 20240920-71, 20181027-1, 20190719-33, 20201204-56, 20230925-49, 20240920-63.",
-        "annexure": "Annexure I containing the actual list of securities under ST-ASM was referenced as an attachment but its content is not included in the source text, so specific securities affected cannot be extracted.",
-        "circular_no": "'20260929-47' doesn't look like a circular reference number — verify manually."
-      },
-      "source_excerpt_citations": [
-        "This is further to Exchange notice no. 20240920-71 dated September 20, 2024",
-        "securities as per attached Annexure I have satisfied the criteria for inclusion under ST-ASM Stage I",
-        "Applicable rate of margin shall be 50% or existing margin whichever is higher, subject to maximum rate of margin capped at 100%, w.e.f. October 01, 2026",
-        "Applicable margin rate shall be 100% or existing margin whichever is higher subject to maximum rate of margin capped at 100%"
-      ],
-      "model_confidence": "Needs Review",
-      "validator_version": 3,
-      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260929-47/20260929-47.pdf",
-      "sample_data": false,
-      "title": "Applicability of Short-Term Additional Surveillance Measure (ST-ASM)",
-      "regulator": "BSE",
-      "source": "bse",
-      "triage_reason": "Short-term surveillance measure affects trading operations"
-    },
-    {
-      "circular_no": "20260929-46",
-      "date": "2026-09-29",
-      "doc_type": "Fresh Circular",
-      "parent_circular_no": "20170223-44",
-      "parent_circular_date": "2017-02-23",
-      "implements": [],
-      "impact_areas": [
-        "Surveillance/Market Abuse",
-        "Stock Brokers",
-        "Trading Operations"
-      ],
-      "applicability": "Trading members of BSE dealing in the securities listed in the attached Annexure under GSM",
-      "intent": "BSE is moving specified securities into higher stages of the Graded Surveillance Measure (GSM) framework to curb undue price movement/speculation and alert market participants.",
-      "action_required": "Trading members must note that securities in the Annexure move to higher GSM stages from September 30, 2026, comply with the applicable margin, price band, Additional Surveillance Deposit (ASD) and trade-for-trade settlement requirements for the relevant stage, and exercise adequate precaution as no netting off is allowed.",
-      "effective_date": "2026-09-30",
-      "key_dates": [
-        {
-          "label": "Securities move to higher GSM stage / surveillance actions effective",
-          "date": "2026-09-30",
-          "quote": "shall be moved to their respective higher stages of GSM with effect from September 30, 2026"
-        }
-      ],
-      "impact_summary": "Trading members dealing in the listed securities face higher margins, trade-for-trade settlement, Additional Surveillance Deposit requirements, and reduced trading frequency (in stages III/IV) once the securities move into higher GSM stages from September 30, 2026.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here.",
-        "impact_areas": "Category/Subject list is generic (GSM securities movement); attached Annexure listing specific securities was not provided in source text, so security-specific details cannot be verified.",
-        "circular_no": "'20260929-46' doesn't look like a circular reference number — verify manually."
-      },
-      "source_excerpt_citations": [
-        "securities as per attached Annexure shall be moved to their respective higher stages of GSM with effect from September 30, 2026",
-        "shall attract following surveillance actions as per the provisions of GSM Framework published on February 23, 2017",
-        "the settlement shall be done on trade-to-trade basis and no netting off shall be allowed"
-      ],
-      "model_confidence": "Needs Review",
-      "validator_version": 3,
-      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260929-46/20260929-46.pdf",
-      "sample_data": false,
-      "title": "Graded Surveillance Measure (GSM) - List of securities moving into their respective GSM Stages",
-      "regulator": "BSE",
-      "source": "bse",
-      "triage_reason": "Graded surveillance measure affects trading operations"
-    },
-    {
       "circular_no": "Notice No. 20260929-45",
       "date": "2026-09-29",
       "doc_type": "Fresh Circular",
@@ -6225,46 +5731,6 @@
       "regulator": "BSE",
       "source": "bse",
       "triage_reason": "Price band changes affect trading systems and operations"
-    },
-    {
-      "circular_no": "Notice No. 20260929-24",
-      "date": "2026-09-29",
-      "doc_type": "Fresh Circular",
-      "parent_circular_no": null,
-      "parent_circular_date": null,
-      "implements": [],
-      "impact_areas": [
-        "Trading Operations",
-        "Stock Exchanges"
-      ],
-      "applicability": "Trading Members of BSE (Equity Segment)",
-      "intent": "BSE is informing trading members of a list of scrips that will be excluded from the T+0 rolling settlement cycle on a specific date, likely due to those scrips being under some restriction or condition.",
-      "action_required": "Trading members must note that the listed 20 scrips will not be available for trading in the T+0 rolling settlement cycle on Wednesday, September 30, 2026.",
-      "effective_date": "2026-09-30",
-      "key_dates": [
-        {
-          "label": "Scrips excluded from T+0 settlement",
-          "date": "2026-09-30",
-          "quote": "will not be available for trading in T+0 rolling settlement cycle on Wednesday, September 30, 2026"
-        }
-      ],
-      "impact_summary": "Trading members on BSE's equity segment are affected, as 20 named scrips (including Bank of Baroda, Wipro, Ashok Leyland, and others) will be unavailable for trading under the T+0 rolling settlement cycle on the specified date.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "source_excerpt_citations": "1 quoted excerpt(s) could not be found in the circular text — possible fabrication: 'Scrips not available for trading in T+0 rolling settlement cycle on September 30'"
-      },
-      "source_excerpt_citations": [
-        "Trading members please note, the following scrips will not be available for trading in T+0 rolling settlement cycle on Wednesday, September 30, 2026",
-        "Scrips not available for trading in T+0 rolling settlement cycle on September 30,2026"
-      ],
-      "model_confidence": "Certain",
-      "validator_version": 3,
-      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260929-24/20260929-24.pdf",
-      "sample_data": false,
-      "title": "Scrips not available for trading in T+0 rolling settlement cycle on September 30,2026",
-      "regulator": "BSE",
-      "source": "bse",
-      "triage_reason": "Trading cycle change affects settlement operations"
     },
     {
       "circular_no": "Notice No. 20260929-18",
@@ -6312,6 +5778,613 @@
       "regulator": "BSE",
       "source": "bse",
       "triage_reason": "Settlement calendar for SLBR affects trading operations"
+    },
+    {
+      "circular_no": "0348/2026",
+      "date": "2026-10-29",
+      "doc_type": "Amendment",
+      "parent_circular_no": "NCL/COM/76325",
+      "parent_circular_date": "NOT STATED IN SOURCE",
+      "implements": [
+        {
+          "regulator": "NSE",
+          "circular_no": "NSE/COM/76535",
+          "date": "2026-09-24"
+        }
+      ],
+      "impact_areas": [
+        "Commodity Derivatives Segment",
+        "Clearing Corporations"
+      ],
+      "applicability": "All Members of NSE Clearing Limited (Commodity Derivatives Segment)",
+      "intent": "NSE Clearing Limited is revising the compulsory delivery settlement calendar and GST details reporting schedule for the Commodity Derivatives Segment for October 2026, following a change in Gold Mini Futures/Options contract parameters and a partial modification of an earlier settlement calendar circular.",
+      "action_required": "Members must follow the revised Delivery Settlement Schedule (Annexure 1) and GST Details Confirmation Schedule (Annexure 2) for October 2026 expiry contracts, including timely pay-in/pay-out of funds and commodities, GST registration compliance, and uploading seller/buyer GST details within the specified windows; no single overarching deadline beyond the dates listed in the annexure tables is stated.",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [
+        {
+          "label": "Circular issuance date",
+          "date": "2026-10-29",
+          "quote": "Download Ref No: NCL/COM/76608 Date: October 29, 2026"
+        },
+        {
+          "label": "Referenced prior circular date (contract parameter modification)",
+          "date": "2026-09-24",
+          "quote": "circular no. NSE/COM/76535 dated September 24, 2026"
+        },
+        {
+          "label": "Example settlement schedule date (GOLDM contract, Annexure 1)",
+          "date": "2026-10-26",
+          "quote": "GOLDM IMS T+1 26-Oct-26 10:00 AM -9:00 PM 26-Oct-26 261026 26-Oct-26 27-Oct-26"
+        },
+        {
+          "label": "Example GST uploading window date (GOLDM contract, Annexure 2)",
+          "date": "2026-10-27",
+          "quote": "GOLDM 26-Oct-26 27-Oct-26 27-Oct-26 15:00 28-Oct-26 15:00"
+        }
+      ],
+      "impact_summary": "Members of NSE Clearing Limited trading in the Commodity Derivatives Segment (Gold, Silver, base metals contracts) must adhere to the revised October 2026 delivery settlement and GST reporting timelines set out in Annexures 1 and 2, which supersede the prior calendar due to changes in Gold Mini contract parameters.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "circular_no": "Document contains two reference numbers: 'Download Ref No: NCL/COM/76608' and 'Circular Ref. No: 0348/2026'; the latter is used as circular_no per convention but both appear verbatim in the source.",
+        "parent_circular_date": "Source states 'partial modification of NCL/COM/76325' but does not give a date for that circular.",
+        "effective_date": "No explicit effective-date clause is stated; the schedules apply to October 2026 expiry contracts per the annexure tables, but no single effective date sentence is given.",
+        "key_dates": "Annexures 1 and 2 contain extensive per-contract settlement and GST reporting schedules with dozens of dated rows; only a small representative subset is quoted here to avoid fabricating an exhaustive listing, and the full detail remains in the annexure tables themselves.",
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
+      },
+      "source_excerpt_citations": [
+        "circular no. NSE/COM/76535 dated September 24, 2026, regarding Modification in the contract parameters of Gold Mini Futures",
+        "partial modification of NCL/COM/76325 NSE Clearing Limited hereby notifies Revised Settlement Calendar",
+        "Download Ref No: NCL/COM/76608 Date: October 29, 2026",
+        "Circular Ref. No: 0348/2026",
+        "All the member accepting/ giving delivery of commodities/ goods shall have the necessary GST Registration"
+      ],
+      "model_confidence": "Inferred",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/COM76608.zip",
+      "sample_data": false,
+      "title": "Commodity Derivatives Segment - Revised Settlement Calendar (Compulsory Delivery) & GST details reporting calendar for October 2026.",
+      "retried": true,
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "Settlement calendar and reporting affect broker operations"
+    },
+    {
+      "circular_no": "111/2026",
+      "date": "2026-09-29",
+      "doc_type": "Amendment",
+      "parent_circular_no": "108/2026",
+      "parent_circular_date": "2026-09-21",
+      "implements": [],
+      "impact_areas": [
+        "Stock Brokers",
+        "Clearing Corporations",
+        "FPI",
+        "Trading Operations",
+        "Mutual Funds/AMCs"
+      ],
+      "applicability": "Trading Members / Clearing Members of NSE Clearing Limited",
+      "intent": "NSE Clearing is updating the applicable position limits (market-wide, trading member, FII/FPI and mutual fund) for three individual securities following introduction of derivatives on them, superseding earlier circulars on the same subject.",
+      "action_required": "Trading members are advised to take note of the revised MWPL, TM-wise, FII/FPI (Category I & II) and mutual fund position limits for the specified securities, effective from the trade date mentioned.",
+      "effective_date": "2026-09-30",
+      "key_dates": [
+        {
+          "label": "Effective trade date for revised limits",
+          "date": "2026-09-30",
+          "quote": "same shall be effective from the trade date September 30 , 202 6"
+        },
+        {
+          "label": "Prior circular date (050/2026)",
+          "date": "2026-04-30",
+          "quote": "circular no. 050/2026 (NCL/CMPT/ 73997 ) dated April 30, 202 6"
+        },
+        {
+          "label": "Prior circular date (108/2026)",
+          "date": "2026-09-21",
+          "quote": "circular no. 108 /2026 (NCL/CMPT/ 76459 ) dated September 21, 202 6"
+        }
+      ],
+      "impact_summary": "Trading and clearing members of NSE Clearing Limited must note revised market-wide, trading-member, FII/FPI and mutual fund position limits for three individual securities (ANANDRATHI, ENRIN, UJJIVANSFB), effective from the trade date September 30, 2026.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here.",
+        "doc_type": "Classified as 'Amendment' since it updates/revises limits set by earlier circulars from the same body, though it could also be read as a routine periodic update circular."
+      },
+      "source_excerpt_citations": [
+        "Circular Ref. No: 111 /202 6",
+        "In pursuance to circular no. 050/2026 (NCL/CMPT/ 73997 ) dated April 30, 202 6 and circular no. 108 /2026 (NCL/CMPT/ 76459 ) dated September 21, 202 6",
+        "same shall be effective from the trade date September 30 , 202 6",
+        "Sub: Applicable MWPL, TM, FII/FPI & MF limits for Introduction of 3 Individual Securities"
+      ],
+      "model_confidence": "Inferred",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/CMPT76619.pdf",
+      "sample_data": false,
+      "title": "Applicable MWPL , TM , FII/FPI & MF limits for Introduction of 3 Individual Securities",
+      "retried": true,
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "MWPL, trading limits affect broker operations and risk management"
+    },
+    {
+      "circular_no": "750/2026",
+      "date": "2026-09-29",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "NSE/SURV/64066",
+      "parent_circular_date": "2024-09-20",
+      "implements": [],
+      "impact_areas": [
+        "Surveillance/Market Abuse",
+        "Margin Trading",
+        "Stock Brokers"
+      ],
+      "applicability": "All NSE Members",
+      "intent": "NSE is notifying members of securities newly meeting the criteria for inclusion under Short-Term Additional Surveillance Measure (ST-ASM) Stage I and Stage II, and specifying the enhanced margin requirements applicable to them.",
+      "action_required": "Members must apply the specified margin rates (50% or existing margin, whichever is higher, capped at 100% for Stage I; 100% or existing margin, whichever is higher, capped at 100% for Stage II) on all open positions as on September 30, 2026 and new positions created from October 01, 2026, for the securities listed in Annexure I.",
+      "effective_date": "2026-10-01",
+      "key_dates": [
+        {
+          "label": "ST-ASM Stage I margin rate effective date",
+          "date": "2026-10-01",
+          "quote": "Applicable rate of margin shall be 50% or existing margin, whichever is higher, subject to maximum rate of margin capped at 100% w.e.f. October 01, 2026"
+        },
+        {
+          "label": "Reference date for open positions",
+          "date": "2026-09-30",
+          "quote": "on all open positions as on September 30, 2026 and new positions created from October 01, 2026"
+        },
+        {
+          "label": "ST-ASM Stage II margin rate effective date",
+          "date": "2026-10-01",
+          "quote": "Applicable margin rate shall be 100% or existing margin whichever is higher subject to maximum rate of margin capped at 100%. w.e.f. October 01, 2026"
+        }
+      ],
+      "impact_summary": "NSE members trading in the securities listed in Annexure I face increased margin requirements (up to 100%) under ST-ASM Stage I and Stage II from October 01, 2026, as part of ongoing market surveillance measures.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here.",
+        "circular_no": "Document carries two identifiers: 'Download Ref No: NSE/SURV/76612' and 'Circular Ref. No: 750/2026'; the latter is used as circular_no per conventional numbering format used by NSE for surveillance circulars.",
+        "doc_type": "Classified as Fresh Circular since it publishes a new list of securities under an existing ST-ASM framework rather than amending the framework itself, though it heavily references prior circulars."
+      },
+      "source_excerpt_citations": [
+        "This is further to Exchange Circular nos. NSE/SURV/39265, NSE/SURV/46557, NSE/SURV/52144, NSE/SURV/58558 and NSE/SURV/64066",
+        "the securities as per attached Annexure I have satisfied the criteria for inclusion under ST-ASM Stage I",
+        "Applicable rate of margin shall be 50% or existing margin, whichever is higher, subject to maximum rate of margin capped at 100%",
+        "Securities as per attached Annexure I have satisfied the criteria for inclusion under ST-ASM Stage II"
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/SURV76612.zip",
+      "sample_data": false,
+      "title": "Applicability of Short-Term Additional Surveillance Measure (ST-ASM)",
+      "retried": true,
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "Short-term additional surveillance affects trading operations and margin"
+    },
+    {
+      "circular_no": "NSE/SURV/76611",
+      "date": "2026-09-29",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "NSE/SURV/64066",
+      "parent_circular_date": "2024-09-20",
+      "implements": [],
+      "impact_areas": [
+        "Stock Brokers",
+        "Surveillance/Market Abuse",
+        "Trading Operations",
+        "Margin Trading"
+      ],
+      "applicability": "All NSE Members",
+      "intent": "NSE is updating the list of securities placed under Long Term Additional Surveillance Measure (ASM) based on securities meeting the applicable surveillance criteria, continuing a framework established through several prior circulars.",
+      "action_required": "Members must apply 100% margin on all open positions in the listed securities as on October 01, 2026 and on new positions created from October 05, 2026 onwards; securities meeting criteria VII must be shifted from Rolling Settlement (EQ) to Trade-for-Trade (BE) segment w.e.f. October 05, 2026.",
+      "effective_date": "2026-10-05",
+      "key_dates": [
+        {
+          "label": "100% margin applicability effective date",
+          "date": "2026-10-05",
+          "quote": "Applicable rate of margin shall be 100% w.e.f. October 05, 2026 on all open positions"
+        },
+        {
+          "label": "Open positions reference date for margin applicability",
+          "date": "2026-10-01",
+          "quote": "on all open positions as on October 01, 2026 and new positions created from October 05, 2026 onwards"
+        },
+        {
+          "label": "Shift to Trade-for-Trade (BE) segment effective date",
+          "date": "2026-10-05",
+          "quote": "to Trade-for-Trade segment (Series: BE) w.e.f. October 05, 2026"
+        }
+      ],
+      "impact_summary": "All NSE trading members must impose 100% margin on specified ASM-listed securities from the stated dates and move certain securities to Trade-for-Trade settlement, affecting trading and margin operations for those scrips.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here.",
+        "doc_type": "Classified as Fresh Circular since it issues a new periodic ASM scrip list rather than amending a specific single circular, though it references multiple prior framework circulars."
+      },
+      "source_excerpt_citations": [
+        "This is with reference to Exchange Circular nos. NSE/SURV/39265, NSE/SURV/45111, NSE/SURV/46557, NSE/SURV/48506, NSE/SURV/52090, NSE/SURV/63362 and NSE/SURV/64066",
+        "Applicable rate of margin shall be 100% w.e.f. October 05, 2026 on all open positions as on October 01, 2026",
+        "shall be shifted from Rolling Settlement segment (Series: EQ) to Trade-for-Trade segment (Series: BE) w.e.f. October 05, 2026"
+      ],
+      "model_confidence": "Inferred",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/SURV76611.zip",
+      "sample_data": false,
+      "title": "Applicability of Additional Surveillance Measure (ASM)",
+      "retried": true,
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "Additional surveillance measures affect broker operations and risk management"
+    },
+    {
+      "circular_no": "NSE/CMTR/76609",
+      "date": "2026-09-29",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "NSE/CMTR/73927",
+      "parent_circular_date": "2026-04-28",
+      "implements": [],
+      "impact_areas": [
+        "Stock Brokers",
+        "Trading Operations"
+      ],
+      "applicability": "All Members (NSE Capital Market Segment)",
+      "intent": "NSE notifies members that a specified set of scrips will be excluded from the T+0 rolling settlement cycle on a particular trading day because those securities are moving in or out of the index underlying T+0 derivatives contracts, per the index rebalancing.",
+      "action_required": "Members are required to note that the listed securities shall not be available for trading in the T+0 settlement cycle on September 30, 2026.",
+      "effective_date": "2026-09-30",
+      "key_dates": [
+        {
+          "label": "Scrips excluded from T+0 trading",
+          "date": "2026-09-30",
+          "quote": "below T+0 securities shall not be available for trading on September 30, 2026"
+        }
+      ],
+      "impact_summary": "NSE Capital Market Segment members are informed that 20 named scrips (e.g., AMBUJACEM, WIPRO, BANKBARODA) will not be available for trading under the T+0 rolling settlement cycle on September 30, 2026, due to index rebalancing affecting T0 derivatives contracts.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "impact_areas": "Circular is narrowly scoped to T+0 settlement scrip exclusions; broader categories like Clearing Corporations are not directly addressed in the text.",
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
+      },
+      "source_excerpt_citations": [
+        "Scrips not available for trading in T+0 rolling settlement cycle on September 30, 2026",
+        "This is reference to Exchange circular no. NSE/CMTR/73927 dated April 28, 2026 regarding Capital Market Consolidated Circular.",
+        "below T+0 securities shall not be available for trading on September 30, 2026",
+        "Index rebalancing."
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/CMTR76609.pdf",
+      "sample_data": false,
+      "title": "Scrips not available for trading in T+0 rolling settlement cycle on September 30, 2026",
+      "retried": true,
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "Settlement cycle rules affect broker operations and systems"
+    },
+    {
+      "circular_no": "20260929-61",
+      "date": "2026-09-29",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "NOT STATED IN SOURCE",
+      "parent_circular_date": "NOT STATED IN SOURCE",
+      "implements": [],
+      "impact_areas": [
+        "Clearing Corporations",
+        "Trading Operations"
+      ],
+      "applicability": "NOT STATED IN SOURCE",
+      "intent": "The notice appears to address market wide position limits for newly introduced scrips in the equity derivatives segment, but the source text contains only header metadata and no explanatory body text describing the regulatory problem or objective in detail.",
+      "action_required": "NOT STATED IN SOURCE",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [],
+      "impact_summary": "The notice is issued by BSE's department 'BSECL' under the Settlement/RMS category for the Derivatives Segment, and its subject concerns market wide position limits for newly introduced equity scrips; however, no attachment or body text is provided, so the precise entities affected and the specific compliance action cannot be confirmed from the source.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "circular_no": "'20260929-61' doesn't look like a circular reference number — verify manually.",
+        "doc_type": "No language indicates amendment, corrigendum, addendum, or master status, so classified as a standalone Fresh Circular/Notice by default, but the body text confirming this is absent.",
+        "parent_circular_no": "No parent or prior circular/notice is referenced anywhere in the available text, and the text does not explicitly state it is standalone either, so 'NOT STATED IN SOURCE' is used rather than assuming either way.",
+        "impact_areas": "Selected only from the metadata fields 'Category Settlement/RMS' and 'Segment Derivatives'; no body text confirms the actual scope, affected scrips, or entities, so this mapping is an inference from category labels alone.",
+        "applicability": "No sentence in the source explicitly names the regulated entities (e.g., brokers, clearing members) who must act on this notice.",
+        "action_required": "No instructions, obligations, or deadlines are stated anywhere in the provided text; only the subject line and metadata are present.",
+        "effective_date": "No effective date, implementation date, or compliance date is stated in the text beyond the notice's own issuance date.",
+        "general": "The source text contains only notice metadata (number, date, category, segment, department, subject) with no attachment or body content explaining the actual position limits, affected scrips, or applicability; extraction is limited strictly to what is explicitly stated."
+      },
+      "source_excerpt_citations": [
+        "Notice No. 20260929-61",
+        "Notice Date 29 Sep 2026",
+        "Category Settlement/RMS",
+        "Segment Derivatives",
+        "Department BSECL",
+        "Market Wide Position Limits for newly introduced Scrips in Equity",
+        "Derivatives Segment",
+        "Attachments No Attachment"
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260929-61/20260929-61.pdf",
+      "sample_data": false,
+      "title": "Market Wide Position Limits for newly introduced Scrips in Equity Derivatives Segment",
+      "retried": true,
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "MWPL for new derivatives contracts affect broker risk management"
+    },
+    {
+      "circular_no": "20260929-53",
+      "date": "2026-09-29",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Mutual Funds/AMCs",
+        "Payments/UPI",
+        "Trading Operations"
+      ],
+      "applicability": "BSE Members using BSE StAR MF platform for Mutual Fund transactions",
+      "intent": "BSE is informing members that NPCI has revised the NACH Mandate Form and is updating its StAR MF platform accordingly to remain compliant with the revised standard.",
+      "action_required": "Members must note that the revised NACH Mandate Form will be available on BSE StAR MF from 1st October 2026; the existing form remains valid only up to 30th September 2026, after which destination banks may reject mandates in the old format.",
+      "effective_date": "2026-10-01",
+      "key_dates": [
+        {
+          "label": "Revised NACH Mandate Form available on platform",
+          "date": "2026-10-01",
+          "quote": "BSE StAR MF shall make the revised NACH Mandate Form available on its platform with effect from 1st October 2026"
+        },
+        {
+          "label": "Existing NACH Mandate Form validity end date",
+          "date": "2026-09-30",
+          "quote": "the existing NACH Mandate Form shall continue to remain valid up to 30th September 2026"
+        }
+      ],
+      "impact_summary": "BSE StAR MF members and destination banks handling mutual fund NACH mandates are affected, as they must transition to the revised NACH Mandate Form format from 1st October 2026 or risk rejection of mandates in the old format.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "implements": "The NPCI circular is only referenced as an attachment ('Annexure I - NPCI Circular on Revision of NACH Mandate Form') without a specific circular number or date stated in the source text, so those fields are marked as not stated.",
+        "circular_no": "'20260929-53' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "National Payments Corporation of India (NPCI) has revised the NACH Mandate Form.",
+        "BSE StAR MF shall make the revised NACH Mandate Form available on its platform with effect from 1st October 2026",
+        "the existing NACH Mandate Form shall continue to remain valid up to 30th September 2026",
+        "Encl.: Annexure I - NPCI Circular on Revision of NACH Mandate Form."
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260929-53/20260929-53.pdf",
+      "sample_data": false,
+      "title": "Revision in NACH Mandate Form",
+      "retried": true,
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Revision in NACH Mandate Form affects payment processing"
+    },
+    {
+      "circular_no": "20260929-50",
+      "date": "2026-09-29",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "20260807-39",
+      "parent_circular_date": "2026-08-07",
+      "implements": [],
+      "impact_areas": [
+        "Surveillance/Market Abuse",
+        "Stock Brokers",
+        "Stock Exchanges"
+      ],
+      "applicability": "BSE Trading Members / Members dealing in equity securities",
+      "intent": "BSE is updating the list of securities subject to Additional Surveillance Measure (ASM) for companies undergoing Insolvency Resolution Process under IBC, adding and removing scrips as per periodic review.",
+      "action_required": "Members must note the securities added to and removed from the IBC-related Additional Surveillance Measure framework as per the attached Annexures, with effect from September 30, 2026.",
+      "effective_date": "2026-09-30",
+      "key_dates": [
+        {
+          "label": "Securities added to IBC ASM framework effective date",
+          "date": "2026-09-30",
+          "quote": "have satisfied the criteria under Additional Surveillance Measure for Companies relating to the Insolvency Resolution Process (IRP) as per Insolvency and Bankruptcy Code (IBC) with effect from September 30, 2026"
+        },
+        {
+          "label": "Securities moving out of IBC ASM framework",
+          "date": "2026-09-30",
+          "quote": "The list of securities which are moving out from IBC Framework, w.e.f. September 30, 2026 is given in Annexure II"
+        }
+      ],
+      "impact_summary": "BSE trading members are informed of updated lists of securities entering and exiting the Additional Surveillance Measure framework linked to IBC insolvency proceedings, effective September 30, 2026, affecting applicable price bands and surveillance treatment for these scrips.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "doc_type": "This is a routine periodic list-update notice under a pre-existing, repeatedly-updated ASM/IBC framework; it introduces no new rule, so classifying it strictly as 'Fresh Circular' versus a mere procedural update is a judgment call given the fixed category list.",
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here.",
+        "circular_no": "'20260929-50' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "Notice No. 20260929-50",
+        "Notice Date 29 Sep 2026",
+        "With reference to the Exchange notice no. 20180608-34 dated June 08, 2018, Exchange notice no. 20220520-52 dated May 20, 2022, Exchange notice no. 20230210-55 dated February 10, 2023, Exchange notice no. 20250905-47 dated September 05, 2025 and Exchange notice no. 20260807-39 dated August 07, 2026",
+        "with effect from September 30, 2026",
+        "The list of securities which are moving out from IBC Framework, w.e.f. September 30, 2026 is given in Annexure II",
+        "Securities which are placed under the above-mentioned Framework would be reviewed on periodical basis."
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260929-50/20260929-50.pdf",
+      "sample_data": false,
+      "title": "Surveillance Measure for securities under IBC",
+      "retried": true,
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Surveillance measure affects trading operations and risk rules"
+    },
+    {
+      "circular_no": "20260929-47",
+      "date": "2026-09-29",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "20240920-71 (dated September 20, 2024); 20181027-1 (dated October 27, 2018); 20190719-33 (dated 19 Jul 2019); 20201204-56 (dated 04 Dec 2020); 20230925-49 (dated 25 Sep 2023); 20240920-63 (dated 20 Sep 2024)",
+      "parent_circular_date": "2024-09-20; 2018-10-27; 2019-07-19; 2020-12-04; 2023-09-25; 2024-09-20",
+      "implements": [],
+      "impact_areas": [
+        "Surveillance/Market Abuse",
+        "Stock Brokers",
+        "Trading Operations"
+      ],
+      "applicability": "BSE Trading Members (in respect of securities listed in attached Annexure I under ST-ASM Stage I and Stage II)",
+      "intent": "BSE is notifying members that certain securities have met the criteria for inclusion under Short-Term Additional Surveillance Measure (ST-ASM) Stage I and Stage II, triggering enhanced margin requirements as a market surveillance action.",
+      "action_required": "Members must apply the specified higher margin rates (50% or existing margin, whichever is higher, capped at 100% for Stage I; 100% or existing margin, whichever is higher, capped at 100% for Stage II) on all open positions as on September 30, 2026 and on new positions created from October 01, 2026.",
+      "effective_date": "2026-10-01",
+      "key_dates": [
+        {
+          "label": "ST-ASM Stage I margin effective date",
+          "date": "2026-10-01",
+          "quote": "w.e.f. October 01, 2026 on all open positions as on September 30, 2026 and new positions created from October 01, 2026"
+        },
+        {
+          "label": "ST-ASM Stage II margin effective date",
+          "date": "2026-10-01",
+          "quote": "w.e.f. October 01, 2026 on all open positions as on September 30, 2026 and new positions created from October 01, 2026"
+        }
+      ],
+      "impact_summary": "Trading members dealing in the securities listed in the attached (but not textually provided) Annexure I face significantly higher margin requirements under ST-ASM Stage I (50%/existing, capped at 100%) and Stage II (100%/existing, capped at 100%) effective October 01, 2026, as a market surveillance measure not reflecting any adverse view on the issuer.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "annexure": "Annexure I containing the specific list of securities under ST-ASM Stage I and Stage II is referenced as an attachment ('Annexure_STASM') but its content is not included in the provided source text, so the specific securities affected cannot be extracted.",
+        "parent_circular_no": "Parent circular number(s) not found in the document text: 20240920-71 (dated September 20, 2024); 20181027-1 (dated October 27, 2018); 20190719-33 (dated 19 Jul 2019); 20201204-56 (dated 04 Dec 2020); 20230925-49 (date.",
+        "circular_no": "'20260929-47' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "This is further to Exchange notice no. 20240920-71 dated September 20, 2024, 20181027-1 dated October 27, 2018, 20190719-33 dated 19 Jul 2019, 20201204-56 dated 04 Dec 2020, 20230925-49 dated 25 Sep 2023 and 20240920-63 dated 20 Sep 2024",
+        "Members are hereby requested to note that the securities as per attached Annexure I have satisfied the criteria for inclusion under ST-ASM Stage I",
+        "Applicable rate of margin shall be 50% or existing margin whichever is higher, subject to maximum rate of margin capped at 100%, w.e.f. October 01, 2026",
+        "Applicable margin rate shall be 100% or existing margin whichever is higher subject to maximum rate of margin capped at 100%",
+        "the shortlisting of securities under ASM is purely on account of market surveillance and it should not be construed as an adverse action against the concerned company / entity"
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260929-47/20260929-47.pdf",
+      "sample_data": false,
+      "title": "Applicability of Short-Term Additional Surveillance Measure (ST-ASM)",
+      "retried": true,
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Short-term surveillance measure affects trading operations"
+    },
+    {
+      "circular_no": "20260929-46",
+      "date": "2026-09-29",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "20170223-44",
+      "parent_circular_date": "2017-02-23",
+      "implements": [],
+      "impact_areas": [
+        "Surveillance/Market Abuse",
+        "Stock Brokers",
+        "Trading Operations"
+      ],
+      "applicability": "Trading Members (Equity Segment, BSE)",
+      "intent": "BSE is notifying that certain securities, per the attached Annexure, are being moved to higher stages of the Graded Surveillance Measure (GSM) framework to increase market surveillance and curb potential price manipulation.",
+      "action_required": "Trading members must note that the listed securities move to their respective higher GSM stages with effect from September 30, 2026, comply with the applicable margin, price band, trading frequency and Additional Surveillance Deposit (ASD) requirements for that stage, and take adequate precautions since settlement will be done on a trade-to-trade basis with no netting off allowed.",
+      "effective_date": "2026-09-30",
+      "key_dates": [
+        {
+          "label": "GSM stage movement effective date",
+          "date": "2026-09-30",
+          "quote": "shall be moved to their respective higher stages of GSM with effect from September 30, 2026"
+        }
+      ],
+      "impact_summary": "Trading members dealing in the securities listed in the Annexure are affected, as those securities will face stricter margin, trading-frequency, price-band and ASD restrictions under the GSM framework from September 30, 2026, with settlement done strictly trade-to-trade.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "circular_no": "'20260929-46' doesn't look like a circular reference number — verify manually.",
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here.",
+        "impact_areas": "The specific securities affected are listed only in the attached 'Annexure_GSM', which was not included in the provided source text, so security-specific or sector-specific impact could not be verified; only the generic surveillance/trading-member impact stated in the body text is used."
+      },
+      "source_excerpt_citations": [
+        "With reference to the Exchange notice no. 20170223-44 dated February 23, 2017",
+        "shall be moved to their respective higher stages of GSM with effect from September 30, 2026",
+        "the settlement shall be done on trade-to-trade basis and no netting off shall be allowed",
+        "trading members are hereby requested to note that the securities as per attached Annexure"
+      ],
+      "model_confidence": "Inferred",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260929-46/20260929-46.pdf",
+      "sample_data": false,
+      "title": "Graded Surveillance Measure (GSM) - List of securities moving into their respective GSM Stages",
+      "retried": true,
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Graded surveillance measure affects trading operations"
+    },
+    {
+      "circular_no": "20260929-24",
+      "date": "2026-09-29",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Stock Brokers",
+        "Trading Operations"
+      ],
+      "applicability": "Trading Members of BSE",
+      "intent": "BSE is informing trading members that a specified list of scrips will be excluded from the T+0 rolling settlement cycle on a particular trading day.",
+      "action_required": "Trading members must note that the listed scrips will not be available for trading in the T+0 rolling settlement cycle on Wednesday, September 30, 2026.",
+      "effective_date": "2026-09-30",
+      "key_dates": [
+        {
+          "label": "Date scrips excluded from T+0 settlement",
+          "date": "2026-09-30",
+          "quote": "will not be available for trading in T+0 rolling\nsettlement cycle on Wednesday, September 30, 2026"
+        }
+      ],
+      "impact_summary": "BSE trading members are affected as 20 specified scrips (including Bank of Baroda, Wipro, Vodafone Idea, etc.) will be temporarily unavailable for T+0 rolling settlement trading on September 30, 2026.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "circular_no": "'20260929-24' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "Scrips not available for trading in T+0 rolling\nsettlement cycle on\nSubject\nSeptember 30,2026",
+        "Trading members please note, the following scrips will not be available for trading in T+0 rolling\nsettlement cycle on Wednesday, September 30, 2026"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260929-24/20260929-24.pdf",
+      "sample_data": false,
+      "title": "Scrips not available for trading in T+0 rolling settlement cycle on September 30,2026",
+      "retried": true,
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Trading cycle change affects settlement operations"
+    },
+    {
+      "circular_no": "20260929-65",
+      "date": "2026-09-29",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [],
+      "applicability": "NOT STATED IN SOURCE",
+      "intent": "This is a routine administrative notice attaching the Daily Bulletin for the day; it does not state any regulatory problem or policy goal.",
+      "action_required": "NOT STATED IN SOURCE",
+      "effective_date": null,
+      "key_dates": [],
+      "impact_summary": "This notice merely circulates BSE's Daily Bulletin attachment for 29 Sep 2026 and does not impose any obligation on market participants.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "doc_type": "The text is a brief administrative notice attaching a daily bulletin, not a substantive circular; classifying it as 'Fresh Circular' is a default since no other category fits and no regulatory action is described.",
+        "impact_areas": "No specific impact area is discernible from this bare attachment notice; text is too short to determine affected market segments.",
+        "applicability": "The notice does not specify which entities must act or are governed by it.",
+        "overall_confidence": "Source text is extremely short, garbled in places (encoding artifacts like '(cid:425)ached'), and lacks substantive regulatory content to classify responsibly.",
+        "circular_no": "'20260929-65' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "Please find a(cid:425)ached Daily Bulletin for 29th September, 2026.",
+        "Category Company related",
+        "Subject Daily Bulletin"
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260929-65/20260929-65.pdf",
+      "sample_data": false,
+      "title": "Daily Bulletin",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Daily bulletin likely contains market operations, trading, settlement updates."
     }
   ],
   "sources": [
@@ -6323,7 +6396,7 @@
       "url": "https://www.sebi.gov.in/sebirss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Holds about five days of items, mixed with orders and press releases. Only circulars are kept.",
-      "checked_at": "2026-09-29T16:31:47Z",
+      "checked_at": "2026-09-29T22:17:10Z",
       "items": 0,
       "status": "ok",
       "error": "",
@@ -6338,7 +6411,7 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Backstop for circulars that scroll off the RSS feed.",
-      "checked_at": "2026-09-29T16:31:49Z",
+      "checked_at": "2026-09-29T22:17:11Z",
       "items": 25,
       "status": "ok",
       "error": "",
@@ -6353,7 +6426,7 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-29T16:31:49Z",
+      "checked_at": "2026-09-29T22:17:12Z",
       "items": 25,
       "status": "ok",
       "error": "",
@@ -6368,7 +6441,7 @@
       "url": "https://rbi.org.in/notifications_rss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Includes bank-only prudential rules and foreign-exchange regulations. Triage keeps the ones that affect brokers and fintechs.",
-      "checked_at": "2026-09-29T16:31:50Z",
+      "checked_at": "2026-09-29T22:17:12Z",
       "items": 10,
       "status": "ok",
       "error": "",
@@ -6383,8 +6456,8 @@
       "url": "https://nsearchives.nseindia.com/content/RSS/Circulars.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Carries about one day of circulars (around 30 a day, mostly routine), so it's checked every 2 hours.",
-      "checked_at": "2026-09-29T16:31:51Z",
-      "items": 32,
+      "checked_at": "2026-09-29T22:17:13Z",
+      "items": 33,
       "status": "ok",
       "error": "",
       "streak": 0,
@@ -6398,8 +6471,8 @@
       "url": "https://www.bseindia.com/data/xml/notices.xml",
       "verified": "Feed address confirmed through a third-party reader. BSE refused a direct test fetch (HTTP 403), so it may block automated access.",
       "note": "Dominated by mutual fund platform notices.",
-      "checked_at": "2026-09-29T16:31:53Z",
-      "items": 63,
+      "checked_at": "2026-09-29T22:17:14Z",
+      "items": 65,
       "status": "ok",
       "error": "",
       "streak": 0,
@@ -6413,7 +6486,7 @@
       "url": "https://www.nseclearing.in/resources/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-29T16:31:53Z",
+      "checked_at": "2026-09-29T22:17:14Z",
       "items": 0,
       "status": "blocked",
       "error": "The site's robots.txt disallows this address.",
@@ -6428,7 +6501,7 @@
       "url": "https://nsdl.co.in/business/circular.php",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-29T16:31:53Z",
+      "checked_at": "2026-09-29T22:17:15Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -6443,7 +6516,7 @@
       "url": "https://www.cdslindia.com/Publications/Communique.aspx/DP-COMMUNIQUES-INDEX.aspx",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "On 28 Sep 2026 this page returned 'Internal Error Occurred' even in a browser-style fetch. It may be unreliable.",
-      "checked_at": "2026-09-29T16:32:02Z",
+      "checked_at": "2026-09-29T22:17:23Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -6458,7 +6531,7 @@
       "url": "https://www.ncdex.com/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-29T16:32:03Z",
+      "checked_at": "2026-09-29T22:17:24Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -6473,7 +6546,7 @@
       "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Relevant to brokers and fintechs operating in GIFT City.",
-      "checked_at": "2026-09-29T16:32:04Z",
+      "checked_at": "2026-09-29T22:17:26Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -6488,7 +6561,7 @@
       "url": "https://www.npci.org.in/circulars/upi",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "UPI operating circulars for payment apps and PSPs.",
-      "checked_at": "2026-09-29T16:32:07Z",
+      "checked_at": "2026-09-29T22:17:28Z",
       "items": 0,
       "status": "blocked",
       "error": "The site's robots.txt disallows this address.",
@@ -6503,7 +6576,7 @@
       "url": "https://www.mcxindia.com/",
       "verified": "",
       "note": "Not connected. MCX's robots.txt disallows automated access to its RSS page. Connect it once a permitted source is confirmed.",
-      "checked_at": "2026-09-29T16:32:07Z",
+      "checked_at": "2026-09-29T22:17:29Z",
       "items": 0,
       "status": "not_connected",
       "error": "",
@@ -6512,9 +6585,9 @@
     }
   ],
   "last_run": {
-    "at": "2026-09-29T16:40:13Z",
-    "added": 21,
-    "set_aside": 64,
+    "at": "2026-09-29T22:23:02Z",
+    "added": 12,
+    "set_aside": 2,
     "failed": 0,
     "deferred": 0,
     "triage_retries": 0,

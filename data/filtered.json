@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T16:40:13Z",
+  "generated_at": "2026-09-29T22:23:02Z",
   "items": [
     {
       "title": "Exim Bank’s GOI-supported Line of Credit (LOC) for ₹ 4,850 crores the Government of Maldives, for financing various developmental projects in Maldives",
@@ -1467,6 +1467,24 @@
       "source": "bse",
       "reason": "Corporate action for single named company only",
       "decided_at": "2026-09-29T16:32:26Z"
+    },
+    {
+      "title": "SEBI Directions pursuant to SAT order in the matter of Vidhi Mehul Shah and Mehul Hasmukh Shah",
+      "url": "https://nsearchives.nseindia.com/content/circulars/INVG76622.zip",
+      "date": "2026-09-29",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Concerns specific individuals; no ecosystem-wide obligation.",
+      "decided_at": "2026-09-29T22:17:30Z"
+    },
+    {
+      "title": "Scheme of Arrangement (Demerger) of Veranda Learning Solutions Limited (Scrip code- 543514)",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260929-64/20260929-64.pdf",
+      "date": "2026-09-29",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company corporate action; no obligation for tracker entities.",
+      "decided_at": "2026-09-29T22:17:30Z"
     }
   ]
 }
