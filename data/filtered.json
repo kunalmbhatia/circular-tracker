@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T01:21:14Z",
+  "generated_at": "2026-09-30T08:38:05Z",
   "items": [
     {
       "title": "Exim Bank’s GOI-supported Line of Credit (LOC) for ₹ 4,850 crores the Government of Maldives, for financing various developmental projects in Maldives",
@@ -1485,6 +1485,78 @@
       "source": "bse",
       "reason": "Single company corporate action; no obligation for tracker entities.",
       "decided_at": "2026-09-29T22:17:30Z"
+    },
+    {
+      "title": "Bonus Issue of GTV ENGINEERING LIMITED (Scrip Code- 539479)",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260930-14/20260930-14.pdf",
+      "date": "2026-09-30",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Bonus issue of single named security; corporate action only.",
+      "decided_at": "2026-09-30T08:36:42Z"
+    },
+    {
+      "title": "Suspension of Trading in Mutual Fund Schemes of SBI Mutual Fund",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260930-12/20260930-12.pdf",
+      "date": "2026-09-30",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Suspension of single mutual fund scheme; affects one scheme only.",
+      "decided_at": "2026-09-30T08:36:42Z"
+    },
+    {
+      "title": "Part Redemption of PTCs of MAGNETRON AUG 2025",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260930-11/20260930-11.pdf",
+      "date": "2026-09-30",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Redemption of single security; corporate action only.",
+      "decided_at": "2026-09-30T08:36:42Z"
+    },
+    {
+      "title": "Demat Auction 725",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260930-10/20260930-10.pdf",
+      "date": "2026-09-30",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Demat auction; administrative process for single transaction.",
+      "decided_at": "2026-09-30T08:36:42Z"
+    },
+    {
+      "title": "Listing of Equity Shares of A-ONE Steels India Limited",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260930-9/20260930-9.pdf",
+      "date": "2026-09-30",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Listing of single company; new listing announcement only.",
+      "decided_at": "2026-09-30T08:36:42Z"
+    },
+    {
+      "title": "Listing of Equity Shares of ROOPA SCREEN LIMITED",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260930-8/20260930-8.pdf",
+      "date": "2026-09-30",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Listing of single company; new listing announcement only.",
+      "decided_at": "2026-09-30T08:36:42Z"
+    },
+    {
+      "title": "Update Regarding debt securities of Clean Max Enviro Energy Solutions Ltd",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260930-4/20260930-4.pdf",
+      "date": "2026-09-30",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Update on single debt security; company-specific only.",
+      "decided_at": "2026-09-30T08:36:42Z"
+    },
+    {
+      "title": "Change in the Group of Equity Shares of UNITEC FIBRES LIMITED",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260930-3/20260930-3.pdf",
+      "date": "2026-09-30",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Group change of single security; corporate action only.",
+      "decided_at": "2026-09-30T08:36:42Z"
     }
   ]
 }

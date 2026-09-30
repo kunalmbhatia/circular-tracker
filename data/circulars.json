@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T01:21:14Z",
+  "generated_at": "2026-09-30T08:38:05Z",
   "schema_version": "2.0",
   "circulars": [
     {
@@ -6390,6 +6390,259 @@
       "regulator": "BSE",
       "source": "bse",
       "triage_reason": "Daily bulletin likely contains market operations, trading, settlement updates."
+    },
+    {
+      "circular_no": "Notice No. 20260930-13",
+      "date": "2026-09-30",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Corporate Bonds/Debt Market",
+        "Trading Operations",
+        "Stock Exchanges"
+      ],
+      "applicability": "Trading Members of BSE (Debt Segment)",
+      "intent": "To inform trading members that a specific Government Security/T-Bill is maturing on the stated redemption date and that trading in it must cease thereafter.",
+      "action_required": "Trading Members are advised not to deal with the aforesaid T-Bill/Government Security (601RAJSDL26, ISIN IN2920210316) with effect from October 01, 2026.",
+      "effective_date": "2026-10-01",
+      "key_dates": [
+        {
+          "label": "Trading suspension effective date",
+          "date": "2026-10-01",
+          "quote": "Trading Members are advised not to deal with the aforesaid T-Bills/ Government Securities with effect from October 01, 2026",
+          "unverified": true
+        }
+      ],
+      "impact_summary": "Trading members of BSE dealing in the debt segment are affected; they must stop dealing in the specified maturing Government Security/T-Bill from October 01, 2026.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "doc_type": "Classified as Fresh Circular since this is a standalone operational notice with no indication of amending or being an addendum to a prior circular; reference 'DR- 727/2026-2027' appears to be an internal departmental reference number, not a parent circular.",
+        "parent_circular_no": "No parent circular explicitly cited in the text; treated as standalone per hard rules.",
+        "source_excerpt_citations": "2 quoted excerpt(s) could not be found in the circular text — possible fabrication: 'Trading Members of the Exchange are hereby informed that under-mentioned T-Bills'; 'Trading Members are advised not to deal with the aforesaid T-Bills/ Government S'",
+        "key_dates": "The quote supporting key date 2026-10-01 was not found in the circular text."
+      },
+      "source_excerpt_citations": [
+        "Trading Members of the Exchange are hereby informed that under-mentioned T-Bills/Government Securities shall mature as on the Redemption Date",
+        "Trading Members are advised not to deal with the aforesaid T-Bills/ Government Securities with effect from October 01, 2026 (DR- 727/2026-2027)"
+      ],
+      "model_confidence": "Inferred",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260930-13/20260930-13.pdf",
+      "sample_data": false,
+      "title": "Suspension of Trading in T-bills/Government Securities",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Suspension affects market-wide trading operations for asset class."
+    },
+    {
+      "circular_no": "Notice No. 20260930-7",
+      "date": "2026-09-30",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Listed Companies (LODR/Disclosure)",
+        "Other"
+      ],
+      "applicability": "SME Segment / Public (investors and stakeholders of Solanki Mechanic Works Limited)",
+      "intent": "BSE is hosting the Draft Offer Document of an SME IPO applicant on its website to seek public comments as required under the disclosure norms.",
+      "action_required": "Interested parties must share comments, if any, on the Draft Offer Document within 21 days from the date of notice to equity.ipo@bseindia.com.",
+      "effective_date": "2026-09-30",
+      "key_dates": [],
+      "impact_summary": "Affects the public and market participants who may wish to comment on the Draft Offer Document of Solanki Mechanic Works Limited's SME IPO, which is hosted on BSE's SME website for the mandated comment period.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "effective_date": "The notice does not explicitly label a date as 'effective date'; the notice date itself is used as the operative date since the document is hosted from that date.",
+        "key_dates": "The text only specifies a relative period ('21 days from the date of notice' and 'at least 21 days') rather than an explicit calendar deadline, so no computed date is provided per instructions.",
+        "impact_areas": "No exact category for 'SME IPO Draft Offer Document' exists in the allowed list; 'Listed Companies (LODR/Disclosure)' and 'Other' are best approximations."
+      },
+      "source_excerpt_citations": [
+        "The Draft Offer Document of SOLANKI MECHANIC WORKS LIMITED filed on September 30, 2026",
+        "made available on the websites of Stock Exchange for a period of at least 21 days, seeking public comments",
+        "share comments within 21 days from the date of notice"
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260930-7/20260930-7.pdf",
+      "sample_data": false,
+      "title": "SME IPO Draft Offer Document",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "SME IPO draft document; may affect IPO operations or market participants."
+    },
+    {
+      "circular_no": "Notice No. 20260930-6",
+      "date": "2026-09-30",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Trading Operations",
+        "Stock Exchanges"
+      ],
+      "applicability": "Trading Members (Equity Derivatives Segment)",
+      "intent": "BSE is notifying the introduction of futures and options contracts on three individual securities to expand the equity derivatives segment.",
+      "action_required": "Trading members should note that F&O contracts on the listed securities will be available for trading from October 01, 2026, and should access the contract details via the derivatives contract master file (available through extranet and BseIndia website) generated at end of day September 30, 2026.",
+      "effective_date": "2026-10-01",
+      "key_dates": [
+        {
+          "label": "Effective date for trading in new F&O contracts",
+          "date": "2026-10-01",
+          "quote": "shall be available for trading in Equity Derivatives segment with effect from October 01, 2026"
+        },
+        {
+          "label": "Contract master file generation date",
+          "date": "2026-09-30",
+          "quote": "contract details of the security shall be available in derivatives contract master file generated on end of day of September 30, 2026"
+        }
+      ],
+      "impact_summary": "Trading members in BSE's Equity Derivatives segment are affected, as they must be ready to trade new F&O contracts on Anand Rathi Wealth Ltd, Siemens Energy India Ltd, and Ujjivan Small Finance Bank Ltd starting October 1, 2026.",
+      "overall_confidence": "Certain",
+      "confidence_flags": {},
+      "source_excerpt_citations": [
+        "futures and options contracts for below mentioned underlying securities shall be available for trading in Equity Derivatives segment with effect from October 01, 2026",
+        "The contract details of the security shall be available in derivatives contract master file generated on end of day of September 30, 2026"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260930-6/20260930-6.pdf",
+      "sample_data": false,
+      "title": "Introduction of Futures & Options Contracts on 3 Individual Securities",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Introduction of new F&O contracts affects derivatives trading operations."
+    },
+    {
+      "circular_no": "20260930-5",
+      "date": "2026-09-30",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Corporate Bonds/Debt Market",
+        "Stock Exchanges",
+        "Stock Brokers"
+      ],
+      "applicability": "Trading Members of BSE Debt Segment",
+      "intent": "To inform trading members that privately placed debt securities of India Infradebt Limited have been listed and admitted to trading on the BSE Debt Segment.",
+      "action_required": "Trading members should note the listing details, ISIN numbers, tick size, and dematerialised trading requirement; refer to the Placement Memorandum for further details; contact debt department for clarifications.",
+      "effective_date": "2026-09-30",
+      "key_dates": [
+        {
+          "label": "Listing/trading effective date",
+          "date": "2026-09-30",
+          "quote": "have been listed and are now admitted to trading on the BSE Debt Segment effective today"
+        },
+        {
+          "label": "Date of Allotment",
+          "date": "2026-09-28",
+          "quote": "Date of Allotment 28/09/2026"
+        },
+        {
+          "label": "Date of Redemption (Scrip 978231)",
+          "date": "2029-01-29",
+          "quote": "Date of Redemption 29/01/2029"
+        },
+        {
+          "label": "Date of Redemption (Scrip 978232)",
+          "date": "2031-12-26",
+          "quote": "Date of Redemption 26/12/2031"
+        },
+        {
+          "label": "Date of Redemption (Scrip 978233)",
+          "date": "2029-01-29",
+          "quote": "Date of Redemption 29/01/2029"
+        }
+      ],
+      "impact_summary": "This notice informs BSE trading members of the listing and admission to trading of three privately placed debt securities issued by India Infradebt Limited, providing ISIN, tick size, and other trading-relevant details.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "circular_no": "'20260930-5' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "Trading Members are hereby informed that the new securities...have been listed and are now admitted to trading on the BSE Debt Segment effective today",
+        "The tick size for the securities is 1 paise.",
+        "For further details, please refer the Placement Memorandum on."
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260930-5/20260930-5.pdf",
+      "sample_data": false,
+      "title": "Listing of privately placed securities on the debt market segment of the Exchange",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Listing on debt segment may affect market-wide operations or processes."
+    },
+    {
+      "circular_no": "Notice No. 20260930-2",
+      "date": "2026-09-30",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Listed Companies (LODR/Disclosure)",
+        "Stock Exchanges"
+      ],
+      "applicability": "SME segment company (SWYOM ADVISORS LIMITED) and public/investors invited to comment on its Draft Offer Document",
+      "intent": "BSE is hosting the Draft Offer Document of an SME IPO applicant on its website to invite public comments as part of the SME IPO listing process.",
+      "action_required": "Interested parties are requested to share comments on the Draft Offer Document within 21 days from the date of notice, via email to equity.ipo@bseindia.com.",
+      "effective_date": "2026-09-30",
+      "key_dates": [],
+      "impact_summary": "The notice affects the SME issuer (SWYOM ADVISORS LIMITED) whose draft offer document is now public, and invites investors/public to submit comments within 21 days.",
+      "overall_confidence": "Certain",
+      "confidence_flags": {},
+      "source_excerpt_citations": [
+        "The Draft Offer Document of SWYOM ADVISORS LIMITED filed on September 29, 2026",
+        "containing all the disclosures as specified under Schedule VI of the ICDR Regulations",
+        "You are requested to share comments within 21 days from the date of notice"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260930-2/20260930-2.pdf",
+      "sample_data": false,
+      "title": "SME IPO Draft Offer Document",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "SME IPO draft document; may affect IPO operations or market participants."
+    },
+    {
+      "circular_no": "Notice No. 20260930-1",
+      "date": "2026-09-30",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Listed Companies (LODR/Disclosure)",
+        "Stock Exchanges"
+      ],
+      "applicability": "Public/investors invited to comment on SME IPO Draft Offer Document of GROMA GLOBAL LIMITED; issuer company",
+      "intent": "BSE is hosting the SME IPO Draft Offer Document of GROMA GLOBAL LIMITED on its website to solicit public comments as required under the disclosure norms of the ICDR Regulations.",
+      "action_required": "Interested parties are requested to share comments on the Draft Offer Document within 21 days from the date of notice via email to equity.ipo@bseindia.com.",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [],
+      "impact_summary": "The notice affects GROMA GLOBAL LIMITED (the issuer) and the public/investors, who are given a 21-day window from the notice date to submit comments on the company's SME IPO Draft Offer Document hosted on BSE's SME website.",
+      "overall_confidence": "Certain",
+      "confidence_flags": {},
+      "source_excerpt_citations": [
+        "The Draft Offer Document of GROMA GLOBAL LIMITED filed on September 29, 2026",
+        "made available on the websites of Stock Exchange for a period of at least 21 days, seeking public comments",
+        "share comments within 21 days from the date of notice for the Draft offer document filed by the Company"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260930-1/20260930-1.pdf",
+      "sample_data": false,
+      "title": "SME IPO Draft Offer Document",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "SME IPO draft document; may affect IPO operations or market participants."
     }
   ],
   "sources": [
@@ -6401,7 +6654,7 @@
       "url": "https://www.sebi.gov.in/sebirss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Holds about five days of items, mixed with orders and press releases. Only circulars are kept.",
-      "checked_at": "2026-09-30T01:20:50Z",
+      "checked_at": "2026-09-30T08:36:16Z",
       "items": 0,
       "status": "ok",
       "error": "",
@@ -6416,7 +6669,7 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Backstop for circulars that scroll off the RSS feed.",
-      "checked_at": "2026-09-30T01:20:51Z",
+      "checked_at": "2026-09-30T08:36:18Z",
       "items": 25,
       "status": "ok",
       "error": "",
@@ -6431,7 +6684,7 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-30T01:20:52Z",
+      "checked_at": "2026-09-30T08:36:18Z",
       "items": 25,
       "status": "ok",
       "error": "",
@@ -6446,7 +6699,7 @@
       "url": "https://rbi.org.in/notifications_rss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Includes bank-only prudential rules and foreign-exchange regulations. Triage keeps the ones that affect brokers and fintechs.",
-      "checked_at": "2026-09-30T01:20:52Z",
+      "checked_at": "2026-09-30T08:36:18Z",
       "items": 10,
       "status": "ok",
       "error": "",
@@ -6461,7 +6714,7 @@
       "url": "https://nsearchives.nseindia.com/content/RSS/Circulars.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Carries about one day of circulars (around 30 a day, mostly routine), so it's checked every 2 hours.",
-      "checked_at": "2026-09-30T01:20:53Z",
+      "checked_at": "2026-09-30T08:36:20Z",
       "items": 33,
       "status": "ok",
       "error": "",
@@ -6476,8 +6729,8 @@
       "url": "https://www.bseindia.com/data/xml/notices.xml",
       "verified": "Feed address confirmed through a third-party reader. BSE refused a direct test fetch (HTTP 403), so it may block automated access.",
       "note": "Dominated by mutual fund platform notices.",
-      "checked_at": "2026-09-30T01:20:55Z",
-      "items": 65,
+      "checked_at": "2026-09-30T08:36:22Z",
+      "items": 14,
       "status": "ok",
       "error": "",
       "streak": 0,
@@ -6491,7 +6744,7 @@
       "url": "https://www.nseclearing.in/resources/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-30T01:20:55Z",
+      "checked_at": "2026-09-30T08:36:23Z",
       "items": 0,
       "status": "blocked",
       "error": "The site's robots.txt disallows this address.",
@@ -6506,7 +6759,7 @@
       "url": "https://nsdl.co.in/business/circular.php",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-30T01:20:56Z",
+      "checked_at": "2026-09-30T08:36:23Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -6521,7 +6774,7 @@
       "url": "https://www.cdslindia.com/Publications/Communique.aspx/DP-COMMUNIQUES-INDEX.aspx",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "On 28 Sep 2026 this page returned 'Internal Error Occurred' even in a browser-style fetch. It may be unreliable.",
-      "checked_at": "2026-09-30T01:21:00Z",
+      "checked_at": "2026-09-30T08:36:32Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -6536,7 +6789,7 @@
       "url": "https://www.ncdex.com/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-30T01:21:01Z",
+      "checked_at": "2026-09-30T08:36:33Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -6551,7 +6804,7 @@
       "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Relevant to brokers and fintechs operating in GIFT City.",
-      "checked_at": "2026-09-30T01:21:03Z",
+      "checked_at": "2026-09-30T08:36:35Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -6566,7 +6819,7 @@
       "url": "https://www.npci.org.in/circulars/upi",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "UPI operating circulars for payment apps and PSPs.",
-      "checked_at": "2026-09-30T01:21:05Z",
+      "checked_at": "2026-09-30T08:36:38Z",
       "items": 0,
       "status": "blocked",
       "error": "The site's robots.txt disallows this address.",
@@ -6581,7 +6834,7 @@
       "url": "https://www.mcxindia.com/",
       "verified": "",
       "note": "Not connected. MCX's robots.txt disallows automated access to its RSS page. Connect it once a permitted source is confirmed.",
-      "checked_at": "2026-09-30T01:21:06Z",
+      "checked_at": "2026-09-30T08:36:38Z",
       "items": 0,
       "status": "not_connected",
       "error": "",
@@ -6590,9 +6843,9 @@
     }
   ],
   "last_run": {
-    "at": "2026-09-30T01:21:14Z",
-    "added": 1,
-    "set_aside": 0,
+    "at": "2026-09-30T08:38:05Z",
+    "added": 6,
+    "set_aside": 8,
     "failed": 0,
     "deferred": 0,
     "triage_retries": 0,
