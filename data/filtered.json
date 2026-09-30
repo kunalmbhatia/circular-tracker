@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T16:35:57Z",
+  "generated_at": "2026-09-30T22:24:46Z",
   "items": [
     {
       "title": "Exim Bank’s GOI-supported Line of Credit (LOC) for ₹ 4,850 crores the Government of Maldives, for financing various developmental projects in Maldives",
@@ -1971,6 +1971,69 @@
       "source": "bse",
       "reason": "Single company group change.",
       "decided_at": "2026-09-30T16:26:20Z"
+    },
+    {
+      "title": "SAT order in the matter of Vedprakash Devkinandan Chiripal & Savitridevi V. Chiripal",
+      "url": "https://nsearchives.nseindia.com/content/circulars/INVG76650.zip",
+      "date": "2026-09-30",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Single entity SAT order; no ecosystem-wide obligations.",
+      "decided_at": "2026-09-30T22:18:19Z"
+    },
+    {
+      "title": "Daily Bulletin",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260930-65/20260930-65.pdf",
+      "date": "2026-09-30",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Daily bulletin; likely routine operational information only.",
+      "decided_at": "2026-09-30T22:18:19Z"
+    },
+    {
+      "title": "Bonus Issue of MOLD-TEK PACKAGING LIMITED (Scrip Code- 533080)",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260930-64/20260930-64.pdf",
+      "date": "2026-09-30",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Corporate action for single named company.",
+      "decided_at": "2026-09-30T22:18:19Z"
+    },
+    {
+      "title": "Bonus Issue of MOLD-TEK TECHNOLOGIES LTD (Scrip Code- 526263)",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260930-63/20260930-63.pdf",
+      "date": "2026-09-30",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Corporate action for single named company.",
+      "decided_at": "2026-09-30T22:18:19Z"
+    },
+    {
+      "title": "Voluntary Redemption of Debentures of Lodha Developers Limited",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260930-61/20260930-61.pdf",
+      "date": "2026-09-30",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Corporate action affecting single company's debentures.",
+      "decided_at": "2026-09-30T22:18:19Z"
+    },
+    {
+      "title": "Sub-Division of Equity shares of JSW Dulux Ltd (500710)",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260930-60/20260930-60.pdf",
+      "date": "2026-09-30",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Corporate action for single named company.",
+      "decided_at": "2026-09-30T22:18:19Z"
+    },
+    {
+      "title": "Change in Name of the Company - Rotographics (India) Ltd",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260930-59/20260930-59.pdf",
+      "date": "2026-09-30",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Corporate action for single named company.",
+      "decided_at": "2026-09-30T22:18:19Z"
     }
   ]
 }
