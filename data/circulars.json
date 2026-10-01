@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T22:24:46Z",
+  "generated_at": "2026-10-01T05:59:40Z",
   "schema_version": "2.0",
   "circulars": [
     {
@@ -8176,11 +8176,59 @@
       "triage_reason": "Trading system version release requiring deployment."
     },
     {
-      "circular_no": "Notice No. 20260930-66",
+      "circular_no": "RBI/2026-27/272 FIDD.CO.GSSD.BC.No.11/09.09.001/2026-27",
+      "date": "2026-10-01",
+      "doc_type": "Master Circular",
+      "parent_circular_no": "NOT STATED IN SOURCE",
+      "parent_circular_date": "NOT STATED IN SOURCE",
+      "implements": [],
+      "impact_areas": [
+        "Other"
+      ],
+      "applicability": "All Scheduled Commercial Banks (including Small Finance Banks)",
+      "intent": "RBI consolidates all existing guidelines/instructions issued over time to banks regarding extension of credit facilities to Scheduled Castes (SCs) and Scheduled Tribes (STs), to ensure consistent compliance and monitoring.",
+      "action_required": "Banks must set up a special cell at Head Office to monitor credit flow to SC/ST beneficiaries, periodically review lending data, ensure no deposits are insisted upon under government poverty alleviation schemes, ensure loan rejections are escalated above branch level, review measures quarterly, invite relevant representatives to SLBC meetings, and report data on advances to SCs/STs as prescribed in the Master Direction on Priority Sector Lending 'within the time frames stipulated' (no specific date given).",
+      "effective_date": "2026-10-01",
+      "key_dates": [
+        {
+          "label": "DAY-NRLM scheme effective date",
+          "date": "2013-04-01",
+          "quote": "restructuring the erstwhile Swarnajayanti Gram Swarozgar Yojana, effective from April 1, 2013"
+        },
+        {
+          "label": "CEGSSC launch date",
+          "date": "2015-05-06",
+          "quote": "The CEGSSC was launched by Ministry of Social Justice & Empowerment on May 6, 2015"
+        }
+      ],
+      "impact_summary": "All Scheduled Commercial Banks (including Small Finance Banks) are affected; they must continue implementing and monitoring various RBI-mandated schemes and planning processes to enhance credit flow to SC/ST communities, including DRI, CEGSSC, and DAY-NRLM related measures, and report compliance data as per the Master Direction on Priority Sector Lending.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "parent_circular_no": "This Master Circular consolidates 21 prior RBI circulars listed in the Appendix rather than amending a single identifiable parent Master Circular; no explicit single parent circular number is stated in the text for this consolidation.",
+        "impact_areas": "None of the predefined impact_areas categories directly match 'SC/ST credit facilities policy'; 'Other' was selected as the closest fit since this does not align with banking/securities-market categories like Stock Brokers or Mutual Funds.",
+        "action_required": "The reporting deadline is referenced only generically as 'within the time frames stipulated' in the Master Direction on Priority Sector Lending, with no explicit date given in this text."
+      },
+      "source_excerpt_citations": [
+        "The enclosed Master Circular consolidates the circulars issued by Reserve Bank on the subject till date, as listed in the Appendix.",
+        "All Scheduled Commercial Banks (including Small Finance Banks)",
+        "A special cell should be set up at the Head Office of banks for monitoring the flow of credit to SC/ST beneficiaries.",
+        "Data on advances to SCs and STs should be reported as prescribed in the Master Direction on Priority Sector Lending"
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13716&Mode=0",
+      "sample_data": false,
+      "title": "Master Circular - Credit Facilities to Scheduled Castes (SCs) & Scheduled Tribes (STs)",
+      "regulator": "RBI",
+      "source": "rbi",
+      "triage_reason": "Kept by keyword rule (mentions “Master Circular”); model suggested setting aside: Credit facility guidelines for banks; no obligation for brokers, fintech, or investment entities."
+    },
+    {
+      "circular_no": "20260930-66",
       "date": "2026-09-30",
       "doc_type": "Fresh Circular",
       "parent_circular_no": "NOT STATED IN SOURCE",
-      "parent_circular_date": "NOT STATED IN SOURCE",
+      "parent_circular_date": null,
       "implements": [
         {
           "regulator": "SEBI",
@@ -8190,29 +8238,32 @@
       ],
       "impact_areas": [
         "Clearing Corporations",
-        "Stock Exchanges",
-        "Trading Operations"
+        "Stock Brokers"
       ],
-      "applicability": "All Members/Participants of BSE under the SLB (Securities Lending and Borrowing) segment",
-      "intent": "BSE Clearing Ltd. issues the monthly Market Wide Position Limits and Clearing Member/Institutional Investor/Client position limits for stocks traded under the Securities Lending and Borrowing Scheme, per the SEBI framework.",
-      "action_required": "Members/Participants should note and comply with the stock-wise MWPL and position limits under the SLB segment for October 2026 as specified in Annexure I.",
+      "applicability": "All Members/Participants under the SLB segment",
+      "intent": "To communicate the stock-wise Market Wide Position Limits and position limits applicable to Clearing Members, Institutional Investors and Clients under the SLB segment for October 2026, pursuant to the SEBI framework for Securities Lending and Borrowing.",
+      "action_required": "Members/Participants should refer to Annexure I for the applicable stock-wise MWPL and position limits under the SLB segment for October 2026; no further deadline or action is specified beyond noting these limits.",
       "effective_date": "NOT STATED IN SOURCE",
       "key_dates": [],
-      "impact_summary": "Applies to all BSE Clearing Ltd. members/participants operating in the SLB segment, informing them of updated stock-wise position limits for October 2026.",
+      "impact_summary": "BSE Clearing Ltd. members and participants trading in the SLB segment are informed of the MWPL and position limits for Clearing Members, Institutional Investors and Clients for the month of October 2026, as detailed in the attached annexure.",
       "overall_confidence": "Needs Review",
       "confidence_flags": {
-        "parent_circular_no": "Text vaguely references 'subsequent notices issued by BSE Clearing Ltd.' without citing a specific circular/notice number, so no verifiable same-body parent number could be extracted.",
-        "effective_date": "Text states the limits are 'for the month of October 2026' but does not give an explicit effective date."
+        "parent_circular_no": "Text references 'subsequent notices issued by BSE Clearing Ltd.' generically without citing any specific circular/notice number, so no verifiable same-body parent could be identified.",
+        "effective_date": "Text only states the limits are 'for the month of October 2026' without specifying an explicit effective date.",
+        "circular_no": "'20260930-66' doesn't look like a circular reference number — verify manually."
       },
       "source_excerpt_citations": [
         "This is with reference to the SEBI Circular No. MRD/DoP/SE/Dep/Cir-14/2007 dated December 20, 2007",
-        "stock wise Market Wide Position Limits (MWPL) and Position Limit applicable to Clearing Member (CM), Institutional Investors and Clients under SLB segment for the month of October 2026"
+        "subsequent notices issued by BSE Clearing Ltd. (Formerly known as Indian Clearing Corporation Ltd. - ICCL)",
+        "is specified in Annexure I",
+        "for the month of October 2026, is specified in Annexure I"
       ],
-      "model_confidence": "Needs Review",
+      "model_confidence": "Certain",
       "validator_version": 3,
       "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260930-66/20260930-66.pdf",
       "sample_data": false,
       "title": "Market Wide Position Limits for stocks traded under SLBS October 2026.",
+      "retried": true,
       "regulator": "BSE",
       "source": "bse",
       "triage_reason": "Market-wide position limits affect brokers and trading members."
@@ -8225,91 +8276,165 @@
       "parent_circular_date": null,
       "implements": [],
       "impact_areas": [
-        "Corporate Bonds/Debt Market",
         "Stock Brokers",
+        "Corporate Bonds/Debt Market",
         "Trading Operations"
       ],
-      "applicability": "Trading Members of BSE dealing in Non-Convertible Debentures/Bonds",
-      "intent": "BSE is notifying trading members of upcoming record dates for interest/redemption payments on various listed NCDs/bonds so that trading in these instruments can be suspended around those dates to prevent settlement issues.",
-      "action_required": "Trading Members are advised not to deal in the Debentures of the listed companies as per the Ex Date/Record Date/Settlement DR specified for each ISIN in the table.",
+      "applicability": "Trading Members of the Exchange",
+      "intent": "BSE is informing trading members of record dates fixed by several companies for interest payment/redemption on their listed Non-Convertible Debentures/Bonds, so that trading in these instruments can be halted around those dates.",
+      "action_required": "Trading Members of the Exchange are hereby advised not to deal in the Debentures of the Companies as mentioned under the attached list, around the respective Record Date/Ex Date for each ISIN.",
       "effective_date": "NOT STATED IN SOURCE",
       "key_dates": [
         {
-          "label": "Record Date - Power Grid Corporation of India Ltd (INE752E07MA2)",
+          "label": "Record Date / Ex Date - Power Grid Corporation of India Limited (ISIN INE752E07MA2)",
           "date": "2026-10-05",
-          "quote": "05/10/2026 05/10/2026 2027"
+          "quote": "INE752E07MA2 05/10/2026 05/10/2026 2027"
         },
         {
-          "label": "Record Date - Berar Finance Limited (INE998Y07154)",
+          "label": "Record Date / Ex Date - Berar Finance Limited (ISIN INE998Y07154)",
           "date": "2026-10-13",
-          "quote": "13/10/2026 13/10/2026 2027"
+          "quote": "INE998Y07154 13/10/2026 13/10/2026 2027"
         },
         {
-          "label": "Record Date - KLM Axiva Finvest Limited (INE01I507471)",
+          "label": "Record Date / Ex Date - KLM Axiva Finvest Limited (ISIN INE01I507471)",
           "date": "2026-10-16",
-          "quote": "16/10/2026 16/10/2026 2027"
+          "quote": "INE01I507471 16/10/2026 16/10/2026 2027"
         },
         {
-          "label": "Record Date - KLM Axiva Finvest Limited (INE01I507489)",
+          "label": "Record Date / Ex Date - KLM Axiva Finvest Limited (ISIN INE01I507489)",
           "date": "2026-10-16",
-          "quote": "16/10/2026 16/10/2026 2027"
+          "quote": "INE01I507489 16/10/2026 16/10/2026 2027"
         },
         {
-          "label": "Record Date - Chemmanur Credits and Investments Limited",
+          "label": "Record Date - Chemmanur Credits and Investments Limited (ISIN INE051307AJ1)",
           "date": "2026-10-17",
-          "quote": "17/10/2026 16/10/2026 2027"
+          "quote": "INE051307AJ1 17/10/2026 16/10/2026 2027"
         },
         {
-          "label": "Record Date - Electronica Finance Limited",
+          "label": "Record Date / Ex Date - Electronica Finance Limited (ISIN INE612U07118)",
           "date": "2026-10-16",
-          "quote": "16/10/2026 16/10/2026 2027"
+          "quote": "INE612U07118 16/10/2026 16/10/2026 2027"
         },
         {
-          "label": "Record Date - REC Limited",
+          "label": "Record Date / Ex Date - REC Limited (ISIN INE020B08FH7)",
           "date": "2026-10-16",
-          "quote": "16/10/2026 16/10/2026 2027"
+          "quote": "INE020B08FH7 16/10/2026 16/10/2026 2027"
         },
         {
-          "label": "Record Date - Poonawalla Fincorp Limited",
+          "label": "Record Date / Ex Date - Poonawalla Fincorp Limited (ISIN INE511C07961)",
           "date": "2026-10-16",
-          "quote": "16/10/2026 16/10/2026 2027"
+          "quote": "INE511C07961 16/10/2026 16/10/2026 2027"
         },
         {
-          "label": "Record Date - Piramal Finance Limited",
+          "label": "Record Date / Ex Date - Piramal Finance Limited (ISIN INE140A07740)",
           "date": "2026-10-19",
-          "quote": "19/10/2026 19/10/2026 2027"
+          "quote": "INE140A07740 19/10/2026 19/10/2026 2027"
         },
         {
-          "label": "Record Date - Vivriti Capital Limited",
+          "label": "Record Date - Vivriti Capital Limited (ISIN INE01HV07619)",
           "date": "2026-10-20",
-          "quote": "20/10/2026 19/10/2026 2027"
+          "quote": "INE01HV07619 20/10/2026 19/10/2026 2027"
         },
         {
-          "label": "Record Date - Krazybee Services Ltd",
+          "label": "Record Date / Ex Date - Krazybee Services Ltd (ISIN INE07HK07809)",
           "date": "2026-10-22",
-          "quote": "22/10/2026 22/10/2026 2027"
+          "quote": "INE07HK07809 22/10/2026 22/10/2026 2027"
         }
       ],
-      "impact_summary": "Trading members dealing in the listed NCDs/bonds of eleven companies must halt dealing around the specified record/ex-dates to align with interest or redemption payment processing.",
+      "impact_summary": "Trading members on BSE's Debt segment are directed to refrain from trading in the listed NCDs/Bonds of eleven named companies around each instrument's record date, as these companies have fixed record dates for interest payment or redemption.",
       "overall_confidence": "Needs Review",
       "confidence_flags": {
-        "parent_circular_no": "No parent or prior circular is referenced in the text; this appears to be a standalone operational notice, so treated as null.",
-        "effective_date": "The notice lists multiple distinct record/ex-dates per company rather than a single effective date for the notice itself.",
-        "doc_type": "Classified as Fresh Circular since it is a routine operational notice with no amendment/master/FAQ language, though it is a 'Notice' not explicitly termed 'Circular'.",
-        "circular_no": "'20260930-62' doesn't look like a circular reference number — verify manually."
+        "doc_type": "The document is explicitly labeled 'NOTICE' with a 'Notice No.' and 'Notice Date', not termed a 'Circular'; classified as Fresh Circular only because it is a standalone operational communication with no amendment/master/FAQ language, but this label mismatch should be manually verified.",
+        "circular_no": "'20260930-62' doesn't look like a circular reference number — verify manually.",
+        "effective_date": "The notice contains a table of multiple distinct Record Dates and Ex Dates per company/ISIN rather than one single effective date for the notice as a whole, so no single effective_date can be stated.",
+        "parent_circular_no": "No parent, prior, or amended circular/notice is referenced anywhere in the text; this appears to be a standalone routine operational notice."
       },
       "source_excerpt_citations": [
         "Trading Members of the Exchange are hereby advised not to deal in the Debentures of the Companies as mentioned under",
-        "Companies have fixed Record Date for the purpose of Payment of Interest/ Redemption of the following Non-Convertible Debentures/Bonds"
+        "Companies have fixed Record Date for the purpose of Payment of Interest/ Redemption of the following Non-Convertible Debentures/Bonds",
+        "Notice No. 20260930-62",
+        "Category Corporate Actions Segment Debt Department Listing Operations"
       ],
-      "model_confidence": "Inferred",
+      "model_confidence": "Needs Review",
       "validator_version": 3,
       "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260930-62/20260930-62.pdf",
       "sample_data": false,
       "title": "Suspension of Trading in Debentures of Companies",
+      "retried": true,
       "regulator": "BSE",
       "source": "bse",
       "triage_reason": "Trading suspension affects brokers' market operations and client handling."
+    },
+    {
+      "circular_no": "134/2026",
+      "date": "2026-09-30",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [
+        {
+          "regulator": "SEBI",
+          "circular_no": "SEBI/HO/MRD-PoD2/CIR/P/2024/00181",
+          "date": "2024-12-30"
+        }
+      ],
+      "impact_areas": [
+        "Stock Brokers",
+        "Trading Operations",
+        "Stock Exchanges"
+      ],
+      "applicability": "All Members (Trading Members) of NSE Futures & Options segment",
+      "intent": "NSE is carrying out SEBI's periodic review mandate by revising market lot sizes for individual stock derivative contracts based on recent average underlying prices.",
+      "action_required": "Members are advised to load the updated contract.gz, spd_contract.gz, NSE_FO_contract_ddmmyyyy.csv.gz and NSE_FO_spdcontract_ddmmyyyy.csv.gz files in the trading application before trading on October 28, 2026.",
+      "effective_date": "2026-10-28",
+      "key_dates": [
+        {
+          "label": "Circular effective date",
+          "date": "2026-10-28",
+          "quote": "This circular shall come into effect from October 28, 2026."
+        },
+        {
+          "label": "Revised lot size effective date (downward revisions, Annexure 1)",
+          "date": "2026-10-28",
+          "quote": "October 28, 2026 (for November 2026 & later expiries)",
+          "unverified": true
+        },
+        {
+          "label": "Revised lot size effective date (upward revisions, Annexure 2)",
+          "date": "2026-10-28",
+          "quote": "October 28, 2026 (for January 2027 & later expiries)",
+          "unverified": true
+        },
+        {
+          "label": "Exclusion of BAJAJHLDNG, IEX, IREDA from F&O segment",
+          "date": "2026-10-28",
+          "quote": "exclusion from Futures and Options segment w.e.f from October 28, 2026"
+        },
+        {
+          "label": "File loading deadline",
+          "date": "2026-10-28",
+          "quote": "load the updated contract.gz...file in the trading application before trading on October 28, 2026"
+        }
+      ],
+      "impact_summary": "NSE trading members must update their systems to reflect revised market lot sizes for individual stock derivative contracts effective October 28, 2026, pursuant to SEBI's periodic lot-size review guidelines.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "key_dates": "The quote supporting key date 2026-10-28 was not found in the circular text."
+      },
+      "source_excerpt_citations": [
+        "In pursuance of SEBI guidelines for periodic revision of lot sizes for derivatives contracts specified in the SEBI circular SEBI/HO/MRD-PoD2/CIR/P/2024/00181 dated December 30, 2024",
+        "This circular shall come into effect from October 28, 2026.",
+        "Members are advised to load the updated contract.gz, spd_contract.gz...before trading on October 28, 2026.",
+        "Following securities BAJAJHLDNG, IEX and IREDA were not part of review of lot size due to exclusion from Futures and Options segment w.e.f from October 28, 2026."
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/FAOP76657.zip",
+      "sample_data": false,
+      "title": "Revision in Market Lot of Derivative Contracts on Individual Stocks",
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "Market lot changes affect trading systems, settlement, and operations for stock brokers and clearing members."
     }
   ],
   "sources": [
@@ -8321,7 +8446,7 @@
       "url": "https://www.sebi.gov.in/sebirss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Holds about five days of items, mixed with orders and press releases. Only circulars are kept.",
-      "checked_at": "2026-09-30T22:17:56Z",
+      "checked_at": "2026-10-01T05:57:50Z",
       "items": 0,
       "status": "ok",
       "error": "",
@@ -8336,7 +8461,7 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Backstop for circulars that scroll off the RSS feed.",
-      "checked_at": "2026-09-30T22:17:57Z",
+      "checked_at": "2026-10-01T05:57:52Z",
       "items": 25,
       "status": "ok",
       "error": "",
@@ -8351,7 +8476,7 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-30T22:17:58Z",
+      "checked_at": "2026-10-01T05:57:52Z",
       "items": 25,
       "status": "ok",
       "error": "",
@@ -8366,7 +8491,7 @@
       "url": "https://rbi.org.in/notifications_rss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Includes bank-only prudential rules and foreign-exchange regulations. Triage keeps the ones that affect brokers and fintechs.",
-      "checked_at": "2026-09-30T22:17:58Z",
+      "checked_at": "2026-10-01T05:57:53Z",
       "items": 10,
       "status": "ok",
       "error": "",
@@ -8381,8 +8506,8 @@
       "url": "https://nsearchives.nseindia.com/content/RSS/Circulars.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Carries about one day of circulars (around 30 a day, mostly routine), so it's checked every 2 hours.",
-      "checked_at": "2026-09-30T22:18:00Z",
-      "items": 29,
+      "checked_at": "2026-10-01T05:57:54Z",
+      "items": 30,
       "status": "ok",
       "error": "",
       "streak": 0,
@@ -8396,7 +8521,7 @@
       "url": "https://www.bseindia.com/data/xml/notices.xml",
       "verified": "Feed address confirmed through a third-party reader. BSE refused a direct test fetch (HTTP 403), so it may block automated access.",
       "note": "Dominated by mutual fund platform notices.",
-      "checked_at": "2026-09-30T22:18:01Z",
+      "checked_at": "2026-10-01T05:57:55Z",
       "items": 66,
       "status": "ok",
       "error": "",
@@ -8411,7 +8536,7 @@
       "url": "https://www.nseclearing.in/resources/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-30T22:18:01Z",
+      "checked_at": "2026-10-01T05:57:56Z",
       "items": 0,
       "status": "blocked",
       "error": "The site's robots.txt disallows this address.",
@@ -8426,7 +8551,7 @@
       "url": "https://nsdl.co.in/business/circular.php",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-30T22:18:02Z",
+      "checked_at": "2026-10-01T05:57:56Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -8441,7 +8566,7 @@
       "url": "https://www.cdslindia.com/Publications/Communique.aspx/DP-COMMUNIQUES-INDEX.aspx",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "On 28 Sep 2026 this page returned 'Internal Error Occurred' even in a browser-style fetch. It may be unreliable.",
-      "checked_at": "2026-09-30T22:18:10Z",
+      "checked_at": "2026-10-01T05:58:05Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -8456,7 +8581,7 @@
       "url": "https://www.ncdex.com/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-09-30T22:18:11Z",
+      "checked_at": "2026-10-01T05:58:06Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -8471,7 +8596,7 @@
       "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Relevant to brokers and fintechs operating in GIFT City.",
-      "checked_at": "2026-09-30T22:18:13Z",
+      "checked_at": "2026-10-01T05:58:08Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -8486,7 +8611,7 @@
       "url": "https://www.npci.org.in/circulars/upi",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "UPI operating circulars for payment apps and PSPs.",
-      "checked_at": "2026-09-30T22:18:16Z",
+      "checked_at": "2026-10-01T05:58:11Z",
       "items": 0,
       "status": "blocked",
       "error": "The site's robots.txt disallows this address.",
@@ -8501,7 +8626,7 @@
       "url": "https://www.mcxindia.com/",
       "verified": "",
       "note": "Not connected. MCX's robots.txt disallows automated access to its RSS page. Connect it once a permitted source is confirmed.",
-      "checked_at": "2026-09-30T22:18:16Z",
+      "checked_at": "2026-10-01T05:58:11Z",
       "items": 0,
       "status": "not_connected",
       "error": "",
@@ -8510,9 +8635,9 @@
     }
   ],
   "last_run": {
-    "at": "2026-09-30T22:24:46Z",
-    "added": 15,
-    "set_aside": 7,
+    "at": "2026-10-01T05:59:40Z",
+    "added": 4,
+    "set_aside": 2,
     "failed": 0,
     "deferred": 0,
     "triage_retries": 0,

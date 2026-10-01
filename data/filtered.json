@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T22:24:46Z",
+  "generated_at": "2026-10-01T05:59:40Z",
   "items": [
     {
       "title": "Exim Bank’s GOI-supported Line of Credit (LOC) for ₹ 4,850 crores the Government of Maldives, for financing various developmental projects in Maldives",
@@ -2034,6 +2034,24 @@
       "source": "bse",
       "reason": "Corporate action for single named company.",
       "decided_at": "2026-09-30T22:18:19Z"
+    },
+    {
+      "title": "Consolidation/ Review of instructions issued on currency management matters – Withdrawal of Circulars/ Guidelines",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13718&Mode=0",
+      "date": "2026-10-01",
+      "regulator": "RBI",
+      "source": "rbi",
+      "reason": "Currency management for banks; no obligation for brokers, fintech, or non-bank entities tracked.",
+      "decided_at": "2026-10-01T05:58:13Z"
+    },
+    {
+      "title": "Cassette - Swaps in ATMs",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13717&Mode=0",
+      "date": "2026-10-01",
+      "regulator": "RBI",
+      "source": "rbi",
+      "reason": "ATM cassette operations; prudential matter for banks only, not tracked entities.",
+      "decided_at": "2026-10-01T05:58:13Z"
     }
   ]
 }
