@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T13:26:37Z",
+  "generated_at": "2026-10-01T19:46:39Z",
   "schema_version": "2.0",
   "circulars": [
     {
@@ -8465,172 +8465,6 @@
       "triage_reason": "Market infrastructure change; brokers must deploy new systems"
     },
     {
-      "circular_no": "NSE/CMTR/76688",
-      "date": "2026-10-01",
-      "doc_type": "Fresh Circular",
-      "parent_circular_no": null,
-      "parent_circular_date": null,
-      "implements": [
-        {
-          "regulator": "SEBI",
-          "circular_no": "CIR/MRD/DSA/06/2012",
-          "date": "2012-02-21"
-        }
-      ],
-      "impact_areas": [
-        "Stock Exchanges",
-        "Stock Brokers",
-        "Trading Operations"
-      ],
-      "applicability": "All Members (Trading Members) of NSE Capital Market Segment dealing in SME Platform securities",
-      "intent": "NSE conducts a mandated half-yearly review of market lot sizes for securities listed on the SME platform per SEBI's standardized lot size guidelines, and announces the resulting revisions.",
-      "action_required": "Members must load the updated security.gz/nnf_security.gz file (available from /common/NTNEAT on the extranet server) in their trading application before trading on the effective date, November 02, 2026.",
-      "effective_date": "2026-11-02",
-      "key_dates": [
-        {
-          "label": "Effective date for revised lot size",
-          "date": "2026-11-02",
-          "quote": "Effective date for revised lot size November 02, 2026",
-          "unverified": true
-        }
-      ],
-      "impact_summary": "NSE trading members dealing in SME platform securities must update their lot size reference files ahead of November 02, 2026, when revised (downward) lot sizes take effect for 60 symbols; 514 symbols remain unchanged.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "circular_no": "The document carries two reference numbers - 'Download Ref No: NSE/CMTR/76688' and 'Circular Ref. No: 139/2026'; the former was used as the primary circular_no.",
-        "key_dates": "The quote supporting key date 2026-11-02 was not found in the circular text."
-      },
-      "source_excerpt_citations": [
-        "This is with reference to SEBI circular no CIR/MRD/DSA/06/2012 dated February 21, 2012",
-        "Exchange has conducted half yearly review of the lot size of the current active securities on SME Platform",
-        "members are advised to load the updated security.gz/nnf_security.gz file in the trading application before trading on the effective date"
-      ],
-      "model_confidence": "Certain",
-      "validator_version": 3,
-      "source_url": "https://nsearchives.nseindia.com/content/circulars/CMTR76688.zip",
-      "sample_data": false,
-      "title": "Review of market lot for securities on SME platform",
-      "regulator": "NSE",
-      "source": "nse",
-      "triage_reason": "Market-wide lot change; affects trading for all participants"
-    },
-    {
-      "circular_no": "45/2026",
-      "date": "2026-10-01",
-      "doc_type": "Fresh Circular",
-      "parent_circular_no": "NSE/INSP/63502",
-      "parent_circular_date": "2024-08-21",
-      "implements": [
-        {
-          "regulator": "SEBI",
-          "circular_no": "SEBI/HO/ ITD-1/ITD_CSC_EXT/P/CIR/2024/113",
-          "date": "2024-08-20"
-        }
-      ],
-      "impact_areas": [
-        "Cyber Security/Cyber Resilience",
-        "Stock Brokers",
-        "Trading Operations"
-      ],
-      "applicability": "All Trading Members of NSE",
-      "intent": "NSE is reminding trading members of their recurring obligation to report cyber incidents quarterly under the SEBI Cyber Security & Cyber Resilience Framework for Regulated Entities, and reiterating the penalty structure for non-compliance.",
-      "action_required": "REs/trading members must report Cyber Incident(s) for the quarter ending September 30, 2026, through the member portal on or before October 15, 2026, following the path ENIT > ENIT-NEW-TRADE > Trade > Incident Report > Quarterly Report Submission.",
-      "effective_date": "NOT STATED IN SOURCE",
-      "key_dates": [
-        {
-          "label": "Reporting quarter end",
-          "date": "2026-09-30",
-          "quote": "report Cyber Incident(s) for the quarter ending September 30, 2026"
-        },
-        {
-          "label": "Quarterly report submission deadline",
-          "date": "2026-10-15",
-          "quote": "through member portal on or before October 15, 2026"
-        }
-      ],
-      "impact_summary": "All NSE trading members must submit their quarterly cyber incident report (or nil submission) by October 15, 2026 for the quarter ended September 30, 2026, failing which they face escalating financial penalties, trading disablement, and new client registration prohibition as per the annexed penalty matrix.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "source_excerpt_citations": "1 quoted excerpt(s) could not be found in the circular text — possible fabrication: 'Charges Rs. 1,500/- per day for Non QRE & Rs. 3,000/- per day for QRE from the d'",
-        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
-      },
-      "source_excerpt_citations": [
-        "REs/trading members are required to report Cyber Incident(s) for the quarter ending September 30, 2026, through member portal on or before October 15, 2026.",
-        "This is with reference to SEBI circular no. SEBI/HO/ ITD-1/ITD_CSC_EXT/P/CIR/2024/113 dated August 20, 2024 and Exchange circular no. NSE/INSP/63502 dated August 21, 2024",
-        "Charges Rs. 1,500/- per day for Non QRE & Rs. 3,000/- per day for QRE from the due date till first 7 calendar days"
-      ],
-      "model_confidence": "Certain",
-      "validator_version": 3,
-      "source_url": "https://nsearchives.nseindia.com/content/circulars/INSP76673.pdf",
-      "sample_data": false,
-      "title": "Quarterly Cyber Incident Reporting under Cyber Security & Cyber Resilience Framework for Regulated Entities (REs)",
-      "regulator": "NSE",
-      "source": "nse",
-      "triage_reason": "Cyber security reporting requirement for regulated entities"
-    },
-    {
-      "circular_no": "NSE/FAOP/76666",
-      "date": "2026-10-01",
-      "doc_type": "Fresh Circular",
-      "parent_circular_no": null,
-      "parent_circular_date": null,
-      "implements": [
-        {
-          "regulator": "SEBI",
-          "circular_no": "SEBI/HO/MRD1/DSAP/CIR/P/2020/234",
-          "date": null
-        }
-      ],
-      "impact_areas": [
-        "Stock Brokers",
-        "Trading Operations"
-      ],
-      "applicability": "All NSE members enabled for trading in the Futures & Options (F&O) segment",
-      "intent": "NSE is conducting a mock trading session in the Equity Derivatives (F&O) segment to let members test and transition to a new NEAT+ software version and validate systems ahead of its live rollout.",
-      "action_required": "Members must participate in the mock trading session on Saturday, October 03, 2026 as per the stated schedule, use NEAT+ version 7.9.0 (older version 7.8.9 to be discontinued from October 10, 2026 (mock)), and re-login into the live environment to ensure connectivity for Monday, October 05, 2026.",
-      "effective_date": "NOT STATED IN SOURCE",
-      "key_dates": [
-        {
-          "label": "Mock trading session date",
-          "date": "2026-10-03",
-          "quote": "Exchange shall be conducting a mock trading session in the Equity Derivatives (F&O) segment on Saturday, October 03, 2026"
-        },
-        {
-          "label": "NEAT+ 7.8.9 discontinuation date (mock)",
-          "date": "2026-10-10",
-          "quote": "7.8.9 October 10, 2026 (mock)"
-        },
-        {
-          "label": "Live re-login / connectivity check for Monday session",
-          "date": "2026-10-05",
-          "quote": "re-login into live environment to ensure smooth connectivity for Monday, October 05, 2026",
-          "unverified": true
-        }
-      ],
-      "impact_summary": "F&O segment trading members must participate in NSE's scheduled mock trading session to test the new NEAT+ 7.9.0 version and system readiness, with the older version being phased out shortly after.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "circular_no": "Document shows two identifiers - 'Download Ref No: NSE/FAOP/76666' and 'Circular Ref. No: 135/2026'; the download ref was used as primary circular_no per standard NSE convention.",
-        "implements": "The SEBI circular is referenced as an alternative compliance route for software testing, not explicitly stated as being 'implemented' by this circular, so the relationship is inferred from context.",
-        "source_excerpt_citations": "2 quoted excerpt(s) could not be found in the circular text — possible fabrication: 'Refer to circular NSE/MSD/46441 and SEBI circular SEBI/HO/MRD1/DSAP/CIR/P/2020/2'; 'Members should participate using all trading software and re-login into live env'",
-        "key_dates": "The quote supporting key date 2026-10-05 was not found in the circular text."
-      },
-      "source_excerpt_citations": [
-        "Exchange shall be conducting a mock trading session in the Equity Derivatives (F&O) segment on Saturday, October 03, 2026",
-        "Refer to circular NSE/MSD/46441 and SEBI circular SEBI/HO/MRD1/DSAP/CIR/P/2020/234. Members may use either Mock Trading or Simulated Environment",
-        "7.8.9 October 10, 2026 (mock)",
-        "Members should participate using all trading software and re-login into live environment to ensure smooth connectivity for Monday, October 05, 2026"
-      ],
-      "model_confidence": "Certain",
-      "validator_version": 3,
-      "source_url": "https://nsearchives.nseindia.com/content/circulars/FAOP76666.pdf",
-      "sample_data": false,
-      "title": "Mock trading on Saturday, October 03, 2026 - No new Version Release",
-      "regulator": "NSE",
-      "source": "nse",
-      "triage_reason": "Mock trading schedule; brokers must participate/deploy"
-    },
-    {
       "circular_no": "46/2026",
       "date": "2026-10-01",
       "doc_type": "Fresh Circular",
@@ -8738,54 +8572,6 @@
       "model_confidence": "Certain",
       "validator_version": 3,
       "source_url": "https://nsearchives.nseindia.com/content/circulars/CMTR76663.pdf",
-      "sample_data": false,
-      "title": "Mock trading on Saturday, October 03, 2026 - No new version release",
-      "regulator": "NSE",
-      "source": "nse",
-      "triage_reason": "Mock trading schedule; brokers must participate/deploy"
-    },
-    {
-      "circular_no": "NSE/EGR/76662",
-      "date": "2026-10-01",
-      "doc_type": "Fresh Circular",
-      "parent_circular_no": null,
-      "parent_circular_date": null,
-      "implements": [],
-      "impact_areas": [
-        "Stock Exchanges",
-        "Trading Operations",
-        "Other"
-      ],
-      "applicability": "All Members trading in the Electronic Gold Receipts (EGR) segment of NSE",
-      "intent": "NSE is informing members of a scheduled mock trading session in the EGR segment to allow testing of systems ahead of live trading, without any new software version release.",
-      "action_required": "Members must participate in the mock trading session on October 03, 2026, download/install NEATPlus EG Version 1.0.1 from the specified Extranet path per the referenced installation procedure, and use default password 'Neat@EG1' for login testing.",
-      "effective_date": "2026-10-03",
-      "key_dates": [
-        {
-          "label": "Mock trading session date",
-          "date": "2026-10-03",
-          "quote": "Exchange will be conducting a mock trading session in the Electronic Gold Receipts (EGR) segment on Saturday, October 03, 2026"
-        },
-        {
-          "label": "Date of referenced NEATPlus installation circular",
-          "date": "2026-09-03",
-          "quote": "circular NSE/MSD/76159 dated September 03, 2026"
-        }
-      ],
-      "impact_summary": "NSE trading members dealing in the Electronic Gold Receipts (EGR) segment must participate in a mock trading session on October 03, 2026, using NEATPlus EG Version 1.0.1, with no financial settlement involved; this is a routine system/readiness test rather than a policy change.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "source_excerpt_citations": "1 quoted excerpt(s) could not be found in the circular text — possible fabrication: 'Trades during mock sessions will not result in any fund pay-in or pay-out.'"
-      },
-      "source_excerpt_citations": [
-        "Exchange will be conducting a mock trading session in the Electronic Gold Receipts (EGR) segment on Saturday, October 03, 2026",
-        "Trades during mock sessions will not result in any fund pay-in or pay-out.",
-        "Members are requested to refer updated NEATPlus installation procedure as per the circular NSE/MSD/76159 dated September 03, 2026",
-        "Mock trading on Saturday, October 03, 2026 – No new version release"
-      ],
-      "model_confidence": "Certain",
-      "validator_version": 3,
-      "source_url": "https://nsearchives.nseindia.com/content/circulars/EGR76662.pdf",
       "sample_data": false,
       "title": "Mock trading on Saturday, October 03, 2026 - No new version release",
       "regulator": "NSE",
@@ -8945,361 +8731,6 @@
       "triage_reason": "Mock trading schedule; brokers must participate/deploy"
     },
     {
-      "circular_no": "20261001-39",
-      "date": "2026-10-01",
-      "doc_type": "Fresh Circular",
-      "parent_circular_no": "20231212-50",
-      "parent_circular_date": "2023-12-12",
-      "implements": [
-        {
-          "regulator": "SEBI",
-          "circular_no": "SEBI/HO/MIRSD/DOS2/CIR/P/2019/10",
-          "date": "2019-01-04"
-        }
-      ],
-      "impact_areas": [
-        "Stock Brokers",
-        "Trading Operations"
-      ],
-      "applicability": "BSE Trading Members using Algorithm software (active during Apr 1 - Sep 30, 2026)",
-      "intent": "BSE is reiterating the half-yearly mandatory reporting requirement for AI/ML applications and systems used by trading members, including NIL submissions, to maintain regulatory oversight as originally mandated by SEBI.",
-      "action_required": "All active Trading Members using Algorithm software during April 01, 2026 to September 30, 2026 must submit AI/ML reporting (or NIL submission if not using AI/ML) via the BEFS portal under 'Artificial Intelligence (AI) & Machine Learning > Reporting Form (A I M L)' on or before October 15, 2026. Members also registered with NSE must submit to NSE only.",
-      "effective_date": "NOT STATED IN SOURCE",
-      "key_dates": [
-        {
-          "label": "Reporting period start",
-          "date": "2026-04-01",
-          "quote": "half year period i.e. April 01, 2026, to September 30, 2026"
-        },
-        {
-          "label": "Reporting period end",
-          "date": "2026-09-30",
-          "quote": "half year period i.e. April 01, 2026, to September 30, 2026"
-        },
-        {
-          "label": "Submission deadline",
-          "date": "2026-10-15",
-          "quote": "ensure submission on or before October 15, 2026"
-        }
-      ],
-      "impact_summary": "BSE Trading Members who used algorithmic trading software during the stated half-year period must report their AI/ML applications (or file a NIL submission) via the BEFS portal by October 15, 2026; members dually registered with NSE are exempted from duplicate filing with BSE.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "doc_type": "Classified as 'Fresh Circular' since it is a standalone periodic reporting notice rather than a textual amendment to a prior circular, though it references and continues a recurring compliance mechanism established by an earlier BSE notice.",
-        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here.",
-        "circular_no": "'20261001-39' doesn't look like a circular reference number — verify manually."
-      },
-      "source_excerpt_citations": [
-        "This is with reference to the SEBI circular no. SEBI/HO/MIRSD/DOS2/CIR/P/2019/10 dated January 4, 2019",
-        "Exchange Notice 20231212-50 dated December 12, 2023, regarding the reporting of Artificial Intelligence",
-        "Trading Members of the Exchange who are also registered with NSE are required to submit AI/ML details to NSE only",
-        "All members are advised to ensure submission on or before October 15, 2026"
-      ],
-      "model_confidence": "Certain",
-      "validator_version": 3,
-      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-39/20261001-39.pdf",
-      "sample_data": false,
-      "title": "Reporting for Artificial Intelligence (AI) and Machine Learning (ML) applications and systems offered and used by market intermediaries",
-      "regulator": "BSE",
-      "source": "bse",
-      "triage_reason": "AI/ML reporting requirement for market intermediaries"
-    },
-    {
-      "circular_no": "Notice No. 20261001-38",
-      "date": "2026-10-01",
-      "doc_type": "Fresh Circular",
-      "parent_circular_no": null,
-      "parent_circular_date": null,
-      "implements": [],
-      "impact_areas": [
-        "KYC/AML",
-        "Stock Brokers"
-      ],
-      "applicability": "Trading Members / Stock Brokers registered with BSE",
-      "intent": "To implement UNSC sanctions list updates under Section 51A of UAPA, 1967, requiring brokers to screen existing and future accounts against the amended terrorist entity list.",
-      "action_required": "Scan all existing and future accounts for matches with the updated UNSC 1267/1989 ISIL (Da'esh) & Al-Qaida Sanctions List, follow the Central Government Order procedure dated Feb 02, 2021, forward any delisting requests to Joint Secretary (CTCR), MHA and copy MEA Joint Secretary (UNP), and inform affected entities about the UN Ombudsperson delisting process; no specific compliance deadline is stated beyond regular monitoring.",
-      "effective_date": "NOT STATED IN SOURCE",
-      "key_dates": [
-        {
-          "label": "Central Government Order date (procedure reference)",
-          "date": "2021-02-02",
-          "quote": "Central Government Order dated Feb 02, 2021 detailing the implementation of Section 51A"
-        },
-        {
-          "label": "SEBI AML/CFT Guidelines date (procedure reference)",
-          "date": "2024-06-06",
-          "quote": "Obligations of Securities Market Intermediaries under the Prevention of Money Laundering Act, 2002... dated June 06, 2024"
-        },
-        {
-          "label": "Notice issuance date",
-          "date": "2026-10-01",
-          "quote": "Notice Date 01 Oct 2026"
-        }
-      ],
-      "impact_summary": "BSE trading members must screen client accounts against the updated UNSC 1267/1989 ISIL (Da'esh) & Al-Qaida Sanctions List and follow prescribed reporting and delisting procedures under Section 51A of UAPA, 1967.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "implements": "The underlying SEBI communication and AML guideline are referenced only by title/date, not by a specific circular number, so exact circular numbers could not be extracted.",
-        "effective_date": "No explicit effective or compliance date is stated for the screening action beyond ongoing/regular compliance."
-      },
-      "source_excerpt_citations": [
-        "The Exchange is in receipt of a communication from the SEBI which inter-alia states as under",
-        "Follow the procedure as mentioned in the Central Government Order dated Feb 02, 2021",
-        "as per clause 54 of SEBI “Guidelines on Anti-Money Laundering (AML) Standards... dated June 06, 2024",
-        "Scan all existing accounts to ensure that no account is held by or linked to any of the entities or individuals included in the list"
-      ],
-      "model_confidence": "Needs Review",
-      "validator_version": 3,
-      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-38/20261001-38.pdf",
-      "sample_data": false,
-      "title": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 01 Entry",
-      "regulator": "BSE",
-      "source": "bse",
-      "triage_reason": "UAPA sanctions list update; requires client screening"
-    },
-    {
-      "circular_no": "20261001-37",
-      "date": "2026-10-01",
-      "doc_type": "Fresh Circular",
-      "parent_circular_no": null,
-      "parent_circular_date": null,
-      "implements": [],
-      "impact_areas": [
-        "Stock Brokers"
-      ],
-      "applicability": "NOT STATED IN SOURCE",
-      "intent": "The notice appears to call for submission of an Internal Audit Report for the half year ended September 30, 2026, but no operative text explaining the regulatory problem or detailed requirement is provided.",
-      "action_required": "NOT STATED IN SOURCE",
-      "effective_date": "NOT STATED IN SOURCE",
-      "key_dates": [],
-      "impact_summary": "The source text is only a notice header/metadata (number, date, subject, attachments) without any body text, so the specific obligations, applicability, and deadlines for market participants cannot be determined with confidence.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "applicability": "No body text specifying which entities (e.g., trading members, brokers) must comply; only subject line and category/segment metadata given.",
-        "action_required": "No operative instructions are present in the provided text beyond the subject line and list of annexures.",
-        "effective_date": "No effective or compliance date is stated beyond the half-year period reference (September 30, 2026) in the subject line, which is a reporting period, not a deadline.",
-        "impact_areas": "Inferred as Stock Brokers based on typical 'Internal Audit Report' submission context and 'Compliance' category, but this is not explicitly stated in the source text.",
-        "overall_confidence": "Source text consists only of notice metadata (number, date, category, segment, department, subject, attachments) with no substantive body content to extract intent, action, or dates from.",
-        "source_excerpt_citations": "1 quoted excerpt(s) could not be found in the circular text — possible fabrication: 'Submission of Internal Audit Report for the Half Year Ended September 30, 2026'",
-        "circular_no": "'20261001-37' doesn't look like a circular reference number — verify manually."
-      },
-      "source_excerpt_citations": [
-        "Notice No. 20261001-37",
-        "Notice Date 01 Oct 2026",
-        "Submission of Internal Audit Report for the Half Year Ended September 30, 2026",
-        "Category Compliance",
-        "Department DOSS"
-      ],
-      "model_confidence": "Needs Review",
-      "validator_version": 3,
-      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-37/20261001-37.pdf",
-      "sample_data": false,
-      "title": "Submission of Internal Audit Report for the Half Year Ended September 30, 2026",
-      "regulator": "BSE",
-      "source": "bse",
-      "triage_reason": "Internal audit submission requirement for brokers"
-    },
-    {
-      "circular_no": "20261001-36",
-      "date": "2026-10-01",
-      "doc_type": "Fresh Circular",
-      "parent_circular_no": null,
-      "parent_circular_date": null,
-      "implements": [
-        {
-          "regulator": "SEBI",
-          "circular_no": "SEBI/HO/MRD-PoD2/CIR/P/2024/00181",
-          "date": "2024-12-30"
-        }
-      ],
-      "impact_areas": [
-        "Stock Brokers",
-        "Margin Trading"
-      ],
-      "applicability": "Trading Members who have obtained approval for Margin Trading Facility from BSE",
-      "intent": "BSE reminds trading members offering margin trading facility of the requirement to get their MTF-related books audited and submit a half-yearly compliance certificate, per SEBI's governing circular.",
-      "action_required": "Submit scanned copy of Margin Trading Compliance Certificate (Annexure 1, CA-signed) or Self-Certified certificate (Annexure 2, if MTF not commenced) electronically via BEFS for half year ended September 30, 2026, by October 31, 2026.",
-      "effective_date": "NOT STATED IN SOURCE",
-      "key_dates": [
-        {
-          "label": "Half year end for compliance certificate",
-          "date": "2026-09-30",
-          "quote": "Margin Trading Compliance Certificate for half year ended September 30, 2026",
-          "unverified": true
-        },
-        {
-          "label": "Submission deadline via BEFS",
-          "date": "2026-10-31",
-          "quote": "must be submitted electronically through BEFS (BSE Electronic Filing System) by October 31, 2026"
-        }
-      ],
-      "impact_summary": "Trading members approved for Margin Trading Facility on BSE must submit audited or self-certified compliance certificates for the half year ended September 30, 2026, through BEFS by October 31, 2026, or face treatment as non-submission.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "key_dates": "The quote supporting key date 2026-09-30 was not found in the circular text.",
-        "circular_no": "'20261001-36' doesn't look like a circular reference number — verify manually."
-      },
-      "source_excerpt_citations": [
-        "Trading members who have obtained approval for Margin Trading Facility from the Exchange are required to get their books of accounts related to margin trading facility offered by them audited",
-        "submission of Margin Trading Compliance Certificate shall be considered complete only after Trading Member submits the certificate to the Exchange through BEFS",
-        "Attention of the Trading Members is invited to the provisions outlined under Chapter 1 at Para 4.10.3 of the SEBI circular no. SEBI/HO/MRD-PoD2/CIR/P/2024/00181 dated December 30, 2024"
-      ],
-      "model_confidence": "Certain",
-      "validator_version": 3,
-      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-36/20261001-36.pdf",
-      "sample_data": false,
-      "title": "Margin Trading Compliance Certificate for half year ended September 30, 2026",
-      "regulator": "BSE",
-      "source": "bse",
-      "triage_reason": "Margin trading compliance reporting requirement"
-    },
-    {
-      "circular_no": "20261001-34",
-      "date": "2026-10-01",
-      "doc_type": "Fresh Circular",
-      "parent_circular_no": "20260417-45",
-      "parent_circular_date": "2026-04-17",
-      "implements": [],
-      "impact_areas": [
-        "Stock Brokers"
-      ],
-      "applicability": "Active Trading Members of BSE (those who executed at least one trade during April 01, 2026 – September 30, 2026)",
-      "intent": "BSE seeks periodic submission of Risk Based Supervision (RBS) data from trading members to monitor risk and share collated data with SEBI.",
-      "action_required": "Trading Members must submit RBS data for the period April 01, 2026 – September 30, 2026 electronically through BEFS (menu: Risk Based Supervision) by the Due Date of November 30, 2026; no physical copies required.",
-      "effective_date": "NOT STATED IN SOURCE",
-      "key_dates": [
-        {
-          "label": "Assessment period start",
-          "date": "2026-04-01",
-          "quote": "Risk Based Supervision (RBS) data for the period April 01, 2026 – September 30, 2026"
-        },
-        {
-          "label": "Assessment period end",
-          "date": "2026-09-30",
-          "quote": "period April 01, 2026 – September 30, 2026 is required to be submitted"
-        },
-        {
-          "label": "Submission due date",
-          "date": "2026-11-30",
-          "quote": "is required to be submitted by November 30, 2026 (“Due Date”)"
-        }
-      ],
-      "impact_summary": "All active BSE Trading Members must file half-yearly Risk Based Supervision data electronically via BEFS by November 30, 2026, failing which graded monetary penalties, client registration bans, and trading disablement apply as per an earlier BSE notice.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here.",
-        "circular_no": "'20261001-34' doesn't look like a circular reference number — verify manually."
-      },
-      "source_excerpt_citations": [
-        "Risk Based Supervision (RBS) data for the period April 01, 2026 – September 30, 2026 is required to be submitted by November 30, 2026",
-        "submission is to be made only electronically through BEFS, under the menu >>>Risk Based Supervision",
-        "data collated from the Members towards RBS is shared with SEBI",
-        "disciplinary action as prescribed in the Exchange’s notice no. 20260417-45 dated April 17, 2026, will be initiated"
-      ],
-      "model_confidence": "Certain",
-      "validator_version": 3,
-      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-34/20261001-34.pdf",
-      "sample_data": false,
-      "title": "Risk Based Supervision (RBS) - Submission of information for the period April 01, 2026 – September 30, 2026 (Half Year ended Sept - 2026)",
-      "regulator": "BSE",
-      "source": "bse",
-      "triage_reason": "RBS information submission requirement for all brokers"
-    },
-    {
-      "circular_no": "Notice No. 20261001-9",
-      "date": "2026-10-01",
-      "doc_type": "Fresh Circular",
-      "parent_circular_no": null,
-      "parent_circular_date": null,
-      "implements": [],
-      "impact_areas": [
-        "Stock Exchanges",
-        "Listed Companies (LODR/Disclosure)",
-        "Trading Operations"
-      ],
-      "applicability": "Trading Members of BSE",
-      "intent": "BSE is informing trading members that additional securities issued by several listed companies under ESOP/ESOS schemes have been approved for listing and trading on the Exchange.",
-      "action_required": "No specific compliance action required beyond trading members noting that the listed further securities become tradable with effect from Monday, October 05, 2026.",
-      "effective_date": "2026-10-05",
-      "key_dates": [
-        {
-          "label": "Listing/trading effective date",
-          "date": "2026-10-05",
-          "quote": "listed and admitted for trading on the Exchange with effect from Monday, October 05, 2026"
-        }
-      ],
-      "impact_summary": "Trading members of BSE are notified that further securities issued under ESOP/ESOS by eight named companies (including Axis Bank, Polycab India, Vakrangee) are listed and admitted for trading from October 05, 2026.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "doc_type": "This is a routine operational listing notice rather than a policy circular, but is classified as 'Fresh Circular' per the closest matching category since no amendment/parent is indicated.",
-        "source_excerpt_citations": "1 quoted excerpt(s) could not be found in the circular text — possible fabrication: 'Listing of further securities issued by the companies under ESOP / ESOS'"
-      },
-      "source_excerpt_citations": [
-        "the further new securities issued by the under mentioned companies are listed and admitted for trading on the Exchange with effect from Monday, October 05, 2026",
-        "Listing of further securities issued by the companies under ESOP / ESOS"
-      ],
-      "model_confidence": "Certain",
-      "validator_version": 3,
-      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-9/20261001-9.pdf",
-      "sample_data": false,
-      "title": "Listing of further securities issued by the companies under ESOP / ESOS",
-      "regulator": "BSE",
-      "source": "bse",
-      "triage_reason": "ESOP/ESOS listing affects broker handling and settlement processes"
-    },
-    {
-      "circular_no": "20261001-4",
-      "date": "2026-10-01",
-      "doc_type": "Fresh Circular",
-      "parent_circular_no": null,
-      "parent_circular_date": null,
-      "implements": [],
-      "impact_areas": [
-        "Corporate Bonds/Debt Market",
-        "Stock Exchanges"
-      ],
-      "applicability": "Trading Members on BSE Debt Segment",
-      "intent": "To notify trading members that a specific privately placed debt security has been listed and admitted to trading on the BSE Debt Segment.",
-      "action_required": "Trading members should note the listing details of the security (ISIN, tick size, etc.) for trading purposes; no deadline stated, security listed effective the notice date.",
-      "effective_date": "2026-10-01",
-      "key_dates": [
-        {
-          "label": "Listing/trading effective date",
-          "date": "2026-10-01",
-          "quote": "have been listed and are now admitted to trading on the BSE Debt Segment effective today"
-        },
-        {
-          "label": "Date of Allotment",
-          "date": "2026-09-29",
-          "quote": "Date of Allotment 29/09/2026"
-        },
-        {
-          "label": "Date of Redemption",
-          "date": "2031-09-29",
-          "quote": "Date of Redemption 29/09/2031"
-        }
-      ],
-      "impact_summary": "This notice informs BSE trading members of the listing of a privately placed debt instrument issued by NABKISAN Finance Limited, providing ISIN and trading details for the security now admitted to the Debt Segment.",
-      "overall_confidence": "Needs Review",
-      "confidence_flags": {
-        "circular_no": "'20261001-4' doesn't look like a circular reference number — verify manually."
-      },
-      "source_excerpt_citations": [
-        "have been listed and are now admitted to trading on the BSE Debt Segment effective today",
-        "The tick size for the securities is 1 paise.",
-        "Date of Allotment 29/09/2026",
-        "Date of Redemption 29/09/2031"
-      ],
-      "model_confidence": "Certain",
-      "validator_version": 3,
-      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-4/20261001-4.pdf",
-      "sample_data": false,
-      "title": "Listing of privately placed securities on the debt market segment of the Exchange",
-      "regulator": "BSE",
-      "source": "bse",
-      "triage_reason": "Privately placed debt securities listing affects broker processes ecosystem-wide"
-    },
-    {
       "circular_no": "NSE/FAOP/76657",
       "date": "2026-09-30",
       "doc_type": "Fresh Circular",
@@ -9355,6 +8786,1780 @@
       "regulator": "NSE",
       "source": "nse",
       "triage_reason": "Market lot changes affect trading systems, settlement, and operations for stock brokers and clearing members."
+    },
+    {
+      "circular_no": "139/2026",
+      "date": "2026-10-01",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [
+        {
+          "regulator": "SEBI",
+          "circular_no": "CIR/MRD/DSA/06/2012",
+          "date": "2012-02-21"
+        }
+      ],
+      "impact_areas": [
+        "Stock Brokers",
+        "Stock Exchanges",
+        "Trading Operations"
+      ],
+      "applicability": "All Members (trading members of NSE Capital Market Segment dealing in SME platform securities)",
+      "intent": "NSE is implementing SEBI's standardized lot size framework for SME Exchange/Platform by conducting its half-yearly review and communicating the resulting lot size revisions for SME securities.",
+      "action_required": "Members are advised to load the updated security.gz/nnf_security.gz file in the trading application before trading on the effective date; these files can be obtained from the directory /common/NTNEAT on the extranet server.",
+      "effective_date": "2026-11-02",
+      "key_dates": [
+        {
+          "label": "Effective date for revised lot size",
+          "date": "2026-11-02",
+          "quote": "Revised Downwards 60 November 02, 2026 1"
+        }
+      ],
+      "impact_summary": "Trading members dealing in SME platform securities must update their trading applications with revised lot sizes for 60 symbols before the effective date of November 02, 2026.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "key_dates": "The date November 02, 2026 appears in a tabular row format rather than a full sentence; the quote is taken verbatim from the table row as presented in the source text, not from a grammatical sentence."
+      },
+      "source_excerpt_citations": [
+        "Download Ref No: NSE/CMTR/76688 Date: October 01, 2026",
+        "Circular Ref. No: 139/2026",
+        "Review of market lot for securities on SME platform",
+        "SEBI circular no CIR/MRD/DSA/06/2012 dated February 21, 2012 regarding standardized lot size for SME Exchange/Platform",
+        "members are advised to load the updated security.gz/nnf_security.gz file in the trading application before trading on the effective date"
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/CMTR76688.zip",
+      "sample_data": false,
+      "title": "Review of market lot for securities on SME platform",
+      "retried": true,
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "Market-wide lot change; affects trading for all participants"
+    },
+    {
+      "circular_no": "45/2026",
+      "date": "2026-10-01",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "NSE/INSP/63502",
+      "parent_circular_date": "2024-08-21",
+      "implements": [
+        {
+          "regulator": "SEBI",
+          "circular_no": "SEBI/HO/ ITD-1/ITD_CSC_EXT/P/CIR/2024/113",
+          "date": "2024-08-20"
+        }
+      ],
+      "impact_areas": [
+        "Cyber Security/Cyber Resilience",
+        "Stock Brokers"
+      ],
+      "applicability": "All Trading Members (SEBI Regulated Entities registered with NSE)",
+      "intent": "NSE is reminding trading members of their recurring obligation to submit the quarterly cyber incident report under the SEBI Cyber Security & Cyber Resilience Framework, and reiterating the penalty framework for delayed or non-submission.",
+      "action_required": "Trading Members/REs must report Cyber Incident(s) for the quarter ending September 30, 2026 through the member portal (ENIT > ENIT-NEW-TRADE > Trade > Incident Report > Quarterly Report Submission) on or before October 15, 2026, following the guidelines in Annexure 1; non-compliance attracts penalties/disciplinary action as per Annexure 2.",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [
+        {
+          "label": "Reporting quarter end",
+          "date": "2026-09-30",
+          "quote": "report Cyber Incident(s) for the quarter ending September 30, 2026"
+        },
+        {
+          "label": "Submission deadline",
+          "date": "2026-10-15",
+          "quote": "through member portal on or before October 15, 2026"
+        }
+      ],
+      "impact_summary": "All NSE trading members must file their quarterly cyber incident report (including Nil filings) by October 15, 2026, and face escalating financial disincentives, registration prohibition, and trading disablement for late or non-submission.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here.",
+        "source_excerpt_citations": "1 quoted excerpt(s) could not be found in the circular text — possible fabrication: 'new client registration shall be prohibited and notice of 7 calendar days for di'"
+      },
+      "source_excerpt_citations": [
+        "This is with reference to SEBI circular no. SEBI/HO/ ITD-1/ITD_CSC_EXT/P/CIR/2024/113 dated August 20, 2024",
+        "Exchange circular no. NSE/INSP/63502 dated August 21, 2024 on Cyber Security & Cyber Resilience framework",
+        "required to report Cyber Incident(s) for the quarter ending September 30, 2026, through member portal on or before October 15, 2026",
+        "Exchange circular no. NSE/INSP/66040 dated January 08, 2025, on Standard Operating Procedure (SOP) for handling Cyber Security Incidents",
+        "Annexure - 1.2 of Exchange Circular Ref No. NSE/INSP/73792 dated April 17, 2026, on actions for non-compliances",
+        "new client registration shall be prohibited and notice of 7 calendar days for disablement of trading facility"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/INSP76673.pdf",
+      "sample_data": false,
+      "title": "Quarterly Cyber Incident Reporting under Cyber Security & Cyber Resilience Framework for Regulated Entities (REs)",
+      "retried": true,
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "Cyber security reporting requirement for regulated entities"
+    },
+    {
+      "circular_no": "NSE/FAOP/76666",
+      "date": "2026-10-01",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Stock Brokers",
+        "Trading Operations"
+      ],
+      "applicability": "All Members of NSE trading in the Equity Derivatives (F&O) segment",
+      "intent": "NSE is notifying members of a scheduled mock trading session for the F&O segment to test system functioning, including a revised Pre-Open framework, without releasing any new software version.",
+      "action_required": "Members must use NEAT+ version 7.9.0 for the revised Pre-Open framework, participate in the mock session on Saturday, October 03, 2026 per the stated schedule, note that NEAT+ 7.8.9 will be discontinued on October 10, 2026 (mock), and re-login into the live environment to ensure smooth connectivity for Monday, October 05, 2026.",
+      "effective_date": "2026-10-03",
+      "key_dates": [
+        {
+          "label": "Mock trading session date",
+          "date": "2026-10-03",
+          "quote": "Exchange shall be conducting a mock trading session in the Equity Derivatives (F&O) segment on Saturday,\nOctober 03, 2026 as per following schedule:"
+        },
+        {
+          "label": "Discontinuation of NEAT+ 7.8.9 (mock)",
+          "date": "2026-10-10",
+          "quote": "7.8.9 October 10, 2026 (mock)"
+        },
+        {
+          "label": "Reference circular NSE/MSD/76159 date",
+          "date": "2026-09-03",
+          "quote": "NSE/MSD/76159 dated September 03, 2026."
+        },
+        {
+          "label": "Reference circular NSE/MSD/74511 date",
+          "date": "2026-06-02",
+          "quote": "Refer to circular NSE/MSD/74511 dated June 02, 2026 for interactive"
+        },
+        {
+          "label": "Reference circular NSE/ISC/51754 date",
+          "date": "2022-03-24",
+          "quote": "Exchange circular NSE/ISC/51754 dated March 24,\n2022 and NSE/ISC/52722 dated June 23, 2022"
+        },
+        {
+          "label": "Reference circular NSE/ISC/52722 date",
+          "date": "2022-06-23",
+          "quote": "Exchange circular NSE/ISC/51754 dated March 24,\n2022 and NSE/ISC/52722 dated June 23, 2022"
+        },
+        {
+          "label": "Live re-login / connectivity check date",
+          "date": "2026-10-05",
+          "quote": "Members should participate using all trading software and re-login\ninto live environment to ensure smooth connectivity for Monday,\nOctober 05, 2026.",
+          "unverified": true
+        }
+      ],
+      "impact_summary": "All NSE members active in the Equity Derivatives (F&O) segment must participate in the October 03, 2026 mock trading session using the updated NEAT+ 7.9.0 version to validate the revised Pre-Open framework and system connectivity ahead of live trading resuming October 05, 2026.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "circular_no": "The circular carries two identifiers: 'Download Ref No: NSE/FAOP/76666' and 'Circular Ref. No: 135/2026'; the Download Ref No was used as the primary circular_no per standard NSE convention, but '135/2026' is also present in the source.",
+        "effective_date": "No explicit 'effective date' label is stated; October 03, 2026 (the mock session date) was used as the operative date since it is the primary event the circular governs.",
+        "implements": "The SEBI circular SEBI/HO/MRD1/DSAP/CIR/P/2020/234 is cited only as an alternative acceptable route for software testing compliance, not explicitly stated as being implemented by this circular, so it was excluded from 'implements'.",
+        "source_excerpt_citations": "1 quoted excerpt(s) could not be found in the circular text — possible fabrication: 'Members should participate using all trading software and re-login\\ninto live env'",
+        "key_dates": "The quote supporting key date 2026-10-05 was not found in the circular text."
+      },
+      "source_excerpt_citations": [
+        "Mock trading on Saturday, October 03, 2026 – No new version release",
+        "Below NEAT+ version should be used explicitly for revised Pre-Open framework:",
+        "7.8.9 October 10, 2026 (mock)",
+        "circular SEBI/HO/MRD1/DSAP/CIR/P/2020/234.",
+        "Members should participate using all trading software and re-login\ninto live environment to ensure smooth connectivity for Monday,\nOctober 05, 2026."
+      ],
+      "model_confidence": "Inferred",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/FAOP76666.pdf",
+      "sample_data": false,
+      "title": "Mock trading on Saturday, October 03, 2026 - No new Version Release",
+      "retried": true,
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "Mock trading schedule; brokers must participate/deploy"
+    },
+    {
+      "circular_no": "36/2026",
+      "date": "2026-10-01",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "NSE/MSD/76159",
+      "parent_circular_date": "2026-09-03",
+      "implements": [],
+      "impact_areas": [
+        "Stock Exchanges",
+        "Trading Operations",
+        "Commodity Derivatives Segment"
+      ],
+      "applicability": "All Members trading in the Electronic Gold Receipts (EGR) segment",
+      "intent": "NSE is informing members of a scheduled mock trading session for the EGR segment to test systems ahead of go-live, with no new software version release required for this session.",
+      "action_required": "Members must participate in the mock trading session on Saturday, October 03, 2026 during the specified timings, ensure NEATPlus EG Version 1.0.1 is installed as per the referenced installation procedure, and use the specified login/broadcast parameters.",
+      "effective_date": "2026-10-03",
+      "key_dates": [
+        {
+          "label": "Mock trading session date",
+          "date": "2026-10-03",
+          "quote": "Mock trading on Saturday, October 03, 2026 – No new version release"
+        },
+        {
+          "label": "Mock trading session date (detail)",
+          "date": "2026-10-03",
+          "quote": "Exchange will be conducting a mock trading session in the Electronic Gold Receipts (EGR) segment on Saturday,"
+        }
+      ],
+      "impact_summary": "All NSE members trading in the EGR segment are affected; they must take part in the October 3, 2026 mock trading session following the stated timings and technical/login parameters, with no new NEATPlus version release for this session.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
+      },
+      "source_excerpt_citations": [
+        "Mock trading on Saturday, October 03, 2026 – No new version release",
+        "Exchange will be conducting a mock trading session in the Electronic Gold Receipts (EGR) segment on Saturday,",
+        "Members are requested to refer updated NEATPlus installation procedure as per the circular",
+        "Trades during mock sessions will not result in any fund pay-in or pay-"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/EGR76662.pdf",
+      "sample_data": false,
+      "title": "Mock trading on Saturday, October 03, 2026 - No new version release",
+      "retried": true,
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "Mock trading schedule; brokers must participate/deploy"
+    },
+    {
+      "circular_no": "20261001-39",
+      "date": "2026-10-01",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "20231212-50",
+      "parent_circular_date": "2023-12-12",
+      "implements": [
+        {
+          "regulator": "SEBI",
+          "circular_no": "SEBI/HO/MIRSD/DOS2/CIR/P/2019/10",
+          "date": "2019-01-04"
+        }
+      ],
+      "impact_areas": [
+        "Stock Brokers",
+        "Cyber Security/Cyber Resilience",
+        "Trading Operations"
+      ],
+      "applicability": "Active Trading Members of BSE using Algorithm software",
+      "intent": "BSE is reiterating the half-yearly mandatory requirement for trading members using algo software to report their AI/ML applications and systems, including NIL submissions, and clarifying the submission channel given a cross-exchange sharing arrangement with NSE.",
+      "action_required": "All active Trading Members using Algorithm software during April 01, 2026 to September 30, 2026 must submit AI/ML reporting (or NIL submission if not using AI/ML) via the BEFS module (BEFS-Artificial Intelligence (AI) & Machine Learning > Reporting Form (A I M L)); members also registered with NSE must submit only to NSE, which will share with BSE; submission to be completed on or before October 15, 2026.",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [
+        {
+          "label": "Half-year reporting period start",
+          "date": "2026-04-01",
+          "quote": "the half year period i.e. April 01, 2026, to September 30, 2026"
+        },
+        {
+          "label": "Half-year reporting period end",
+          "date": "2026-09-30",
+          "quote": "the half year period i.e. April 01, 2026, to September 30, 2026"
+        },
+        {
+          "label": "Submission deadline",
+          "date": "2026-10-15",
+          "quote": "All members are advised to ensure submission on or before October 15, 2026"
+        }
+      ],
+      "impact_summary": "BSE Trading Members using algorithmic trading software must submit half-yearly AI/ML application reporting (or a NIL submission) through the BEFS portal by October 15, 2026, with dual-registered NSE members routing submissions only through NSE.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "circular_no": "'20261001-39' doesn't look like a circular reference number — verify manually.",
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
+      },
+      "source_excerpt_citations": [
+        "SEBI circular no. SEBI/HO/MIRSD/DOS2/CIR/P/2019/10 dated January 4, 2019, and Exchange Notice 20231212-50 dated December 12, 2023",
+        "The submission of AI/ML applications is mandatory for all active Trading Members using Algorithm software",
+        "All members are advised to ensure submission on or before October 15, 2026",
+        "Exchange Notice no. 20250718-8 dated July 18, 2025, regarding technology-based sharing mechanisms"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-39/20261001-39.pdf",
+      "sample_data": false,
+      "title": "Reporting for Artificial Intelligence (AI) and Machine Learning (ML) applications and systems offered and used by market intermediaries",
+      "retried": true,
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "AI/ML reporting requirement for market intermediaries"
+    },
+    {
+      "circular_no": "Notice No. 20261001-38",
+      "date": "2026-10-01",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "KYC/AML",
+        "Stock Brokers"
+      ],
+      "applicability": "Trading Members of BSE",
+      "intent": "To relay SEBI's communication on updates to the UNSC 1267/1989 ISIL (Da'esh) & Al-Qaida Sanctions List and ensure members implement Section 51A of UAPA, 1967 by screening accounts against the updated list.",
+      "action_required": "Scan all existing accounts to ensure none are linked to listed entities/individuals, ascertain the same for future accounts, forward any de-listing requests received to Joint Secretary (CTCR), MHA and MEA Joint Secretary (UNP), and regularly visit the SEBI website for updates. No specific deadline is stated beyond ongoing compliance.",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [
+        {
+          "label": "Notice issuance date",
+          "date": "2026-10-01",
+          "quote": "Notice Date 01 Oct 2026"
+        },
+        {
+          "label": "Central Government Order date (procedure reference)",
+          "date": "2021-02-02",
+          "quote": "Central Government Order dated Feb 02, 2021"
+        },
+        {
+          "label": "SEBI AML/CFT Guidelines date",
+          "date": "2024-06-06",
+          "quote": "Prevention of Money Laundering Act, 2002 and Rules framed there under”) dated June 06, 2024"
+        }
+      ],
+      "impact_summary": "BSE trading members are directed to implement Section 51A of UAPA, 1967 by screening existing and future accounts against the updated UNSC 1267/1989 ISIL (Da'esh) & Al-Qaida Sanctions List and to report any de-listing requests to designated government authorities.",
+      "overall_confidence": "Certain",
+      "confidence_flags": {
+        "implements": "The SEBI communication, Central Government Order, and AML Guidelines are referenced only by title/date in the source text, not by a specific circular or notification number, so circular_no fields are marked NOT STATED IN SOURCE.",
+        "effective_date": "The text does not state an explicit effective or compliance date for the account-screening action; it only requires ongoing/regular compliance and periodic website checks."
+      },
+      "source_excerpt_citations": [
+        "Follow the procedure as mentioned in the Central Government Order dated Feb 02, 2021",
+        "Prevention of Money Laundering Act, 2002 and Rules framed there under”) dated June 06, 2024",
+        "Scan all existing accounts to ensure that no account is held by or linked to any of the entities or individuals included in the list",
+        "You are requested to visit SEBI website on a regular basis for updates in this regard."
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-38/20261001-38.pdf",
+      "sample_data": false,
+      "title": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 01 Entry",
+      "retried": true,
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "UAPA sanctions list update; requires client screening"
+    },
+    {
+      "circular_no": "20261001-37",
+      "date": "2026-10-01",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [],
+      "applicability": "NOT STATED IN SOURCE",
+      "intent": "The notice concerns the submission of an Internal Audit Report covering the half year ended September 30, 2026, but no further explanation of the regulatory goal is given in the provided text.",
+      "action_required": "NOT STATED IN SOURCE",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [
+        {
+          "label": "Half year period end referenced in subject",
+          "date": "2026-09-30",
+          "quote": "September 30, 2026"
+        }
+      ],
+      "impact_summary": "The provided text contains only notice metadata (number, date, category, segment, department, subject, attachments) with no body content; the subject indicates it relates to submission of an Internal Audit Report for the half year ended September 30, 2026, but the entities affected and specific obligations are not stated.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "impact_areas": "No entity (e.g. 'trading members', 'brokers') is named in the source text; attributing this to Stock Brokers would be an unverified inference from typical practice, not the text itself.",
+        "applicability": "No body text specifies which entities must comply; only metadata and subject line are present.",
+        "action_required": "No operative instructions are present in the source beyond the subject line and a list of annexure names.",
+        "effective_date": "No effective or compliance date is stated; 'September 30, 2026' in the subject is a reporting period end, not a stated deadline.",
+        "circular_no": "'20261001-37' doesn't look like a circular reference number — verify manually.",
+        "overall_confidence": "The source text is limited to notice metadata and a subject line/annexure list with no substantive operative body text, preventing confident extraction of intent, action, or applicability."
+      },
+      "source_excerpt_citations": [
+        "Notice No. 20261001-37",
+        "Notice Date 01 Oct 2026",
+        "Category Compliance",
+        "Segment General",
+        "Department DOSS",
+        "Submission of Internal Audit Report for the Half Year Ended",
+        "September 30, 2026"
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-37/20261001-37.pdf",
+      "sample_data": false,
+      "title": "Submission of Internal Audit Report for the Half Year Ended September 30, 2026",
+      "retried": true,
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Internal audit submission requirement for brokers"
+    },
+    {
+      "circular_no": "20261001-36",
+      "date": "2026-10-01",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [
+        {
+          "regulator": "SEBI",
+          "circular_no": "SEBI/HO/MRD-PoD2/CIR/P/2024/00181",
+          "date": "2024-12-30"
+        }
+      ],
+      "impact_areas": [
+        "Stock Brokers",
+        "Margin Trading"
+      ],
+      "applicability": "Trading Members who have obtained approval for Margin Trading Facility from BSE",
+      "intent": "BSE reminds trading members offering margin trading facility of their obligation under SEBI's framework to have their related books of accounts audited and to submit a half-yearly compliance certificate.",
+      "action_required": "Trading Members with Margin Trading Facility approval must get books of accounts audited and submit a Chartered Accountant-signed compliance certificate (Annexure 1), or a self-certified certificate (Annexure 2) if the facility has not commenced, electronically through BEFS by October 31, 2026.",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [
+        {
+          "label": "Half year end for compliance certificate",
+          "date": "2026-09-30",
+          "quote": "the aforesaid certificate for half year ended September 30, 2026"
+        },
+        {
+          "label": "Submission deadline via BEFS",
+          "date": "2026-10-31",
+          "quote": "must be submitted electronically through BEFS (BSE Electronic Filing System) by October 31, 2026"
+        }
+      ],
+      "impact_summary": "Trading members offering or approved for Margin Trading Facility on BSE must submit audited or self-certified half-yearly compliance certificates electronically via BEFS, with non-submission or non-electronic submission treated as non-compliance.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "circular_no": "'20261001-36' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "Trading members who have obtained approval for Margin Trading Facility from the Exchange are required to get their books of accounts related to margin trading facility offered by them audited and submit compliance certificate every six months.",
+        "Trading Members who have obtained approval for offering Margin Trading Facility but have not commenced the same, need to submit a Self - Certified certificate",
+        "submission of Margin Trading Compliance Certificate shall be considered complete only after Trading Member submits the certificate to the Exchange through BEFS and receives an acknowledgment email."
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-36/20261001-36.pdf",
+      "sample_data": false,
+      "title": "Margin Trading Compliance Certificate for half year ended September 30, 2026",
+      "retried": true,
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Margin trading compliance reporting requirement"
+    },
+    {
+      "circular_no": "20261001-34",
+      "date": "2026-10-01",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "20260417-45",
+      "parent_circular_date": "2026-04-17",
+      "implements": [],
+      "impact_areas": [
+        "Stock Brokers",
+        "Trading Operations"
+      ],
+      "applicability": "BSE Trading Members (mandatory for all active Members who executed even a single trade during April 01, 2026 – September 30, 2026)",
+      "intent": "BSE is directing trading members to submit half-yearly Risk Based Supervision (RBS) data, which is shared with SEBI, as part of ongoing member risk supervision, and is reiterating the disciplinary consequences for delayed or non-submission.",
+      "action_required": "Trading Members must electronically submit RBS data for the period April 01, 2026 – September 30, 2026 via BEFS (menu: Risk Based Supervision) by November 30, 2026 (“Due Date”); submission is mandatory for all active members; no physical copies are to be submitted.",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [
+        {
+          "label": "Notice issuance date",
+          "date": "2026-10-01",
+          "quote": "Notice Date 01 Oct 2026"
+        },
+        {
+          "label": "RBS submission due date",
+          "date": "2026-11-30",
+          "quote": "is required to be submitted by November 30, 2026 (“Due Date”)"
+        },
+        {
+          "label": "Assessment period start",
+          "date": "2026-04-01",
+          "quote": "period April 01, 2026 – September 30, 2026"
+        },
+        {
+          "label": "Assessment period end",
+          "date": "2026-09-30",
+          "quote": "period April 01, 2026 – September 30, 2026"
+        },
+        {
+          "label": "Referenced disciplinary notice date",
+          "date": "2026-04-17",
+          "quote": "Exchange’s notice no. 20260417-45 dated April 17, 2026, will be initiated"
+        }
+      ],
+      "impact_summary": "All active BSE Trading Members who executed at least one trade during April 01, 2026 – September 30, 2026 must submit Risk Based Supervision data electronically by November 30, 2026, with graded monetary penalties, new-client-registration bans, and trading disablement for delayed or non-submission as per the existing penalty framework.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "circular_no": "'20261001-34' doesn't look like a circular reference number — verify manually.",
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here.",
+        "effective_date": "No explicit 'effective date' or 'effective from' statement is present in the text; only a notice date and a submission due date are given."
+      },
+      "source_excerpt_citations": [
+        "Notice No. 20261001-34",
+        "Notice Date 01 Oct 2026",
+        "is required to be submitted by November 30, 2026 (“Due Date”)",
+        "submission is to be made only electronically through BEFS, under the menu >>>Risk Based Supervision",
+        "submission of RBS data is mandatory for all active Members of the Exchange",
+        "the data collated from the Members towards RBS is shared with SEBI",
+        "disciplinary action as prescribed in the Exchange’s notice no. 20260417-45 dated April 17, 2026, will be initiated"
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-34/20261001-34.pdf",
+      "sample_data": false,
+      "title": "Risk Based Supervision (RBS) - Submission of information for the period April 01, 2026 – September 30, 2026 (Half Year ended Sept - 2026)",
+      "retried": true,
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "RBS information submission requirement for all brokers"
+    },
+    {
+      "circular_no": "Notice No. 20261001-9",
+      "date": "2026-10-01",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Listed Companies (LODR/Disclosure)",
+        "Stock Exchanges"
+      ],
+      "applicability": "Trading Members of BSE",
+      "intent": "BSE is informing trading members that further securities issued by certain listed companies under ESOP/ESOS schemes are being admitted for trading.",
+      "action_required": "No specific compliance action is required beyond taking note of the listing and the effective trading date; trading members should update their systems to reflect the newly listed quantities from the effective date.",
+      "effective_date": "2026-10-05",
+      "key_dates": [
+        {
+          "label": "Listing/trading effective date",
+          "date": "2026-10-05",
+          "quote": "are listed and admitted for trading on the Exchange with effect from Monday, October 05,"
+        }
+      ],
+      "impact_summary": "Trading members of BSE are notified that further securities issued under ESOP/ESOS by eight listed companies (including Axis Bank, Polycab India and Vakrangee) are listed and admitted for trading effective October 05, 2026.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "doc_type": "This is a routine operational listing notice rather than a policy circular; no better-fitting category exists among the allowed doc_type values, so 'Fresh Circular' is used as the closest match.",
+        "parent_circular_no": "The notice is a standalone operational listing communication with no parent or amended circular referenced in the text."
+      },
+      "source_excerpt_citations": [
+        "Trading Members of the Exchange are hereby informed that the further new securities issued by the under",
+        "are listed and admitted for trading on the Exchange with effect from Monday, October 05,",
+        "Listing of further securities issued by the companies under ESOP /"
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-9/20261001-9.pdf",
+      "sample_data": false,
+      "title": "Listing of further securities issued by the companies under ESOP / ESOS",
+      "retried": true,
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "ESOP/ESOS listing affects broker handling and settlement processes"
+    },
+    {
+      "circular_no": "Notice No. 20261001-4",
+      "date": "2026-10-01",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Stock Exchanges",
+        "Corporate Bonds/Debt Market",
+        "Trading Operations"
+      ],
+      "applicability": "Trading Members of BSE Debt Segment",
+      "intent": "To inform trading members that new privately placed securities (commercial papers and debt instruments) have been listed and admitted to trading on the BSE Debt Segment.",
+      "action_required": "Trading members should note the listing details including ISIN, denomination, and tick size for the newly listed securities; contact the debt department for any clarification.",
+      "effective_date": "2026-10-01",
+      "key_dates": [
+        {
+          "label": "Listing effective date",
+          "date": "2026-10-01",
+          "quote": "have been listed and are now admitted to trading on the BSE Debt Segment effective today"
+        }
+      ],
+      "impact_summary": "BSE trading members dealing in the debt segment are informed of newly listed commercial papers and privately placed debt securities (including NCDs and InvIT bonds) from various issuers, effective October 1, 2026.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "circular_no": "The source text labels this 'Notice No. 20261001-4' rather than a traditional 'circular number'; used as given since no other reference ID is stated.",
+        "source_excerpt_citations": "1 quoted excerpt(s) could not be found in the circular text — possible fabrication: 'Listing of privately placed securities on the debt market segment of the Exchang'"
+      },
+      "source_excerpt_citations": [
+        "Notice No. 20261001-4",
+        "have been listed and are now admitted to trading on the BSE Debt Segment effective today",
+        "Listing of privately placed securities on the debt market segment of the Exchange",
+        "The trading shall take place in standard denomination of Rs.5 Lakhs and multiples thereof."
+      ],
+      "model_confidence": "Inferred",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-4/20261001-4.pdf",
+      "sample_data": false,
+      "title": "Listing of privately placed securities on the debt market segment of the Exchange",
+      "retried": true,
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Privately placed debt securities listing affects broker processes ecosystem-wide"
+    },
+    {
+      "circular_no": "NCL/CMPT/76704",
+      "date": "2026-10-01",
+      "doc_type": "Amendment",
+      "parent_circular_no": "NCL/CMPT/76656",
+      "parent_circular_date": "2026-09-30",
+      "implements": [],
+      "impact_areas": [
+        "Clearing Corporations",
+        "Stock Brokers"
+      ],
+      "applicability": "All Participants / Custodians",
+      "intent": "NSE Clearing is revising the Market Wide Position Limit (MWPL) and the Participant, Institutional and Non-Institutional client position limits for the symbol NATCOPHARM under the Securities Lending and Borrowing Scheme for October 2026.",
+      "action_required": "Participants/Custodians are advised to take note of the revised MWPL and client/participant limits for NATCOPHARM, effective October 05, 2026.",
+      "effective_date": "2026-10-05",
+      "key_dates": [
+        {
+          "label": "Revised limits effective date",
+          "date": "2026-10-05",
+          "quote": "are being revised with effect from October 05, 2026"
+        }
+      ],
+      "impact_summary": "Participants and Custodians dealing in the Securities Lending and Borrowing Scheme for NATCOPHARM must note the revised MWPL and participant/institutional/non-institutional client limits effective October 05, 2026.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
+      },
+      "source_excerpt_citations": [
+        "In pursuance to circular (NCL/CMPT/73999) dated April 30, 2026, with further reference to partial modification of circular (NCL/CMPT/76656) dated Sep 30, 2026",
+        "Market wide position limit (MWPL) & Positions limit applicable for Participants, Institutional client & Non-Institutional Clients for symbol NATCOPHARM",
+        "are being revised with effect from October 05, 2026 as below",
+        "All Participants / Custodians"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/CMPT76704.pdf",
+      "sample_data": false,
+      "title": "Revised MWPL, Participant, Institutional & Non-Institutional Client Limits for NATCOPHARM",
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "MWPL and client limits affect trading member operations"
+    },
+    {
+      "circular_no": "47/2026",
+      "date": "2026-10-01",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [
+        {
+          "regulator": "SEBI",
+          "circular_no": "SEBI/HO/MIRSD/MIRSD2/CIR/P/2016/95",
+          "date": "2016-09-26"
+        }
+      ],
+      "impact_areas": [
+        "Stock Brokers",
+        "KYC/AML",
+        "Margin Trading",
+        "Investor Grievance/SCORES",
+        "Commodity Derivatives Segment"
+      ],
+      "applicability": "All Trading Members of NSE (including Qualified Stock Brokers for Annexure VI)",
+      "intent": "NSE mandates all trading members to conduct a half-yearly internal audit covering client fund handling, margins, KYC and other compliance checks, and to submit the audit report and close flagged non-compliances within prescribed timelines.",
+      "action_required": "Trading Members must carry out a complete Internal Audit for the half year ended September 30, 2026, submit the report electronically via the Inspection module in the Member Portal by November 30, 2026, close all non-compliances reported in the audit within 2 months of the submission due date (i.e., by January 31, 2027), and report critical non-compliances within 2 days of finding to DL-INTERNALAUDITOR@nse.co.in.",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [
+        {
+          "label": "Half-year audit period end",
+          "date": "2026-09-30",
+          "quote": "complete Internal Audit for the half year ended September 30, 2026"
+        },
+        {
+          "label": "Internal Audit Report submission due date",
+          "date": "2026-11-30",
+          "quote": "the due date is November 30, 2026"
+        },
+        {
+          "label": "Deadline to close reported non-compliances",
+          "date": "2027-01-31",
+          "quote": "within 2 months from the end of due date of submission...i.e. January 31, 2027"
+        }
+      ],
+      "impact_summary": "All NSE trading members must conduct and submit a half-yearly internal audit report covering client funds, margins, KYC and related compliance areas, with specific submission and remediation deadlines, failing which penalties under an existing NSE circular apply.",
+      "overall_confidence": "Certain",
+      "confidence_flags": {
+        "parent_circular_no": "The circular references several prior NSE circulars (e.g., NSE/INSP/73792, NSE/INSP/69247) for penalty and procedural provisions, but none is explicitly stated as being amended or superseded by this circular; treated as cross-references rather than a parent/amendment relationship.",
+        "implements": "Numerous SEBI circulars are cited within the Annexures (e.g., for KYC, FATCA, margin reporting) as background compliance checklist references rather than circulars this document is issued 'in pursuance of'; only the SEBI circular on internal auditor rotation cited in the main body was included as 'implements'."
+      },
+      "source_excerpt_citations": [
+        "the due date is November 30, 2026",
+        "close all non-compliances reported in the internal audit report within 2 months from the end of due date of submission of Internal Audit Report i.e. January 31, 2027",
+        "Clause No. 4.2 of SEBI Circular Ref. No. SEBI/HO/MIRSD/MIRSD2/CIR/P/2016/95 dated September 26, 2016 prescribes the provisions pertaining to Appointment and Rotation of Internal auditors",
+        "The Exchange shall accept the internal audit report certified by empaneled auditor only."
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/INSP76701.zip",
+      "sample_data": false,
+      "title": "Internal Audit of Trading Members",
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "Internal audit requirement for trading members"
+    },
+    {
+      "circular_no": "136/2026",
+      "date": "2026-10-01",
+      "doc_type": "Amendment",
+      "parent_circular_no": "NSE/FAOP/73928",
+      "parent_circular_date": "2026-04-28",
+      "implements": [],
+      "impact_areas": [
+        "Stock Brokers",
+        "Trading Operations"
+      ],
+      "applicability": "All NSE Members trading in Futures & Options segment",
+      "intent": "NSE is revising how quantity freeze limits are computed for index futures and options, replacing the earlier methodology with fixed, specified limits for each major index.",
+      "action_required": "Members must load the updated contract.gz and NSE_FO_contract_ddmmyyyy.csv.gz files in their trading application before trading on the effective date, October 05, 2026, reflecting the new quantity freeze limits.",
+      "effective_date": "2026-10-05",
+      "key_dates": [
+        {
+          "label": "New quantity freeze limits effective date",
+          "date": "2026-10-05",
+          "quote": "quantity freeze limits for indices shall be applicable w.e.f. October 05, 2026"
+        }
+      ],
+      "impact_summary": "All NSE trading members must update their systems with new fixed quantity freeze limits for NIFTY, BANKNIFTY, FINNIFTY, MIDCPNIFTY, NIFTYNXT50 and NIFTYFPI index contracts, replacing the prior computation methodology, effective October 05, 2026.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
+      },
+      "source_excerpt_citations": [
+        "the computation methodology mentioned in the aforesaid circular will no longer be applicable on indices",
+        "quantity freeze limits for indices shall be applicable w.e.f. October 05, 2026",
+        "Members are advised to load the updated contract.gz and NSE_FO_contract_ddmmyyyy.csv.gz file in the trading application before trading on the effective date"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/FAOP76693.pdf",
+      "sample_data": false,
+      "title": "Quantity Freeze Limits for Indices",
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "Quantity freeze limits affect trading operations"
+    },
+    {
+      "circular_no": "NSE/SURV/76685",
+      "date": "2026-10-01",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "NSE/SURV/75652",
+      "parent_circular_date": "2026-08-07",
+      "implements": [],
+      "impact_areas": [
+        "Surveillance/Market Abuse",
+        "Stock Brokers",
+        "Stock Exchanges"
+      ],
+      "applicability": "All NSE Members",
+      "intent": "NSE is updating the list of securities subject to Additional Surveillance Measure (ASM) under the Insolvency and Bankruptcy Code (IBC) framework, adding newly qualifying scrips and removing those that no longer meet the criteria.",
+      "action_required": "Members are requested to note that securities listed in Annexure I have come under the ASM-IBC framework with effect from October 05, 2026, and securities in Annexure II have satisfied exclusion criteria from this framework.",
+      "effective_date": "2026-10-05",
+      "key_dates": [
+        {
+          "label": "ASM IBC applicability effective date for newly shortlisted securities",
+          "date": "2026-10-05",
+          "quote": "satisfied the criteria under ASM for Companies as per Insolvency and Bankruptcy Code (IBC) with effect from October 05, 2026"
+        }
+      ],
+      "impact_summary": "NSE members are informed of updates (additions and exclusions) to the list of securities under the ASM-IBC surveillance framework, effective October 05, 2026, affecting trading price bands for the concerned scrips.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
+      },
+      "source_excerpt_citations": [
+        "This is with reference to Exchange Circular nos. NSE/SURV/37979 dated June 08, 2018, NSE/SURV/52368 dated May 20, 2022",
+        "NSE/SURV/55582 dated February 10, 2023 and NSE/SURV/70074 dated September 05, 2025 and NSE/SURV/75652 dated August 07, 2026",
+        "securities as per attached Annexure I have satisfied the criteria under ASM for Companies as per Insolvency and Bankruptcy Code (IBC) with effect from October 05, 2026",
+        "securities as per attached Annexure II have satisfied the exclusion criteria applicable for ASM for Companies as per Insolvency and Bankruptcy Code (IBC)"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/SURV76685.zip",
+      "sample_data": false,
+      "title": "Applicability of Additional Surveillance Measure under IBC",
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "IBC surveillance measure affects trading and settlement"
+    },
+    {
+      "circular_no": "759/2026",
+      "date": "2026-10-01",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "NSE/SURV/39265, NSE/SURV/46557, NSE/SURV/52144, NSE/SURV/58558, NSE/SURV/64066",
+      "parent_circular_date": "2024-09-20",
+      "implements": [],
+      "impact_areas": [
+        "Surveillance/Market Abuse",
+        "Margin Trading",
+        "Stock Brokers",
+        "Trading Operations"
+      ],
+      "applicability": "All NSE Members (Stock Brokers)",
+      "intent": "NSE is notifying members that certain securities have met the criteria for inclusion under the Short-Term Additional Surveillance Measure (ST-ASM) Stage I and Stage II, requiring enhanced margins to curb speculative trading in these scrips.",
+      "action_required": "Apply the specified ST-ASM margin rates (50% or existing margin, capped at 100% for Stage I; 100% or existing margin, capped at 100% for Stage II) on all open positions as on October 05, 2026 and new positions created from October 06, 2026, w.e.f. October 06, 2026.",
+      "effective_date": "2026-10-06",
+      "key_dates": [
+        {
+          "label": "ST-ASM Stage I margin effective date",
+          "date": "2026-10-06",
+          "quote": "capped at 100% w.e.f. October 06, 2026 on all open positions as on October 05, 2026"
+        },
+        {
+          "label": "ST-ASM Stage II margin effective date",
+          "date": "2026-10-06",
+          "quote": "capped at 100%. w.e.f. October 06, 2026 on all open positions as on October 05, 2026"
+        }
+      ],
+      "impact_summary": "All NSE trading members must apply higher margin requirements (up to 100%) on specified securities placed under ST-ASM Stage I and Stage II, affecting trading and margin operations for these scrips from October 06, 2026.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here.",
+        "parent_circular_date": "Five dates correspond to five referenced circulars; the most recent (2024-09-20) was selected as representative, but this is ambiguous since all five are cited together.",
+        "doc_type": "Classified as Fresh Circular since it applies an existing ASM framework to a new list of securities rather than amending the framework itself; could also be seen as a routine implementation notice."
+      },
+      "source_excerpt_citations": [
+        "This is further to Exchange Circular nos. NSE/SURV/39265, NSE/SURV/46557, NSE/SURV/52144, NSE/SURV/58558 and NSE/SURV/64066",
+        "securities as per attached Annexure I have satisfied the criteria for inclusion under ST-ASM Stage I",
+        "Applicable rate of margin shall be 50% or existing margin, whichever is higher, subject to maximum rate of margin capped at 100% w.e.f. October 06, 2026",
+        "Applicable margin rate shall be 100% or existing margin whichever is higher subject to maximum rate of margin capped at 100%"
+      ],
+      "model_confidence": "Inferred",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/SURV76684.zip",
+      "sample_data": false,
+      "title": "Applicability of Short-Term Additional Surveillance Measure (ST-ASM)",
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "Short-term surveillance measure affects trading operations"
+    },
+    {
+      "circular_no": "758/2026",
+      "date": "2026-10-01",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "NSE/SURV/39265, NSE/SURV/45111, NSE/SURV/46557, NSE/SURV/48506, NSE/SURV/52090, NSE/SURV/63362, NSE/SURV/64066",
+      "parent_circular_date": "2018-10-27, 2020-07-22, 2020-12-04, 2021-06-04, 2022-04-22, 2024-08-09, 2024-09-20",
+      "implements": [],
+      "impact_areas": [
+        "Surveillance/Market Abuse",
+        "Trading Operations",
+        "Stock Brokers"
+      ],
+      "applicability": "All NSE Members",
+      "intent": "NSE is updating the list of securities placed under the Long Term Additional Surveillance Measure (ASM) framework and specifying the applicable surveillance actions for these scrips.",
+      "action_required": "Members must apply 100% margin on all open positions in the identified ASM securities as on October 06, 2026 and on new positions created from October 07, 2026; securities meeting criteria VII must be shifted from Rolling Settlement (EQ) to Trade-for-Trade (BE) segment with effect from October 07, 2026.",
+      "effective_date": "2026-10-07",
+      "key_dates": [
+        {
+          "label": "100% margin effective date",
+          "date": "2026-10-07",
+          "quote": "Applicable rate of margin shall be 100% w.e.f. October 07, 2026 on all open positions"
+        },
+        {
+          "label": "Reference date for existing open positions",
+          "date": "2026-10-06",
+          "quote": "on all open positions as on October 06, 2026"
+        },
+        {
+          "label": "Shift to Trade-for-Trade segment",
+          "date": "2026-10-07",
+          "quote": "shall be shifted from Rolling Settlement segment (Series: EQ) to Trade-for-Trade segment (Series: BE) w.e.f. October 07, 2026"
+        }
+      ],
+      "impact_summary": "NSE members trading in the listed securities must apply enhanced 100% margin requirements and, for certain scrips, move trading to the Trade-for-Trade segment, as part of the ongoing Long Term ASM surveillance framework.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "parent_circular_date": "Multiple parent circulars with multiple dates are referenced collectively; dates listed correspond sequentially to the circular numbers as stated in source.",
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
+      },
+      "source_excerpt_citations": [
+        "Members are hereby requested to note that the securities as per the attached Annexure have satisfied the criteria for inclusion under Long Term Additional Surveillance Measure",
+        "Applicable rate of margin shall be 100% w.e.f. October 07, 2026 on all open positions as on October 06, 2026",
+        "securities qualifying under criteria VII (Scrips shifted to Stage IV) shall be shifted from Rolling Settlement segment (Series: EQ) to Trade-for-Trade segment (Series: BE) w.e.f. October 07, 2026"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/SURV76683.zip",
+      "sample_data": false,
+      "title": "Applicability of Additional Surveillance Measure (ASM)",
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "Additional surveillance measure affects trading operations"
+    },
+    {
+      "circular_no": "NSE/SURV/76682",
+      "date": "2026-10-01",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "NSE/SURV/56948, NSE/SURV/57609, NSE/SURV/63361, NSE/SURV/64066, NSE/SURV/64400, NSE/SURV/69315",
+      "parent_circular_date": "2023-06-02, 2023-07-18, 2024-08-09, 2024-09-20, 2024-10-04, 2025-07-25",
+      "implements": [],
+      "impact_areas": [
+        "Surveillance/Market Abuse",
+        "Stock Exchanges",
+        "Trading Operations"
+      ],
+      "applicability": "All NSE Members",
+      "intent": "NSE is updating the list of securities under its Enhanced Surveillance Measure (ESM) framework, adding newly qualifying securities and removing those that no longer meet the criteria, as part of ongoing market surveillance.",
+      "action_required": "Members must apply a minimum 100% margin on all open positions (as on October 05, 2026) and new positions in Annexure I securities from October 06, 2026, and shift qualifying securities from Rolling Settlement (EQ/SM) to Trade-for-Trade (BE/ST) segment w.e.f. October 06, 2026; Stage II securities move to Trade for Trade with 2% price band under Periodic Call Auction w.e.f. October 05, 2026.",
+      "effective_date": "2026-10-06",
+      "key_dates": [
+        {
+          "label": "100% margin applicability and shift to Trade-for-Trade segment",
+          "date": "2026-10-06",
+          "quote": "shall attract a minimum 100% margin w.e.f. October 06, 2026, on all open positions"
+        },
+        {
+          "label": "Reference date for open positions margin",
+          "date": "2026-10-05",
+          "quote": "on all open positions as on October 05, 2026, and new positions created from October 06, 2026"
+        },
+        {
+          "label": "Stage II securities move to Trade for Trade with Periodic Call Auction",
+          "date": "2026-10-05",
+          "quote": "securities shifting to Stage II shall be under Trade for Trade with price band of 2% under Periodic Call Auction w.e.f. October 05, 2026"
+        }
+      ],
+      "impact_summary": "All NSE trading members are affected, as specific securities newly added to the ESM framework will require 100% margin and trade-for-trade settlement, while others are being removed from the framework with reinstated price bands.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "circular_no": "The document contains two identifiers (Download Ref No: NSE/SURV/76682 and Circular Ref. No: 757/2026); Download Ref No was chosen as the primary circular_no per typical NSE convention, but both appear in source.",
+        "doc_type": "This is a recurring periodic ESM list-update circular referencing six prior same-body circulars rather than a single clear parent/amendment, so classification as 'Fresh Circular' is an interpretation rather than explicitly stated in text.",
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
+      },
+      "source_excerpt_citations": [
+        "Circular Ref. No: 757/2026",
+        "This is with reference to Exchange Circular nos. NSE/SURV/56948, NSE/SURV/57609, NSE/SURV/63361, NSE/SURV/64066, NSE/SURV/64400, and NSE/SURV/69315",
+        "shall attract a minimum 100% margin w.e.f. October 06, 2026, on all open positions as on October 05, 2026",
+        "Securities qualifying under ESM shall be shifted from Rolling Settlement segment (Series: EQ/SM) to Trade-for-Trade segment (Series: BE/ST) w.e.f. October 06, 2026",
+        "securities shifting to Stage II shall be under Trade for Trade with price band of 2% under Periodic Call Auction w.e.f. October 05, 2026"
+      ],
+      "model_confidence": "Inferred",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/SURV76682.zip",
+      "sample_data": false,
+      "title": "Applicability of Enhanced Surveillance Measure (ESM)",
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "Enhanced surveillance measure affects trading operations"
+    },
+    {
+      "circular_no": "NSE/COMP/76681",
+      "date": "2026-10-01",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [
+        {
+          "regulator": "SEBI",
+          "circular_no": "SEBI/HO/MRD-PoD2/CIR/P/2024/00181",
+          "date": "2024-12-30"
+        }
+      ],
+      "impact_areas": [
+        "Margin Trading",
+        "Stock Brokers"
+      ],
+      "applicability": "Trading Members who have obtained Exchange approval for offering Margin Trading Facility",
+      "intent": "NSE is directing trading members offering Margin Trading Facility to periodically certify compliance with MTF conditions as mandated under the SEBI master circular on margin trading, for the half year ended September 30, 2026.",
+      "action_required": "Trading members who have commenced MTF must submit a Chartered Accountant-certified MTF Compliance Certificate (Annexure I format); those approved but not commenced must submit a self-certified certificate (Annexure II format) signed by Compliance Officer/Designated Director, both via the ENIT portal (MTR module), on or before October 31, 2026.",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [
+        {
+          "label": "Half year end for certification period",
+          "date": "2026-09-30",
+          "quote": "Submission of Margin Trading Compliance Certificate for half year ended September 30, 2026"
+        },
+        {
+          "label": "Submission deadline",
+          "date": "2026-10-31",
+          "quote": "All members are advised to ensure submission on or before October 31, 2026"
+        }
+      ],
+      "impact_summary": "Trading members approved for Margin Trading Facility must submit either an auditor-certified or self-certified compliance certificate through NSE's ENIT portal by October 31, 2026, covering the half year ended September 30, 2026.",
+      "overall_confidence": "Certain",
+      "confidence_flags": {
+        "circular_no": "Document carries two identifiers (Download Ref No NSE/COMP/76681 and Circular Ref. No. 86/2026); primary circular_no field used the Download Ref No as is conventional for NSE circulars."
+      },
+      "source_excerpt_citations": [
+        "As per Chapter 1 at Para 4.10.3 of the SEBI circular no. SEBI/HO/MRD-PoD2/CIR/P/2024/00181 dated December 30, 2024",
+        "Trading Members who have obtained approval for offering Margin Trading Facility and have commenced the same, are required to get their books of accounts related to margin trading facility audited",
+        "All members are advised to ensure submission on or before October 31, 2026"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/COMP76681.pdf",
+      "sample_data": false,
+      "title": "Submission of Margin Trading Compliance Certificate for half year ended September 30, 2026",
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "Margin trading compliance reporting requirement"
+    },
+    {
+      "circular_no": "85/2026",
+      "date": "2026-10-01",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "NSE/COMP/59700",
+      "parent_circular_date": "2023-12-12",
+      "implements": [
+        {
+          "regulator": "SEBI",
+          "circular_no": "SEBI/HO/MIRSD/DOS2/CIR/P/2019/10",
+          "date": "2019-01-04"
+        }
+      ],
+      "impact_areas": [
+        "Stock Brokers",
+        "Trading Operations",
+        "Other"
+      ],
+      "applicability": "All active Trading Members using Algorithm software",
+      "intent": "NSE is directing trading members who use algorithmic trading software to report their AI/ML applications and systems (or file a NIL report) for the relevant half-year period, in line with SEBI's AI-ML reporting framework.",
+      "action_required": "Submit AI-ML application/system details (or NIL submission) through the ENIT portal (ENIT-New-Compliance > COMPLIANCE > ML and AI > ML and AI Details) on or before October 15, 2026, mentioning application/system name explicitly; the ENIT link is open from October 01, 2026 till October 15, 2026.",
+      "effective_date": "2026-10-01",
+      "key_dates": [
+        {
+          "label": "Reporting period start",
+          "date": "2026-04-01",
+          "quote": "half year period i.e. April 01, 2026, to September 30, 2026"
+        },
+        {
+          "label": "Reporting period end",
+          "date": "2026-09-30",
+          "quote": "half year period i.e. April 01, 2026, to September 30, 2026"
+        },
+        {
+          "label": "ENIT submission window opens",
+          "date": "2026-10-01",
+          "quote": "The ENIT link for submission shall remain open from October 01, 2026 till October 15, 2026"
+        },
+        {
+          "label": "Submission deadline",
+          "date": "2026-10-15",
+          "quote": "All members are advised to ensure submission on or before October 15, 2026"
+        }
+      ],
+      "impact_summary": "All active NSE trading members using algorithm software during April–September 2026 must report AI/ML applications in use (or file NIL) via the ENIT portal by October 15, 2026, with non-compliance subject to action under a separate NSE inspection circular.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "doc_type": "Circular references a prior NSE circular on the same subject but does not explicitly state it amends or supersedes it; classified as a Fresh Circular (periodic reporting instruction) rather than an Amendment since no textual provisions are being changed, only a new reporting cycle is being triggered.",
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
+      },
+      "source_excerpt_citations": [
+        "This is with reference to the SEBI circular no. SEBI/HO/MIRSD/DOS2/CIR/P/2019/10 dated January 4, 2019",
+        "and Exchange Circular NSE/COMP/59700 dated December 12, 2023",
+        "The submission of AI-ML applications is mandatory for all active Trading Members using Algorithm software",
+        "failure to report AI-ML details within the prescribed timeline would be treated as non-compliance and action will be taken as defined in the Exchange circular no. NSE/INSP/73792 dated April 17, 2026"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/COMP76679.pdf",
+      "sample_data": false,
+      "title": "Reporting of Artificial Intelligence (AI) and Machine Learning (ML) applications and systems offered and used by market intermediaries",
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "AI/ML systems reporting requirement for intermediaries"
+    },
+    {
+      "circular_no": "20261001-79",
+      "date": "2026-10-01",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Investment Advisers/Research Analysts"
+      ],
+      "applicability": "All enlisted Research Analysts (RAs) registered with BSE",
+      "intent": "BSE is directing registered Research Analysts to submit their mandatory half-yearly periodic compliance report for the period ended September 30, 2026 through the designated portal.",
+      "action_required": "Research Analysts must log in with existing registration credentials (new credentials not permitted) and submit the Half-Yearly Periodic Report for the period ended September 30, 2026 via https://iaraportal.sebi.gov.in/, following the attached User Manual and FAQ, between October 01, 2026 and October 30, 2026.",
+      "effective_date": "2026-10-01",
+      "key_dates": [
+        {
+          "label": "Reporting period end date",
+          "date": "2026-09-30",
+          "quote": "Half-Yearly Periodic Report for the period ended September 30, 2026"
+        },
+        {
+          "label": "Portal submission window opens",
+          "date": "2026-10-01",
+          "quote": "The portal shall remain open for submission from October 01, 2026 up to October 30, 2026"
+        },
+        {
+          "label": "Submission deadline",
+          "date": "2026-10-30",
+          "quote": "The portal shall remain open for submission from October 01, 2026 up to October 30, 2026"
+        }
+      ],
+      "impact_summary": "All Research Analysts enlisted with BSE must submit their half-yearly periodic compliance report for the period ended September 30, 2026 through the SEBI/BSE portal by October 30, 2026, using existing login credentials.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "doc_type": "No circular/amendment language is used; this is a routine operational 'Notice' reminding of a periodic filing requirement, so 'Fresh Circular' is a best-fit classification rather than an explicit self-declared type.",
+        "parent_circular_no": "The notice does not cite any specific prior circular (SEBI or BSE) mandating this periodic reporting requirement, so it is treated as standalone though the underlying requirement likely stems from an unreferenced SEBI/BSE framework.",
+        "circular_no": "'20261001-79' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "All enlisted Research Analysts (RAs) are advised to submit the Half-Yearly Periodic Report for the period ended September 30, 2026",
+        "The portal shall remain open for submission from October 01, 2026 up to October 30, 2026",
+        "Research Analysts are required to use their existing login credentials created at the time of applying for registration"
+      ],
+      "model_confidence": "Inferred",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-79/20261001-79.pdf",
+      "sample_data": false,
+      "title": "Submission of Half yearly periodic report by Research Analysts (RAs)",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Research analyst periodic reporting requirement"
+    },
+    {
+      "circular_no": "Notice No. 20261001-78",
+      "date": "2026-10-01",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Investment Advisers/Research Analysts"
+      ],
+      "applicability": "All enlisted Investment Advisers (IAs) registered with BSE",
+      "intent": "BSE is directing registered Investment Advisers to complete their mandatory half-yearly periodic compliance reporting for the period ended September 30, 2026 via the designated SEBI/BSE portal.",
+      "action_required": "Investment Advisers must log in with their existing registration credentials (new credentials not permitted) and submit the Half-Yearly Periodic Report for the period ended September 30, 2026 through the portal at https://iaraportal.sebi.gov.in/, following the attached format and user manual, with the portal open for submission from October 01, 2026 up to October 30, 2026.",
+      "effective_date": "2026-10-01",
+      "key_dates": [
+        {
+          "label": "Portal submission window opens",
+          "date": "2026-10-01",
+          "quote": "The portal shall remain open for submission from October 01, 2026 up to October 30, 2026"
+        },
+        {
+          "label": "Submission deadline",
+          "date": "2026-10-30",
+          "quote": "The portal shall remain open for submission from October 01, 2026 up to October 30, 2026"
+        }
+      ],
+      "impact_summary": "All Investment Advisers enlisted with BSE are required to submit their half-yearly periodic report for the period ended September 30, 2026 through the BSE/SEBI IARA portal within the specified window, using existing login credentials.",
+      "overall_confidence": "Certain",
+      "confidence_flags": {
+        "doc_type": "Classified as Fresh Circular as it is a standalone operational notice with no parent circular cited, though it functions as a routine periodic reporting reminder."
+      },
+      "source_excerpt_citations": [
+        "All enlisted Investment Advisers (IAs) are advised to submit the Half-Yearly Periodic Report for the period ended September 30, 2026",
+        "The portal shall remain open for submission from October 01, 2026 up to October 30, 2026",
+        "Creation of new login credentials is not permitted for the purpose of this submission"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-78/20261001-78.pdf",
+      "sample_data": false,
+      "title": "Submission of Half yearly periodic report by Investment Advisers (IAs)",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Investment adviser periodic reporting requirement"
+    },
+    {
+      "circular_no": "20261001-77",
+      "date": "2026-10-01",
+      "doc_type": "Addendum",
+      "parent_circular_no": "20260904-15",
+      "parent_circular_date": "2026-09-04",
+      "implements": [],
+      "impact_areas": [
+        "Investment Advisers/Research Analysts"
+      ],
+      "applicability": "Investment Advisers (IAs) registered with/through BSE",
+      "intent": "BSE reminds Investment Advisers of the requirement to complete and submit their Annual Compliance Audit Report (ACR) through the new portal-based flow, continuing guidance from earlier notices.",
+      "action_required": "Complete annual compliance audit within six months from FY end March 31, 2026, latest by September 30, 2026; submit the compliance audit report and any adverse findings with action taken to IAASB within one month of the audit report but not later than October 31, 2026; include an ICAI/ICSI/ICMAI member or auditor certificate on client-level segregation compliance; submit only via BSE portal, as email submissions will not be considered.",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [
+        {
+          "label": "Deadline to complete annual compliance audit",
+          "date": "2026-09-30",
+          "quote": "within six months from the end of financial year March 31, 2026, latest by i.e. September 30, 2026"
+        },
+        {
+          "label": "Deadline to submit compliance audit report to IAASB",
+          "date": "2026-10-31",
+          "quote": "within a period of one month from the date of the audit report but not later than October 31, 2026"
+        },
+        {
+          "label": "Deadline to submit adverse findings to IAASB",
+          "date": "2026-10-31",
+          "quote": "adverse findings of audit...within a period of one month...but not later than October 31, 2026"
+        }
+      ],
+      "impact_summary": "Investment Advisers registered with BSE must complete their FY2025-26 annual compliance audit by September 30, 2026 and file the ACR (with any adverse findings and a client-segregation certificate) via the BSE portal by October 31, 2026, with email submissions no longer accepted.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here.",
+        "doc_type": "Classified as Addendum since it continues and supplements two prior notices rather than introducing a wholly new requirement or amending a specific clause.",
+        "IAASB": "Abbreviation 'IAASB' is not expanded in the source text; its full form is not guessed.",
+        "circular_no": "'20261001-77' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "This is in continuation to notice no. 20260904-15 dated September 04, 2026, and notice no. 20260504-20 dated May 04, 2026",
+        "Complete the annual compliance audit within six months from the end of financial year March 31, 2026, latest by i.e. September 30, 2026",
+        "submit the compliance audit report to IAASB within a period of one month from the date of the audit report but not later than October 31, 2026",
+        "ACR submissions made through email shall not be considered."
+      ],
+      "model_confidence": "Inferred",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-77/20261001-77.pdf",
+      "sample_data": false,
+      "title": "Submission of Annual Compliance Audit requirement",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Annual compliance audit requirement for intermediaries"
+    },
+    {
+      "circular_no": "20261001-76",
+      "date": "2026-10-01",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "20260904-13",
+      "parent_circular_date": "2026-09-04",
+      "implements": [],
+      "impact_areas": [
+        "Investment Advisers/Research Analysts"
+      ],
+      "applicability": "Research Analysts (RAs) registered with BSE / submitting to RAASB",
+      "intent": "BSE is reminding and instructing Research Analysts to complete and submit their mandatory Annual Compliance Audit Report (ACR) via the BSE portal, following up on two earlier notices on the same topic.",
+      "action_required": "Complete the annual compliance audit within six months from FY end March 31, 2026, latest by September 30, 2026; submit the compliance audit report and any adverse findings (with action taken) to RAASB within one month of the audit report date but not later than October 31, 2026; include an annual certificate from ICAI/ICSI/ICMAI member or auditor on client-level segregation compliance; submissions must be made via the BSE portal (ACR/auditor flow), not by email.",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [
+        {
+          "label": "Compliance audit completion deadline",
+          "date": "2026-09-30",
+          "quote": "Complete the annual compliance audit within six months... latest by i.e. September 30, 2026"
+        },
+        {
+          "label": "Audit report submission deadline to RAASB",
+          "date": "2026-10-31",
+          "quote": "submit the compliance audit report to RAASB... but not later than October 31, 2026"
+        },
+        {
+          "label": "Adverse findings submission deadline",
+          "date": "2026-10-31",
+          "quote": "Submit adverse findings of audit... but not later than October 31, 2026"
+        }
+      ],
+      "impact_summary": "Research Analysts registered with BSE must complete their FY2025-26 annual compliance audit by September 30, 2026 and submit the report (plus any adverse findings and a client-segregation certificate) to RAASB via the BSE portal by October 31, 2026; email submissions will not be accepted.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "doc_type": "The notice explicitly continues two prior notices (20260904-13 and 20260504-19) but does not use terms like 'amendment' or 'corrigendum'; classified as Fresh Circular though it functions as a follow-up/reminder referencing multiple prior notices, only one of which could be captured in the single parent_circular_no field.",
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here.",
+        "circular_no": "'20261001-76' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "This is in continuation to notice no. 20260904-13 dated September 04, 2026, and notice no. 20260504-19",
+        "Complete the annual compliance audit within six months from the end of financial year March 31, 2026, latest by i.e. September 30, 2026",
+        "submit the compliance audit report to RAASB within a period of one month from the date of the audit report but not later than October 31, 2026",
+        "it may please be noted that ACR submissions made through email shall not be considered"
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-76/20261001-76.pdf",
+      "sample_data": false,
+      "title": "Submission of Annual Compliance Audit requirement",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Annual compliance audit requirement for intermediaries"
+    },
+    {
+      "circular_no": "20261001-75",
+      "date": "2026-10-01",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [
+        {
+          "regulator": "SEBI",
+          "circular_no": "QJA/BS/WRO/WRO-DIV-3/32755/2026-27",
+          "date": "2026-09-30"
+        }
+      ],
+      "impact_areas": [
+        "Investment Advisers/Research Analysts"
+      ],
+      "applicability": "Research Analysts and investors",
+      "intent": "BSE is notifying members of a final SEBI enforcement order passed against a specific Research Analyst entity, so that affected parties take note of the regulatory action.",
+      "action_required": "Research Analysts and investors are requested to take note of the SEBI order; no other specific action or deadline is stated.",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [
+        {
+          "label": "SEBI final order date",
+          "date": "2026-09-30",
+          "quote": "SEBI vide its final order no. QJA/BS/WRO/WRO-DIV-3/32755/2026-27 dated September 30, 2026"
+        }
+      ],
+      "impact_summary": "Research Analysts and investors are informed of a SEBI final order passed against M/s Eqwires Research Analyst (SEBI Reg. No. INH000007465), with the order copy attached for reference.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "circular_no": "'20261001-75' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "SEBI vide its final order no. QJA/BS/WRO/WRO-DIV-3/32755/2026-27 dated September 30, 2026, has inter-alia passed order against",
+        "All Research Analysts and investors are requested to take note of the same."
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-75/20261001-75.pdf",
+      "sample_data": false,
+      "title": "Final Order in the matter of Eqwires Research Analyst -INH000007465",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Kept by keyword rule (mentions “Research Analyst”); model suggested setting aside: Final order on single research analyst entity"
+    },
+    {
+      "circular_no": "20261001-68",
+      "date": "2026-10-01",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "20210811-6",
+      "parent_circular_date": "2021-08-11",
+      "implements": [],
+      "impact_areas": [
+        "Surveillance/Market Abuse",
+        "Trading Operations",
+        "Stock Brokers"
+      ],
+      "applicability": "Trading Members / Stock Brokers on BSE Equity Segment",
+      "intent": "BSE is issuing a periodic updated list of securities identified for inclusion in the Add-on Price Band Framework, a surveillance measure established by an earlier circular.",
+      "action_required": "Members should note the updated list of securities placed in the Add-on Price Band Framework as per Annexure I; clarifications to be sent to bse.surv@bseindia.com.",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [],
+      "impact_summary": "Stock brokers and trading members on BSE's equity segment are affected, as certain securities are now subject to the Add-on Price Band Framework surveillance mechanism per the updated annexure.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "doc_type": "The notice is a routine updated list under an existing framework rather than a clear amendment or fresh standalone circular; classified as Fresh Circular as it is not explicitly amending the parent circular's text.",
+        "effective_date": "No explicit effective date is stated for when the updated list takes effect.",
+        "circular_no": "'20261001-68' doesn't look like a circular reference number — verify manually.",
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
+      },
+      "source_excerpt_citations": [
+        "This is further to the Exchange circular no. 20210811-6 dated August 11, 2021, on the captioned subject.",
+        "review for identification of securities for placing in Add-on Price Band Framework has been carried out",
+        "In case of any clarifications, members may write to us at bse.surv@bseindia.com."
+      ],
+      "model_confidence": "Inferred",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-68/20261001-68.pdf",
+      "sample_data": false,
+      "title": "Add-on Price Band Framework - Updated List",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Price band framework affects market-wide trading operations"
+    },
+    {
+      "circular_no": "20261001-67",
+      "date": "2026-10-01",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "20250725-61",
+      "parent_circular_date": "2025-07-25",
+      "implements": [],
+      "impact_areas": [
+        "Surveillance/Market Abuse",
+        "Stock Brokers",
+        "Trading Operations",
+        "Margin Trading"
+      ],
+      "applicability": "Trading Members / Stock Brokers dealing in securities placed under the Enhanced Surveillance Measure (ESM) framework",
+      "intent": "BSE periodically reviews and updates the list of securities subject to its Enhanced Surveillance Measure to curb abnormal price movements, adding, re-staging or removing scrips as per surveillance criteria.",
+      "action_required": "Members must apply minimum 100% margin on open and new positions in the listed ESM securities w.e.f. October 06, 2026, and ensure such securities are shifted from Rolling Settlement to Trade-for-Trade segment from the same date; Stage II scrips must additionally be traded under a 2% price band with Periodic Call Auction w.e.f. October 05, 2026.",
+      "effective_date": "2026-10-05",
+      "key_dates": [
+        {
+          "label": "Minimum 100% margin applicability",
+          "date": "2026-10-06",
+          "quote": "shall attract minimum 100% margin w.e.f. October 06, 2026 on all open positions"
+        },
+        {
+          "label": "Open positions reference date",
+          "date": "2026-10-05",
+          "quote": "on all open positions as on October 05, 2026 and new positions created from October 06, 2026"
+        },
+        {
+          "label": "Stage I movement effective date",
+          "date": "2026-10-05",
+          "quote": "moved to lower Stage i.e. Stage I under ESM Framework w.e.f. October 05, 2026"
+        },
+        {
+          "label": "Shift to Trade-for-Trade segment",
+          "date": "2026-10-06",
+          "quote": "shall be shifted from Rolling Settlement segment to Trade-for-Trade segment w.e.f. October 06, 2026"
+        },
+        {
+          "label": "Stage II price band and auction effective date",
+          "date": "2026-10-05",
+          "quote": "Stage II shall be under Trade for Trade with price band of 2% and with Periodic Call Auction w.e.f. October 05, 2026"
+        },
+        {
+          "label": "Securities exiting ESM framework",
+          "date": "2026-10-05",
+          "quote": "securities which are moving out from ESM Framework, w.e.f. October 05, 2026"
+        }
+      ],
+      "impact_summary": "Trading members and brokers dealing in the specified securities must impose higher margins, move affected scrips to Trade-for-Trade settlement, and apply tighter price bands, as part of BSE's ongoing market surveillance framework.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here.",
+        "circular_no": "'20261001-67' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "shall attract minimum 100% margin w.e.f. October 06, 2026 on all open positions",
+        "shall be shifted from Rolling Settlement segment to Trade-for-Trade segment w.e.f. October 06, 2026",
+        "Stage II shall be under Trade for Trade with price band of 2% and with Periodic Call Auction w.e.f. October 05, 2026",
+        "shortlisting of securities under ESM is purely on account of market surveillance"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-67/20261001-67.pdf",
+      "sample_data": false,
+      "title": "Enhanced Surveillance Measure (ESM)",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Enhanced surveillance measure affects trading operations"
+    },
+    {
+      "circular_no": "20261001-66",
+      "date": "2026-10-01",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "20180321-46",
+      "parent_circular_date": "2018-03-21",
+      "implements": [],
+      "impact_areas": [
+        "Surveillance/Market Abuse",
+        "Stock Exchanges",
+        "Trading Operations",
+        "Margin Trading"
+      ],
+      "applicability": "Trading Members / Market Participants dealing in securities placed under BSE's LT-ASM framework",
+      "intent": "BSE is periodically updating the Long Term Additional Surveillance Measure (LT-ASM) framework by revising which securities are placed into, moved within, or removed from surveillance stages, as a market surveillance measure.",
+      "action_required": "Members/market participants must note that 100% margins apply w.e.f. October 07, 2026 on all open positions as on October 06, 2026 and new positions from October 07, 2026; lower price band applies w.e.f. October 05, 2026; and must review Annexures I-III for the specific securities affected and transferred to T/XT/MT/TS groups w.e.f. October 07, 2026.",
+      "effective_date": "2026-10-05",
+      "key_dates": [
+        {
+          "label": "100% margin applicability",
+          "date": "2026-10-07",
+          "quote": "100% Margins shall be applicable w.e.f. October 07, 2026 on all open positions"
+        },
+        {
+          "label": "Move to higher LT-ASM stages",
+          "date": "2026-10-05",
+          "quote": "moved to their respective higher stages LT-ASM Framework, w.e.f. October 05, 2026"
+        },
+        {
+          "label": "Lower Price Band applicability",
+          "date": "2026-10-05",
+          "quote": "Lower Price Band shall be applicable w.e.f. October 05, 2026"
+        },
+        {
+          "label": "Transfer to T/XT/MT/TS Group",
+          "date": "2026-10-07",
+          "quote": "shall be transferred to T / XT / MT / TS Group w.e.f. October 07, 2026"
+        },
+        {
+          "label": "Securities moving out of LT-ASM framework",
+          "date": "2026-10-05",
+          "quote": "moving out from LT-ASM Framework, w.e.f. October 05, 2026"
+        }
+      ],
+      "impact_summary": "Trading members and market participants dealing in the listed securities named in the annexures are affected by revised margin requirements, price band changes, and surveillance stage movements under BSE's LT-ASM framework.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "doc_type": "This notice references multiple prior notices revising the LT-ASM framework and applies it periodically; it is unclear if this itself should be classed as an amendment or a routine/fresh application notice.",
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here.",
+        "effective_date": "The text states multiple distinct effective dates (Oct 05 and Oct 07, 2026) for different measures rather than one single effective date.",
+        "circular_no": "'20261001-66' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "revised LT-ASM framework, it may be noted that Long Term Additional Surveillance Measures (LT-ASM) as mentioned below shall be imposed",
+        "100% Margins shall be applicable w.e.f. October 07, 2026 on all open positions as on October 06, 2026",
+        "Lower Price Band shall be applicable w.e.f. October 05, 2026",
+        "shall be continue in LT-ASM framework but shall be transferred to T / XT / MT / TS Group w.e.f. October 07, 2026",
+        "shortlisting of securities under aforesaid Framework is purely on account of market surveillance"
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-66/20261001-66.pdf",
+      "sample_data": false,
+      "title": "Applicability of Long Term Additional Surveillance Measure (LT-ASM)",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Long-term surveillance measure affects trading operations"
+    },
+    {
+      "circular_no": "20261001-65",
+      "date": "2026-10-01",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "20240920-63",
+      "parent_circular_date": "2024-09-20",
+      "implements": [],
+      "impact_areas": [
+        "Surveillance/Market Abuse",
+        "Margin Trading",
+        "Stock Brokers",
+        "Trading Operations"
+      ],
+      "applicability": "BSE Trading Members / Stock Brokers",
+      "intent": "BSE is notifying members that certain securities have met the criteria for inclusion under Short-Term Additional Surveillance Measure (ST-ASM) Stage I and Stage II, requiring enhanced margins to curb excessive speculative activity.",
+      "action_required": "Members must apply the specified higher margin rates (50% or existing margin, whichever higher, capped at 100% for Stage I; 100% or existing margin, whichever higher, capped at 100% for Stage II) on all open positions as on October 05, 2026 and new positions from October 06, 2026, for securities listed in Annexure I.",
+      "effective_date": "2026-10-06",
+      "key_dates": [
+        {
+          "label": "ST-ASM Stage I margin effective date",
+          "date": "2026-10-06",
+          "quote": "Applicable rate of margin shall be 50% ... w.e.f. October 06, 2026 on all open positions as on October 05, 2026"
+        },
+        {
+          "label": "ST-ASM Stage II margin effective date",
+          "date": "2026-10-06",
+          "quote": "Applicable margin rate shall be 100% ... w.e.f. October 06, 2026 on all open positions as on October 05, 2026"
+        }
+      ],
+      "impact_summary": "BSE trading members dealing in the specified securities must apply elevated margin requirements (up to 100%) under the ST-ASM framework from October 06, 2026, affecting trading and margin operations for those scrips.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here.",
+        "doc_type": "Classified as Fresh Circular since this is a routine periodic ST-ASM security listing notice rather than an amendment to the framework itself, though it references multiple prior framework-revision circulars.",
+        "circular_no": "'20261001-65' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "This is further to Exchange notice no. 20240920-71 dated September 20, 2024, 20181027-1 dated October 27, 2018",
+        "have satisfied the criteria for inclusion under ST-ASM Stage I",
+        "Applicable rate of margin shall be 50% or existing margin whichever is higher, subject to maximum rate of margin capped at 100%",
+        "w.e.f. October 06, 2026 on all open positions as on October 05, 2026 and new positions created from October 06, 2026"
+      ],
+      "model_confidence": "Inferred",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-65/20261001-65.pdf",
+      "sample_data": false,
+      "title": "Applicability of Short Term Additional Surveillance Measure (ST-ASM)",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Short-term surveillance measure affects trading operations"
+    },
+    {
+      "circular_no": "Notice No. 20261001-64",
+      "date": "2026-10-01",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "20170223-44",
+      "parent_circular_date": "2017-02-23",
+      "implements": [],
+      "impact_areas": [
+        "Surveillance/Market Abuse",
+        "Stock Brokers",
+        "Trading Operations"
+      ],
+      "applicability": "Trading Members of BSE (Equity Segment)",
+      "intent": "BSE is notifying that certain securities, based on the Graded Surveillance Measure (GSM) framework, will be moved to higher GSM stages to curb excessive speculation and protect investors.",
+      "action_required": "Trading members must note the securities moving to higher GSM stages, apply the corresponding surveillance actions (margin, price band, trade-to-trade settlement, trading frequency restrictions, ASD deposits) and take adequate precautions since settlement will be trade-to-trade with no netting off allowed, effective October 05, 2026.",
+      "effective_date": "2026-10-05",
+      "key_dates": [
+        {
+          "label": "GSM higher stage effective date",
+          "date": "2026-10-05",
+          "quote": "shall be moved to their respective higher stages of GSM with effect from October 05, 2026"
+        }
+      ],
+      "impact_summary": "Trading members dealing in the listed securities (per attached Annexure) will face stricter surveillance actions—higher margins, reduced price bands, restricted trading frequency and additional surveillance deposits—as these securities move to higher GSM stages from October 05, 2026.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
+      },
+      "source_excerpt_citations": [
+        "shall be moved to their respective higher stages of GSM with effect from October 05, 2026",
+        "as per the provisions of GSM Framework published on February 23, 2017",
+        "the settlement shall be done on trade-to-trade basis and no netting off shall be allowed",
+        "With reference to the Exchange notice no. 20170223-44 dated February 23, 2017"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-64/20261001-64.pdf",
+      "sample_data": false,
+      "title": "Graded Surveillance Measure (GSM) - List of securities moving into their respective GSM Stages",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Graded surveillance measure affects trading operations"
+    },
+    {
+      "circular_no": "Notice No. 20261001-63",
+      "date": "2026-10-01",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "20260807-39",
+      "parent_circular_date": "2026-08-07",
+      "implements": [],
+      "impact_areas": [
+        "Stock Brokers",
+        "Surveillance/Market Abuse",
+        "Stock Exchanges"
+      ],
+      "applicability": "Trading Members / Market Participants of BSE",
+      "intent": "BSE is updating the list of securities placed under, continuing in, or removed from the Additional Surveillance Measure applicable to companies undergoing Insolvency Resolution Process (IRP) under the IBC.",
+      "action_required": "Members are requested to note the securities listed in the annexures (entering, exiting, and consolidated IBC framework lists) effective October 05, 2026, and factor this into trading/surveillance compliance.",
+      "effective_date": "2026-10-05",
+      "key_dates": [
+        {
+          "label": "Securities entering IBC surveillance framework",
+          "date": "2026-10-05",
+          "quote": "have satisfied the criteria under Additional Surveillance Measure ... with effect from October 05, 2026"
+        },
+        {
+          "label": "Securities moving out of IBC framework",
+          "date": "2026-10-05",
+          "quote": "The list of securities which are moving out from IBC Framework, w.e.f. October 05, 2026"
+        }
+      ],
+      "impact_summary": "Trading members and market participants dealing in the listed securities are affected, as these scrips are being added to, removed from, or retained under BSE's Additional Surveillance Measure for IBC-related companies, impacting price bands and surveillance treatment.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "doc_type": "Classified as Fresh Circular since this is a periodic standalone list update rather than a textual amendment to a prior framework document, though it references multiple prior notices for continuity.",
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
+      },
+      "source_excerpt_citations": [
+        "securities as per attached Annexure I have satisfied the criteria under Additional Surveillance Measure",
+        "The list of securities which are moving out from IBC Framework, w.e.f. October 05, 2026",
+        "shortlisting of securities under aforesaid Framework is purely on account of market surveillance"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-63/20261001-63.pdf",
+      "sample_data": false,
+      "title": "Surveillance Measure for securities under IBC",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "IBC surveillance measure affects trading and settlement"
+    },
+    {
+      "circular_no": "Notice No. 20261001-62",
+      "date": "2026-10-01",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Stock Brokers",
+        "Surveillance/Market Abuse",
+        "Trading Operations"
+      ],
+      "applicability": "Trading Members of BSE",
+      "intent": "BSE is notifying trading members of revisions to the daily price bands applicable to a specified list of equity scrips, as part of routine surveillance measures.",
+      "action_required": "Trading Members must take note of the revised price band percentages for the listed scrips, effective October 05, 2026; members may contact bse.surv@bseindia.com for clarifications.",
+      "effective_date": "2026-10-05",
+      "key_dates": [
+        {
+          "label": "Effective date of revised price bands",
+          "date": "2026-10-05",
+          "quote": "price band has/have been revised from their existing levels ... with effect from October 05, 2026"
+        }
+      ],
+      "impact_summary": "Trading members dealing in the 72 listed equity scrips on BSE are affected, as the applicable daily price band percentages for these securities are being revised effective October 05, 2026.",
+      "overall_confidence": "Certain",
+      "confidence_flags": {},
+      "source_excerpt_citations": [
+        "Trading Members of the Exchange are hereby informed that the price band has/have been revised from their existing levels",
+        "with effect from October 05, 2026",
+        "In case any clarification required, members may write to us at bse.surv@bseindia.com"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-62/20261001-62.pdf",
+      "sample_data": false,
+      "title": "CHANGES IN PRICE BAND",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Price band changes affect market-wide trading operations"
+    },
+    {
+      "circular_no": "Notice No. 20261001-43",
+      "date": "2026-10-01",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Clearing Corporations",
+        "Stock Brokers",
+        "Trading Operations"
+      ],
+      "applicability": "Trading Members and Custodians (BSE/BSE Clearing Ltd.)",
+      "intent": "BSE Clearing Ltd. is introducing a facility for custodians to flag Custodial Participant (CP) codes that are inactive, so trading members are informed which CP codes will not have clearing/settlement activity.",
+      "action_required": "Trading members should access the Inactive CP file (format per Annexure A) made available via the specified file path by 08:00 PM on T-1 day, once the facility goes live from 05-Oct-2026.",
+      "effective_date": "2026-10-05",
+      "key_dates": [
+        {
+          "label": "Facility and file availability start date",
+          "date": "2026-10-05",
+          "quote": "The facility and member file will be available from 05-Oct-2026."
+        }
+      ],
+      "impact_summary": "Trading members and custodians dealing in BSE Clearing Ltd. settlements are affected, as a new daily file will identify inactive CP codes to prevent erroneous settlement instructions.",
+      "overall_confidence": "Certain",
+      "confidence_flags": {
+        "doc_type": "Source is labeled a 'Notice' rather than 'Circular', but structurally functions as a standalone fresh operational notice with no parent circular cited, so classified as Fresh Circular."
+      },
+      "source_excerpt_citations": [
+        "BSE Clearing Ltd. will be providing facility to Custodians to disseminate information regarding Custodial Participant (CP) Codes",
+        "List of inactive CP codes provided by all custodians(both BSECL and NCL) will be made available to members vide Inactive CP file",
+        "The facility and member file will be available from 05-Oct-2026."
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-43/20261001-43.pdf",
+      "sample_data": false,
+      "title": "Information on Inactive Custodial Participant Codes to Trading Members",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Trading members must manage custodial participant codes; operational obligation"
+    },
+    {
+      "circular_no": "20261001-42",
+      "date": "2026-10-01",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "20260930-49, 20260930-43, 20260930-45, 20260930-36",
+      "parent_circular_date": "2026-09-30",
+      "implements": [],
+      "impact_areas": [
+        "Stock Exchanges"
+      ],
+      "applicability": "BSE-listed clients, market participants, and index tracking entities",
+      "intent": "To inform market participants that newly listed stocks (A-One Steels India Ltd, Moneyview Ltd, Roopa Screen Ltd, Peshwa Wheat Ltd) are being added to specific BSE indices (BSE IPO and BSE SME IPO) following their listing.",
+      "action_required": "No specific compliance action required; clients should note the index additions, which are reflected in the end-of-day corporate action file (*.SDE), and may contact bseindex@bseindia.com for queries.",
+      "effective_date": "2026-10-01",
+      "key_dates": [
+        {
+          "label": "Listing effective date",
+          "date": "2026-10-01",
+          "quote": "are being listed on BSE effective Thursday, October 01, 2026"
+        },
+        {
+          "label": "Index addition effective date (BSE IPO)",
+          "date": "2026-10-06",
+          "quote": "Effective at the open of Tuesday, October 6, 2026, these stocks will be added to the index"
+        },
+        {
+          "label": "Index addition effective date (BSE SME IPO)",
+          "date": "2026-10-05",
+          "quote": "Effective at the open of Monday, October 5, 2026, these stocks will be added to the index"
+        }
+      ],
+      "impact_summary": "The notice informs market participants and index-tracking entities about the addition of four newly listed companies to BSE's IPO and SME IPO indices, with staggered effective dates in early October 2026.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "parent_circular_no": "Parent circular number(s) not found in the document text: 20260930-49, 20260930-43, 20260930-45, 20260930-36.",
+        "circular_no": "'20261001-42' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "With reference to Notice No. 20260930-49, A-One Steels India Ltd ... are being listed on BSE effective Thursday, October 01, 2026",
+        "Effective at the open of Tuesday, October 6, 2026, these stocks will be added to the index below",
+        "These actions have been included in tonight’s end-of day corporate action file (*.SDE)"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-42/20261001-42.pdf",
+      "sample_data": false,
+      "title": "Additions to the BSE Indices",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Index additions affect trading operations and portfolio tracking systems"
     }
   ],
   "sources": [
@@ -9366,7 +10571,7 @@
       "url": "https://www.sebi.gov.in/sebirss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Holds about five days of items, mixed with orders and press releases. Only circulars are kept.",
-      "checked_at": "2026-10-01T13:18:58Z",
+      "checked_at": "2026-10-01T19:33:04Z",
       "items": 1,
       "status": "ok",
       "error": "",
@@ -9381,7 +10586,7 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Backstop for circulars that scroll off the RSS feed.",
-      "checked_at": "2026-10-01T13:19:00Z",
+      "checked_at": "2026-10-01T19:33:06Z",
       "items": 25,
       "status": "ok",
       "error": "",
@@ -9396,7 +10601,7 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-01T13:19:01Z",
+      "checked_at": "2026-10-01T19:33:06Z",
       "items": 25,
       "status": "ok",
       "error": "",
@@ -9411,7 +10616,7 @@
       "url": "https://rbi.org.in/notifications_rss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Includes bank-only prudential rules and foreign-exchange regulations. Triage keeps the ones that affect brokers and fintechs.",
-      "checked_at": "2026-10-01T13:19:02Z",
+      "checked_at": "2026-10-01T19:33:07Z",
       "items": 10,
       "status": "ok",
       "error": "",
@@ -9426,8 +10631,8 @@
       "url": "https://nsearchives.nseindia.com/content/RSS/Circulars.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Carries about one day of circulars (around 30 a day, mostly routine), so it's checked every 2 hours.",
-      "checked_at": "2026-10-01T13:19:04Z",
-      "items": 20,
+      "checked_at": "2026-10-01T19:33:08Z",
+      "items": 42,
       "status": "ok",
       "error": "",
       "streak": 0,
@@ -9441,8 +10646,8 @@
       "url": "https://www.bseindia.com/data/xml/notices.xml",
       "verified": "Feed address confirmed through a third-party reader. BSE refused a direct test fetch (HTTP 403), so it may block automated access.",
       "note": "Dominated by mutual fund platform notices.",
-      "checked_at": "2026-10-01T13:19:05Z",
-      "items": 41,
+      "checked_at": "2026-10-01T19:33:10Z",
+      "items": 79,
       "status": "ok",
       "error": "",
       "streak": 0,
@@ -9456,7 +10661,7 @@
       "url": "https://www.nseclearing.in/resources/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-01T13:19:05Z",
+      "checked_at": "2026-10-01T19:33:10Z",
       "items": 0,
       "status": "blocked",
       "error": "The site's robots.txt disallows this address.",
@@ -9471,10 +10676,10 @@
       "url": "https://nsdl.co.in/business/circular.php",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-01T13:19:06Z",
+      "checked_at": "2026-10-01T19:33:11Z",
       "items": 0,
-      "status": "empty",
-      "error": "Page loaded but no circular links matched. The page layout may have changed.",
+      "status": "failed",
+      "error": "TooManyRedirects: Exceeded 30 redirects.",
       "streak": 3,
       "covered": false
     },
@@ -9486,7 +10691,7 @@
       "url": "https://www.cdslindia.com/Publications/Communique.aspx/DP-COMMUNIQUES-INDEX.aspx",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "On 28 Sep 2026 this page returned 'Internal Error Occurred' even in a browser-style fetch. It may be unreliable.",
-      "checked_at": "2026-10-01T13:19:15Z",
+      "checked_at": "2026-10-01T19:33:29Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -9501,7 +10706,7 @@
       "url": "https://www.ncdex.com/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-01T13:19:16Z",
+      "checked_at": "2026-10-01T19:33:30Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -9516,7 +10721,7 @@
       "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Relevant to brokers and fintechs operating in GIFT City.",
-      "checked_at": "2026-10-01T13:19:17Z",
+      "checked_at": "2026-10-01T19:33:31Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -9531,7 +10736,7 @@
       "url": "https://www.npci.org.in/circulars/upi",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "UPI operating circulars for payment apps and PSPs.",
-      "checked_at": "2026-10-01T13:19:20Z",
+      "checked_at": "2026-10-01T19:33:34Z",
       "items": 0,
       "status": "blocked",
       "error": "The site's robots.txt disallows this address.",
@@ -9546,7 +10751,7 @@
       "url": "https://www.mcxindia.com/",
       "verified": "",
       "note": "Not connected. MCX's robots.txt disallows automated access to its RSS page. Connect it once a permitted source is confirmed.",
-      "checked_at": "2026-10-01T13:19:20Z",
+      "checked_at": "2026-10-01T19:33:34Z",
       "items": 0,
       "status": "not_connected",
       "error": "",
@@ -9555,9 +10760,9 @@
     }
   ],
   "last_run": {
-    "at": "2026-10-01T13:26:37Z",
-    "added": 20,
-    "set_aside": 48,
+    "at": "2026-10-01T19:46:39Z",
+    "added": 34,
+    "set_aside": 37,
     "failed": 0,
     "deferred": 0,
     "triage_retries": 0,
