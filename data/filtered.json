@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T05:59:40Z",
+  "generated_at": "2026-10-01T13:26:37Z",
   "items": [
     {
       "title": "Exim Bank’s GOI-supported Line of Credit (LOC) for ₹ 4,850 crores the Government of Maldives, for financing various developmental projects in Maldives",
@@ -2052,6 +2052,438 @@
       "source": "rbi",
       "reason": "ATM cassette operations; prudential matter for banks only, not tracked entities.",
       "decided_at": "2026-10-01T05:58:13Z"
+    },
+    {
+      "title": "Reserve Bank of India (Local Area Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13722&Mode=0",
+      "date": "2026-10-01",
+      "regulator": "RBI",
+      "source": "rbi",
+      "reason": "Bank prudential matter; no obligation for tracker entities",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "Reserve Bank of India (Payments Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13721&Mode=0",
+      "date": "2026-10-01",
+      "regulator": "RBI",
+      "source": "rbi",
+      "reason": "Bank prudential matter; no obligation for tracker entities",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "Reserve Bank of India (Small Finance Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13720&Mode=0",
+      "date": "2026-10-01",
+      "regulator": "RBI",
+      "source": "rbi",
+      "reason": "Bank prudential matter; no obligation for tracker entities",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "Reserve Bank of India (Commercial Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13719&Mode=0",
+      "date": "2026-10-01",
+      "regulator": "RBI",
+      "source": "rbi",
+      "reason": "Bank prudential matter; no obligation for tracker entities",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "Suspension of trading in Non-Convertible Securities (Privately Placed)",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76696.pdf",
+      "date": "2026-10-01",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Single security suspension; no system-wide obligation",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "Listing of further issues of securities",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76691.pdf",
+      "date": "2026-10-01",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Routine further issue listing; no obligation for entities",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "Listing of further issues of securities",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76686.pdf",
+      "date": "2026-10-01",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Routine further issue listing; no obligation for entities",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "Listing of Equity Shares of Runwal Enterprises Limited (IPO)",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76680.pdf",
+      "date": "2026-10-01",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Single IPO listing; no obligation for tracker entities",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "Trade for Trade - Bhagyanagar India Limited (BHAGYANGR)",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76678.pdf",
+      "date": "2026-10-01",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Single security trade-for-trade measure; company-specific",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "Delisting Offer under Tender Offer scheme by Hitech Corporation Limited",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76677.pdf",
+      "date": "2026-10-01",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Single company delisting offer; no system-wide obligation",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "Listing of Equity Shares of AceVector Limited (IPO)",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76676.pdf",
+      "date": "2026-10-01",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Single IPO listing; no obligation for tracker entities",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "Change in ISIN - BLS E-Services Limited (BLSE)",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76675.pdf",
+      "date": "2026-10-01",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Single security ISIN change; company-specific",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "Listing of Equity Shares of Orient Cables (India) Limited (IPO)",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76674.pdf",
+      "date": "2026-10-01",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Single IPO listing; no obligation for tracker entities",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "Listing of Equity Shares of German Green Steel and Power Limited (IPO)",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76667.pdf",
+      "date": "2026-10-01",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Single IPO listing; no obligation for tracker entities",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "Clarification Received from the Companies on News Articles",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-41/20261001-41.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Company clarifications; no obligation for tracker entities",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "Clarification Received from the Companies",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-40/20261001-40.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Company clarifications; no obligation for tracker entities",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "Listing of New Securities of Eco Hotels And Resorts Ltd.",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-35/20261001-35.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single security listing; no obligation for entities",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "SME IPO Draft Offer Document",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-33/20261001-33.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single SME IPO draft document; company-specific",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "SME IPO Draft Offer Document",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-32/20261001-32.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single SME IPO draft document; company-specific",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "SME IPO Draft Offer Document",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-31/20261001-31.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single SME IPO draft document; company-specific",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "SME IPO - Draft Offer Document",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-30/20261001-30.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single SME IPO draft document; company-specific",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "SME IPO - Draft Offer Document",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-29/20261001-29.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single SME IPO draft document; company-specific",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "SME IPO - Draft Offer Document",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-28/20261001-28.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single SME IPO draft document; company-specific",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "SME IPO - Draft Offer Document",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-27/20261001-27.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single SME IPO draft document; company-specific",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "SME IPO - Draft Offer Document",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-26/20261001-26.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single SME IPO draft document; company-specific",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "SME IPO - Draft Offer Document",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-25/20261001-25.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single SME IPO draft offer document; company-specific",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "SME IPO - Draft Offer Document",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-24/20261001-24.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single SME IPO draft offer document; company-specific",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "SME IPO - Draft Offer Document",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-23/20261001-23.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single SME IPO draft offer document; company-specific",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "SME IPO - Draft Offer Document",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-22/20261001-22.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single SME IPO draft offer document; company-specific",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "SME IPO - Draft Offer Document",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-21/20261001-21.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single SME IPO draft offer document; company-specific",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "SME IPO - Draft Offer Document",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-20/20261001-20.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single SME IPO draft offer document; company-specific",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "SME IPO - Draft Offer Document",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-19/20261001-19.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single SME IPO draft offer document; company-specific",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "SME IPO Draft offer Document",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-18/20261001-18.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single SME IPO draft offer document; company-specific",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "Listing of Equity Shares of SAI URJA INDO VENTURES LIMITED",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-17/20261001-17.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company listing; no ecosystem-wide obligation",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "Listing of Equity Shares of Dudani Retail Limited",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-16/20261001-16.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company listing; no ecosystem-wide obligation",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "Listing of Equity Shares of German Green Steel and Power Limited",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-15/20261001-15.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company listing; no ecosystem-wide obligation",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "Listing of Equity Shares of ACEVECTOR LIMITED",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-14/20261001-14.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company listing; no ecosystem-wide obligation",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "Listing of Equity Shares of Runwal Enterprises Limited",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-13/20261001-13.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company listing; no ecosystem-wide obligation",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "Listing of Equity Shares of Orient Cables (India)Limited",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-12/20261001-12.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company listing; no ecosystem-wide obligation",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "Listing of new Treasury Bills (T-Bills)",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-11/20261001-11.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Treasury Bills listing; government debt instrument, not broker obligation",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "Change in group of Equity shares of Aditya Forge Ltd (Scrip Code: 522150)",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-10/20261001-10.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single stock group change; no ecosystem-wide obligation",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "Listing of new Securities of Inox Green Energy Services Ltd",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-8/20261001-8.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company securities listing; company-specific",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "Change of Name on account of Transfer of Business",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-7/20261001-7.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Name change; single company corporate action",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "Part Redemption of Debentures of LODHA DEVELOPERS LTD",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-6/20261001-6.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single debenture redemption; company-specific corporate action",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "Demat Auction 726",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-5/20261001-5.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Demat auction; internal BSE operational matter",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "Change in the Group of the Equity Shares of ROOPA SCREEN LIMITED",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-3/20261001-3.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single stock group change; no ecosystem-wide obligation",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "Change in Group of Equity Shares of PESHWA WHEAT LIMITED",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-2/20261001-2.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single stock group change; no ecosystem-wide obligation",
+      "decided_at": "2026-10-01T13:19:32Z"
+    },
+    {
+      "title": "Visit of Registrar & Transfer Agents at BSE Ltd. for October 2026",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261001-1/20261001-1.pdf",
+      "date": "2026-10-01",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Registrar visit schedule; administrative notice, no compliance obligation",
+      "decided_at": "2026-10-01T13:19:32Z"
     }
   ]
 }
