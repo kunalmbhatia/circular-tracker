@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T23:58:15Z",
+  "generated_at": "2026-10-02T12:39:38Z",
   "items": [
     {
       "title": "Exim Bank’s GOI-supported Line of Credit (LOC) for ₹ 4,850 crores the Government of Maldives, for financing various developmental projects in Maldives",
@@ -2817,6 +2817,15 @@
       "source": "bse",
       "reason": "New listing of single company; no ecosystem-wide obligation",
       "decided_at": "2026-10-01T19:33:44Z"
+    },
+    {
+      "title": "Non-Resident Deposits - Comprehensive Single Return (NRD-CSR)(R012): Submission under CIMS Sankalan Portal",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13725&Mode=0",
+      "date": "2026-10-01",
+      "regulator": "RBI",
+      "source": "rbi",
+      "reason": "Non-resident deposit reporting is a bank prudential matter, not applicable to tracked entities.",
+      "decided_at": "2026-10-02T12:38:55Z"
     }
   ]
 }

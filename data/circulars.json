@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T23:58:15Z",
+  "generated_at": "2026-10-02T12:39:38Z",
   "schema_version": "2.0",
   "circulars": [
     {
@@ -10589,6 +10589,94 @@
       "regulator": "BSE",
       "source": "bse",
       "triage_reason": "Index additions affect trading operations and portfolio tracking systems"
+    },
+    {
+      "circular_no": "RBI/DCM/2026-27/473",
+      "date": "2026-10-02",
+      "doc_type": "Master Circular",
+      "parent_circular_no": "DCM. No. Cir. NPD.3161/09.39.00 (Policy)/2009-2010; DCM(R&D) No.G-26/18.00.14/2009-10; DCM(NPD)No.S488/18.00.14/2022-23; DCM (NPD) No.S2193/09.45.000/2024-25; DCM (NPD) No.S287/18.00.014/2025-26",
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Other"
+      ],
+      "applicability": "All Banks (Chairman / Managing Director / Chief Executive Officer)",
+      "intent": "RBI consolidates and updates all existing guidelines on note sorting machines, authentication and fitness sorting parameters, and BIS standards into a single Master Direction for ease of reference by banks.",
+      "action_required": "Banks must ensure note sorting/authentication machines comply with the fitness sorting and authenticity parameters laid out, conduct quarterly calibration/testing with signed certificates, phase out discontinued NSM models by June 30, 2027, and henceforth procure only BIS-certified NSMs.",
+      "effective_date": "2026-10-02",
+      "key_dates": [
+        {
+          "label": "Master Direction issuance / withdrawal of prior circulars",
+          "date": "2026-10-02",
+          "quote": "The previous circulars issued on the subject (Annexed) stand withdrawn from the date of issuance of this Master Direction"
+        },
+        {
+          "label": "Phase-out deadline for discontinued NSM models",
+          "date": "2027-06-30",
+          "quote": "NSM models deployed at banks which have been discontinued from production, shall be phased out on or before June 30, 2027"
+        },
+        {
+          "label": "BIS standard IS 18663:2024 publication date",
+          "date": "2024-03-19",
+          "quote": "published the standards for Note Sorting Machines (NSM) - ‘IS 18663: 2024’ in the ‘Gazette of India’ on March 19, 2024"
+        }
+      ],
+      "impact_summary": "All banks must align their note sorting and authentication machines with the consolidated fitness/authenticity parameters, conduct periodic testing, and transition to BIS-certified machines, phasing out discontinued models by June 30, 2027, or face penalties.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "impact_areas": "None of the predefined categories (e.g., Stock Brokers, Payments/UPI) cleanly match 'currency/cash handling by banks'; 'Other' used as best fit.",
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here.",
+        "parent_circular_date": "Set to null because multiple withdrawn circulars have different dates and no single 'parent date' applies."
+      },
+      "source_excerpt_citations": [
+        "The previous circulars issued on the subject (Annexed) stand withdrawn from the date of issuance of this Master Direction.",
+        "NSM models deployed at banks which have been discontinued from production, shall be phased out on or before June 30, 2027.",
+        "Guidelines on installation of Note Sorting Machines (NSMs) for sorting / processing of notes were issued vide circular DCM. No. Cir. NPD.3161/09.39.00 (Policy)/2009-2010 dated November 19, 2009",
+        "published the standards for Note Sorting Machines (NSM) - ‘IS 18663: 2024’ in the ‘Gazette of India’ on March 19, 2024"
+      ],
+      "model_confidence": "Inferred",
+      "validator_version": 3,
+      "source_url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13723&Mode=0",
+      "sample_data": false,
+      "title": "Master Direction on Note Sorting Machines",
+      "regulator": "RBI",
+      "source": "rbi",
+      "triage_reason": "Kept by keyword rule (mentions “Master Direction”); model suggested setting aside: Note sorting machines are bank-specific operations, not applicable to brokers or fintech entities."
+    },
+    {
+      "circular_no": "RBI/2026-27/279 (A.P. (DIR Series) Circular No. 23)",
+      "date": "2026-10-01",
+      "doc_type": "Amendment",
+      "parent_circular_no": "A.P. (DIR Series) Circular No. 12",
+      "parent_circular_date": "2024-07-03",
+      "implements": [],
+      "impact_areas": [
+        "Foreign Exchange (FEMA)"
+      ],
+      "applicability": "Authorised Dealers (AD) Category I banks and AD - Category II entities",
+      "intent": "RBI is relaxing the earlier requirement that AD banks' internal guidelines for online/physical submission of Form A2 (for outward forex remittances) be approved only by the Board, now allowing approval by a delegated Board Committee or Management Committee as well.",
+      "action_required": "Authorised Dealers shall frame appropriate internal guidelines with the approval of their Board or any Board Committee / Management Committee to which powers have been delegated by the Board, for facilitating outward forex remittances based on Form A2 submission; ADs must also notify constituents of the circular's contents. No specific deadline stated.",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [],
+      "impact_summary": "Authorised Dealer banks (Category I and II) are affected; they now have more flexibility in internal governance approval (Board or delegated Committee) for guidelines governing Form A2-based outward remittance processing, with all other prior instructions under Circular No. 12 remaining unchanged.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "effective_date": "The circular does not explicitly state a separate effective date distinct from its issuance date of October 01, 2026; per hard rules, no date is inferred.",
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
+      },
+      "source_excerpt_citations": [
+        "Authorised Dealers shall frame appropriate internal guidelines with the approval of their Board or any Board Committee / Management Committee to which powers have been delegated by the Board",
+        "All other instructions issued vide A.P. (DIR Series) Circular No. 12 dated July 03, 2024, remain unchanged.",
+        "The directions contained in this circular have been issued under sections 10(4) and 11(1) of the Foreign Exchange Management Act, 1999"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13724&Mode=0",
+      "sample_data": false,
+      "title": "Online submission of Form A2: Removal of limits on amount of remittance",
+      "regulator": "RBI",
+      "source": "rbi",
+      "triage_reason": "Remittance limit changes affect NBFCs, payment operators, and fintech apps offering remittance services."
     }
   ],
   "sources": [
@@ -10600,7 +10688,7 @@
       "url": "https://www.sebi.gov.in/sebirss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Holds about five days of items, mixed with orders and press releases. Only circulars are kept.",
-      "checked_at": "2026-10-01T23:54:00Z",
+      "checked_at": "2026-10-02T12:38:22Z",
       "items": 1,
       "status": "ok",
       "error": "",
@@ -10615,7 +10703,7 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Backstop for circulars that scroll off the RSS feed.",
-      "checked_at": "2026-10-01T23:54:01Z",
+      "checked_at": "2026-10-02T12:38:23Z",
       "items": 25,
       "status": "ok",
       "error": "",
@@ -10630,7 +10718,7 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-01T23:54:02Z",
+      "checked_at": "2026-10-02T12:38:23Z",
       "items": 25,
       "status": "ok",
       "error": "",
@@ -10645,7 +10733,7 @@
       "url": "https://rbi.org.in/notifications_rss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Includes bank-only prudential rules and foreign-exchange regulations. Triage keeps the ones that affect brokers and fintechs.",
-      "checked_at": "2026-10-01T23:54:02Z",
+      "checked_at": "2026-10-02T12:38:24Z",
       "items": 10,
       "status": "ok",
       "error": "",
@@ -10660,7 +10748,7 @@
       "url": "https://nsearchives.nseindia.com/content/RSS/Circulars.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Carries about one day of circulars (around 30 a day, mostly routine), so it's checked every 2 hours.",
-      "checked_at": "2026-10-01T23:54:04Z",
+      "checked_at": "2026-10-02T12:38:26Z",
       "items": 42,
       "status": "ok",
       "error": "",
@@ -10675,7 +10763,7 @@
       "url": "https://www.bseindia.com/data/xml/notices.xml",
       "verified": "Feed address confirmed through a third-party reader. BSE refused a direct test fetch (HTTP 403), so it may block automated access.",
       "note": "Dominated by mutual fund platform notices.",
-      "checked_at": "2026-10-01T23:54:04Z",
+      "checked_at": "2026-10-02T12:38:27Z",
       "items": 79,
       "status": "ok",
       "error": "",
@@ -10690,7 +10778,7 @@
       "url": "https://www.nseclearing.in/resources/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-01T23:54:05Z",
+      "checked_at": "2026-10-02T12:38:28Z",
       "items": 0,
       "status": "blocked",
       "error": "The site's robots.txt disallows this address.",
@@ -10705,10 +10793,10 @@
       "url": "https://nsdl.co.in/business/circular.php",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-01T23:54:05Z",
+      "checked_at": "2026-10-02T12:38:30Z",
       "items": 0,
-      "status": "empty",
-      "error": "Page loaded but no circular links matched. The page layout may have changed.",
+      "status": "failed",
+      "error": "TooManyRedirects: Exceeded 30 redirects.",
       "streak": 3,
       "covered": false
     },
@@ -10720,7 +10808,7 @@
       "url": "https://www.cdslindia.com/Publications/Communique.aspx/DP-COMMUNIQUES-INDEX.aspx",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "On 28 Sep 2026 this page returned 'Internal Error Occurred' even in a browser-style fetch. It may be unreliable.",
-      "checked_at": "2026-10-01T23:54:13Z",
+      "checked_at": "2026-10-02T12:38:47Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -10735,7 +10823,7 @@
       "url": "https://www.ncdex.com/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-01T23:54:14Z",
+      "checked_at": "2026-10-02T12:38:48Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -10750,7 +10838,7 @@
       "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Relevant to brokers and fintechs operating in GIFT City.",
-      "checked_at": "2026-10-01T23:54:15Z",
+      "checked_at": "2026-10-02T12:38:50Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -10765,7 +10853,7 @@
       "url": "https://www.npci.org.in/circulars/upi",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "UPI operating circulars for payment apps and PSPs.",
-      "checked_at": "2026-10-01T23:54:18Z",
+      "checked_at": "2026-10-02T12:38:53Z",
       "items": 0,
       "status": "blocked",
       "error": "The site's robots.txt disallows this address.",
@@ -10780,7 +10868,7 @@
       "url": "https://www.mcxindia.com/",
       "verified": "",
       "note": "Not connected. MCX's robots.txt disallows automated access to its RSS page. Connect it once a permitted source is confirmed.",
-      "checked_at": "2026-10-01T23:54:18Z",
+      "checked_at": "2026-10-02T12:38:53Z",
       "items": 0,
       "status": "not_connected",
       "error": "",
@@ -10789,9 +10877,9 @@
     }
   ],
   "last_run": {
-    "at": "2026-10-01T23:58:15Z",
-    "added": 9,
-    "set_aside": 0,
+    "at": "2026-10-02T12:39:38Z",
+    "added": 2,
+    "set_aside": 1,
     "failed": 0,
     "deferred": 0,
     "triage_retries": 0,
