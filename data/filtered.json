@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T14:51:01Z",
+  "generated_at": "2026-10-05T22:45:28Z",
   "items": [
     {
       "title": "Exim Bank’s GOI-supported Line of Credit (LOC) for ₹ 4,850 crores the Government of Maldives, for financing various developmental projects in Maldives",
@@ -3222,6 +3222,51 @@
       "source": "bse",
       "reason": "Single company listing announcement",
       "decided_at": "2026-10-05T14:44:03Z"
+    },
+    {
+      "title": "Listing of Equity Shares of Shah Investor's Home Limited (IPO)",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76721.zip",
+      "date": "2026-10-05",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Single company IPO listing; no obligation change for ecosystem entities",
+      "decided_at": "2026-10-05T22:39:35Z"
+    },
+    {
+      "title": "Daily Bulletin",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261005-47/20261005-47.pdf",
+      "date": "2026-10-05",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Daily bulletin is routine operational communication without new obligations",
+      "decided_at": "2026-10-05T22:39:35Z"
+    },
+    {
+      "title": "Tender Offer (Buyback) of Equity Shares TRANSPORT CORPORATION OF INDIA LTD",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261005-45/20261005-45.pdf",
+      "date": "2026-10-05",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company buyback; corporate action not affecting regulated entity obligations",
+      "decided_at": "2026-10-05T22:39:35Z"
+    },
+    {
+      "title": "Tender Offer (Buyback) of Equity Shares SHARDUL SECURITIES LTD.",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261005-44/20261005-44.pdf",
+      "date": "2026-10-05",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company buyback; corporate action not affecting regulated entity obligations",
+      "decided_at": "2026-10-05T22:39:35Z"
+    },
+    {
+      "title": "Bonus Issue of Equity Shares of P H CAPITAL LIMITED (Scrip Code- 500143)",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261005-43/20261005-43.pdf",
+      "date": "2026-10-05",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company bonus issue; corporate action not affecting regulated entity obligations",
+      "decided_at": "2026-10-05T22:39:35Z"
     }
   ]
 }
