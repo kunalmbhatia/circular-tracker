@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T23:12:23Z",
+  "generated_at": "2026-10-05T05:44:09Z",
   "items": [
     {
       "title": "Exim Bank’s GOI-supported Line of Credit (LOC) for ₹ 4,850 crores the Government of Maldives, for financing various developmental projects in Maldives",
@@ -2826,6 +2826,33 @@
       "source": "rbi",
       "reason": "Non-resident deposit reporting is a bank prudential matter, not applicable to tracked entities.",
       "decided_at": "2026-10-02T12:38:55Z"
+    },
+    {
+      "title": "Change in Group of Equity Shares of SAI URJA INDO VENTURES LIMITED",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261005-3/20261005-3.pdf",
+      "date": "2026-10-05",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Company-specific corporate action; no obligation change for regulated entities",
+      "decided_at": "2026-10-05T05:44:09Z"
+    },
+    {
+      "title": "Non-Competitive Bidding Facility for Auction of Treasury Bills (T-Bills) on October 07, 2026",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261005-2/20261005-2.pdf",
+      "date": "2026-10-05",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Treasury bill auction mechanics; not an obligation for broking/fintech ecosystem entities",
+      "decided_at": "2026-10-05T05:44:09Z"
+    },
+    {
+      "title": "Non-Competitive Bidding for Auction of State Government Securities (SDL) on October 06, 2026",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261005-1/20261005-1.pdf",
+      "date": "2026-10-05",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "State security auction mechanics; not an obligation for broking/fintech ecosystem entities",
+      "decided_at": "2026-10-05T05:44:09Z"
     }
   ]
 }
