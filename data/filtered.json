@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T15:22:11Z",
+  "generated_at": "2026-10-06T21:08:07Z",
   "items": [
     {
       "title": "Exim Bank’s GOI-supported Line of Credit (LOC) for ₹ 4,850 crores the Government of Maldives, for financing various developmental projects in Maldives",
@@ -3699,6 +3699,15 @@
       "source": "bse",
       "reason": "Group change for single security; no ecosystem-wide obligation.",
       "decided_at": "2026-10-06T15:14:52Z"
+    },
+    {
+      "title": "Listing of Equity Shares of Green Asia Impex Limited (SME IPO)",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76752.zip",
+      "date": "2026-10-06",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Single company listing; does not create obligations for tracker entities.",
+      "decided_at": "2026-10-06T21:00:23Z"
     }
   ]
 }
