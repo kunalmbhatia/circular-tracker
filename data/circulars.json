@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T06:25:56Z",
+  "generated_at": "2026-10-06T15:22:11Z",
   "schema_version": "2.0",
   "circulars": [
     {
@@ -11926,6 +11926,1238 @@
       "regulator": "BSE",
       "source": "bse",
       "triage_reason": "Trading suspension affects market operations and obligations of trading participants"
+    },
+    {
+      "circular_no": "NSE/SURV/76750 (Circular Ref. No: 770/2026)",
+      "date": "2026-10-06",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "NSE/SURV/68845",
+      "parent_circular_date": "2025-06-30",
+      "implements": [],
+      "impact_areas": [
+        "Stock Brokers",
+        "Surveillance/Market Abuse",
+        "Trading Operations",
+        "FPI"
+      ],
+      "applicability": "All Trading Members of NSE Equity Derivatives segment",
+      "intent": "NSE seeks to operationalize and publish daily position limits for indices in the Equity Derivatives segment so members can monitor compliance with client- and trading-member-level exposure limits previously prescribed.",
+      "action_required": "Members must refer to the daily file disseminated on the NSE website (Market Data => Derivatives => Daily Reports, file named Index_deriv_pos_limit_DDMMYYYY) for applicable position limits in quantity terms, effective for the next trading day from October 6, 2026; queries to be addressed to surveillance@nse.co.in.",
+      "effective_date": "2026-10-06",
+      "key_dates": [
+        {
+          "label": "Dissemination of position limits effective date",
+          "date": "2026-10-06",
+          "quote": "disseminating the position limits for all the indices ... with effect from October 6, 2026"
+        },
+        {
+          "label": "File availability on Exchange website",
+          "date": "2026-10-05",
+          "quote": "made available in a file on the Exchange website w.e.f. October 05, 2026"
+        }
+      ],
+      "impact_summary": "Trading members and FPIs active in NSE's Equity Derivatives segment are informed that index-wise position limits (for Index Futures and Options) will now be disseminated daily via a website file, building on limits earlier prescribed in two prior NSE circulars.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here.",
+        "doc_type": "Document does not explicitly amend the prior circulars but implements/operationalizes them; classified as Fresh Circular based on its standalone informational nature.",
+        "circular_no": "Circular number 'NSE/SURV/76750 (Circular Ref. No: 770/2026)' was not found in the document text."
+      },
+      "source_excerpt_citations": [
+        "This is with reference to NSE circular reference no. NSE/SURV/68845 dated June 30, 2025 and NSE/SURV/67436 dated April 03, 2025",
+        "the Exchange shall be disseminating the position limits for all the indices in Equity Derivatives segment applicable for the next trading day with effect from October 6, 2026",
+        "made available in a file on the Exchange website w.e.f. October 05, 2026",
+        "Client level limits in Index Options are monitored on Future Equivalent (FutEq/Delta) basis."
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/SURV76750.pdf",
+      "sample_data": false,
+      "title": "Dissemination of Position Limits applicable for Indices in Equity Derivatives segment",
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "Position limits for derivatives affect trading operations"
+    },
+    {
+      "circular_no": "38/2026",
+      "date": "2026-10-06",
+      "doc_type": "Amendment",
+      "parent_circular_no": "NSE/CD/73929",
+      "parent_circular_date": "2026-04-28",
+      "implements": [],
+      "impact_areas": [
+        "Trading Operations",
+        "Stock Brokers"
+      ],
+      "applicability": "All Members of the Currency Derivatives Segment",
+      "intent": "NSE is adding further pre-trade validation rules between NNF ID and Algo ID fields to strengthen pre-emptive rejection of mismatched algo orders, updating an earlier consolidated circular.",
+      "action_required": "Members must ensure order systems comply with the four additional NNF ID-Algo ID mismatch validation rules, after which non-compliant orders will be rejected with an NNF error message; refer to NNF API protocol (CD version 6.4) for error codes.",
+      "effective_date": "2026-10-12",
+      "key_dates": [
+        {
+          "label": "Circular effective date",
+          "date": "2026-10-12",
+          "quote": "The circular shall be effective from October 12, 2026."
+        }
+      ],
+      "impact_summary": "Currency Derivatives Segment members must update their order validation logic to account for new NNF ID-Algo ID mismatch rules, with non-compliant orders being rejected by the Exchange from October 12, 2026.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
+      },
+      "source_excerpt_citations": [
+        "This is in partial modification to item no. 1.10 E regarding Pre-emptive order cancellation on account of NNF ID-Algo ID validations",
+        "of Exchange consolidated circular NSE/CD/73929 dated April 28, 2026",
+        "The circular shall be effective from October 12, 2026."
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/CD76749.pdf",
+      "sample_data": false,
+      "title": "Pre-Trade risk controls - Pre-emptive order cancellation on account of NNF ID-Algo ID validations - Update",
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "Pre-trade risk controls affect broker systems and operations"
+    },
+    {
+      "circular_no": "NSE/FAOP/76748",
+      "date": "2026-10-06",
+      "doc_type": "Amendment",
+      "parent_circular_no": "NSE/FAOP/73928",
+      "parent_circular_date": "2026-04-28",
+      "implements": [],
+      "impact_areas": [
+        "Trading Operations",
+        "Stock Brokers",
+        "Surveillance/Market Abuse"
+      ],
+      "applicability": "All Members (Stock Brokers) using NNF ID / Algo ID order routing in Futures & Options segment",
+      "intent": "NSE is tightening pre-trade risk controls by adding further validation rules between NNF ID and Algo ID fields to catch mismatches and pre-emptively reject non-compliant orders.",
+      "action_required": "Members must ensure their order messages comply with the newly specified NNF ID-Algo ID digit combinations, failing which orders will be rejected with a rejection message sent to the NNF user; also refer to NNF API protocol (FO version 9.51) for error codes.",
+      "effective_date": "2026-10-12",
+      "key_dates": [
+        {
+          "label": "Circular effective date",
+          "date": "2026-10-12",
+          "quote": "The circular shall be effective from October 12, 2026."
+        }
+      ],
+      "impact_summary": "Trading members of NSE's Futures & Options segment are affected, as additional NNF ID-Algo ID validation checks will cause automatic rejection of non-conforming orders starting October 12, 2026.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "circular_no": "Document shows both a Download Ref No (NSE/FAOP/76748) and a Circular Ref. No (137/2026); circular_no field uses the Download Ref No as the primary identifier.",
+        "implements": "Circular NSE/INVG/73992 dated April 30, 2026 is referenced for definitional context (same body, NSE) and is not treated as 'implements' since that field is reserved for cross-body circulars.",
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
+      },
+      "source_excerpt_citations": [
+        "This is in partial modification to item no. 1.16 G regarding Pre-emptive order cancellation on account of NNF ID-Algo ID validations",
+        "of Exchange consolidated circular NSE/FAOP/73928 dated April 28, 2026",
+        "The circular shall be effective from October 12, 2026.",
+        "The identification of 12 digits and 13th digit of NNF ID are explained in Exchange circular NSE/INVG/73992 dated April 30, 2026."
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/FAOP76748.pdf",
+      "sample_data": false,
+      "title": "Pre-Trade risk controls - Pre-emptive order cancellation on account of NNF ID-Algo ID validations - Update",
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "Pre-trade risk controls affect broker systems and operations"
+    },
+    {
+      "circular_no": "769/2026",
+      "date": "2026-10-06",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "NSE/SURV/51189",
+      "parent_circular_date": "2022-01-31",
+      "implements": [],
+      "impact_areas": [
+        "Surveillance/Market Abuse",
+        "Margin Trading",
+        "Trading Operations",
+        "Takeover Code"
+      ],
+      "applicability": "All NSE Trading Members / Stock Brokers",
+      "intent": "NSE is updating the list of securities subject to additional margin measures due to high promoter and non-promoter share encumbrance under SEBI SAST Regulation 28(3), continuing a framework established in 2022.",
+      "action_required": "Trading Members must note that securities in Annexure I attract minimum 75% margin in Equity and Equity Derivatives segment w.e.f. October 09, 2026 on existing and new positions, while Annexure II securities exit the framework from October 07, 2026.",
+      "effective_date": "2026-10-09",
+      "key_dates": [
+        {
+          "label": "Margin measure effective date for Annexure I securities",
+          "date": "2026-10-09",
+          "quote": "shall attract minimum 75 % margin ... w.e.f. October 09, 2026 on all open positions"
+        },
+        {
+          "label": "Open positions reference date",
+          "date": "2026-10-08",
+          "quote": "on all open positions as on October 08, 2026"
+        },
+        {
+          "label": "Annexure II securities exit effective date",
+          "date": "2026-10-07",
+          "quote": "are eligible to move out from the said framework effective from October 07, 2026"
+        }
+      ],
+      "impact_summary": "NSE trading members must apply minimum 75% margin on specified securities (Annexure I) starting October 09, 2026 due to high promoter/non-promoter encumbrance levels, while other securities (Annexure II) are removed from this enhanced margin framework effective October 07, 2026.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
+      },
+      "source_excerpt_citations": [
+        "This is in continuation to Exchange circular no NSE/SURV/51189 dated January 31, 2022",
+        "shall attract minimum 75 % margin in Equity and Equity Derivatives segment w.e.f. October 09, 2026",
+        "are eligible to move out from the said framework effective from October 07, 2026",
+        "this measure shall be in conjunction with all other prevailing measures being imposed by the Exchanges"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/SURV76743.zip",
+      "sample_data": false,
+      "title": "Measure in respect of companies with high Promoter as well as non- Promoter 'Encumbrance' as per Reg. 28(3) of SEBI (SAST) Regulation 2011",
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "Surveillance measure affects trading in covered securities"
+    },
+    {
+      "circular_no": "768/2026",
+      "date": "2026-10-06",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "NSE/SURV/64066",
+      "parent_circular_date": "2024-09-20",
+      "implements": [],
+      "impact_areas": [
+        "Surveillance/Market Abuse",
+        "Margin Trading",
+        "Stock Brokers",
+        "Trading Operations"
+      ],
+      "applicability": "All NSE Members",
+      "intent": "NSE periodically reviews securities against ASM criteria and notifies members of newly shortlisted securities requiring additional margin-based surveillance measures to curb excessive price volatility or speculative activity.",
+      "action_required": "Members must apply the specified higher margin rates (50% or existing, whichever higher, capped at 100% for Stage I; 100% or existing, whichever higher, capped at 100% for Stage II) on the securities listed in Annexure I, applicable on all open positions as on October 07, 2026 and new positions created from October 08, 2026.",
+      "effective_date": "2026-10-08",
+      "key_dates": [
+        {
+          "label": "ST-ASM Stage I margin effective date",
+          "date": "2026-10-08",
+          "quote": "capped at 100% w.e.f. October 08, 2026 on all open positions as on October 07, 2026"
+        },
+        {
+          "label": "Reference date for open positions (Stage I)",
+          "date": "2026-10-07",
+          "quote": "on all open positions as on October 07, 2026 and new positions created from October 08, 2026"
+        },
+        {
+          "label": "ST-ASM Stage II margin effective date",
+          "date": "2026-10-08",
+          "quote": "capped at 100%. w.e.f. October 08, 2026 on all open positions as on October 07, 2026"
+        },
+        {
+          "label": "Reference date for open positions (Stage II)",
+          "date": "2026-10-07",
+          "quote": "on all open positions as on October 07, 2026 and new positions created from October 08, 2026"
+        }
+      ],
+      "impact_summary": "All NSE members must apply enhanced margin requirements (50%-100%, capped at 100%) on newly shortlisted ST-ASM Stage I and Stage II securities effective October 08, 2026, affecting trading and margin operations for these specific securities.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
+      },
+      "source_excerpt_citations": [
+        "This is further to Exchange Circular nos. NSE/SURV/39265, NSE/SURV/46557, NSE/SURV/52144, NSE/SURV/58558 and NSE/SURV/64066",
+        "securities as per attached Annexure I have satisfied the criteria for inclusion under ST-ASM Stage I",
+        "Applicable rate of margin shall be 50% or existing margin, whichever is higher, subject to maximum rate of margin capped at 100%",
+        "shortlisting of securities under ASM is purely on account of market surveillance, and it should not be construed as an adverse action"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/SURV76742.zip",
+      "sample_data": false,
+      "title": "Applicability of Short-Term Additional Surveillance Measure (ST-ASM)",
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "Short-term surveillance measure affects client trading"
+    },
+    {
+      "circular_no": "NSE/SURV/76741",
+      "date": "2026-10-06",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "NSE/SURV/39265, NSE/SURV/45111, NSE/SURV/46557, NSE/SURV/48506, NSE/SURV/52090, NSE/SURV/63362, NSE/SURV/64066",
+      "parent_circular_date": "2018-10-27",
+      "implements": [],
+      "impact_areas": [
+        "Surveillance/Market Abuse",
+        "Stock Brokers",
+        "Trading Operations"
+      ],
+      "applicability": "All NSE Members",
+      "intent": "NSE is updating the list of securities that meet the criteria for Long Term Additional Surveillance Measure (ASM) and notifying the resulting margin and settlement-segment actions to members.",
+      "action_required": "Members must apply 100% margin on all open positions as on October 08, 2026 and on new positions created from October 09, 2026 onwards for the listed securities; securities meeting criteria VII must be shifted from EQ (Rolling Settlement) to BE (Trade-for-Trade) segment w.e.f. October 09, 2026.",
+      "effective_date": "2026-10-09",
+      "key_dates": [
+        {
+          "label": "100% margin applicability",
+          "date": "2026-10-09",
+          "quote": "Applicable rate of margin shall be 100% w.e.f. October 09, 2026 on all open positions"
+        },
+        {
+          "label": "Shift to Trade-for-Trade segment",
+          "date": "2026-10-09",
+          "quote": "shall be shifted from Rolling Settlement segment (Series: EQ) to Trade-for-Trade segment (Series: BE) w.e.f. October 09, 2026"
+        }
+      ],
+      "impact_summary": "NSE members must impose 100% margin on specified securities and move certain scrips to the trade-for-trade segment as part of the recurring Long Term ASM surveillance framework, effective October 09, 2026.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "parent_circular_no_date": "The circular references seven prior same-body NSE circulars with seven different dates; only the first date (2018-10-27) was used for parent_circular_date due to single-value field constraint, but all seven numbers/dates are listed in parent_circular_no.",
+        "circular_no_choice": "Two identifiers appear in source: 'Download Ref No: NSE/SURV/76741' and 'Circular Ref. No: 767/2026'; the Download Ref No was chosen as it matches the format of the cross-referenced circular numbers.",
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
+      },
+      "source_excerpt_citations": [
+        "Download Ref No: NSE/SURV/ 76741 Date: October 06, 2026",
+        "Circular Ref. No: 767/2026",
+        "This is with reference to Exchange Circular nos. NSE/SURV/39265, NSE/SURV/45111... dated October 27, 2018",
+        "Applicable rate of margin shall be 100% w.e.f. October 09, 2026 on all open positions",
+        "shifted from Rolling Settlement segment (Series: EQ) to Trade-for-Trade segment (Series: BE) w.e.f. October 09, 2026"
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/SURV76741.zip",
+      "sample_data": false,
+      "title": "Applicability of Additional Surveillance Measure (ASM)",
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "Additional surveillance measure affects trading operations"
+    },
+    {
+      "circular_no": "NSE/SURV/76738",
+      "date": "2026-10-06",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "NSE/SURV/56948, NSE/SURV/57609, NSE/SURV/63361, NSE/SURV/64066, NSE/SURV/64400, NSE/SURV/69315",
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Surveillance/Market Abuse",
+        "Stock Brokers",
+        "Trading Operations"
+      ],
+      "applicability": "All NSE Members",
+      "intent": "NSE periodically updates the list of securities under its Enhanced Surveillance Measure (ESM) framework based on securities meeting or exiting the prescribed criteria, applying additional margin and trading restrictions to curb speculative activity.",
+      "action_required": "Members must apply a minimum 100% margin on all open and new positions in Annexure I securities from October 08, 2026, and shift qualifying securities from Rolling Settlement (EQ/SM) to Trade-for-Trade (BE/ST) segment effective October 08, 2026; Stage II securities move to Trade for Trade with a 2% price band under Periodic Call Auction effective October 07, 2026.",
+      "effective_date": "2026-10-08",
+      "key_dates": [
+        {
+          "label": "100% margin applicability on ESM securities",
+          "date": "2026-10-08",
+          "quote": "shall attract a minimum 100% margin w.e.f. October 08, 2026, on all open positions"
+        },
+        {
+          "label": "Open position reference date",
+          "date": "2026-10-07",
+          "quote": "on all open positions as on October 07, 2026, and new positions created from October 08, 2026"
+        },
+        {
+          "label": "Segment shift to Trade-for-Trade",
+          "date": "2026-10-08",
+          "quote": "shall be shifted from Rolling Settlement segment (Series: EQ/SM) to Trade-for-Trade segment (Series: BE/ST) w.e.f. October 08, 2026"
+        },
+        {
+          "label": "Stage II price band under Periodic Call Auction",
+          "date": "2026-10-07",
+          "quote": "securities shifting to Stage II shall be under Trade for Trade with price band of 2% under Periodic Call Auction w.e.f. October 07, 2026"
+        }
+      ],
+      "impact_summary": "This circular affects all NSE trading members, requiring them to apply enhanced margins and shift specific securities into the Trade-for-Trade segment under the Enhanced Surveillance Measure (ESM) framework, in line with ongoing market surveillance practices.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here.",
+        "doc_type": "Classified as Fresh Circular since it is a routine periodic update within an established ESM framework rather than a formal amendment to the framework rules themselves."
+      },
+      "source_excerpt_citations": [
+        "This is with reference to Exchange Circular nos. NSE/SURV/56948, NSE/SURV/57609, NSE/SURV/63361, NSE/SURV/64066, NSE/SURV/64400, and NSE/SURV/69315",
+        "shall attract a minimum 100% margin w.e.f. October 08, 2026, on all open positions as on October 07, 2026",
+        "Securities qualifying under ESM shall be shifted from Rolling Settlement segment (Series: EQ/SM) to Trade-for-Trade segment (Series: BE/ST) w.e.f. October 08, 2026"
+      ],
+      "model_confidence": "Inferred",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/SURV76738.zip",
+      "sample_data": false,
+      "title": "Applicability of Enhanced Surveillance Measure (ESM)",
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "Enhanced surveillance measure affects trading operations"
+    },
+    {
+      "circular_no": "NSE/SURV/76726 (Circular Ref. No: 765/2026)",
+      "date": "2026-10-06",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [
+        {
+          "regulator": "SEBI",
+          "circular_no": "HO/47/16/13(5)2026-MRD-POD1/ I/20735/2026",
+          "date": "2026-09-09"
+        }
+      ],
+      "impact_areas": [
+        "Commodity Derivatives Segment",
+        "Stock Exchanges",
+        "Stock Brokers",
+        "Surveillance/Market Abuse"
+      ],
+      "applicability": "All NSE Members / Recognized Stock Exchanges having Commodity Derivatives Segment",
+      "intent": "SEBI is revising client-level position limit norms and penalty provisions for violations in the commodity derivatives segment to reflect current market conditions and ease of doing business, and NSE is circulating this SEBI circular to its members for implementation.",
+      "action_required": "NSE members must note the revised position limit and penalty provisions (Annexure J, Para 3.4.3 and 3.5.2 of SEBI Master Circular dated Aug 04, 2023); Exchanges must implement necessary systems, amend bye-laws/rules/regulations, and disseminate the provisions to market participants/investors on their website. The circular comes into force with immediate effect.",
+      "effective_date": "2026-09-09",
+      "key_dates": [
+        {
+          "label": "SEBI circular effective date (immediate effect)",
+          "date": "2026-09-09",
+          "quote": "The circular shall come into force with immediate effect."
+        }
+      ],
+      "impact_summary": "Commodity derivatives trading members and exchanges are affected by revised client-level position limits (based on commodity category: Broad/Narrow/Sensitive) and capped monetary penalties for position limit violations, aimed at easing compliance burden while discouraging open interest breaches.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "circular_no": "Circular number 'NSE/SURV/76726 (Circular Ref. No: 765/2026)' was not found in the document text."
+      },
+      "source_excerpt_citations": [
+        "regarding Review of Position Limits for Clients and Penalty Provisions for Violation / Breach of Position Limits",
+        "The circular shall come into force with immediate effect.",
+        "Numerical Value of overall client level open position limits for each commodity shall be calculated from 'deliverable supply'",
+        "Where the violation is more than 2% of the prescribed limit(s) – Limit exceeded x Closing price x number of days"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/SURV76726.zip",
+      "sample_data": false,
+      "title": "Review of Position Limits for Clients and Penalty Provisions for Violation/ Breach of Position Limits for Commodity Derivatives Segment",
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "Position limit rules and penalty provisions affect traders"
+    },
+    {
+      "circular_no": "20261006-34",
+      "date": "2026-10-06",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "20180321-46",
+      "parent_circular_date": "2018-03-21",
+      "implements": [],
+      "impact_areas": [
+        "Surveillance/Market Abuse",
+        "Trading Operations",
+        "Stock Brokers"
+      ],
+      "applicability": "Trading Members / Market Participants dealing in securities placed under LT-ASM Framework",
+      "intent": "BSE is applying periodic review outcomes of the Long Term Additional Surveillance Measure (LT-ASM) framework, updating which securities face enhanced margins, price bands, or are moved between/out of surveillance stages.",
+      "action_required": "Members must apply 100% margins on open positions as of October 08, 2026 and new positions from October 09, 2026 for listed securities (Annexure I Part A); apply lower price band w.e.f. October 07, 2026; transfer applicable securities to T/XT/MT/TS group w.e.f. October 09, 2026 (Annexure I Part D); and update trading systems per securities moving out of LT-ASM w.e.f. October 07, 2026 (Annexure II).",
+      "effective_date": "2026-10-07",
+      "key_dates": [
+        {
+          "label": "100% margin applicability on open and new positions",
+          "date": "2026-10-09",
+          "quote": "100% Margins shall be applicable w.e.f. October 09, 2026 on all open positions"
+        },
+        {
+          "label": "Securities moved to higher LT-ASM stages",
+          "date": "2026-10-07",
+          "quote": "list of securities which are moved to their respective higher stages LT-ASM Framework, w.e.f. October 07, 2026"
+        },
+        {
+          "label": "Lower price band applicability",
+          "date": "2026-10-07",
+          "quote": "Lower Price Band shall be applicable w.e.f. October 07, 2026"
+        },
+        {
+          "label": "Transfer to T/XT/MT/TS Group",
+          "date": "2026-10-09",
+          "quote": "shall be transferred to T / XT / MT / TS Group w.e.f. October 09, 2026"
+        },
+        {
+          "label": "Securities moving out of LT-ASM framework",
+          "date": "2026-10-07",
+          "quote": "list of securities which are moving out from LT-ASM Framework, w.e.f. October 07, 2026"
+        }
+      ],
+      "impact_summary": "Stock brokers and trading members dealing in BSE-listed equities under surveillance must implement updated margin requirements, price bands, and group transfers for securities under the LT-ASM framework per the latest periodic review.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "doc_type": "Classified as Fresh Circular since this is a routine periodic application/update under an existing framework rather than itself amending the framework rules, though it closely resembles an operational update.",
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here.",
+        "effective_date": "Multiple effective dates are stated for different measures (Oct 07, 2026 and Oct 09, 2026); the earliest (Oct 07) was chosen as the primary effective_date, but see key_dates for full detail.",
+        "circular_no": "'20261006-34' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "reference to the Exchange notice no. 20180321-46 dated March 21, 2018 and various notices issued thereafter",
+        "As per the revised LT-ASM framework, it may be noted that Long Term Additional Surveillance Measures",
+        "shortlisting of securities under aforesaid Framework is purely on account of market surveillance",
+        "Shortlisting of securities is based on the XBRL submission by the respective listed companies"
+      ],
+      "model_confidence": "Inferred",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261006-34/20261006-34.pdf",
+      "sample_data": false,
+      "title": "Applicability of Long Term Additional Surveillance Measure (LT-ASM)",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Long-term surveillance measure affects trading operations"
+    },
+    {
+      "circular_no": "20261006-33",
+      "date": "2026-10-06",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "20240920-63",
+      "parent_circular_date": "2024-09-20",
+      "implements": [],
+      "impact_areas": [
+        "Surveillance/Market Abuse",
+        "Margin Trading",
+        "Stock Brokers",
+        "Trading Operations"
+      ],
+      "applicability": "Trading Members of BSE (Equity Segment)",
+      "intent": "To notify members of securities that have met the criteria for inclusion under ST-ASM Stage I and Stage II and to specify the applicable margin surveillance actions, pursuant to the ongoing ASM framework established by prior BSE notices.",
+      "action_required": "Members must apply the specified margin rates (50% or existing margin, whichever is higher, capped at 100% for Stage I; 100% or existing margin, whichever is higher, capped at 100% for Stage II) on all open positions as on October 07, 2026 and on new positions created from October 08, 2026.",
+      "effective_date": "2026-10-08",
+      "key_dates": [
+        {
+          "label": "Margin rate effective date",
+          "date": "2026-10-08",
+          "quote": "w.e.f. October 08, 2026 on all open positions as on October 07, 2026 and new positions created from October 08, 2026"
+        },
+        {
+          "label": "Reference date for open positions",
+          "date": "2026-10-07",
+          "quote": "on all open positions as on October 07, 2026"
+        }
+      ],
+      "impact_summary": "BSE trading members handling securities listed in Annexure I are affected, as these securities now attract higher margin requirements (50%-100%) under the ST-ASM Stage I/II surveillance framework effective October 08, 2026.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here.",
+        "doc_type": "Classified as Fresh Circular since it applies the existing ASM framework to new securities rather than amending the framework itself, though it closely resembles a routine periodic notice.",
+        "circular_no": "'20261006-33' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "This is further to Exchange notice no. 20240920-71 dated September 20, 2024, 20181027-1 dated October 27, 2018",
+        "securities as per attached Annexure I have satisfied the criteria for inclusion under ST-ASM Stage I",
+        "Applicable rate of margin shall be 50% or existing margin whichever is higher, subject to maximum rate of margin capped at 100%",
+        "w.e.f. October 08, 2026 on all open positions as on October 07, 2026 and new positions created from October 08, 2026"
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261006-33/20261006-33.pdf",
+      "sample_data": false,
+      "title": "Applicability of Short Term Additional Surveillance Measure (ST-ASM)",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Short-term surveillance measure affects trading operations"
+    },
+    {
+      "circular_no": "20261006-32",
+      "date": "2026-10-06",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "20220131-43",
+      "parent_circular_date": "2022-01-31",
+      "implements": [],
+      "impact_areas": [
+        "Stock Brokers",
+        "Margin Trading",
+        "Surveillance/Market Abuse",
+        "Takeover Code",
+        "Trading Operations"
+      ],
+      "applicability": "Trading Members / Stock Brokers (Equity and Equity Derivatives segment)",
+      "intent": "BSE is updating its periodic list of securities subject to the high Promoter/non-Promoter Encumbrance surveillance measure under SEBI (SAST) Regulations, adding newly qualifying securities and removing those that no longer meet the criteria.",
+      "action_required": "Trading Members must apply minimum 75% margin in Equity and Equity Derivatives segment on securities in Annexure I w.e.f. October 09, 2026 (on open positions as on October 08, 2026, and new positions from October 09, 2026); note securities in Annexure II move out of the framework effective October 07, 2026.",
+      "effective_date": "2026-10-09",
+      "key_dates": [
+        {
+          "label": "Margin measure effective date for newly added securities",
+          "date": "2026-10-09",
+          "quote": "shall attract minimum 75% margin in Equity and Equity Derivatives segment w.e.f. October 09, 2026"
+        },
+        {
+          "label": "Open positions reference date",
+          "date": "2026-10-08",
+          "quote": "on all open positions as on October 08, 2026, and new positions created from October 09, 2026"
+        },
+        {
+          "label": "Exit date for securities moving out of framework",
+          "date": "2026-10-07",
+          "quote": "are eligible to move out from the said framework effective from October 07, 2026"
+        }
+      ],
+      "impact_summary": "Trading Members dealing in the listed securities named in the annexures face a 75% minimum margin requirement in Equity and Equity Derivatives segments from October 09, 2026, while certain other securities are being removed from this enhanced surveillance measure.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "doc_type": "Classified as Fresh Circular since it is a periodic update notice continuing an existing framework rather than amending the framework's rules themselves; could alternatively be viewed as routine continuation.",
+        "source_excerpt_citations": "1 quoted excerpt(s) could not be found in the circular text — possible fabrication: \"Measure in respect of companies with high Promoter as well as non Promoter 'Encu\"",
+        "circular_no": "'20261006-32' doesn't look like a circular reference number — verify manually.",
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
+      },
+      "source_excerpt_citations": [
+        "This is in continuation to Exchange notice no. 20220131-43 dated January 31, 2022, on the captioned subject.",
+        "shall attract minimum 75% margin in Equity and Equity Derivatives segment w.e.f. October 09, 2026",
+        "are eligible to move out from the said framework effective from October 07, 2026",
+        "Measure in respect of companies with high Promoter as well as non Promoter 'Encumbrance' as per Reg. 28(3) of SEBI (SAST) Regulation 2011."
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261006-32/20261006-32.pdf",
+      "sample_data": false,
+      "title": "Measure in respect of companies with high Promoter as well as non Promoter ‘Encumbrance’ as per Reg. 28(3) of SEBI (SAST) Regulation 2011.",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Surveillance measure affects trading in covered securities"
+    },
+    {
+      "circular_no": "Notice No. 20261006-31",
+      "date": "2026-10-06",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "20250725-61",
+      "parent_circular_date": "2025-07-25",
+      "implements": [],
+      "impact_areas": [
+        "Surveillance/Market Abuse",
+        "Stock Brokers",
+        "Trading Operations"
+      ],
+      "applicability": "BSE Trading Members / Market Participants in Equity segment",
+      "intent": "To update the list of securities placed under, moved within, or removed from the Enhanced Surveillance Measure (ESM) framework based on periodic surveillance review, and to impose/adjust associated trading restrictions.",
+      "action_required": "Members must note the securities listed in Annexures I, II and III; apply minimum 100% margin on open and new positions in Annexure I securities from October 08, 2026; shift qualifying securities to Trade-for-Trade segment from October 08, 2026; and apply 2% price band with Periodic Call Auction for Stage II securities from October 07, 2026.",
+      "effective_date": "2026-10-07",
+      "key_dates": [
+        {
+          "label": "Minimum margin applicability",
+          "date": "2026-10-08",
+          "quote": "shall attract minimum 100% margin w.e.f. October 08, 2026 on all open positions as on October 07, 2026"
+        },
+        {
+          "label": "Stage I movement (lower stage) effective date",
+          "date": "2026-10-07",
+          "quote": "moved to lower Stage i.e. Stage I under ESM Framework w.e.f. October 07, 2026"
+        },
+        {
+          "label": "Shift to Trade-for-Trade segment",
+          "date": "2026-10-08",
+          "quote": "shifted from Rolling Settlement segment to Trade-for-Trade segment w.e.f. October 08, 2026"
+        },
+        {
+          "label": "Stage II price band and Periodic Call Auction effective date",
+          "date": "2026-10-07",
+          "quote": "Stage II shall be under Trade for Trade with price band of 2% and with Periodic Call Auction w.e.f. October 07, 2026"
+        },
+        {
+          "label": "Securities moving out of ESM framework",
+          "date": "2026-10-07",
+          "quote": "list of securities which are moving out from ESM Framework, w.e.f. October 07, 2026"
+        }
+      ],
+      "impact_summary": "BSE trading members and market participants dealing in the listed securities face enhanced margin requirements, shift to Trade-for-Trade settlement, and tighter price bands/call auction mechanisms as part of the ESM surveillance framework update.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here.",
+        "doc_type": "This is a recurring periodic update notice under an established framework rather than a clear standalone fresh circular or formal amendment/addendum to a specific prior text, making classification somewhat judgment-based."
+      },
+      "source_excerpt_citations": [
+        "This is with reference to the Exchange notice no. 20230602-44 dated June 02, 2023... notice no.20250725-61 dated July 25, 2025",
+        "shall attract minimum 100% margin w.e.f. October 08, 2026 on all open positions as on October 07, 2026",
+        "shall be moved to lower Stage i.e. Stage I under ESM Framework w.e.f. October 07, 2026",
+        "Securities qualifying under ESM shall be shifted from Rolling Settlement segment to Trade-for-Trade segment w.e.f. October 08, 2026",
+        "securities shifting to Stage II shall be under Trade for Trade with price band of 2% and with Periodic Call Auction w.e.f. October 07, 2026"
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261006-31/20261006-31.pdf",
+      "sample_data": false,
+      "title": "Enhanced Surveillance Measure (ESM)",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Enhanced surveillance measure affects trading operations"
+    },
+    {
+      "circular_no": "Notice No. 20261006-30",
+      "date": "2026-10-06",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "20170223-44",
+      "parent_circular_date": "2017-02-23",
+      "implements": [],
+      "impact_areas": [
+        "Surveillance/Market Abuse",
+        "Stock Brokers",
+        "Trading Operations"
+      ],
+      "applicability": "Trading Members of BSE",
+      "intent": "BSE periodically reviews securities under the Graded Surveillance Measure (GSM) framework and updates which stage each security falls into, to curb excessive speculation and protect investors in vulnerable securities.",
+      "action_required": "Trading members must note that securities listed in the attached Annexure move to their respective higher GSM stages effective October 07, 2026, and must comply with applicable margin rates, price bands, trade-for-trade settlement, and Additional Surveillance Deposit (ASD) requirements for those stages; settlement is on trade-to-trade basis with no netting off allowed.",
+      "effective_date": "2026-10-07",
+      "key_dates": [
+        {
+          "label": "GSM stage movement effective date",
+          "date": "2026-10-07",
+          "quote": "shall be moved to their respective higher stages of GSM with effect from October 07, 2026"
+        }
+      ],
+      "impact_summary": "Trading members dealing in the listed securities are affected by stricter surveillance actions (higher margins, trade-for-trade settlement, restricted trading frequency, and ASD deposits) as these securities move to higher GSM stages from October 07, 2026.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
+      },
+      "source_excerpt_citations": [
+        "With reference to the Exchange notice no. 20170223-44 dated February 23, 2017",
+        "shall be moved to their respective higher stages of GSM with effect from October 07, 2026",
+        "as per the provisions of GSM Framework published on February 23, 2017",
+        "the settlement shall be done on trade-to-trade basis and no netting off shall be allowed"
+      ],
+      "model_confidence": "Inferred",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261006-30/20261006-30.pdf",
+      "sample_data": false,
+      "title": "Graded Surveillance Measure (GSM) - List of securities moving into their respective GSM Stages",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Graded surveillance measure affects trading operations"
+    },
+    {
+      "circular_no": "20261006-29",
+      "date": "2026-10-06",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Stock Brokers",
+        "Surveillance/Market Abuse",
+        "Trading Operations"
+      ],
+      "applicability": "Trading Members of BSE",
+      "intent": "BSE is revising the applicable price bands for a specified list of scrips as part of its surveillance measures.",
+      "action_required": "Trading members must apply the revised price bands for the listed scrips with effect from October 07, 2026.",
+      "effective_date": "2026-10-07",
+      "key_dates": [
+        {
+          "label": "Revised price band effective date",
+          "date": "2026-10-07",
+          "quote": "price band has/have been revised from their existing levels in the below-mentioned scrips with effect from October 07, 2026"
+        }
+      ],
+      "impact_summary": "Trading members dealing in the listed scrips (e.g. Ameenji Rubber, Annvrridhhi Ventures, Inani Marbles) must adhere to the new price band percentages from the stated effective date.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "circular_no": "'20261006-29' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "Trading Members of the Exchange are hereby informed that the price band has/have been revised",
+        "with effect from October 07, 2026"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261006-29/20261006-29.pdf",
+      "sample_data": false,
+      "title": "CHANGES IN PRICE BAND",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Price band changes affect trading operations for brokers and systems."
+    },
+    {
+      "circular_no": "20261006-28",
+      "date": "2026-10-06",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Corporate Bonds/Debt Market",
+        "Stock Brokers",
+        "Trading Operations"
+      ],
+      "applicability": "Trading Members of BSE (Debt Segment)",
+      "intent": "To inform trading members of record dates fixed by various companies for interest payment/redemption of their listed Non-Convertible Debentures/Bonds and to instruct suspension of trading in those instruments around such dates.",
+      "action_required": "Trading Members are advised not to deal in the listed debentures/bonds of the specified companies on the Ex Date/Record Date mentioned against each ISIN.",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [
+        {
+          "label": "Record Date - Nuvama Wealth Finance (NWFL-9.61%-26-10-26)",
+          "date": "2026-10-09",
+          "quote": "976141 Nuvama Wealth Finance Limited ... 09/10/2026 09/10/2026",
+          "unverified": true
+        },
+        {
+          "label": "Record Date - Akara Capital Advisors (ACAPL-14.35%-28-10-26)",
+          "date": "2026-10-13",
+          "quote": "977176 Akara Capital Advisors Private Limited ... 13/10/2026 13/10/2026",
+          "unverified": true
+        },
+        {
+          "label": "Record Date - UNO Minda Limited (UML-7.12%-29-10-26)",
+          "date": "2026-10-14",
+          "quote": "977045 UNO Minda Limited ... 14/10/2026 14/10/2026"
+        },
+        {
+          "label": "Record Date - Akara Capital Advisors (ACAPL-9.85%-30-10-26)",
+          "date": "2026-10-15",
+          "quote": "976660 Akara Capital Advisors Private Limited ... 15/10/2026 15/10/2026",
+          "unverified": true
+        },
+        {
+          "label": "Record Date - IFCI Ltd (IFCI-III-D-10.75%-31-10-26)",
+          "date": "2026-10-16",
+          "quote": "972691 IFCI Ltd. ... 16/10/2026 16/10/2026"
+        },
+        {
+          "label": "Record Date - REC Limited (REC-7.52%-7-11-26)",
+          "date": "2026-10-23",
+          "quote": "955229 REC LIMITED ... 23/10/2026 23/10/2026"
+        },
+        {
+          "label": "Record Date - SK Finance Limited (SKFL-9.25%-8-11-26)",
+          "date": "2026-10-24",
+          "quote": "975189 SK Finance Limited ... 24/10/2026 23/10/2026"
+        },
+        {
+          "label": "Record Date - Kotak Mahindra Prime Limited (KMPL-8.09%-9-11-26)",
+          "date": "2026-10-23",
+          "quote": "975195 Kotak Mahindra Prime Limited ... 23/10/2026 23/10/2026",
+          "unverified": true
+        },
+        {
+          "label": "Record Date - Krazybee Services Ltd (KSL-11.82%-09-11-26)",
+          "date": "2026-10-24",
+          "quote": "975794 Krazybee Services Ltd ... 24/10/2026 23/10/2026"
+        },
+        {
+          "label": "Record Date - InCred Financial Services Limited (IFSL-10.30%-10-11-26)",
+          "date": "2026-10-26",
+          "quote": "939010 InCred Financial Services Limited ... 26/10/2026 26/10/2026",
+          "unverified": true
+        },
+        {
+          "label": "Record Date - InCred Financial Services Limited (IFSL-9.84%-10-11-26)",
+          "date": "2026-10-26",
+          "quote": "939012 InCred Financial Services Limited ... 26/10/2026 26/10/2026",
+          "unverified": true
+        },
+        {
+          "label": "Record Date - Indian Railway Finance Corporation (IRFC-79-7.77%-8-11-26)",
+          "date": "2026-10-26",
+          "quote": "972693 Indian Railway Finance Corporation ... 26/10/2026 26/10/2026",
+          "unverified": true
+        },
+        {
+          "label": "Record Date - JM Financial Home Loans Limited (JMFHL-8%-10-11-26)",
+          "date": "2026-10-26",
+          "quote": "973574 JM Financial Home Loans Limited ... 26/10/2026 26/10/2026",
+          "unverified": true
+        },
+        {
+          "label": "Record Date - Chemmanur Credits and Investments Limited (CCIL-11-11-26)",
+          "date": "2026-10-27",
+          "quote": "940753 Chemmanur Credits and Investments Limited ... 27/10/2026 27/10/2026",
+          "unverified": true
+        },
+        {
+          "label": "Record Date - OXYZO Financial Services Limited (OFSL-9.45%-11-11-26)",
+          "date": "2026-10-27",
+          "quote": "976167 OXYZO Financial Services Limited ... 27/10/2026 27/10/2026",
+          "unverified": true
+        },
+        {
+          "label": "Record Date - Indel Money Limited (IML-11%-11-11-26)",
+          "date": "2026-10-27",
+          "quote": "976618 Indel Money Limited ... 27/10/2026 27/10/2026"
+        }
+      ],
+      "impact_summary": "BSE trading members are notified of upcoming record/ex dates for interest payment or redemption on specified NCDs/bonds of 15 listed companies and are instructed not to trade these instruments around those dates.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "key_dates": "The quote supporting key date 2026-10-27 was not found in the circular text.",
+        "circular_no": "'20261006-28' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "Trading Members of the Exchange are hereby advised not to deal in the Debentures of the Companies as mentioned under",
+        "Companies have fixed Record Date for the purpose of Payment of Interest/ Redemption of the following Non-Convertible Debentures/Bonds"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261006-28/20261006-28.pdf",
+      "sample_data": false,
+      "title": "Suspension of Trading in Debentures and Bonds of Companies",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Trading suspensions require broker notification and trading system updates."
+    },
+    {
+      "circular_no": "20261006-27",
+      "date": "2026-10-06",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Corporate Bonds/Debt Market",
+        "Stock Brokers",
+        "Stock Exchanges"
+      ],
+      "applicability": "Trading Members of BSE dealing in Commercial Paper of the listed companies named in the notice",
+      "intent": "BSE is informing trading members of upcoming Record Dates for redemption of various companies' Commercial Paper and advising suspension of dealing in those instruments around the record/ex dates.",
+      "action_required": "Trading Members must not deal in the Commercial Paper of the listed companies on the specified Ex Date/Record Date mentioned for each ISIN.",
+      "effective_date": null,
+      "key_dates": [
+        {
+          "label": "Record/Ex Date - Adani Ports APSEZL-13-10-26-CP (INE742F14RI8)",
+          "date": "2026-10-12",
+          "quote": "APSEZL-13-10-26-CP INE742F14RI8 12/10/2026 12/10/2026",
+          "unverified": true
+        },
+        {
+          "label": "Record/Ex Date - Adani Enterprises AEL-15-10-26-CP (INE423A14ZB4)",
+          "date": "2026-10-14",
+          "quote": "AEL-15-10-26-CP INE423A14ZB4 14/10/2026 14/10/2026"
+        },
+        {
+          "label": "Record/Ex Date - Adani Ports APSEZ-16-10-26-CP (INE742F14RJ6)",
+          "date": "2026-10-15",
+          "quote": "APSEZ-16-10-26-CP INE742F14RJ6 15/10/2026 15/10/2026",
+          "unverified": true
+        },
+        {
+          "label": "Record/Ex Date - Nuvama Custodial NCSL-21-10-26-CP (INE0H3Q14014)",
+          "date": "2026-10-19",
+          "quote": "NCSL-21-10-26-CP INE0H3Q14014 19/10/2026 19/10/2026",
+          "unverified": true
+        },
+        {
+          "label": "Record/Ex Date - SBICAP Securities SSL-22-10-26-CP (INE212K14EM2)",
+          "date": "2026-10-21",
+          "quote": "SSL-22-10-26-CP INE212K14EM2 21/10/2026 21/10/2026"
+        },
+        {
+          "label": "Record/Ex Date - Axis Finance AFL-23-10-26-CP (INE891K14PQ0)",
+          "date": "2026-10-22",
+          "quote": "AFL-23-10-26-CP INE891K14PQ0 22/10/2026 22/10/2026"
+        },
+        {
+          "label": "Record/Ex Date - InCred Financial IFSL-23-10-26-CP (INE321N14430)",
+          "date": "2026-10-22",
+          "quote": "IFSL-23-10-26-CP INE321N14430 22/10/2026 22/10/2026"
+        },
+        {
+          "label": "Record/Ex Date - Time Technoplast TTL-23-10-26-CP (INE508G14IV3)",
+          "date": "2026-10-22",
+          "quote": "TTL-23-10-26-CP INE508G14IV3 22/10/2026 22/10/2026"
+        },
+        {
+          "label": "Record/Ex Date - Navi Finserv NFL-23-10-26-CP (INE342T14GJ9)",
+          "date": "2026-10-22",
+          "quote": "NFL-23-10-26-CP INE342T14GJ9 22/10/2026 22/10/2026"
+        },
+        {
+          "label": "Record/Ex Date - UGRO Capital UGL-23-10-26-CP (INE583D14881)",
+          "date": "2026-10-22",
+          "quote": "UGL-23-10-26-CP INE583D14881 22/10/2026 22/10/2026",
+          "unverified": true
+        },
+        {
+          "label": "Record/Ex Date - Julius Baer Capital JBCPL-23-10-26-CP (INE824H14UU9)",
+          "date": "2026-10-22",
+          "quote": "JBCPL-23-10-26-CP INE824H14UU9 22/10/2026 22/10/2026",
+          "unverified": true
+        },
+        {
+          "label": "Record/Ex Date - Aditya Birla Housing Finance ABHFL-23-10-26-CP (INE831R14GH9)",
+          "date": "2026-10-22",
+          "quote": "ABHFL-23-10-26-CP INE831R14GH9 22/10/2026 22/10/2026",
+          "unverified": true
+        },
+        {
+          "label": "Record/Ex Date - Bajaj Finance BFL-23-10-26-CP (INE296A14I91)",
+          "date": "2026-10-22",
+          "quote": "BFL-23-10-26-CP INE296A14I91 22/10/2026 22/10/2026"
+        },
+        {
+          "label": "Record/Ex Date - Manappuram Finance MFL-23-10-26-CP (INE522D14QE0)",
+          "date": "2026-10-22",
+          "quote": "MFL-23-10-26-CP INE522D14QE0 22/10/2026 22/10/2026"
+        }
+      ],
+      "impact_summary": "BSE trading members are advised to suspend dealing in the listed Commercial Paper instruments of fourteen issuer companies around their respective record/ex dates ahead of redemption, affecting debt segment trading operations.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "effective_date": "No single overarching effective date is stated; each listed Commercial Paper has its own Record Date/Ex Date, captured individually in key_dates.",
+        "key_dates": "The quote supporting key date 2026-10-22 was not found in the circular text.",
+        "circular_no": "'20261006-27' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "Trading Members of the Exchange are hereby advised not to deal in the Commercial Paper of the Companies as mentioned under",
+        "the following Companies have fixed Record Date for the purpose of Redemption of Commercial Paper",
+        "Subject Suspension of Trading in Commercial Paper"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261006-27/20261006-27.pdf",
+      "sample_data": false,
+      "title": "Suspension of Trading in Commercial Paper",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Trading suspensions require broker notification and trading system updates."
+    },
+    {
+      "circular_no": "Notice No. 20261006-24",
+      "date": "2026-10-06",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Corporate Bonds/Debt Market",
+        "Stock Exchanges"
+      ],
+      "applicability": "Trading Members (BSE Debt Segment)",
+      "intent": "BSE is notifying trading members of newly listed privately placed debt securities (commercial papers and debt instruments) admitted to trading on its Debt Segment.",
+      "action_required": "No specific action mandated beyond awareness; trading members may contact the debt department for clarifications at the numbers provided. Securities will trade only in dematerialised form in the stated denominations/tick sizes.",
+      "effective_date": "2026-10-06",
+      "key_dates": [
+        {
+          "label": "Listing effective date",
+          "date": "2026-10-06",
+          "quote": "have been listed and are now admitted to trading on the BSE Debt Segment effective today"
+        }
+      ],
+      "impact_summary": "This is a routine BSE notice informing trading members that specific privately placed commercial papers and debt securities from various issuers (e.g., Chennai Petroleum, Bajaj Finance, Kotak Mahindra Prime) are now listed and tradable on the BSE Debt Segment, with details on ISINs, denominations and tick sizes.",
+      "overall_confidence": "Certain",
+      "confidence_flags": {},
+      "source_excerpt_citations": [
+        "Trading Members are hereby informed that the new securities, as detailed in the annexure and issued on a private placement basis, have been listed",
+        "The trading shall take place in standard denomination of Rs.5 Lakhs and multiples thereof.",
+        "The tick size for the securities is 1 paise."
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261006-24/20261006-24.pdf",
+      "sample_data": false,
+      "title": "Listing of privately placed securities on the debt market segment of the Exchange",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Debt market listing may affect broker systems and trading operations."
+    },
+    {
+      "circular_no": "Notice No. 20261006-20",
+      "date": "2026-10-06",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "Notice No. 20260918-1",
+      "parent_circular_date": "2026-09-16",
+      "implements": [],
+      "impact_areas": [
+        "Stock Brokers",
+        "Other"
+      ],
+      "applicability": "All Members of BSE Clearing Ltd / Principal Entities using SMS Content Templates",
+      "intent": "To ensure Members (as Principal Entities) comply with TRAI's requirement to pre-tag and validate variable fields in SMS Content Templates before TRAI activates 'blocker mode', which would start rejecting non-compliant SMS traffic.",
+      "action_required": "Review all SMS Content Templates (prioritising those used in the preceding 90 days), ensure variable fields are appropriately pre-tagged per TRAI's framework, monitor delivery errors in coordination with Access Providers, and complete the exercise within 30 days i.e. by 17.10.2026.",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [
+        {
+          "label": "Compliance deadline for SMS template pre-tagging exercise",
+          "date": "2026-10-17",
+          "quote": "complete the aforesaid exercise within 30 days i.e by 17.10.2026"
+        },
+        {
+          "label": "Logger mode operational start date",
+          "date": "2026-07-01",
+          "quote": "variable-field scrubbing mechanism has been operating in logger mode since 1st July 2026"
+        },
+        {
+          "label": "TRAI Direction date",
+          "date": "2025-11-18",
+          "quote": "TRAI, vide its Direction dated 18.11.2025 regarding pre-tagging of variable fields"
+        },
+        {
+          "label": "SEBI communication date",
+          "date": "2026-09-25",
+          "quote": "reference to the SEBI communication dated September 25, 2026"
+        },
+        {
+          "label": "Prior BSE Notice date",
+          "date": "2026-09-16",
+          "quote": "Point No. 3 of the Notice No. 20260918-1 dated September 16, 2026"
+        }
+      ],
+      "impact_summary": "BSE Members (as Principal Entities sending SMS communications) must urgently review and correctly pre-tag variable fields in their registered SMS Content Templates, since TRAI is moving from a 'logger mode' (allowing non-compliant SMS with errors logged) to a 'blocker mode' that will reject non-compliant SMS traffic, with a compliance deadline of 17.10.2026.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "doc_type": "This is a follow-up informational notice referencing a prior BSE notice and a SEBI communication rather than a clear amendment/addendum text structure, so doc_type classification as 'Fresh Circular' is a best-fit judgment.",
+        "impact_areas": "TRAI/SMS template compliance does not map cleanly to the listed categories; 'Other' used alongside 'Stock Brokers' since the notice is addressed to 'All Members'.",
+        "implements": "No formal circular numbers are given for the SEBI communication or TRAI Direction, only dates, so circular_no fields are marked NOT STATED IN SOURCE.",
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
+      },
+      "source_excerpt_citations": [
+        "reference to the SEBI communication dated September 25, 2026 received in relation to Point No. 3 of the Notice No. 20260918-1",
+        "TRAI, vide its Direction dated 18.11.2025 regarding pre-tagging of variable fields in SMS Content Templates",
+        "complete the aforesaid exercise within 30 days i.e by 17.10.2026",
+        "TRAI has decided to proceed towards activation of blocker mode which will start rejecting non-complaint SMS traffic"
+      ],
+      "model_confidence": "Inferred",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261006-20/20261006-20.pdf",
+      "sample_data": false,
+      "title": "Compliance with TRAI directions and guidelines",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "TRAI compliance may require broker and fintech system changes."
+    },
+    {
+      "circular_no": "20261006-16",
+      "date": "2026-10-06",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Stock Brokers",
+        "Margin Trading"
+      ],
+      "applicability": "Trading Members of BSE, including those who have availed margin trading facility",
+      "intent": "To ensure continuing compliance with Exchange membership norms, BSE is requiring all trading members to periodically certify and submit their Networth computation to confirm they meet minimum capital adequacy requirements.",
+      "action_required": "Submit Networth Certificate & Computation of Networth as on September 30, 2026, as per prescribed formats, latest by November 30, 2026; members with margin trading facility must submit by November 15, 2026. Non-compliance or shortfall triggers disciplinary action and penalties as per referenced prior notices.",
+      "effective_date": null,
+      "key_dates": [
+        {
+          "label": "Networth reference date",
+          "date": "2026-09-30",
+          "quote": "Networth Certificate & Computation of Networth as on September 30, 2026"
+        },
+        {
+          "label": "General submission deadline",
+          "date": "2026-11-30",
+          "quote": "as per formats prescribed (as applicable) latest by November 30, 2026"
+        },
+        {
+          "label": "Margin trading facility members deadline",
+          "date": "2026-11-15",
+          "quote": "have to submit the Networth certificate and computation of Networth on or before November 15, 2026"
+        }
+      ],
+      "impact_summary": "BSE trading members, especially those with margin trading facility, must submit half-yearly Networth certificates by specified deadlines; failure to comply or shortfalls can result in disciplinary action and penalties as per earlier linked notices.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "parent_circular_no": "The notice references multiple prior BSE notices (e.g., 20250929-81, 20260205-33, 20260417-45, 20260713-28) for related sub-requirements, but none is explicitly framed as the 'parent' being amended by this notice, so parent_circular_no is left null rather than guessing which one is primary.",
+        "circular_no": "'20261006-16' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "all Members of the Exchange are required to maintain minimum Networth at all points of time",
+        "submit Networth Certificate & Computation of Networth as on September 30, 2026",
+        "Trading Members who have availed margin trading facility have to submit ... on or before November 15, 2026",
+        "disciplinary actions shall be initiated by the Exchange as stipulated in Exchange Notice no: 20260417-45",
+        "penalty shall be levied for reporting of Networth shortfall as stated in Table 1"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261006-16/20261006-16.pdf",
+      "sample_data": false,
+      "title": "Submission of Half yearly Networth Certificate as on September 30, 2026",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Half-yearly networth certificates are broker compliance requirement."
+    },
+    {
+      "circular_no": "Notice No. 20261006-12",
+      "date": "2026-10-06",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Stock Exchanges",
+        "Stock Brokers",
+        "Listed Companies (LODR/Disclosure)"
+      ],
+      "applicability": "Trading Members of BSE",
+      "intent": "To inform trading members that newly issued shares under ESOP/ESOS by six listed companies are being listed and admitted for trading on the Exchange.",
+      "action_required": "Trading Members are informed of the listing; no specific compliance action beyond noting the trading effective date of October 07, 2026 for these additional securities.",
+      "effective_date": "2026-10-07",
+      "key_dates": [
+        {
+          "label": "Listing/trading effective date for new securities",
+          "date": "2026-10-07",
+          "quote": "listed and admitted for trading on the Exchange with effect from Wednesday, October 07, 2026"
+        }
+      ],
+      "impact_summary": "Trading members and market participants are notified that further securities issued under ESOP/ESOS schemes by Ather Energy, Bajel Projects, Dev Information Technology, Lloyds Metals and Energy, Northern Arc Capital, and Yes Bank will be listed and tradable from October 07, 2026.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "source_excerpt_citations": "1 quoted excerpt(s) could not be found in the circular text — possible fabrication: 'Listing of further securities issued by the companies under ESOP / ESOS'"
+      },
+      "source_excerpt_citations": [
+        "Listing of further securities issued by the companies under ESOP / ESOS",
+        "Trading Members of the Exchange are hereby informed that the further new securities issued by the under mentioned companies are listed and admitted for trading"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261006-12/20261006-12.pdf",
+      "sample_data": false,
+      "title": "Listing of further securities issued by the companies under ESOP / ESOS",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "ESOP/ESOS listings may affect broker systems and market operations."
+    },
+    {
+      "circular_no": "Notice No. 20261006-7",
+      "date": "2026-10-06",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [
+        {
+          "regulator": "SEBI",
+          "circular_no": "HO/49/14/14(7)2025-CFD-POD2/I/3762/2026",
+          "date": "2026-01-30"
+        },
+        {
+          "regulator": "SEBI",
+          "circular_no": "SEBI/HO/CFD/CMD/CIR/P/2020/12",
+          "date": "2020-01-22"
+        }
+      ],
+      "impact_areas": [
+        "Stock Exchanges",
+        "Listed Companies (LODR/Disclosure)",
+        "Trading Operations"
+      ],
+      "applicability": "Trading Members of BSE; specifically concerns equity shares of Muzali Arts Ltd (Scrip Code: 539410)",
+      "intent": "BSE is informing trading members of the revocation of a trading suspension on a listed company's shares, implementing SEBI's framework for revocation of suspension in trading.",
+      "action_required": "Trading Members must take note that trading in Muzali Arts Ltd (Scrip Code 539410) will resume in the 'XT' group w.e.f. October 14, 2026, and that the scrip will be part of the Special Preopen Session (SPOS) for IPOs & Relisted Scrips on October 14, 2026.",
+      "effective_date": "2026-10-14",
+      "key_dates": [
+        {
+          "label": "Revocation of suspension / resumption of trading",
+          "date": "2026-10-14",
+          "quote": "the suspension in trading of equity shares of the below mentioned company will be revoked w.e.f. October 14, 2026"
+        },
+        {
+          "label": "Special Preopen Session (SPOS) relist session",
+          "date": "2026-10-14",
+          "quote": "will be a part of Special Preopen Session for IPO's & Relisted Scrips - Relist session on October 14, 2026"
+        }
+      ],
+      "impact_summary": "Trading members of BSE are notified that the trading suspension on Muzali Arts Ltd's equity shares is revoked effective October 14, 2026, with trading resuming in the 'XT' group and inclusion in the Special Preopen Session for relisted scrips.",
+      "overall_confidence": "Certain",
+      "confidence_flags": {},
+      "source_excerpt_citations": [
+        "the suspension in trading of equity shares of the below mentioned company will be revoked w.e.f. October 14, 2026",
+        "Pursuant to SEBI Master Circular No. HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026",
+        "(Erstwhile SEBI Circular No. SEBI/HO/CFD/CMD/CIR/P/2020/12 dated January 22, 2020)",
+        "trading in the securities of the company will be resumed in “XT” group",
+        "the above-mentioned scrip will be a part of Special Preopen Session for IPO's & Relisted Scrips - Relist session on October 14, 2026"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261006-7/20261006-7.pdf",
+      "sample_data": false,
+      "title": "Revocation of Suspension in trading of equity shares of Muzali Arts Ltd (Scrip Code: 539410)",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Revocation of suspension requires broker notification and system updates."
     }
   ],
   "sources": [
@@ -11937,7 +13169,7 @@
       "url": "https://www.sebi.gov.in/sebirss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Holds about five days of items, mixed with orders and press releases. Only circulars are kept.",
-      "checked_at": "2026-10-06T06:23:33Z",
+      "checked_at": "2026-10-06T15:14:04Z",
       "items": 1,
       "status": "ok",
       "error": "",
@@ -11952,7 +13184,7 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Backstop for circulars that scroll off the RSS feed.",
-      "checked_at": "2026-10-06T06:23:34Z",
+      "checked_at": "2026-10-06T15:14:06Z",
       "items": 25,
       "status": "ok",
       "error": "",
@@ -11967,7 +13199,7 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-06T06:23:35Z",
+      "checked_at": "2026-10-06T15:14:07Z",
       "items": 25,
       "status": "ok",
       "error": "",
@@ -11982,7 +13214,7 @@
       "url": "https://rbi.org.in/notifications_rss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Includes bank-only prudential rules and foreign-exchange regulations. Triage keeps the ones that affect brokers and fintechs.",
-      "checked_at": "2026-10-06T06:23:35Z",
+      "checked_at": "2026-10-06T15:14:08Z",
       "items": 10,
       "status": "ok",
       "error": "",
@@ -11997,8 +13229,8 @@
       "url": "https://nsearchives.nseindia.com/content/RSS/Circulars.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Carries about one day of circulars (around 30 a day, mostly routine), so it's checked every 2 hours.",
-      "checked_at": "2026-10-06T06:23:37Z",
-      "items": 24,
+      "checked_at": "2026-10-06T15:14:09Z",
+      "items": 28,
       "status": "ok",
       "error": "",
       "streak": 0,
@@ -12012,8 +13244,8 @@
       "url": "https://www.bseindia.com/data/xml/notices.xml",
       "verified": "Feed address confirmed through a third-party reader. BSE refused a direct test fetch (HTTP 403), so it may block automated access.",
       "note": "Dominated by mutual fund platform notices.",
-      "checked_at": "2026-10-06T06:23:38Z",
-      "items": 2,
+      "checked_at": "2026-10-06T15:14:11Z",
+      "items": 41,
       "status": "ok",
       "error": "",
       "streak": 0,
@@ -12027,7 +13259,7 @@
       "url": "https://www.nseclearing.in/resources/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-06T06:23:38Z",
+      "checked_at": "2026-10-06T15:14:11Z",
       "items": 0,
       "status": "blocked",
       "error": "The site's robots.txt disallows this address.",
@@ -12042,10 +13274,10 @@
       "url": "https://nsdl.co.in/business/circular.php",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-06T06:23:39Z",
+      "checked_at": "2026-10-06T15:14:12Z",
       "items": 0,
-      "status": "empty",
-      "error": "Page loaded but no circular links matched. The page layout may have changed.",
+      "status": "failed",
+      "error": "TooManyRedirects: Exceeded 30 redirects.",
       "streak": 3,
       "covered": false
     },
@@ -12057,7 +13289,7 @@
       "url": "https://www.cdslindia.com/Publications/Communique.aspx/DP-COMMUNIQUES-INDEX.aspx",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "On 28 Sep 2026 this page returned 'Internal Error Occurred' even in a browser-style fetch. It may be unreliable.",
-      "checked_at": "2026-10-06T06:23:47Z",
+      "checked_at": "2026-10-06T15:14:32Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -12072,7 +13304,7 @@
       "url": "https://www.ncdex.com/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-06T06:23:48Z",
+      "checked_at": "2026-10-06T15:14:33Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -12087,7 +13319,7 @@
       "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Relevant to brokers and fintechs operating in GIFT City.",
-      "checked_at": "2026-10-06T06:23:50Z",
+      "checked_at": "2026-10-06T15:14:35Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -12102,7 +13334,7 @@
       "url": "https://www.npci.org.in/circulars/upi",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "UPI operating circulars for payment apps and PSPs.",
-      "checked_at": "2026-10-06T06:23:53Z",
+      "checked_at": "2026-10-06T15:14:38Z",
       "items": 0,
       "status": "blocked",
       "error": "The site's robots.txt disallows this address.",
@@ -12117,7 +13349,7 @@
       "url": "https://www.mcxindia.com/",
       "verified": "",
       "note": "Not connected. MCX's robots.txt disallows automated access to its RSS page. Connect it once a permitted source is confirmed.",
-      "checked_at": "2026-10-06T06:23:53Z",
+      "checked_at": "2026-10-06T15:14:38Z",
       "items": 0,
       "status": "not_connected",
       "error": "",
@@ -12126,9 +13358,9 @@
     }
   ],
   "last_run": {
-    "at": "2026-10-06T06:25:56Z",
-    "added": 3,
-    "set_aside": 2,
+    "at": "2026-10-06T15:22:11Z",
+    "added": 21,
+    "set_aside": 46,
     "failed": 0,
     "deferred": 0,
     "triage_retries": 0,
