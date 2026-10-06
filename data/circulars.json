@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T22:45:28Z",
+  "generated_at": "2026-10-06T06:25:56Z",
   "schema_version": "2.0",
   "circulars": [
     {
@@ -11743,34 +11743,42 @@
         "Clearing Corporations",
         "Trading Operations"
       ],
-      "applicability": "All Participants of NSE Clearing Limited's Mutual Fund Service System (MFSS)",
-      "intent": "NSE Clearing Limited is notifying MFSS participants of the settlement schedule (subscription, liquid subscription, and redemption) for November 2026 to ensure smooth funds and units settlement.",
-      "action_required": "Participants must check the settlement schedules in Annexures A, B and C for subscription, liquid subscription and redemption orders, and verify the scheme category of each fund in the scheme master to determine applicable payin/payout timelines.",
+      "applicability": "All Participants (MFSS)",
+      "intent": "NSE Clearing Limited is notifying the settlement schedule applicable to Mutual Fund Service System transactions (subscription, liquid subscription and redemption) for the month of November 2026.",
+      "action_required": "Participants are requested to check the category of scheme in scheme master and follow the settlement schedules given in Annexures A, B and C for funds and units pay-in/pay-out as per scheme category.",
       "effective_date": "NOT STATED IN SOURCE",
-      "key_dates": [],
-      "impact_summary": "MFSS participants (brokers/distributors handling mutual fund orders via NSE's MFSS platform) are affected; the circular lays out the specific T-day/T+n settlement dates for subscription, liquid subscription, and redemption transactions throughout November 2026.",
+      "key_dates": [
+        {
+          "label": "Settlement calendar period",
+          "date": "2026-11-01",
+          "quote": "MFSS - Settlement Calendar for November 2026"
+        }
+      ],
+      "impact_summary": "MFSS Participants (including mutual fund distributors/brokers operating through NSE's Mutual Fund Service System) must align their subscription, liquid subscription and redemption settlement processing with the published November 2026 calendar.",
       "overall_confidence": "Needs Review",
       "confidence_flags": {
-        "effective_date": "The circular provides a full calendar of dates for November 2026 rather than a single effective/compliance date, so no single effective_date is explicitly stated.",
-        "key_dates": "The source contains a large tabular calendar with dozens of individual settlement dates (per settlement type/number) rather than discrete prose-stated compliance deadlines; only the overall period (November 2026) is clearly statable as a single quoted date reference without fabricating a specific deadline.",
-        "impact_areas": "Document does not explicitly name 'Stock Brokers' but MFSS Participants likely include brokers/distributors; categorization is a reasonable inference from context, not explicit in text."
+        "effective_date": "The circular provides a tabular settlement calendar for the whole of November 2026 with dozens of individual settlement-type dates rather than a single stated effective date in prose.",
+        "key_dates": "The source is a large garbled tabular calendar listing numerous individual settlement dates per settlement type/number; these are not stated as discrete prose compliance deadlines, so only the overall period reference is extractable without fabricating a specific date.",
+        "impact_areas": "The text does not explicitly name 'Stock Brokers'; only 'Participants' and 'Mutual Fund Service System' are stated, so broker inclusion is not explicit in the source."
       },
       "source_excerpt_citations": [
         "MFSS - Settlement Calendar for November 2026",
-        "Clearing Corporation will observe the settlement schedules for November 2026",
-        "Participants are requested to check the category of scheme in scheme master."
+        "the Clearing Corporation will observe the settlement schedules for November 2026",
+        "Participants are requested to check the category of scheme in scheme master.",
+        "All Participants,"
       ],
       "model_confidence": "Needs Review",
       "validator_version": 3,
       "source_url": "https://nsearchives.nseindia.com/content/circulars/MFSS76723.zip",
       "sample_data": false,
       "title": "MFSS- Settlement Calendar for November 2026",
+      "retried": true,
       "regulator": "NSE",
       "source": "nse",
       "triage_reason": "Settlement calendar affects trading operations and settlement processes for all market participants"
     },
     {
-      "circular_no": "89/2026",
+      "circular_no": "NSE/COMP/76722",
       "date": "2026-10-05",
       "doc_type": "Fresh Circular",
       "parent_circular_no": null,
@@ -11789,60 +11797,64 @@
       ],
       "impact_areas": [
         "Stock Brokers",
-        "KYC/AML",
-        "Trading Operations"
+        "KYC/AML"
       ],
-      "applicability": "All Trading Members of NSE",
-      "intent": "NSE is directing trading members to submit mandated Annual Returns (audited financials, networth, shareholding, director details etc.) for FY 2025-26, along with related pre-requisite filings (Inventory of Assets, PEP declaration), through the ENIT portal.",
-      "action_required": "Trading Members must submit Annual Returns (Audited Balance Sheet, P&L, Shareholding, Directors, Networth Certificate etc.) for FY ended March 31, 2026 via the ENIT Portal, after auditor certification, on or before October 31, 2026. Submission of Inventory of Assets as on March 31, 2026 and declaration of Politically Exposed Person as on March 31, 2026 are mandatory prerequisites before Annual Returns submission.",
+      "applicability": "Trading Members of NSE (and their statutory auditors, via the ENIT portal)",
+      "intent": "NSE seeks to collect mandatory annual regulatory filings (financials, networth, shareholding, director/partner details) from trading members for FY 2025-26 through its ENIT portal, consistent with SEBI's enhanced supervision requirements.",
+      "action_required": "Trading Members must submit Annual Returns (Audited Balance Sheet, P&L, Shareholding, Director details, Networth Certificate, etc. in XBRL format, auditor-certified) through the ENIT Portal on or before October 31, 2026; Inventory of Assets as on March 31, 2026 and a Politically Exposed Person declaration as on March 31, 2026 must be submitted prior to Annual Returns submission.",
       "effective_date": "NOT STATED IN SOURCE",
       "key_dates": [
         {
           "label": "Annual Returns submission deadline",
           "date": "2026-10-31",
-          "quote": "submit the Annual Returns ... for the financial year ended March 31, 2026 on or before October 31, 2026"
+          "quote": "Members are advised to take note of the above and submit the Annual Returns on or before October 31, 2026."
         },
         {
-          "label": "Financial year end for which returns relate",
+          "label": "Financial year end for which returns are filed",
           "date": "2026-03-31",
-          "quote": "submission to the Exchange for the Financial Year ended March 31, 2026",
+          "quote": "This has reference to the submission of Annual Returns to the Exchange for the Financial Year ended March 31, 2026."
+        },
+        {
+          "label": "Inventory of Assets reporting date",
+          "date": "2026-03-31",
+          "quote": "Members are required to submit the details of their Inventory of Assets as on March 31, 2026, at the path:",
           "unverified": true
         },
         {
-          "label": "Inventory of Assets as-on date",
+          "label": "PEP declaration reporting date",
           "date": "2026-03-31",
-          "quote": "submit the details of their Inventory of Assets as on March 31, 2026"
-        },
-        {
-          "label": "PEP declaration as-on date",
-          "date": "2026-03-31",
-          "quote": "submit a declaration on Politically Exposed Persons (PEP) as on March 31, 2026"
+          "quote": "members are advised to submit a declaration on Politically Exposed Persons (PEP) as on March 31, 2026, at the path:"
         }
       ],
-      "impact_summary": "All NSE trading members must submit audited annual financial/compliance returns, inventory of assets, and PEP declarations for FY 2025-26 through the ENIT portal by October 31, 2026, with non-submission attracting disciplinary action and networth-shortfall penalties as per earlier circulars.",
+      "impact_summary": "All NSE Trading Members (and their appointed statutory auditors) are required to complete annual compliance filings—Annual Returns, Inventory of Assets, and PEP declarations—via the ENIT portal by October 31, 2026, with non-compliance attracting disciplinary action and networth-shortfall penalties under earlier NSE circulars.",
       "overall_confidence": "Needs Review",
       "confidence_flags": {
+        "circular_no": "Document carries two identifiers, 'Download Ref No: NSE/COMP/76722' and 'Circular Ref. No: 89/2026'; NSE/COMP/76722 was chosen as it matches the format of other NSE circular cross-references in the text.",
+        "parent_circular_no": "No circular is described as being amended; several NSE circulars (e.g. NSE/INSP/73792, NSE/COMP/75164, NSE/COMP/76716) are referenced only for context/consequences, not as a parent/amended circular, so set to null.",
+        "effective_date": "No explicit 'effective date' is stated; only submission deadlines (October 31, 2026) and reference dates (March 31, 2026) appear in the text.",
         "key_dates": "The quote supporting key date 2026-03-31 was not found in the circular text."
       },
       "source_excerpt_citations": [
-        "Download Ref No: NSE/COMP/76722 Date: October 05, 2026",
         "Circular Ref. No: 89/2026",
-        "Trading Members are hereby advised to submit the Annual Returns",
+        "Download Ref No: NSE/COMP/76722 Date: October 05, 2026",
         "as per Enhanced Supervision guidelines prescribed in SEBI Circular Reference No. SEBI/HO/MIRSD/MIRSD2/CIR/P/2016/95 dated September 26, 2016",
         "Principal officer and Designated Director need to be added as per the details prescribed in SEBI circular SEBI/HO/MIRSD-SEC-5/P/CIR/2023/022 dated February 03, 2023",
-        "disciplinary actions shall be initiated by the Exchange as stipulated vide Exchange Circular Reference No. NSE/INSP/73792 dated April 17, 2026"
+        "submission of Annual Returns for the financial year ended 31, 2026 shall be done only through ENIT Portal",
+        "Submission of Inventory of Assets is mandatory before submission of Annual Returns for FY 2025-26",
+        "Submission of declaration of Politically Exposed Person is mandatory before submission of Annual Returns for FY 2025-26"
       ],
-      "model_confidence": "Certain",
+      "model_confidence": "Inferred",
       "validator_version": 3,
       "source_url": "https://nsearchives.nseindia.com/content/circulars/COMP76722.zip",
       "sample_data": false,
       "title": "Submission of Annual Returns for the Financial Year 2025-26",
+      "retried": true,
       "regulator": "NSE",
       "source": "nse",
       "triage_reason": "Annual return submission is reporting obligation for stock brokers and other regulated entities"
     },
     {
-      "circular_no": "Notice No. 20261005-46",
+      "circular_no": "20261005-46",
       "date": "2026-10-05",
       "doc_type": "Fresh Circular",
       "parent_circular_no": null,
@@ -11851,92 +11863,66 @@
       "impact_areas": [
         "Corporate Bonds/Debt Market",
         "Stock Brokers",
-        "Trading Operations"
+        "Stock Exchanges"
       ],
-      "applicability": "Trading Members of BSE dealing in Commercial Paper",
-      "intent": "To inform trading members that several companies have fixed record dates for redemption of their Commercial Paper and to direct members not to deal in these instruments on/around the record dates.",
-      "action_required": "Trading Members are advised not to deal in the Commercial Paper of the listed companies on the specified Record Dates / Ex Dates.",
-      "effective_date": "NOT STATED IN SOURCE",
+      "applicability": "Trading Members of BSE (Debt Segment / Commercial Paper)",
+      "intent": "BSE is notifying trading members that several issuers have fixed record dates for redemption of their listed Commercial Paper, so that members stop dealing in those specific CP ISINs around redemption.",
+      "action_required": "Trading Members must not deal in the Commercial Paper of the listed companies mentioned in the notice, with reference to the specific Record Date / Ex Date fixed for each ISIN as tabulated.",
+      "effective_date": null,
       "key_dates": [
         {
-          "label": "Record Date - PAISALO DIGITAL LIMITED CP",
+          "label": "Record Date/Ex Date - PAISALO DIGITAL LIMITED CP",
           "date": "2026-10-07",
-          "quote": "PDL-8-10-26-CP INE420C14268 07/10/2026 07/10/2026",
-          "unverified": true
+          "quote": "731434 PAISALO DIGITAL LIMITED CP INE420C14268 07/10/2026 07/10/2026 2027"
         },
         {
-          "label": "Record Date - Bajaj Financial Securities Limited (BFSL-13-10-26-CP)",
+          "label": "Record Date/Ex Date - Bajaj Financial Securities Limited CP (INE01C314HP8)",
           "date": "2026-10-12",
-          "quote": "BFSL-13-10-26-CP INE01C314HP8 12/10/2026 12/10/2026",
-          "unverified": true
+          "quote": "732587 Limited 26-CP INE01C314HP8 12/10/2026 12/10/2026 202"
         },
         {
-          "label": "Record Date - Bajaj Financial Securities Limited (BFSL-14-10-26-CP)",
+          "label": "Record Date/Ex Date - Bajaj Financial Securities Limited CP (INE01C314HX2)",
           "date": "2026-10-13",
-          "quote": "BFSL-14-10-26-CP INE01C314HX2 13/10/2026 13/10/2026",
-          "unverified": true
+          "quote": "732692 Limited 26-CP INE01C314HX2 13/10/2026 13/10/2026 2027"
         },
         {
-          "label": "Record Date - Capri Global Capital Limited",
+          "label": "Record Date/Ex Date - Capri Global Capital Limited CP",
           "date": "2026-10-16",
-          "quote": "CGCL-20-10-26-CP INE180C14813 16/10/2026 16/10/2026",
-          "unverified": true
+          "quote": "731500 Capri Global Capital Limited 26-CP INE180C14813 16/10/2026 16/10/2026 2027"
         },
         {
-          "label": "Record Date - Bajaj Financial Securities Limited (BFSL-21-10-26-CP)",
+          "label": "Record Date/Ex Date - Bajaj Financial Securities Limited CP (INE01C314HM5)",
           "date": "2026-10-19",
-          "quote": "BFSL-21-10-26-CP INE01C314HM5 19/10/2026 19/10/2026",
-          "unverified": true
+          "quote": "732566 Limited 26-CP INE01C314HM5 19/10/2026 19/10/2026 2027"
         },
         {
-          "label": "Record Date - MUTHOOT FINCORP LIMITED",
+          "label": "Record Date/Ex Date - MUTHOOT FINCORP LIMITED CP (and other issuers with same date)",
           "date": "2026-10-21",
-          "quote": "MFL-04-11-26-CP INE549K14CF5 21/10/2026 21/10/2026",
-          "unverified": true
-        },
-        {
-          "label": "Record Date - NUVAMA CLEARING SERVICES LIMITED",
-          "date": "2026-10-21",
-          "quote": "NCSL-22-10-26-CP INE525L14190 21/10/2026 21/10/2026",
-          "unverified": true
-        },
-        {
-          "label": "Record Date - Navi Finserv Limited",
-          "date": "2026-10-21",
-          "quote": "NFL-22-10-26-CP INE342T14GI1 21/10/2026 21/10/2026",
-          "unverified": true
-        },
-        {
-          "label": "Record Date - 360 ONE Alternates Asset Management Limited",
-          "date": "2026-10-21",
-          "quote": "OAAML-22-10-26-CP INE0TQI14541 21/10/2026 21/10/2026",
-          "unverified": true
-        },
-        {
-          "label": "Record Date - 360 ONE WAM LIMITED",
-          "date": "2026-10-21",
-          "quote": "OWL-22-10-26-CP INE466L14GE4 21/10/2026 21/10/2026",
-          "unverified": true
+          "quote": "730601 MUTHOOT FINCORP LIMITED 26-CP INE549K14CF5 21/10/2026 21/10/2026 2027"
         }
       ],
-      "impact_summary": "BSE Trading Members are notified of upcoming Commercial Paper redemption record dates for ten listed instruments across multiple issuers and instructed not to trade these securities around those dates.",
+      "impact_summary": "Trading members of BSE's debt segment are instructed to stop dealing in the listed Commercial Paper of ten specific issuances (issuers including Paisalo Digital, Bajaj Financial Securities, Capri Global Capital, Muthoot Fincorp, Nuvama Clearing Services, Navi Finserv and 360 ONE entities) from their respective Record Dates ahead of redemption.",
       "overall_confidence": "Needs Review",
       "confidence_flags": {
-        "doc_type": "This is a routine operational/corporate-action notice rather than a policy circular; classified as 'Fresh Circular' as the closest fit among allowed categories, but it may not strictly be a regulatory circular in the usual sense.",
-        "effective_date": "No single effective date is stated; the notice covers multiple distinct record dates for different securities, so a single effective_date could not be determined.",
-        "parent_circular_no": "Text does not reference any prior BSE circular being amended; treated as standalone, though this is inferred from absence of such reference.",
-        "key_dates": "The quote supporting key date 2026-10-21 was not found in the circular text."
+        "doc_type": "This is a routine operational corporate-action notice (Notice No. 20261005-46) rather than a policy circular; 'Fresh Circular' is used only as the closest available category among the allowed enum values.",
+        "effective_date": "The notice lists ten different securities each with its own distinct Record Date/Ex Date (ranging 07/10/2026 to 21/10/2026); the text states no single overarching effective date for the notice as a whole, so this field is null.",
+        "parent_circular_no": "No prior BSE circular/notice is referenced as being amended or superseded in the text; treated as standalone based on absence of any such reference, not an explicit standalone statement.",
+        "overall_confidence": "Set to Needs Review because the document is a tabular corporate-action notice rather than a conventional narrative circular, making doc_type and effective_date classification imperfect fits within the given schema.",
+        "circular_no": "'20261005-46' doesn't look like a circular reference number — verify manually."
       },
       "source_excerpt_citations": [
-        "Trading Members of the Exchange are hereby advised not to deal in the Commercial Paper of the Companies as mentioned under",
-        "the following Companies have fixed Record Date for Redemption of Commercial Paper",
-        "Subject Suspension of Trading in Commercial Paper"
+        "Subject Suspension of Trading in Commercial Paper",
+        "Trading Members of the Exchange are hereby informed that, the following Companies have fixed Record Date for\nRedemption of Commercial Paper.",
+        "Trading Members of the Exchange are hereby advised not to deal in the\nCommercial Paper of the Companies as mentioned under",
+        "731434 PAISALO DIGITAL LIMITED CP INE420C14268 07/10/2026 07/10/2026 2027",
+        "730601 MUTHOOT FINCORP LIMITED 26-CP INE549K14CF5 21/10/2026 21/10/2026 2027"
       ],
       "model_confidence": "Needs Review",
       "validator_version": 3,
       "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261005-46/20261005-46.pdf",
       "sample_data": false,
       "title": "Suspension of Trading in Commercial Paper",
+      "retried": true,
       "regulator": "BSE",
       "source": "bse",
       "triage_reason": "Trading suspension affects market operations and obligations of trading participants"
@@ -11951,7 +11937,7 @@
       "url": "https://www.sebi.gov.in/sebirss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Holds about five days of items, mixed with orders and press releases. Only circulars are kept.",
-      "checked_at": "2026-10-05T22:39:14Z",
+      "checked_at": "2026-10-06T06:23:33Z",
       "items": 1,
       "status": "ok",
       "error": "",
@@ -11966,7 +11952,7 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Backstop for circulars that scroll off the RSS feed.",
-      "checked_at": "2026-10-05T22:39:16Z",
+      "checked_at": "2026-10-06T06:23:34Z",
       "items": 25,
       "status": "ok",
       "error": "",
@@ -11981,7 +11967,7 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-05T22:39:16Z",
+      "checked_at": "2026-10-06T06:23:35Z",
       "items": 25,
       "status": "ok",
       "error": "",
@@ -11996,7 +11982,7 @@
       "url": "https://rbi.org.in/notifications_rss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Includes bank-only prudential rules and foreign-exchange regulations. Triage keeps the ones that affect brokers and fintechs.",
-      "checked_at": "2026-10-05T22:39:17Z",
+      "checked_at": "2026-10-06T06:23:35Z",
       "items": 10,
       "status": "ok",
       "error": "",
@@ -12011,7 +11997,7 @@
       "url": "https://nsearchives.nseindia.com/content/RSS/Circulars.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Carries about one day of circulars (around 30 a day, mostly routine), so it's checked every 2 hours.",
-      "checked_at": "2026-10-05T22:39:18Z",
+      "checked_at": "2026-10-06T06:23:37Z",
       "items": 24,
       "status": "ok",
       "error": "",
@@ -12026,8 +12012,8 @@
       "url": "https://www.bseindia.com/data/xml/notices.xml",
       "verified": "Feed address confirmed through a third-party reader. BSE refused a direct test fetch (HTTP 403), so it may block automated access.",
       "note": "Dominated by mutual fund platform notices.",
-      "checked_at": "2026-10-05T22:39:19Z",
-      "items": 47,
+      "checked_at": "2026-10-06T06:23:38Z",
+      "items": 2,
       "status": "ok",
       "error": "",
       "streak": 0,
@@ -12041,7 +12027,7 @@
       "url": "https://www.nseclearing.in/resources/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-05T22:39:20Z",
+      "checked_at": "2026-10-06T06:23:38Z",
       "items": 0,
       "status": "blocked",
       "error": "The site's robots.txt disallows this address.",
@@ -12056,7 +12042,7 @@
       "url": "https://nsdl.co.in/business/circular.php",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-05T22:39:21Z",
+      "checked_at": "2026-10-06T06:23:39Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -12071,7 +12057,7 @@
       "url": "https://www.cdslindia.com/Publications/Communique.aspx/DP-COMMUNIQUES-INDEX.aspx",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "On 28 Sep 2026 this page returned 'Internal Error Occurred' even in a browser-style fetch. It may be unreliable.",
-      "checked_at": "2026-10-05T22:39:26Z",
+      "checked_at": "2026-10-06T06:23:47Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -12086,7 +12072,7 @@
       "url": "https://www.ncdex.com/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-05T22:39:27Z",
+      "checked_at": "2026-10-06T06:23:48Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -12101,7 +12087,7 @@
       "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Relevant to brokers and fintechs operating in GIFT City.",
-      "checked_at": "2026-10-05T22:39:29Z",
+      "checked_at": "2026-10-06T06:23:50Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -12116,7 +12102,7 @@
       "url": "https://www.npci.org.in/circulars/upi",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "UPI operating circulars for payment apps and PSPs.",
-      "checked_at": "2026-10-05T22:39:31Z",
+      "checked_at": "2026-10-06T06:23:53Z",
       "items": 0,
       "status": "blocked",
       "error": "The site's robots.txt disallows this address.",
@@ -12131,7 +12117,7 @@
       "url": "https://www.mcxindia.com/",
       "verified": "",
       "note": "Not connected. MCX's robots.txt disallows automated access to its RSS page. Connect it once a permitted source is confirmed.",
-      "checked_at": "2026-10-05T22:39:32Z",
+      "checked_at": "2026-10-06T06:23:53Z",
       "items": 0,
       "status": "not_connected",
       "error": "",
@@ -12140,9 +12126,9 @@
     }
   ],
   "last_run": {
-    "at": "2026-10-05T22:45:28Z",
-    "added": 15,
-    "set_aside": 5,
+    "at": "2026-10-06T06:25:56Z",
+    "added": 3,
+    "set_aside": 2,
     "failed": 0,
     "deferred": 0,
     "triage_retries": 0,

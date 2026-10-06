@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T22:45:28Z",
+  "generated_at": "2026-10-06T06:25:56Z",
   "items": [
     {
       "title": "Exim Bank’s GOI-supported Line of Credit (LOC) for ₹ 4,850 crores the Government of Maldives, for financing various developmental projects in Maldives",
@@ -3267,6 +3267,24 @@
       "source": "bse",
       "reason": "Single company bonus issue; corporate action not affecting regulated entity obligations",
       "decided_at": "2026-10-05T22:39:35Z"
+    },
+    {
+      "title": "Update Regarding debt securities of IndiGrid Infrastructure Trust",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261006-2/20261006-2.pdf",
+      "date": "2026-10-06",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Specific security listing update; no obligation for ecosystem entities.",
+      "decided_at": "2026-10-06T06:23:54Z"
+    },
+    {
+      "title": "Non-Competitive Bidding for Auction of GoI dated Securities (G-secs) on October 09, 2026",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261006-1/20261006-1.pdf",
+      "date": "2026-10-06",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Government securities auction procedure; no obligation for brokers or fintech entities.",
+      "decided_at": "2026-10-06T06:23:54Z"
     }
   ]
 }
