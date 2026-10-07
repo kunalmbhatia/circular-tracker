@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T01:34:32Z",
+  "generated_at": "2026-10-07T08:42:09Z",
   "items": [
     {
       "title": "Exim Bank’s GOI-supported Line of Credit (LOC) for ₹ 4,850 crores the Government of Maldives, for financing various developmental projects in Maldives",
@@ -3708,6 +3708,123 @@
       "source": "nse",
       "reason": "Single company listing; does not create obligations for tracker entities.",
       "decided_at": "2026-10-06T21:00:23Z"
+    },
+    {
+      "title": "Liquidity Adjustment Facility - Change in rates",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13727&Mode=0",
+      "date": "2026-10-07",
+      "regulator": "RBI",
+      "source": "rbi",
+      "reason": "RBI liquidity facility rates affect banks only, not broking/fintech ecosystem entities",
+      "decided_at": "2026-10-07T08:42:09Z"
+    },
+    {
+      "title": "Standing Liquidity Facility for Primary Dealers",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13726&Mode=0",
+      "date": "2026-10-07",
+      "regulator": "RBI",
+      "source": "rbi",
+      "reason": "Standing Liquidity Facility for Primary Dealers concerns banks, not tracker entities",
+      "decided_at": "2026-10-07T08:42:09Z"
+    },
+    {
+      "title": "Listing of Equity Shares of Vishal Nirmiti Limited (IPO)",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76762.pdf",
+      "date": "2026-10-07",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Single company IPO listing; no obligation change for ecosystem entities",
+      "decided_at": "2026-10-07T08:42:09Z"
+    },
+    {
+      "title": "Listing of Equity Shares of EVERESTIMS TECHNOLOGIES LIMITED",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-10/20261007-10.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company listing; no obligation change for ecosystem entities",
+      "decided_at": "2026-10-07T08:42:09Z"
+    },
+    {
+      "title": "Listing of Equity Shares of DOVE SOFT LIMITED",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-9/20261007-9.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company listing; no obligation change for ecosystem entities",
+      "decided_at": "2026-10-07T08:42:09Z"
+    },
+    {
+      "title": "Listing of Equity Shares of Nityas Gems and Jewellery Limited",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-8/20261007-8.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company listing; no obligation change for ecosystem entities",
+      "decided_at": "2026-10-07T08:42:09Z"
+    },
+    {
+      "title": "Change in the Group of Equity shares of VANS ELECTROENGINEERINGS LIMITED",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-7/20261007-7.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Group change for single stock; no obligation change for ecosystem entities",
+      "decided_at": "2026-10-07T08:42:09Z"
+    },
+    {
+      "title": "Listing of Equity Shares of Vishal Nirmiti Limited",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-6/20261007-6.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company listing; no obligation change for ecosystem entities",
+      "decided_at": "2026-10-07T08:42:09Z"
+    },
+    {
+      "title": "Listing of Equity Shares of Shree TNB Polymers Limited",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-5/20261007-5.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company listing; no obligation change for ecosystem entities",
+      "decided_at": "2026-10-07T08:42:09Z"
+    },
+    {
+      "title": "Listing of Equity Shares of Sollfege Smart Electronics Limited",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-4/20261007-4.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company listing; no obligation change for ecosystem entities",
+      "decided_at": "2026-10-07T08:42:09Z"
+    },
+    {
+      "title": "Demat Auction 729",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-3/20261007-3.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Demat auction for single transaction; no system or obligation change",
+      "decided_at": "2026-10-07T08:42:09Z"
+    },
+    {
+      "title": "Change in Group of Equity Shares of Black Opal Consultants Limited",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-2/20261007-2.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Group change for single stock; no obligation change for ecosystem entities",
+      "decided_at": "2026-10-07T08:42:09Z"
+    },
+    {
+      "title": "Listing of New Securities of Salem Erode Investments Ltd",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-1/20261007-1.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single security listing; no obligation change for ecosystem entities",
+      "decided_at": "2026-10-07T08:42:09Z"
     }
   ]
 }
