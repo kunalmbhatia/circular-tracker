@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T08:42:09Z",
+  "generated_at": "2026-10-07T17:35:35Z",
   "items": [
     {
       "title": "Exim Bank’s GOI-supported Line of Credit (LOC) for ₹ 4,850 crores the Government of Maldives, for financing various developmental projects in Maldives",
@@ -3825,6 +3825,510 @@
       "source": "bse",
       "reason": "Single security listing; no obligation change for ecosystem entities",
       "decided_at": "2026-10-07T08:42:09Z"
+    },
+    {
+      "title": "Reserve Bank of India (All India Financial Institutions (AIFIs) – Prudential Norms on Capital Adequacy) Fifth Amendment Directions, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13735&Mode=0",
+      "date": "2026-10-07",
+      "regulator": "RBI",
+      "source": "rbi",
+      "reason": "Prudential norms for AIFIs only; bank-specific regulation.",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Reserve Bank of India (Payments Banks – Prudential Norms on Capital Adequacy) Third Amendment Directions, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13734&Mode=0",
+      "date": "2026-10-07",
+      "regulator": "RBI",
+      "source": "rbi",
+      "reason": "Prudential norms for payments banks only; bank-specific regulation.",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Reserve Bank of India (Small Finance Banks – Prudential Norms on Capital Adequacy) Sixth Amendment Directions, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13733&Mode=0",
+      "date": "2026-10-07",
+      "regulator": "RBI",
+      "source": "rbi",
+      "reason": "Prudential norms for small finance banks only; bank-specific regulation.",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Twelfth Amendment Directions, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13732&Mode=0",
+      "date": "2026-10-07",
+      "regulator": "RBI",
+      "source": "rbi",
+      "reason": "Prudential norms for commercial banks only; bank-specific regulation.",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Reserve Bank of India (Commercial Banks – Miscellaneous) Amendment Directions, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13731&Mode=0",
+      "date": "2026-10-07",
+      "regulator": "RBI",
+      "source": "rbi",
+      "reason": "Miscellaneous prudential rules for commercial banks only.",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Reserve Bank of India (Commercial Banks – Forthcoming Instructions) Amendment Directions, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13730&Mode=0",
+      "date": "2026-10-07",
+      "regulator": "RBI",
+      "source": "rbi",
+      "reason": "Forthcoming instructions for commercial banks only; bank-specific.",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Penal Interest on shortfall in CRR and SLR requirements - Change in Bank Rate",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13728&Mode=0",
+      "date": "2026-10-07",
+      "regulator": "RBI",
+      "source": "rbi",
+      "reason": "Penal interest on CRR/SLR for banks only; bank-specific prudential matter.",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Listing of Equity Shares of Nityas Gems and Jewellery Limited (IPO)",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76782.zip",
+      "date": "2026-10-07",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Single company IPO listing; no market-wide obligations.",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Listing of further issues of securities",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76781.pdf",
+      "date": "2026-10-07",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Further issues of securities; company-specific, not market-wide.",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Listing of further issues of securities",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76780.pdf",
+      "date": "2026-10-07",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Further issues of securities; company-specific, not market-wide.",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Listing & Trading of Equity Shares pursuant to Bonus Issue of Mold-Tek Technologies Limited",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76778.pdf",
+      "date": "2026-10-07",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Bonus issue of single company; corporate action, not market-wide.",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Listing of privately placed securities on capital market segment",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76776.pdf",
+      "date": "2026-10-07",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Listing of privately placed securities; procedural change for specific transaction type.",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Listing of privately placed securities on the debt market segment of the Exchange",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76774.pdf",
+      "date": "2026-10-07",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Listing of privately placed debt securities; procedural change only.",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Listing of Equity Shares of Vishal Nirmiti Limited (IPO)",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76773.zip",
+      "date": "2026-10-07",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Single company IPO listing; no market-wide obligations.",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "BONUS: Adjustment of Market Lot for Security AISL in SME Platform",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CMTR76771.pdf",
+      "date": "2026-10-07",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Market lot adjustment for single security; security-specific, not market-wide.",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Suspension of Trading in Non-Convertible Securities (Privately Placed)",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76770.pdf",
+      "date": "2026-10-07",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Suspension of trading in single security; security-specific, not market-wide.",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Suspension of trading in Non-Convertible Debentures - Ugro Capital Limited",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76765.pdf",
+      "date": "2026-10-07",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Suspension of trading in single company security; security-specific, not market-wide.",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Takeover Offer under Tender offer scheme of Onyx Biotec Limited",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76764.pdf",
+      "date": "2026-10-07",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Takeover offer for single company; corporate action, not market-wide.",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Listing of Equity Shares of Eventions Limited (SME IPO)",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76763.zip",
+      "date": "2026-10-07",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Single company SME IPO listing; no market-wide obligations.",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Listing of Equity Shares of Nityas Gems and Jewellery Limited (IPO)",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76761.pdf",
+      "date": "2026-10-07",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Single company IPO listing; no market-wide obligations.",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Trade for Trade - Green Asia Impex Limited (SME IPO)",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76760.pdf",
+      "date": "2026-10-07",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Trade-for-trade for single company; corporate action, not market-wide.",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Revoke of Temporary Suspension for subscriptions in PGIM India Global Select Real Estate Securities Fund of Fund scheme of PGIM India Mutual Fund on NSE MF Invest Platform",
+      "url": "https://nsearchives.nseindia.com/content/circulars/NMF76759.zip",
+      "date": "2026-10-07",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Single mutual fund scheme suspension revoked; scheme-specific, not market-wide.",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Trade for Trade - Papadmalji Agro Foods Limited (SME IPO)",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML76758.pdf",
+      "date": "2026-10-07",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Trade-for-trade for single company; corporate action, not market-wide.",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Revoke of Temporary Suspension for subscription and change in Maximum amount limit under ICICI Prudential Midcap Fund of ICICI Prudential Mutual Fund on NSE MF Invest Platform",
+      "url": "https://nsearchives.nseindia.com/content/circulars/NMF76757.zip",
+      "date": "2026-10-07",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Single mutual fund scheme suspension revoked; scheme-specific, not market-wide.",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Availability of Jio BlackRock Balanced Advantage Fund NFO on NSE MF Invest Platform",
+      "url": "https://nsearchives.nseindia.com/content/circulars/NMF76756.pdf",
+      "date": "2026-10-07",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Single mutual fund NFO availability; scheme-specific, not market-wide.",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Availability of Kotak Nifty Capital Markets Index Fund NFO on NSE MF Invest Platform",
+      "url": "https://nsearchives.nseindia.com/content/circulars/NMF76755.pdf",
+      "date": "2026-10-07",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Single mutual fund NFO availability; scheme-specific, not market-wide.",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Sub-Division of Equity Shares of Azad India Mobility Ltd (Scrip code:-504731)",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-48/20261007-48.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Sub-division of single company shares; corporate action, not market-wide.",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Bonus Issue of JOJO LIMITED (Scrip Code- 531910)",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-47/20261007-47.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Bonus issue of single company; corporate action, not market-wide.",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Part Redemption of Debentures of Companies",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-46/20261007-46.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Part redemption of debentures; procedural matter for specific securities only.",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "No Dealings in Partly Paid Equity Shares ALAN SCOTT ENTERPRISES LIMITED(Scrip Code:890239)",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-45/20261007-45.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company trading suspension, no ecosystem-wide obligation",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Listing of Equity Shares of SJP ULTRASONICS LIMITED",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-37/20261007-37.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company listing, no ecosystem obligation",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Listing of Equity Shares of EVERESTIMS TECHNOLOGIES LIMITED",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-36/20261007-36.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company listing, no ecosystem obligation",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Listing of Equity Shares of Shree TNB Polymers Limited",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-35/20261007-35.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company listing, no ecosystem obligation",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Resumption of Subscriptions in PGIM INDIA GLOBAL SELECT REAL ESTATE SECURITIES FUND OF FUND on BSE StAR MF Platform",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-34/20261007-34.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single mutual fund scheme subscription change",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Availability of KOTAK NIFTY CAPITAL MARKETS INDEX FUND for ongoing transactions on BSE StAR MF Platform",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-33/20261007-33.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single mutual fund scheme availability change",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Availability of JIOBLACKROCK BALANCED ADVANTAGE FUND for ongoing transactions on BSE StAR MF Platform",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-32/20261007-32.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single mutual fund scheme availability change",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Restrictions on subscription in ICICI PRUDENTIAL MID CAP FUND on BSE StAR MF Platform",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-31/20261007-31.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single mutual fund scheme subscription restriction",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Additions to the BSE SME IPO Index",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-30/20261007-30.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Index composition change, no operational obligation",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Listing of Equity Shares of DOVE SOFT LIMITED",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-29/20261007-29.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company listing, no ecosystem obligation",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Clarification Received from the Companies",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-28/20261007-28.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Clarifications on individual company matters only",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Listing of Equity Shares of Sollfege Smart Electronics Limited",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-27/20261007-27.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company listing, no ecosystem obligation",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Listing of Equity Shares of Nityas Gems and Jewellery Limited",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-26/20261007-26.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company listing, no ecosystem obligation",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Listing of Equity Shares of Vishal Nirmiti Limited",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-25/20261007-25.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company listing, no ecosystem obligation",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Listing of new Securities of RACONTEUR GLOBAL RESOURCES LIMITED.",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-24/20261007-24.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company security listing, no ecosystem obligation",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Listing of Equity Shares of OMARA VENTURES INDIA LIMITED",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-23/20261007-23.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company listing, no ecosystem obligation",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Admission of Member",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-22/20261007-22.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single member admission, no ecosystem-wide obligation",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Listing of New Securities of Skipper Limited",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-21/20261007-21.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company security listing, no ecosystem obligation",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Listing of new securities of MIC Electronics Ltd",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-20/20261007-20.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company security listing, no ecosystem obligation",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Part Redemption (Revised) of Debentures of ADANI AIRPORT HOLDINGS LIMITED",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-19/20261007-19.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company debenture redemption, no ecosystem obligation",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Listing of new securities of Everest Organics Limited",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-18/20261007-18.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company security listing, no ecosystem obligation",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Listing of New Securities of 7NR Retail Limited",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-16/20261007-16.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company security listing, no ecosystem obligation",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Listing of privately placed securities on the debt market segment of the Exchange",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-15/20261007-15.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Routine debt listing process, no obligation change",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Listing of further securities issued by the companies under ESOP / ESOS",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-14/20261007-14.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Routine ESOP/ESOS listing, no obligation change",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Listing of Equity Shares of OMARA VENTURES INDIA LIMITED",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-13/20261007-13.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company listing, no ecosystem obligation",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Listing of Equity Shares of SJP ULTRASONICS LIMITED",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-12/20261007-12.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single company listing, no ecosystem obligation",
+      "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "CORPORATE ACTION IN SLB SECURITIES",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261007-11/20261007-11.pdf",
+      "date": "2026-10-07",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single security corporate action, no ecosystem obligation",
+      "decided_at": "2026-10-07T17:27:14Z"
     }
   ]
 }
