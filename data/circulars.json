@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T06:08:31Z",
+  "generated_at": "2026-10-08T13:39:14Z",
   "schema_version": "2.0",
   "circulars": [
     {
@@ -14582,6 +14582,765 @@
       "regulator": "BSE",
       "source": "bse",
       "triage_reason": "No triage decision returned; kept by default."
+    },
+    {
+      "circular_no": "NSE/COMP/76794",
+      "date": "2026-10-08",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [
+        {
+          "regulator": "SEBI",
+          "circular_no": "HO/17/11/22(1)2026-DDHS-POD1",
+          "date": "2026-10-07"
+        }
+      ],
+      "impact_areas": [
+        "Stock Brokers",
+        "Stock Exchanges",
+        "Corporate Bonds/Debt Market",
+        "Depository Participants"
+      ],
+      "applicability": "NSE Trading Members; Issuers of debt securities, Online Bond Platform Providers (OBPPs), Recognised Stock Exchanges and Depositories",
+      "intent": "To help investors assess the credit risk of debt securities via a standardized colour-coded 'Credit Risk-o-Meter' disclosed across offer documents, advertisements and OBPP platforms.",
+      "action_required": "NSE Trading Members are requested to take note of the attached SEBI circular and ensure compliance; Stock Exchanges and Depositories are directed to put systems in place, amend bye-laws/rules as needed, and notify issuers; Issuers/OBPPs must incorporate the Credit Risk-o-Meter per Annexure-A framework, with the provisions coming into force 45 days from the date of issuance of the SEBI circular.",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [],
+      "impact_summary": "The circular mandates NSE Trading Members, debt security issuers, OBPPs, stock exchanges and depositories to implement a new 'Credit Risk-o-Meter' disclosure in offer documents, advertisements and digital platforms for debt securities, amending the NCS Master Circular accordingly.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "effective_date": "Text states 'after 45 days from the date of issuance' but does not state a calculated calendar date, so an explicit effective date cannot be derived without computation, which is disallowed.",
+        "key_dates.date": "The date field for the 45-day effective provision is left null since the source does not state an actual calendar date, only a relative period."
+      },
+      "source_excerpt_citations": [
+        "This is with reference to SEBI Circular No. HO/17/11/22(1)2026-DDHS-POD1 dated October 07, 2026",
+        "it has been decided to introduce a 'Credit Risk-o-Meter' as a mandatory component",
+        "The provisions of circular shall come into force after 45 days from the date of issuance.",
+        "The Stock Exchanges and Depositories are directed to: a. take all the necessary steps and put in place necessary systems"
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/COMP76794.pdf",
+      "sample_data": false,
+      "title": "Introduction of Credit Risk-o-Meter as an additional disclosure mechanism for debt securities",
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "New disclosure mechanism for debt securities affects issuers"
+    },
+    {
+      "circular_no": "NSE/SURV/76791",
+      "date": "2026-10-08",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "NSE/SURV/56948, NSE/SURV/57609, NSE/SURV/63361, NSE/SURV/64066, NSE/SURV/64400, NSE/SURV/69315",
+      "parent_circular_date": "2023-06-02, 2023-07-18, 2024-08-09, 2024-09-20, 2024-10-04, 2025-07-25",
+      "implements": [],
+      "impact_areas": [
+        "Surveillance/Market Abuse",
+        "Stock Exchanges",
+        "Stock Brokers",
+        "Trading Operations",
+        "Margin Trading"
+      ],
+      "applicability": "All NSE Members / Market Participants trading in securities under ESM framework",
+      "intent": "To update members on securities newly added to or removed from the Enhanced Surveillance Measure (ESM) framework and the resulting margin and trading restrictions.",
+      "action_required": "Apply minimum 100% margin on securities in Annexure I w.e.f. October 12, 2026 on open positions as on October 09, 2026 and new positions from October 12, 2026; shift qualifying securities from Rolling Settlement (EQ/SM) to Trade-for-Trade (BE/ST) w.e.f. October 12, 2026; apply 2% price band under Periodic Call Auction for Stage II securities w.e.f. October 09, 2026.",
+      "effective_date": "2026-10-12",
+      "key_dates": [
+        {
+          "label": "100% margin and new position effective date",
+          "date": "2026-10-12",
+          "quote": "shall attract a minimum 100% margin w.e.f. October 12, 2026, on all open positions"
+        },
+        {
+          "label": "Open positions reference date",
+          "date": "2026-10-09",
+          "quote": "on all open positions as on October 09, 2026, and new positions created from October 12, 2026"
+        },
+        {
+          "label": "Segment shift to Trade-for-Trade",
+          "date": "2026-10-12",
+          "quote": "shall be shifted from Rolling Settlement segment (Series: EQ/SM) to Trade-for-Trade segment (Series: BE/ST) w.e.f. October 12, 2026"
+        },
+        {
+          "label": "Stage II Periodic Call Auction effective date",
+          "date": "2026-10-09",
+          "quote": "securities shifting to Stage II shall be under Trade for Trade with price band of 2% under Periodic Call Auction w.e.f. October 09, 2026"
+        }
+      ],
+      "impact_summary": "NSE members and market participants dealing in the listed securities must comply with revised margin requirements and segment shifts (to Trade-for-Trade) as securities move in or out of the ESM surveillance framework.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
+      },
+      "source_excerpt_citations": [
+        "satisfied the criteria for inclusion under aforesaid measure and shall attract a minimum 100% margin",
+        "shall be shifted from Rolling Settlement segment (Series: EQ/SM) to Trade-for-Trade segment (Series: BE/ST)",
+        "shortlisting of securities under ESM is purely on account of market surveillance"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/SURV76791.zip",
+      "sample_data": false,
+      "title": "Applicability of Enhanced Surveillance Measure (ESM)",
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "Enhanced Surveillance Measure affects trading operations"
+    },
+    {
+      "circular_no": "778/2026",
+      "date": "2026-10-08",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "NSE/SURV/76204",
+      "parent_circular_date": "2026-09-04",
+      "implements": [],
+      "impact_areas": [
+        "Surveillance/Market Abuse",
+        "Stock Brokers",
+        "Trading Operations"
+      ],
+      "applicability": "All NSE Members (Stock Brokers)",
+      "intent": "The exchange is updating the list of securities subject to the Graded Surveillance Measure (GSM) framework to curb potential market abuse, moving a specified security to Stage I surveillance.",
+      "action_required": "Members must note that ANKIT METAL & POWER LIMITED (ANKITMETAL) moves to Stage I of GSM effective October 09, 2026, with applicable margin rate of 100% and price band of 5% or lower, and take adequate precaution while trading in the security.",
+      "effective_date": "2026-10-09",
+      "key_dates": [
+        {
+          "label": "Security moves to GSM Stage I",
+          "date": "2026-10-09",
+          "quote": "the following securities shall be moved to Stage I of GSM with effect from October 09, 2026"
+        }
+      ],
+      "impact_summary": "All NSE members are affected as they must apply enhanced margin (100%) and restricted price band (5% or lower) rules when trading in ANKIT METAL & POWER LIMITED, which is moved to GSM Stage I effective October 9, 2026.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here.",
+        "circular_no": "Two reference numbers appear in the source: 'Download Ref No: NSE/SURV/76790' and 'Circular Ref. No: 778/2026'; the latter was selected as the primary circular_no per typical NSE convention, but both appear verbatim in the text."
+      },
+      "source_excerpt_citations": [
+        "In continuation to Exchange circular(s) NSE/SURV/34262, NSE/SURV/38389, NSE/SURV/42790, NSE/SURV/59425, NSE/SURV/64066, NSE/SURV/74254 and NSE/SURV/76204",
+        "the following securities shall be moved to Stage I of GSM with effect from October 09, 2026",
+        "Trading in the above-mentioned securities shall be available with applicable margin rate of 100% and price band of 5% or lower"
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/SURV76790.pdf",
+      "sample_data": false,
+      "title": "List of Securities Moving to Stage I of Graded Surveillance Measure (GSM)",
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "Graded Surveillance Measure affects trading and risk management"
+    },
+    {
+      "circular_no": "096/2026",
+      "date": "2026-10-08",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "NSE/INVG/71820",
+      "parent_circular_date": "2025-12-16",
+      "implements": [],
+      "impact_areas": [
+        "Stock Brokers",
+        "Trading Operations"
+      ],
+      "applicability": "All Trading Members",
+      "intent": "NSE is updating trading members that an already-provisionally-empaneled Algo Provider (Oraph Private Limited) has now been approved to also offer Black Box Algorithmic Trading Solutions, in addition to its earlier White Box empanelment.",
+      "action_required": "No specific compliance action stated; trading members are informed of the updated empanelment status, effective immediately.",
+      "effective_date": "2026-10-08",
+      "key_dates": [
+        {
+          "label": "Effective date of circular",
+          "date": "2026-10-08",
+          "quote": "This circular will be applicable with immediate effect."
+        }
+      ],
+      "impact_summary": "Trading members of NSE are notified that M/s. Oraph Private Limited is now empaneled to provide both White Box and Black Box algorithmic trading solutions, expanding its prior provisional White Box-only empanelment.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
+      },
+      "source_excerpt_citations": [
+        "M/s. Oraph Private Limited was empaneled as an Algo Provider with the Exchange vide circular no. NSE/INVG/71820 dated December 16, 2025",
+        "The Algo Provider is now empaneled for providing Black Box Algorithmic Trading Solutions as well.",
+        "This circular will be applicable with immediate effect."
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/INVG76786.pdf",
+      "sample_data": false,
+      "title": "Algo Provider- Empanelment for providing Algorithmic Trading solutions (M/S. Oraph Private Limited- Black Box)",
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "Algo provider empanelment affects trading systems and technology"
+    },
+    {
+      "circular_no": "Notice No. 20261008-33",
+      "date": "2026-10-08",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [
+        {
+          "regulator": "SEBI",
+          "circular_no": "HO/17/11/22(1)2026-DDHS-POD1",
+          "date": "2026-10-07"
+        }
+      ],
+      "impact_areas": [
+        "Corporate Bonds/Debt Market",
+        "Stock Brokers"
+      ],
+      "applicability": "Trading Members of BSE",
+      "intent": "BSE is forwarding and requiring compliance with a SEBI circular that introduces a 'Credit Risk-o-Meter' as an additional disclosure mechanism for debt securities.",
+      "action_required": "Trading Members are requested to take note of the SEBI circular (attached as Annexure) and ensure compliance; no specific deadline is stated in the notice text.",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [],
+      "impact_summary": "Trading Members of BSE must note and comply with SEBI's new requirement for a 'Credit Risk-o-Meter' disclosure mechanism applicable to debt securities, as circulated by SEBI and forwarded by BSE.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "action_required": "The notice only says 'take note and ensure compliance' with no specific deadline or detailed steps; actual substantive requirements are in the attached SEBI circular annexure, which is not part of the provided source text.",
+        "effective_date": "No effective date is stated in the notice text itself; only the SEBI circular date is given.",
+        "impact_areas": "Term 'Credit Risk-o-Meter' is not elaborated in the source text, so its exact scope/mechanism is unclear beyond being a debt securities disclosure tool.",
+        "source_excerpt_citations": "1 quoted excerpt(s) could not be found in the circular text — possible fabrication: 'Introduction of Credit Risk-o-Meter as an additional disclosure mechanism for de'"
+      },
+      "source_excerpt_citations": [
+        "Introduction of Credit Risk-o-Meter as an additional disclosure mechanism for debt securities",
+        "with reference to SEBI Circular No. HO/17/11/22(1)2026-DDHS-POD1 dated October 07, 2026",
+        "Trading Members are requested to take note of the same and ensure compliance"
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261008-33/20261008-33.pdf",
+      "sample_data": false,
+      "title": "Introduction of Credit Risk-o-Meter as an additional disclosure mechanism for debt securities",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "New disclosure mechanism for debt securities affects issuers"
+    },
+    {
+      "circular_no": "20261008-30",
+      "date": "2026-10-08",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [
+        {
+          "regulator": "SEBI",
+          "circular_no": "SEBI/HO/MRD1/DSAP/CIR/P/2020/234",
+          "date": "2020-11-24"
+        }
+      ],
+      "impact_areas": [
+        "Trading Operations",
+        "Stock Brokers"
+      ],
+      "applicability": "BSE Trading Members in Equity Derivatives segment, including those using third-party/in-house trading platforms via IML/ETI APIs",
+      "intent": "BSE is scheduling a mock trading session for the Equity Derivatives segment to allow members to test their trading and risk management systems, including exceptional market conditions and PR-DR switchover, ahead of further live operations.",
+      "action_required": "Members should participate in the mock trading session on Saturday, October 10, 2026 (or alternatively in the UAT environment) to fulfill regulatory testing requirements, test their trading applications/platforms, and submit feedback on the mock trading session by 5:30 pm.",
+      "effective_date": "2026-10-10",
+      "key_dates": [
+        {
+          "label": "Mock trading session date",
+          "date": "2026-10-10",
+          "quote": "mock trading session for Equity Derivatives segment on Saturday, October 10, 2026"
+        },
+        {
+          "label": "Feedback submission deadline",
+          "date": "2026-10-10",
+          "quote": "give their feedback for the mock trading session on the contact numbers/ email provided below by 5:30 pm"
+        }
+      ],
+      "impact_summary": "BSE trading members in the Equity Derivatives segment, including those using third-party or in-house trading systems via IML/ETI APIs, are expected to participate in a scheduled mock trading session to test system functionality and provide feedback, with no financial obligations arising from the test trades.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "parent_circular_no": "The notice references an earlier BSE Notice No 20201201-22 dated 1 Dec 2020, but this appears to be a contextual cross-reference (regarding software testing requirements) rather than a parent circular being amended, so it was not classified as a parent circular.",
+        "circular_no": "'20261008-30' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "mock trading session for Equity Derivatives segment on Saturday, October 10, 2026, from Primary Site (PR) and Disaster Recovery Site (DR)",
+        "Members may choose to participate either in Mock Trading Session or UAT environment for fulfilling their regulatory requirements",
+        "in accordance to SEBI circular no. SEBI/HO/MRD1/DSAP/CIR/P/2020/234 dated November 24, 2020",
+        "trades resulting from such mock trading will not attract any margin obligation or pay-in and pay-out obligation",
+        "give their feedback for the mock trading session on the contact numbers/ email provided below by 5:30 pm"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261008-30/20261008-30.pdf",
+      "sample_data": false,
+      "title": "Mock Trading on Saturday, October 10, 2026, for Equity Derivatives segment",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Mock trading affects market-wide trading operations"
+    },
+    {
+      "circular_no": "20261008-29",
+      "date": "2026-10-08",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [
+        {
+          "regulator": "SEBI",
+          "circular_no": "SEBI/HO/MRD1/DSAP/CIR/P/2020/234",
+          "date": "2020-11-24"
+        }
+      ],
+      "impact_areas": [
+        "Stock Brokers",
+        "Trading Operations",
+        "Stock Exchanges"
+      ],
+      "applicability": "Trading Members of BSE (Equity segment), including those using third-party trading platforms (TWS vendors and in-house system developers)",
+      "intent": "BSE is conducting a mock trading session to test the Equity segment trading and risk management systems (including Primary and Disaster Recovery site switchover) and to let members fulfil SEBI-mandated software testing requirements.",
+      "action_required": "Trading members are requested to participate in the mock trading session on Saturday, October 10, 2026, test various functionalities (call auctions, risk-reduction mode, trading halt, block deals, etc.), and submit feedback on the mock trading session by 5:30 pm.",
+      "effective_date": "2026-10-10",
+      "key_dates": [
+        {
+          "label": "Mock trading session date",
+          "date": "2026-10-10",
+          "quote": "mock trading session for Equity segment on Saturday, October 10, 2026"
+        }
+      ],
+      "impact_summary": "BSE trading members, including third-party platform users, must participate in or use the UAT environment for a scheduled mock trading session covering PR and DR site operations, and submit feedback by the stated deadline; trades generated carry no margin, pay-in/pay-out, or legal obligations.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "parent_circular_no": "The notice references an earlier same-body BSE Notice No 20201201-22 (dated 1 Dec 2020) only for contextual/testing-requirement purposes, not as a circular being amended or superseded, so it was not classified as a parent circular.",
+        "key_dates": "Feedback deadline '5:30 pm' is stated without an explicit date in that sentence; assumed to be the same day as the mock session (Oct 10, 2026) but not stated outright as a date, so omitted as a separate key date to avoid inferring.",
+        "circular_no": "'20261008-29' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "mock trading session for Equity segment on Saturday, October 10, 2026, from Primary Site (PR) and Disaster Recovery Site (DR)",
+        "Members may choose to participate either in Mock Trading Session or UAT environment for fulfilling their regulatory requirements in accordance to SEBI circular no. SEBI/HO/MRD1/DSAP/CIR/P/2020/234 dated November 24, 2020",
+        "trades resulting from such mock trading will not attract any margin obligation or pay-in and pay-out obligation",
+        "give their feedback for the mock trading session on the contact numbers/ email provided below by 5:30 pm"
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261008-29/20261008-29.pdf",
+      "sample_data": false,
+      "title": "Mock Trading on Saturday, October 10, 2026, for Equity segment",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Mock trading affects market-wide trading operations"
+    },
+    {
+      "circular_no": "20261008-28",
+      "date": "2026-10-08",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [
+        {
+          "regulator": "SEBI",
+          "circular_no": "SEBI/HO/MRD1/DSAP/CIR/P/2020/234",
+          "date": "2020-11-24"
+        }
+      ],
+      "impact_areas": [
+        "Trading Operations",
+        "Stock Brokers"
+      ],
+      "applicability": "Trading Members in the Currency Derivatives segment (including users of third-party/empaneled vendor platforms and in-house systems)",
+      "intent": "BSE is organizing a mock trading session for the Currency Derivatives segment to allow members to test trading systems, software and risk management functionalities from both Primary and Disaster Recovery sites, in line with SEBI's software testing requirements.",
+      "action_required": "Members should participate in the mock trading session on Saturday, October 10, 2026 as per the specified session timings, test their trading applications (including exceptional market conditions scenarios), and submit feedback on the mock trading session by 5:30 pm.",
+      "effective_date": "2026-10-10",
+      "key_dates": [
+        {
+          "label": "Mock trading session date",
+          "date": "2026-10-10",
+          "quote": "mock trading session for Currency Derivatives segment on Saturday, October 10, 2026"
+        },
+        {
+          "label": "Feedback submission deadline",
+          "date": "2026-10-10",
+          "quote": "give their feedback for the mock trading session ... by 5:30 pm"
+        }
+      ],
+      "impact_summary": "BSE Currency Derivatives trading members, including those using third-party or in-house trading systems, are required to participate in a scheduled mock trading session on October 10, 2026 to test trading and risk management functionalities, with no margin or settlement obligations attaching to resulting trades.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "circular_no": "'20261008-28' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "mock trading session for Currency Derivatives segment on Saturday, October 10, 2026, from Primary Site (PR) and Disaster Recovery Site (DR)",
+        "Members may choose to participate either in Mock Trading Session or UAT environment for fulfilling their regulatory requirements in accordance to SEBI circular no. SEBI/HO/MRD1/DSAP/CIR/P/2020/234 dated November 24, 2020",
+        "trades resulting from such mock trading will not attract any margin obligation or pay-in and pay-out obligation",
+        "We request all members to give their feedback for the mock trading session on the contact numbers/ email provided below by 5:30 pm"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261008-28/20261008-28.pdf",
+      "sample_data": false,
+      "title": "Mock Trading on Saturday, October 10, for Currency Derivatives segment",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Mock trading affects market-wide trading operations"
+    },
+    {
+      "circular_no": "Notice No. 20261008-27",
+      "date": "2026-10-08",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [
+        {
+          "regulator": "SEBI",
+          "circular_no": "SEBI/HO/MRD1/DSAP/CIR/P/2020/234",
+          "date": "2020-11-24"
+        }
+      ],
+      "impact_areas": [
+        "Commodity Derivatives Segment",
+        "Trading Operations"
+      ],
+      "applicability": "Trading Members in the Commodity Derivatives segment (including TWS users, third-party vendors and in-house system developers)",
+      "intent": "BSE is organizing a mock trading session for the Commodity Derivatives segment to allow members to test trading and risk management systems, including the Primary and Disaster Recovery sites, in line with SEBI's software testing requirements.",
+      "action_required": "Members must participate in the mock trading session on Saturday, October 10, 2026 (or alternatively in the UAT environment) to fulfil regulatory testing requirements, test their trading applications/APIs, and submit feedback on the mock session by 5:30 pm.",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [
+        {
+          "label": "Mock trading session date",
+          "date": "2026-10-10",
+          "quote": "mock trading session for Commodity Derivatives segment on Saturday, October 10, 2026"
+        },
+        {
+          "label": "Prior notice reference date",
+          "date": "2020-12-01",
+          "quote": "Exchange Notice No 20201201-22 dated 1st December'2020"
+        },
+        {
+          "label": "SEBI circular reference date",
+          "date": "2020-11-24",
+          "quote": "SEBI circular no. SEBI/HO/MRD1/DSAP/CIR/P/2020/234 dated November 24, 2020"
+        }
+      ],
+      "impact_summary": "Commodity Derivatives segment trading members, including those using third-party or in-house trading platforms via IML/ETI APIs, are required to participate in a scheduled mock trading session on October 10, 2026 to test systems and risk management functionalities, with no financial obligations arising from the test trades.",
+      "overall_confidence": "Certain",
+      "confidence_flags": {
+        "effective_date": "This is a one-time operational notice for a mock session rather than a circular with a standing effective date, so no explicit 'effective date' is stated."
+      },
+      "source_excerpt_citations": [
+        "The Exchange has scheduled a mock trading session for Commodity Derivatives segment on Saturday, October 10, 2026",
+        "Members may choose to participate either in Mock Trading Session or UAT environment for fulfilling their regulatory requirements in accordance to SEBI circular no. SEBI/HO/MRD1/DSAP/CIR/P/2020/234 dated November 24, 2020",
+        "trades resulting from such mock trading will not attract any margin obligation or pay-in and pay-out obligation",
+        "We request all members to give their feedback for the mock trading session on the contact numbers/ email provided below by 5:30 pm."
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261008-27/20261008-27.pdf",
+      "sample_data": false,
+      "title": "Mock Trading on Saturday, October 10, for Commodity Derivatives segment",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Mock trading affects market-wide trading operations"
+    },
+    {
+      "circular_no": "20261008-26",
+      "date": "2026-10-08",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "20201201-22",
+      "parent_circular_date": "2020-12-01",
+      "implements": [
+        {
+          "regulator": "SEBI",
+          "circular_no": "SEBI/HO/MRD1/DSAP/CIR/P/2020/234",
+          "date": "2020-11-24"
+        }
+      ],
+      "impact_areas": [
+        "Trading Operations",
+        "Commodity Derivatives Segment",
+        "Stock Exchanges"
+      ],
+      "applicability": "Trading Members/Stock Brokers in the EGR (Electronic Gold Receipts) segment, including users of third-party or in-house trading platforms",
+      "intent": "BSE is scheduling a mock trading session for the EGR segment to allow members to test trading systems, software and exceptional market condition functionalities from both Primary and Disaster Recovery sites, partly to fulfil SEBI-mandated software testing requirements.",
+      "action_required": "Members, including those using third-party empaneled vendor platforms or in-house systems via IML/ETI APIs, should participate in the mock trading session on Saturday, October 10, 2026 during the specified timings, and submit feedback on the session by 5:30 pm.",
+      "effective_date": "2026-10-10",
+      "key_dates": [
+        {
+          "label": "Mock trading session date",
+          "date": "2026-10-10",
+          "quote": "scheduled a mock trading session for EGR segment on Saturday, October 10, 2026"
+        },
+        {
+          "label": "Feedback submission deadline",
+          "date": "2026-10-10",
+          "quote": "give their feedback for the mock trading session on the contact numbers/ email provided below by 5:30 pm"
+        }
+      ],
+      "impact_summary": "Trading members in BSE's EGR (Electronic Gold Receipts) segment, including those on third-party or in-house trading platforms, are required to participate in a mock trading session on October 10, 2026 to test systems and provide feedback; trades from this session carry no margin, pay-in/pay-out, or legal obligations.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here.",
+        "abbreviation_EGR": "EGR is expanded in the subject line as 'Electronic Gold Receipts' per the source text, used as stated without further inference.",
+        "key_dates_feedback_deadline": "The 5:30 pm feedback deadline's date is inferred to be the same as the mock trading date since no separate date is stated for it.",
+        "circular_no": "'20261008-26' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "The Exchange has scheduled a mock trading session for EGR segment on Saturday, October 10, 2026",
+        "Members may choose to participate either in Mock Trading Session or UAT environment for fulfilling their regulatory requirements in accordance to SEBI circular no. SEBI/HO/MRD1/DSAP/CIR/P/2020/234 dated November 24, 2020",
+        "Members are also requested to refer to Exchange Notice No 20201201-22 dated 1st December'2020",
+        "the trades resulting from such mock trading will not attract any margin obligation or pay-in and pay-out obligation",
+        "We request all members to give their feedback for the mock trading session on the contact numbers/ email provided below by 5:30 pm"
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261008-26/20261008-26.pdf",
+      "sample_data": false,
+      "title": "Mock Trading on Saturday, October 10, for Electronic Gold Receipts segment",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Mock trading affects market-wide trading operations"
+    },
+    {
+      "circular_no": "20261008-23",
+      "date": "2026-10-08",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "NOT STATED IN SOURCE",
+      "parent_circular_date": "NOT STATED IN SOURCE",
+      "implements": [],
+      "impact_areas": [
+        "Corporate Bonds/Debt Market",
+        "Listed Companies (LODR/Disclosure)"
+      ],
+      "applicability": "Listed Companies - Debt Segment (issuers of debt securities)",
+      "intent": "BSE appears to be introducing a 'Credit Risk-o-Meter' as a supplementary disclosure tool for debt securities, though the specific regulatory problem being solved is not elaborated in the available text.",
+      "action_required": "NOT STATED IN SOURCE - the notice only references an attachment (Introduction_of_Credit_Risk_o_Meter) for details; no action or deadline is stated in the body text provided.",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [],
+      "impact_summary": "This notice concerns listed companies in BSE's Debt segment and introduces an additional disclosure mechanism (Credit Risk-o-Meter) for debt securities, but the actual operative details are contained only in an attachment not provided in the source text.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "overall": "Source text is only the notice header/metadata (notice number, date, category, subject, attachment name) with no actual circular body; substantive fields like intent, action_required, parent circular, and key dates cannot be reliably extracted.",
+        "parent_circular_no": "No reference to any parent or amended circular appears in the given text, but absence of the full notice body means we cannot confirm whether one exists.",
+        "doc_type": "Classified as Fresh Circular by default since no amendment/parent language is present, but this cannot be fully verified without the attachment content.",
+        "action_required": "The substantive requirements are presumably in the attached document 'Introduction_of_Credit_Risk_o_Meter', which is not included in the source text.",
+        "source_excerpt_citations": "1 quoted excerpt(s) could not be found in the circular text — possible fabrication: 'Introduction of Credit Risk-o-Meter as an additional disclosure mechanism for de'",
+        "circular_no": "'20261008-23' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "Introduction of Credit Risk-o-Meter as an additional disclosure mechanism for debt securities.",
+        "Category Circulars Listed Companies",
+        "Segment Debt"
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261008-23/20261008-23.pdf",
+      "sample_data": false,
+      "title": "Introduction of Credit Risk-o-Meter as an additional disclosure mechanism for debt securities.",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "New disclosure mechanism for debt securities affects issuers"
+    },
+    {
+      "circular_no": "20261008-22",
+      "date": "2026-10-08",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "NOT STATED IN SOURCE",
+      "parent_circular_date": "NOT STATED IN SOURCE",
+      "implements": [],
+      "impact_areas": [
+        "Corporate Bonds/Debt Market",
+        "Listed Companies (LODR/Disclosure)"
+      ],
+      "applicability": "Listed issuers raising debt through private placement on BSE Debt segment",
+      "intent": "The notice appears to address an exemption from the requirement that listed issuers mandatorily appoint a merchant banker for debt issued via private placement, though the underlying rationale is not detailed in the available text.",
+      "action_required": "NOT STATED IN SOURCE",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [],
+      "impact_summary": "Certain listed issuers conducting private placement debt issuances on BSE may be exempted from mandatory merchant banker appointment; exact scope, conditions, and eligibility criteria are not available in the provided text.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "action_required": "Only the notice header/metadata and subject line are provided; no body text detailing the exemption conditions, procedure, or compliance steps was given.",
+        "effective_date": "No effective or compliance date is stated anywhere in the provided source text.",
+        "parent_circular_no": "No reference to any underlying SEBI or BSE circular is present in the given text, though such a notice likely stems from a SEBI provision not quoted here.",
+        "doc_type": "Classified as Fresh Circular based on subject matter, but without body text this cannot be fully confirmed; could also be a clarification.",
+        "source_excerpt_citations": "1 quoted excerpt(s) could not be found in the circular text — possible fabrication: 'Exemption from the requirement of mandatory merchant banker appointment for debt'",
+        "circular_no": "'20261008-22' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "Exemption from the requirement of mandatory merchant banker appointment for debt issued through private placement by certain listed issuers"
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261008-22/20261008-22.pdf",
+      "sample_data": false,
+      "title": "Exemption from the requirement of mandatory merchant banker appointment for debt issued through private placement by certain listed issuers.",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Exemption from merchant banker requirement affects issuers and advisers"
+    },
+    {
+      "circular_no": "Notice No. 20261008-21",
+      "date": "2026-10-08",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [
+        {
+          "regulator": "SEBI",
+          "circular_no": "HO/17/11/24(8)2026-DDHS-POD1/I/23125/2026",
+          "date": "2026-10-07"
+        }
+      ],
+      "impact_areas": [
+        "Corporate Bonds/Debt Market",
+        "Listed Companies (LODR/Disclosure)"
+      ],
+      "applicability": "Listed entities with debt securities issued on private placement basis",
+      "intent": "SEBI has revised provisions governing ISIN allotment for privately placed debt securities, and BSE is circulating this revision to listed debt issuers for compliance.",
+      "action_required": "Listed entities are requested to take note of the attached SEBI circular and comply accordingly; no specific procedural steps or deadline beyond immediate effect are stated.",
+      "effective_date": "2026-10-07",
+      "key_dates": [
+        {
+          "label": "Circular effective date",
+          "date": "2026-10-07",
+          "quote": "The circular shall come into force with immediate effect."
+        }
+      ],
+      "impact_summary": "Listed companies that issue debt securities via private placement must comply with SEBI's revised ISIN-related provisions as communicated through this BSE notice, effective immediately.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "effective_date": "Text states 'immediate effect' without specifying whether this refers to the SEBI circular date (2026-10-07) or the BSE notice date (2026-10-08); SEBI circular date used as the more direct reading of 'immediate effect' relative to the underlying circular.",
+        "action_required": "Source does not detail specific substantive changes to ISIN provisions, only that listed entities must 'take note and comply accordingly'; full requirements are presumably in the attached SEBI circular, not reproduced in this text."
+      },
+      "source_excerpt_citations": [
+        "The Securities and Exchange Board of India (SEBI) has issued Circular No. HO/17/11/24(8)2026-DDHS-POD1/I/23125/2026 dated October 07, 2026",
+        "The circular shall come into force with immediate effect.",
+        "Listed entities are requested to take note and comply accordingly."
+      ],
+      "model_confidence": "Inferred",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261008-21/20261008-21.pdf",
+      "sample_data": false,
+      "title": "Review of provisions related to International Securities Identification Number (ISIN) for debt securities issued on private placement basis.",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "ISIN provisions review affects debt issuance processes"
+    },
+    {
+      "circular_no": "Notice No. 20261008-15",
+      "date": "2026-10-08",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [
+        {
+          "regulator": "SEBI",
+          "circular_no": "SEBI/HO/MIRSD/MIRSD2/CIR/P/2016/95",
+          "date": "2016-09-26"
+        },
+        {
+          "regulator": "SEBI",
+          "circular_no": "SEBI/LADNRO/GN/2022/73",
+          "date": "2022-02-23"
+        },
+        {
+          "regulator": "SEBI",
+          "circular_no": "PR No.58/2026",
+          "date": "2026-09-17"
+        }
+      ],
+      "impact_areas": [
+        "Clearing Corporations",
+        "Stock Brokers"
+      ],
+      "applicability": "All Clearing Members (including Self Clearing Members and Professional Clearing Members) of BSE Clearing Limited (BSECL)",
+      "intent": "BSECL requires clearing members to submit their Annual Returns for FY 2025-26 along with prescribed financial disclosures, and clarifies net worth compliance and submission channels depending on NSE registration status.",
+      "action_required": "Submit Annual Returns for FY 2025-26 (year ended March 31, 2026) on or before October 31, 2026, along with documents in the format prescribed in Annexure I, via BSECL's IEFS portal (for members not registered with NSE / Professional Clearing Members) or via NSE (for members also registered with NSE, who submit Half Yearly Net worth Certificate to NSE only).",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [
+        {
+          "label": "Annual Return submission deadline",
+          "date": "2026-10-31",
+          "quote": "submission of Annual Returns for the financial year ended on March 31, 2026, shall be done on or before October 31, 2026"
+        },
+        {
+          "label": "Reiterated submission deadline",
+          "date": "2026-10-31",
+          "quote": "submit the Annual Returns on or before October 31, 2026"
+        }
+      ],
+      "impact_summary": "Clearing/Self Clearing Members and Professional Clearing Members of BSE Clearing Limited must submit FY2025-26 Annual Returns and comply with net worth and financial disclosure norms, with submission routed either through BSECL's IEFS portal or via NSE depending on dual registration, failing which BSECL may initiate action per Annexure I.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "parent_circular_no": "The notice references a prior same-body BSECL Notice (20260918-54) regarding a related but distinct topic (Samuhik Prativedan Manch submission mechanism), not as a parent/amended version of this notice itself, so parent_circular_no is set to null rather than that reference.",
+        "effective_date": "No explicit 'effective date' is stated; only a compliance deadline of October 31, 2026 is given."
+      },
+      "source_excerpt_citations": [
+        "submission of Annual Returns for the financial year ended on March 31, 2026, shall be done on or before October 31, 2026",
+        "as per Enhanced Supervision guidelines prescribed in SEBI Circular Reference No. SEBI/HO/MIRSD/MIRSD2/CIR/P/2016/95 dated September 26, 2016",
+        "as stated in the SEBI Gazette Notification No. SEBI/LADNRO/GN/2022/73 dated February 23, 2022",
+        "as per SEBI PR No.58/2026 dated September 17, 2026 and BSECL Notice no. 20260918-54 dated September 18, 2026",
+        "In case of non-submission of Annual Returns for FY 2025-26 within the prescribed due date and/or shortfall in net worth, actions shall be initiated by BSECL"
+      ],
+      "model_confidence": "Inferred",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261008-15/20261008-15.pdf",
+      "sample_data": false,
+      "title": "Submission of Annual Return for the Financial Year 2025-2026",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Annual return submission is reporting obligation for members"
+    },
+    {
+      "circular_no": "20261008-13",
+      "date": "2026-10-08",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [
+        {
+          "regulator": "SEBI",
+          "circular_no": "SEBI PR No.58/2026",
+          "date": "2026-09-17"
+        },
+        {
+          "regulator": "SEBI",
+          "circular_no": "SEBI/LAD-NRO/GN/2022/73",
+          "date": "2022-02-23"
+        }
+      ],
+      "impact_areas": [
+        "Clearing Corporations",
+        "Stock Brokers"
+      ],
+      "applicability": "Clearing Members (including Self Clearing and Professional Clearing Members) of BSE Clearing Limited (BSECL)",
+      "intent": "BSECL is reminding its clearing members of the continuing requirement to maintain minimum net worth and to submit periodic net worth certificates, while clarifying the submission channel for members common with NSE under the Samuhik Prativedan Manch mechanism.",
+      "action_required": "Submit the Half Yearly Networth Certificate as on September 30, 2026, in prescribed formats, on or before November 30, 2026 — via NSE (if also registered with NSE, which shares data with BSECL) or directly through BSECL's IEFS portal (if not registered with NSE) or for Professional Clearing Members.",
+      "effective_date": "NOT STATED IN SOURCE",
+      "key_dates": [
+        {
+          "label": "Net worth reference/as-on date",
+          "date": "2026-09-30",
+          "quote": "submit the Half Yearly Networth Certificate as on September 30, 2026"
+        },
+        {
+          "label": "Submission deadline",
+          "date": "2026-11-30",
+          "quote": "as per prescribed formats on or before November 30, 2026"
+        }
+      ],
+      "impact_summary": "All Clearing Members, Self Clearing Members, and Professional Clearing Members of BSE Clearing Limited must submit half-yearly net worth certificates as on 30 Sep 2026 by 30 Nov 2026, with non-compliance resulting in consequences per Annexure I; members common with NSE must submit only to NSE under the Samuhik Prativedan Manch mechanism.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "parent_circular_no": "The notice references two prior same-body BSECL notices (20260415-27 dated 15 Apr 2026 and 20260918-54 dated 18 Sep 2026) for contextual clarification, but does not frame itself as amending or superseding either; unclear whether either should be treated as a 'parent' circular, so set to null pending human review.",
+        "effective_date": "No explicit 'effective date' is stated separately from the submission/compliance deadlines.",
+        "circular_no": "'20261008-13' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "submit the Net-worth certificate on a half yearly basis to the Clearing Corporation",
+        "on or before November 30, 2026",
+        "Clearing/Self Clearing Members of the Clearing Corporation who are also registered with NSE will be required to submit their Half Yearly Net worth Certificate to NSE only",
+        "refer to BSECL Notice no. 20260415-27 dated April 15, 2026 for clarification on ascertaining Net worth as per SEBI Gazette Notification No. SEBI/LAD-NRO/GN/2022/73",
+        "as per SEBI PR No.58/2026 dated September 17, 2026 and BSECL Notice no. 20260918-54 dated September 18, 2026"
+      ],
+      "model_confidence": "Needs Review",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261008-13/20261008-13.pdf",
+      "sample_data": false,
+      "title": "Submission of Half Yearly Networth Certificate as on September 30, 2026",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Half-yearly networth certificate is reporting obligation for members"
     }
   ],
   "sources": [
@@ -14593,8 +15352,8 @@
       "url": "https://www.sebi.gov.in/sebirss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Holds about five days of items, mixed with orders and press releases. Only circulars are kept.",
-      "checked_at": "2026-10-08T06:07:37Z",
-      "items": 4,
+      "checked_at": "2026-10-08T13:33:10Z",
+      "items": 3,
       "status": "ok",
       "error": "",
       "streak": 0,
@@ -14608,7 +15367,7 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Backstop for circulars that scroll off the RSS feed.",
-      "checked_at": "2026-10-08T06:07:38Z",
+      "checked_at": "2026-10-08T13:33:12Z",
       "items": 25,
       "status": "ok",
       "error": "",
@@ -14623,7 +15382,7 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-08T06:07:39Z",
+      "checked_at": "2026-10-08T13:33:12Z",
       "items": 25,
       "status": "ok",
       "error": "",
@@ -14638,7 +15397,7 @@
       "url": "https://rbi.org.in/notifications_rss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Includes bank-only prudential rules and foreign-exchange regulations. Triage keeps the ones that affect brokers and fintechs.",
-      "checked_at": "2026-10-08T06:07:39Z",
+      "checked_at": "2026-10-08T13:33:13Z",
       "items": 10,
       "status": "ok",
       "error": "",
@@ -14653,8 +15412,8 @@
       "url": "https://nsearchives.nseindia.com/content/RSS/Circulars.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Carries about one day of circulars (around 30 a day, mostly routine), so it's checked every 2 hours.",
-      "checked_at": "2026-10-08T06:07:41Z",
-      "items": 1,
+      "checked_at": "2026-10-08T13:33:14Z",
+      "items": 14,
       "status": "ok",
       "error": "",
       "streak": 0,
@@ -14668,8 +15427,8 @@
       "url": "https://www.bseindia.com/data/xml/notices.xml",
       "verified": "Feed address confirmed through a third-party reader. BSE refused a direct test fetch (HTTP 403), so it may block automated access.",
       "note": "Dominated by mutual fund platform notices.",
-      "checked_at": "2026-10-08T06:07:42Z",
-      "items": 5,
+      "checked_at": "2026-10-08T13:33:15Z",
+      "items": 39,
       "status": "ok",
       "error": "",
       "streak": 0,
@@ -14683,7 +15442,7 @@
       "url": "https://www.nseclearing.in/resources/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-08T06:07:42Z",
+      "checked_at": "2026-10-08T13:33:15Z",
       "items": 0,
       "status": "blocked",
       "error": "The site's robots.txt disallows this address.",
@@ -14698,10 +15457,10 @@
       "url": "https://nsdl.co.in/business/circular.php",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-08T06:07:43Z",
+      "checked_at": "2026-10-08T13:33:16Z",
       "items": 0,
-      "status": "failed",
-      "error": "TooManyRedirects: Exceeded 30 redirects.",
+      "status": "empty",
+      "error": "Page loaded but no circular links matched. The page layout may have changed.",
       "streak": 3,
       "covered": false
     },
@@ -14713,7 +15472,7 @@
       "url": "https://www.cdslindia.com/Publications/Communique.aspx/DP-COMMUNIQUES-INDEX.aspx",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "On 28 Sep 2026 this page returned 'Internal Error Occurred' even in a browser-style fetch. It may be unreliable.",
-      "checked_at": "2026-10-08T06:08:01Z",
+      "checked_at": "2026-10-08T13:33:24Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -14728,7 +15487,7 @@
       "url": "https://www.ncdex.com/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-08T06:08:03Z",
+      "checked_at": "2026-10-08T13:33:25Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -14743,7 +15502,7 @@
       "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Relevant to brokers and fintechs operating in GIFT City.",
-      "checked_at": "2026-10-08T06:08:05Z",
+      "checked_at": "2026-10-08T13:33:27Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -14758,7 +15517,7 @@
       "url": "https://www.npci.org.in/circulars/upi",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "UPI operating circulars for payment apps and PSPs.",
-      "checked_at": "2026-10-08T06:08:08Z",
+      "checked_at": "2026-10-08T13:33:30Z",
       "items": 0,
       "status": "blocked",
       "error": "The site's robots.txt disallows this address.",
@@ -14773,7 +15532,7 @@
       "url": "https://www.mcxindia.com/",
       "verified": "",
       "note": "Not connected. MCX's robots.txt disallows automated access to its RSS page. Connect it once a permitted source is confirmed.",
-      "checked_at": "2026-10-08T06:08:08Z",
+      "checked_at": "2026-10-08T13:33:30Z",
       "items": 0,
       "status": "not_connected",
       "error": "",
@@ -14782,9 +15541,9 @@
     }
   ],
   "last_run": {
-    "at": "2026-10-08T06:08:31Z",
-    "added": 1,
-    "set_aside": 6,
+    "at": "2026-10-08T13:39:14Z",
+    "added": 15,
+    "set_aside": 32,
     "failed": 0,
     "deferred": 0,
     "triage_retries": 0,
