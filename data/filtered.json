@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T23:14:49Z",
+  "generated_at": "2026-10-08T06:08:31Z",
   "items": [
     {
       "title": "Exim Bank’s GOI-supported Line of Credit (LOC) for ₹ 4,850 crores the Government of Maldives, for financing various developmental projects in Maldives",
@@ -4329,6 +4329,60 @@
       "source": "bse",
       "reason": "Single security corporate action, no ecosystem obligation",
       "decided_at": "2026-10-07T17:27:14Z"
+    },
+    {
+      "title": "Early Pay-in of Securities for Shankara Buildpro Limited (BUILDPRO)",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CMPT76785.pdf",
+      "date": "2026-10-08",
+      "regulator": "NSE",
+      "source": "nse",
+      "reason": "Single security corporate action; no obligation for tracked entities",
+      "decided_at": "2026-10-08T06:08:10Z"
+    },
+    {
+      "title": "Change in the Group of the Equity Shares of DOVE SOFT LIMITED",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261008-5/20261008-5.pdf",
+      "date": "2026-10-08",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single security surveillance classification; no obligation for tracked entities",
+      "decided_at": "2026-10-08T06:08:10Z"
+    },
+    {
+      "title": "Change in Group of Equity Shares of SJP ULTRASONICS LIMITED",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261008-4/20261008-4.pdf",
+      "date": "2026-10-08",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single security surveillance classification; no obligation for tracked entities",
+      "decided_at": "2026-10-08T06:08:10Z"
+    },
+    {
+      "title": "Change of Equity Shares of Sollfege Smart Electronics Limited",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261008-3/20261008-3.pdf",
+      "date": "2026-10-08",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single security surveillance classification; no obligation for tracked entities",
+      "decided_at": "2026-10-08T06:08:10Z"
+    },
+    {
+      "title": "Change in Group of Equity Shares of SHREE TNB POLYMERS LIMITED",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261008-2/20261008-2.pdf",
+      "date": "2026-10-08",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single security surveillance classification; no obligation for tracked entities",
+      "decided_at": "2026-10-08T06:08:10Z"
+    },
+    {
+      "title": "Change in the Group of Equity Shares of Omara Ventures India Limited",
+      "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261008-1/20261008-1.pdf",
+      "date": "2026-10-08",
+      "regulator": "BSE",
+      "source": "bse",
+      "reason": "Single security surveillance classification; no obligation for tracked entities",
+      "decided_at": "2026-10-08T06:08:10Z"
     }
   ]
 }
