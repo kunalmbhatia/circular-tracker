@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T00:30:22Z",
+  "generated_at": "2026-10-09T09:08:50Z",
   "schema_version": "2.0",
   "circulars": [
     {
@@ -15934,6 +15934,203 @@
       "regulator": "BSE",
       "source": "bse",
       "triage_reason": "Surveillance measure affects broker trading obligations"
+    },
+    {
+      "circular_no": "NSE/EGR/76818",
+      "date": "2026-10-09",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": "74203",
+      "parent_circular_date": "2026-05-13",
+      "implements": [],
+      "impact_areas": [
+        "Stock Exchanges",
+        "Trading Operations",
+        "Other"
+      ],
+      "applicability": "All NSE Members trading in the Electronic Gold Receipts (EGR) segment",
+      "intent": "NSE is notifying members of a mandatory mock trading session to test the new NEAT+ version 1.0.2 software ahead of its live rollout in the EGR segment, including updated timings and system parameters.",
+      "action_required": "Members must participate in the mock trading session on Saturday, October 10, 2026, as per the stated session timings, download and install NEAT+ version 1.0.2 from the Extranet path from October 09, 2026, 18:00 hrs, and follow installation procedures/parameters in the annexures. Version 1.0.1 is to be discontinued by November 14, 2026 (mock).",
+      "effective_date": "2026-10-09",
+      "key_dates": [
+        {
+          "label": "Mock trading session date",
+          "date": "2026-10-10",
+          "quote": "conducting a mock trading session in the Electronic Gold Receipts (EGR) segment on Saturday, October 10, 2026"
+        },
+        {
+          "label": "New NEAT+ version 1.0.2 availability",
+          "date": "2026-10-09",
+          "quote": "1.0.2 From October 09, 2026, 18:00 hrs /egftp/egcommon/NEATPlus102"
+        },
+        {
+          "label": "Quantity Freeze Report live applicability",
+          "date": "2026-10-12",
+          "quote": "The same shall be applicable in the mock of October 10, 2026 and in LIVE from October 12, 2026 onwards"
+        },
+        {
+          "label": "Quantity Freeze Report file availability on mock day",
+          "date": "2026-10-10",
+          "quote": "The file shall be available in Extranet path by 07:00 hours on October 10, 2026"
+        },
+        {
+          "label": "Version 1.0.1 release date",
+          "date": "2026-09-05",
+          "quote": "1.0.1 From September 05, 2026 November 14, 2026 (mock)"
+        },
+        {
+          "label": "Version 1.0.1 discontinuation (mock)",
+          "date": "2026-11-14",
+          "quote": "1.0.1 From September 05, 2026 November 14, 2026 (mock)"
+        },
+        {
+          "label": "Referenced Quantity Freeze Report circular date",
+          "date": "2026-09-24",
+          "quote": "circular NSE/EGR/76507 dated September 24, 2026, regarding ‘dissemination of Quantity Freeze Report"
+        }
+      ],
+      "impact_summary": "The circular affects all NSE members trading in the Electronic Gold Receipts segment, requiring them to take part in a scheduled mock trading session and migrate to the new NEAT+ 1.0.2 trading software ahead of its live deployment.",
+      "overall_confidence": "Inferred",
+      "confidence_flags": {
+        "circular_no": "Document has two identifiers - Download Ref No (NSE/EGR/76818) and Circular Ref No (37/2026); chose Download Ref No as primary per typical NSE convention but both appear verbatim in source.",
+        "effective_date": "No single 'effective date' is explicitly labeled; October 09, 2026 18:00 hrs is when the new version becomes available for download, treated here as the operative effective date.",
+        "impact_areas": "EGR (Electronic Gold Receipts) segment does not map cleanly to a predefined impact_area category like Commodity Derivatives Segment; classified under Trading Operations/Other as a conservative choice.",
+        "parent_circular_no": "The parent circular is cited in the text but isn't in this register yet (it may predate the tracker), so the link can't be followed here."
+      },
+      "source_excerpt_citations": [
+        "Exchange will be conducting a mock trading session in the Electronic Gold Receipts (EGR) segment on Saturday, October 10, 2026",
+        "In continuation to circular (Download No. 74203) dated May 13, 2026",
+        "Members are requested to refer circular NSE/EGR/76507 dated September 24, 2026",
+        "1.0.2 From October 09, 2026, 18:00 hrs /egftp/egcommon/NEATPlus102",
+        "1.0.1 From September 05, 2026 November 14, 2026 (mock)"
+      ],
+      "model_confidence": "Inferred",
+      "validator_version": 3,
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/EGR76818.pdf",
+      "sample_data": false,
+      "title": "Mock trading on Saturday, October 10, 2026 - New version of NEAT+ 1.0.2",
+      "regulator": "NSE",
+      "source": "nse",
+      "triage_reason": "New NEAT+ version 1.0.2 requires broker deployment and testing"
+    },
+    {
+      "circular_no": "Notice No. 20261009-3",
+      "date": "2026-10-09",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Stock Brokers",
+        "Trading Operations"
+      ],
+      "applicability": "Trading Members of BSE (Currency Derivatives Segment)",
+      "intent": "To inform trading members that the Exchange has approved the surrender of trading membership of a specific member in the Currency derivative segment.",
+      "action_required": "No action required beyond being informed; members may contact membership.ops@bseindia.com for clarifications.",
+      "effective_date": "2026-10-08",
+      "key_dates": [
+        {
+          "label": "Surrender of membership effective date",
+          "date": "2026-10-08",
+          "quote": "has been approved by the Exchange w.e.f. October 08, 2026"
+        }
+      ],
+      "impact_summary": "BSE trading members are notified that Vogue Commercial Company Ltd. (Member No.6147) has had its trading membership in the Currency derivative segment surrendered, effective October 08, 2026.",
+      "overall_confidence": "Certain",
+      "confidence_flags": {
+        "impact_areas": "Currency Derivatives Segment is not an explicit option in the allowed list; closest matches used are 'Stock Brokers' and 'Trading Operations'."
+      },
+      "source_excerpt_citations": [
+        "Surrender of Trading Member in Currency derivative segment",
+        "approved by the Exchange w.e.f. October 08, 2026",
+        "Trading Members of the Exchange are hereby informed"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261009-3/20261009-3.pdf",
+      "sample_data": false,
+      "title": "Surrender of Trading Member in Currency derivative segment - VOGUE COMMERCIAL COMPANY LTD.",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Kept by keyword rule (mentions “Trading Member”); model suggested setting aside: Single trading member surrender; no sector-wide obligation"
+    },
+    {
+      "circular_no": "20261009-2",
+      "date": "2026-10-09",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Stock Brokers"
+      ],
+      "applicability": "Trading Members of BSE",
+      "intent": "To inform trading members that BSE has approved the surrender of trading membership by Anvil Share & Stock Broking Pvt. Ltd. in the Equity Derivative segment.",
+      "action_required": "No specific action required; trading members may contact membership.ops@bseindia.com for clarification.",
+      "effective_date": "2026-10-08",
+      "key_dates": [
+        {
+          "label": "Effective date of membership surrender",
+          "date": "2026-10-08",
+          "quote": "has been approved by the Exchange w.e.f. October 08, 2026"
+        }
+      ],
+      "impact_summary": "Notifies BSE trading members that Anvil Share & Stock Broking Pvt. Ltd. (Member No. 32) has surrendered its trading membership in the Equity Derivative segment, effective October 8, 2026.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "circular_no": "'20261009-2' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "the surrender of Trading Membership of Anvil Share & Stock Broking Pvt. Ltd. (Member No.32) in Equity derivative segment has been approved",
+        "approved by the Exchange w.e.f. October 08, 2026"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261009-2/20261009-2.pdf",
+      "sample_data": false,
+      "title": "Surrender of Trading Member in Equity derivative segment - ANVIL SHARE & STOCK BROKING PVT. LTD.",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Kept by keyword rule (mentions “Trading Member”); model suggested setting aside: Single trading member surrender; no sector-wide obligation"
+    },
+    {
+      "circular_no": "20261009-1",
+      "date": "2026-10-09",
+      "doc_type": "Fresh Circular",
+      "parent_circular_no": null,
+      "parent_circular_date": null,
+      "implements": [],
+      "impact_areas": [
+        "Stock Brokers",
+        "Stock Exchanges"
+      ],
+      "applicability": "Trading Members of BSE",
+      "intent": "To inform Trading Members that the Exchange has approved the surrender of trading membership of Sara Securities Pvt. Ltd. in the Equity derivative segment.",
+      "action_required": "No specific action required from Trading Members; informational notice. Members may contact membership.ops@bseindia.com for clarification.",
+      "effective_date": "2026-10-08",
+      "key_dates": [
+        {
+          "label": "Surrender effective date",
+          "date": "2026-10-08",
+          "quote": "approved by the Exchange w.e.f. October 08, 2026"
+        }
+      ],
+      "impact_summary": "This notice affects Trading Members of BSE by informing them of the approved surrender of trading membership by Sara Securities Pvt. Ltd. in the Equity derivative segment, effective October 08, 2026.",
+      "overall_confidence": "Needs Review",
+      "confidence_flags": {
+        "circular_no": "'20261009-1' doesn't look like a circular reference number — verify manually."
+      },
+      "source_excerpt_citations": [
+        "surrender of Trading Membership of Sara Securities Pvt. Ltd. (Member No.6348) in Equity derivative segment has been approved",
+        "approved by the Exchange w.e.f. October 08, 2026"
+      ],
+      "model_confidence": "Certain",
+      "validator_version": 3,
+      "source_url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261009-1/20261009-1.pdf",
+      "sample_data": false,
+      "title": "Surrender of Trading Member in Equity derivative segment - SARA SECURITIES PVT. LTD.",
+      "regulator": "BSE",
+      "source": "bse",
+      "triage_reason": "Kept by keyword rule (mentions “Trading Member”); model suggested setting aside: Single trading member surrender; no sector-wide obligation"
     }
   ],
   "sources": [
@@ -15945,7 +16142,7 @@
       "url": "https://www.sebi.gov.in/sebirss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Holds about five days of items, mixed with orders and press releases. Only circulars are kept.",
-      "checked_at": "2026-10-09T00:24:03Z",
+      "checked_at": "2026-10-09T09:07:19Z",
       "items": 3,
       "status": "ok",
       "error": "",
@@ -15960,7 +16157,7 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Backstop for circulars that scroll off the RSS feed.",
-      "checked_at": "2026-10-09T00:24:04Z",
+      "checked_at": "2026-10-09T09:07:20Z",
       "items": 25,
       "status": "ok",
       "error": "",
@@ -15975,7 +16172,7 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-09T00:24:05Z",
+      "checked_at": "2026-10-09T09:07:21Z",
       "items": 25,
       "status": "ok",
       "error": "",
@@ -15990,7 +16187,7 @@
       "url": "https://rbi.org.in/notifications_rss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Includes bank-only prudential rules and foreign-exchange regulations. Triage keeps the ones that affect brokers and fintechs.",
-      "checked_at": "2026-10-09T00:24:05Z",
+      "checked_at": "2026-10-09T09:07:21Z",
       "items": 10,
       "status": "ok",
       "error": "",
@@ -16005,8 +16202,8 @@
       "url": "https://nsearchives.nseindia.com/content/RSS/Circulars.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Carries about one day of circulars (around 30 a day, mostly routine), so it's checked every 2 hours.",
-      "checked_at": "2026-10-09T00:24:06Z",
-      "items": 23,
+      "checked_at": "2026-10-09T09:07:23Z",
+      "items": 4,
       "status": "ok",
       "error": "",
       "streak": 0,
@@ -16020,8 +16217,8 @@
       "url": "https://www.bseindia.com/data/xml/notices.xml",
       "verified": "Feed address confirmed through a third-party reader. BSE refused a direct test fetch (HTTP 403), so it may block automated access.",
       "note": "Dominated by mutual fund platform notices.",
-      "checked_at": "2026-10-09T00:24:07Z",
-      "items": 58,
+      "checked_at": "2026-10-09T09:07:24Z",
+      "items": 12,
       "status": "ok",
       "error": "",
       "streak": 0,
@@ -16035,7 +16232,7 @@
       "url": "https://www.nseclearing.in/resources/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-09T00:24:07Z",
+      "checked_at": "2026-10-09T09:07:24Z",
       "items": 0,
       "status": "blocked",
       "error": "The site's robots.txt disallows this address.",
@@ -16050,7 +16247,7 @@
       "url": "https://nsdl.co.in/business/circular.php",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-09T00:24:08Z",
+      "checked_at": "2026-10-09T09:07:25Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -16065,7 +16262,7 @@
       "url": "https://www.cdslindia.com/Publications/Communique.aspx/DP-COMMUNIQUES-INDEX.aspx",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "On 28 Sep 2026 this page returned 'Internal Error Occurred' even in a browser-style fetch. It may be unreliable.",
-      "checked_at": "2026-10-09T00:24:15Z",
+      "checked_at": "2026-10-09T09:07:33Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -16080,7 +16277,7 @@
       "url": "https://www.ncdex.com/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-09T00:24:17Z",
+      "checked_at": "2026-10-09T09:07:34Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -16095,7 +16292,7 @@
       "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Relevant to brokers and fintechs operating in GIFT City.",
-      "checked_at": "2026-10-09T00:24:18Z",
+      "checked_at": "2026-10-09T09:07:40Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -16110,7 +16307,7 @@
       "url": "https://www.npci.org.in/circulars/upi",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "UPI operating circulars for payment apps and PSPs.",
-      "checked_at": "2026-10-09T00:24:21Z",
+      "checked_at": "2026-10-09T09:07:43Z",
       "items": 0,
       "status": "blocked",
       "error": "The site's robots.txt disallows this address.",
@@ -16125,7 +16322,7 @@
       "url": "https://www.mcxindia.com/",
       "verified": "",
       "note": "Not connected. MCX's robots.txt disallows automated access to its RSS page. Connect it once a permitted source is confirmed.",
-      "checked_at": "2026-10-09T00:24:21Z",
+      "checked_at": "2026-10-09T09:07:43Z",
       "items": 0,
       "status": "not_connected",
       "error": "",
@@ -16134,9 +16331,9 @@
     }
   ],
   "last_run": {
-    "at": "2026-10-09T00:30:22Z",
-    "added": 9,
-    "set_aside": 0,
+    "at": "2026-10-09T09:08:50Z",
+    "added": 4,
+    "set_aside": 12,
     "failed": 0,
     "deferred": 0,
     "triage_retries": 0,
