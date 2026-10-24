@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T04:40:12Z",
+  "generated_at": "2026-10-24T11:05:08Z",
   "schema_version": "2.0",
   "circulars": [
     {
@@ -16142,7 +16142,7 @@
       "url": "https://www.sebi.gov.in/sebirss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Holds about five days of items, mixed with orders and press releases. Only circulars are kept.",
-      "checked_at": "2026-10-24T04:39:16Z",
+      "checked_at": "2026-10-24T11:04:10Z",
       "items": 2,
       "status": "ok",
       "error": "",
@@ -16157,7 +16157,7 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Backstop for circulars that scroll off the RSS feed.",
-      "checked_at": "2026-10-24T04:39:18Z",
+      "checked_at": "2026-10-24T11:04:11Z",
       "items": 25,
       "status": "ok",
       "error": "",
@@ -16172,7 +16172,7 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-24T04:39:18Z",
+      "checked_at": "2026-10-24T11:04:11Z",
       "items": 25,
       "status": "ok",
       "error": "",
@@ -16187,7 +16187,7 @@
       "url": "https://rbi.org.in/notifications_rss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Includes bank-only prudential rules and foreign-exchange regulations. Triage keeps the ones that affect brokers and fintechs.",
-      "checked_at": "2026-10-24T04:39:19Z",
+      "checked_at": "2026-10-24T11:04:12Z",
       "items": 10,
       "status": "ok",
       "error": "",
@@ -16202,7 +16202,7 @@
       "url": "https://nsearchives.nseindia.com/content/RSS/Circulars.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Carries about one day of circulars (around 30 a day, mostly routine), so it's checked every 2 hours.",
-      "checked_at": "2026-10-24T04:39:20Z",
+      "checked_at": "2026-10-24T11:04:13Z",
       "items": 20,
       "status": "ok",
       "error": "",
@@ -16217,7 +16217,7 @@
       "url": "https://www.bseindia.com/data/xml/notices.xml",
       "verified": "Feed address confirmed through a third-party reader. BSE refused a direct test fetch (HTTP 403), so it may block automated access.",
       "note": "Dominated by mutual fund platform notices.",
-      "checked_at": "2026-10-24T04:39:22Z",
+      "checked_at": "2026-10-24T11:04:14Z",
       "items": 48,
       "status": "ok",
       "error": "",
@@ -16232,7 +16232,7 @@
       "url": "https://www.nseclearing.in/resources/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-24T04:39:22Z",
+      "checked_at": "2026-10-24T11:04:14Z",
       "items": 0,
       "status": "blocked",
       "error": "The site's robots.txt disallows this address.",
@@ -16247,7 +16247,7 @@
       "url": "https://nsdl.co.in/business/circular.php",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-24T04:39:23Z",
+      "checked_at": "2026-10-24T11:04:16Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -16262,7 +16262,7 @@
       "url": "https://www.cdslindia.com/Publications/Communique.aspx/DP-COMMUNIQUES-INDEX.aspx",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "On 28 Sep 2026 this page returned 'Internal Error Occurred' even in a browser-style fetch. It may be unreliable.",
-      "checked_at": "2026-10-24T04:39:28Z",
+      "checked_at": "2026-10-24T11:04:24Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -16277,7 +16277,7 @@
       "url": "https://www.ncdex.com/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-24T04:39:30Z",
+      "checked_at": "2026-10-24T11:04:25Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -16292,7 +16292,7 @@
       "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Relevant to brokers and fintechs operating in GIFT City.",
-      "checked_at": "2026-10-24T04:39:31Z",
+      "checked_at": "2026-10-24T11:04:27Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -16307,7 +16307,7 @@
       "url": "https://www.npci.org.in/circulars/upi",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "UPI operating circulars for payment apps and PSPs.",
-      "checked_at": "2026-10-24T04:39:34Z",
+      "checked_at": "2026-10-24T11:04:29Z",
       "items": 0,
       "status": "blocked",
       "error": "The site's robots.txt disallows this address.",
@@ -16322,7 +16322,7 @@
       "url": "https://www.mcxindia.com/",
       "verified": "",
       "note": "Not connected. MCX's robots.txt disallows automated access to its RSS page. Connect it once a permitted source is confirmed.",
-      "checked_at": "2026-10-24T04:39:34Z",
+      "checked_at": "2026-10-24T11:04:29Z",
       "items": 0,
       "status": "not_connected",
       "error": "",
@@ -16331,7 +16331,7 @@
     }
   ],
   "last_run": {
-    "at": "2026-10-24T04:40:12Z",
+    "at": "2026-10-24T11:05:08Z",
     "added": 0,
     "set_aside": 0,
     "failed": 6,
@@ -16359,7 +16359,7 @@
         "regulator": "SEBI",
         "title": "Review of certain aspects of the Closing Auction Session, market timings and settlement methodology for derivatives contracts",
         "url": "https://www.sebi.gov.in/legal/circulars/oct-2026/review-of-certain-aspects-of-the-closing-auction-session-market-timings-and-settlement-methodology-for-derivatives-contracts_105293.html",
-        "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgL"
+        "error": "NoDocumentText: No circular text found: the PDF at https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792079571420.pdf was unreadable, and the page itself has only 321 characters of text."
       },
       {
         "regulator": "BSE",
@@ -16381,7 +16381,9 @@
       }
     ]
   },
-  "attempts": {},
+  "attempts": {
+    "https://www.sebi.gov.in/legal/circulars/oct-2026/review-of-certain-aspects-of-the-closing-auction-session-market-timings-and-settlement-methodology-for-derivatives-contracts_105293.html": 1
+  },
   "source_streaks": {
     "sebi-rss": 0,
     "sebi-circulars": 0,
