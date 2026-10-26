@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T00:24:55Z",
+  "generated_at": "2026-10-26T07:50:30Z",
   "schema_version": "2.0",
   "circulars": [
     {
@@ -16142,7 +16142,7 @@
       "url": "https://www.sebi.gov.in/sebirss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Holds about five days of items, mixed with orders and press releases. Only circulars are kept.",
-      "checked_at": "2026-10-26T00:24:01Z",
+      "checked_at": "2026-10-26T07:49:28Z",
       "items": 2,
       "status": "ok",
       "error": "",
@@ -16157,7 +16157,7 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Backstop for circulars that scroll off the RSS feed.",
-      "checked_at": "2026-10-26T00:24:02Z",
+      "checked_at": "2026-10-26T07:49:30Z",
       "items": 25,
       "status": "ok",
       "error": "",
@@ -16172,7 +16172,7 @@
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-26T00:24:02Z",
+      "checked_at": "2026-10-26T07:49:30Z",
       "items": 25,
       "status": "ok",
       "error": "",
@@ -16187,7 +16187,7 @@
       "url": "https://rbi.org.in/notifications_rss.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Includes bank-only prudential rules and foreign-exchange regulations. Triage keeps the ones that affect brokers and fintechs.",
-      "checked_at": "2026-10-26T00:24:03Z",
+      "checked_at": "2026-10-26T07:49:31Z",
       "items": 10,
       "status": "ok",
       "error": "",
@@ -16202,7 +16202,7 @@
       "url": "https://nsearchives.nseindia.com/content/RSS/Circulars.xml",
       "verified": "Feed format checked against the live feed on 27 Sep 2026.",
       "note": "Carries about one day of circulars (around 30 a day, mostly routine), so it's checked every 2 hours.",
-      "checked_at": "2026-10-26T00:24:04Z",
+      "checked_at": "2026-10-26T07:49:32Z",
       "items": 20,
       "status": "ok",
       "error": "",
@@ -16217,8 +16217,8 @@
       "url": "https://www.bseindia.com/data/xml/notices.xml",
       "verified": "Feed address confirmed through a third-party reader. BSE refused a direct test fetch (HTTP 403), so it may block automated access.",
       "note": "Dominated by mutual fund platform notices.",
-      "checked_at": "2026-10-26T00:24:06Z",
-      "items": 48,
+      "checked_at": "2026-10-26T07:49:33Z",
+      "items": 9,
       "status": "ok",
       "error": "",
       "streak": 0,
@@ -16232,7 +16232,7 @@
       "url": "https://www.nseclearing.in/resources/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-26T00:24:06Z",
+      "checked_at": "2026-10-26T07:49:34Z",
       "items": 0,
       "status": "blocked",
       "error": "The site's robots.txt disallows this address.",
@@ -16247,7 +16247,7 @@
       "url": "https://nsdl.co.in/business/circular.php",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-26T00:24:07Z",
+      "checked_at": "2026-10-26T07:49:35Z",
       "items": 0,
       "status": "failed",
       "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
@@ -16262,7 +16262,7 @@
       "url": "https://www.cdslindia.com/Publications/Communique.aspx/DP-COMMUNIQUES-INDEX.aspx",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "On 28 Sep 2026 this page returned 'Internal Error Occurred' even in a browser-style fetch. It may be unreliable.",
-      "checked_at": "2026-10-26T00:24:11Z",
+      "checked_at": "2026-10-26T07:49:39Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -16277,7 +16277,7 @@
       "url": "https://www.ncdex.com/circulars",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "",
-      "checked_at": "2026-10-26T00:24:12Z",
+      "checked_at": "2026-10-26T07:49:41Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -16292,7 +16292,7 @@
       "url": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "Relevant to brokers and fintechs operating in GIFT City.",
-      "checked_at": "2026-10-26T00:24:14Z",
+      "checked_at": "2026-10-26T07:49:50Z",
       "items": 0,
       "status": "empty",
       "error": "Page loaded but no circular links matched. The page layout may have changed.",
@@ -16307,7 +16307,7 @@
       "url": "https://www.npci.org.in/circulars/upi",
       "verified": "Page parser written without a live fetch. Check the first run's result.",
       "note": "UPI operating circulars for payment apps and PSPs.",
-      "checked_at": "2026-10-26T00:24:17Z",
+      "checked_at": "2026-10-26T07:49:53Z",
       "items": 0,
       "status": "blocked",
       "error": "The site's robots.txt disallows this address.",
@@ -16322,7 +16322,7 @@
       "url": "https://www.mcxindia.com/",
       "verified": "",
       "note": "Not connected. MCX's robots.txt disallows automated access to its RSS page. Connect it once a permitted source is confirmed.",
-      "checked_at": "2026-10-26T00:24:17Z",
+      "checked_at": "2026-10-26T07:49:54Z",
       "items": 0,
       "status": "not_connected",
       "error": "",
@@ -16331,53 +16331,53 @@
     }
   ],
   "last_run": {
-    "at": "2026-10-26T00:24:55Z",
+    "at": "2026-10-26T07:50:30Z",
     "added": 0,
     "set_aside": 0,
     "failed": 6,
     "deferred": 0,
-    "triage_retries": 78,
+    "triage_retries": 39,
     "failures": [
       {
         "regulator": "all",
-        "title": "Screening of 78 new notices",
+        "title": "Screening of 39 new notices",
         "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
       },
       {
         "regulator": "SEBI",
         "title": "Review of regulatory requirement for maintenance of call records of institutional clients by Research Analysts or Research Entities",
         "url": "https://www.sebi.gov.in/legal/circulars/oct-2026/review-of-regulatory-requirement-for-maintenance-of-call-records-of-institutional-clients-by-research-analysts-or-research-entities_105400.html",
-        "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgP"
+        "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgQ"
       },
       {
         "regulator": "SEBI",
         "title": "Margin Waiver on Subsequent Buy/Sell Transactions Post Early Pay-In (EPI) in Cash Segment",
         "url": "https://www.sebi.gov.in/legal/circulars/oct-2026/margin-waiver-on-subsequent-buy-sell-transactions-post-early-pay-in-epi-in-cash-segment_105364.html",
-        "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgP"
+        "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgQ"
       },
       {
         "regulator": "SEBI",
         "title": "Review of certain aspects of the Closing Auction Session, market timings and settlement methodology for derivatives contracts",
         "url": "https://www.sebi.gov.in/legal/circulars/oct-2026/review-of-certain-aspects-of-the-closing-auction-session-market-timings-and-settlement-methodology-for-derivatives-contracts_105293.html",
-        "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgP"
+        "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgQ"
       },
       {
         "regulator": "BSE",
         "title": "Surrender of Trading Member in Equity derivative segment - ANVIL SHARE & STOCK BROKING PVT. LTD.",
         "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261009-2/20261009-2.pdf",
-        "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgP"
+        "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgQ"
       },
       {
         "regulator": "BSE",
         "title": "Surrender of Trading Member in Equity derivative segment - SARA SECURITIES PVT. LTD.",
         "url": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261009-1/20261009-1.pdf",
-        "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgP"
+        "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgQ"
       },
       {
         "regulator": "SEBI",
         "title": "Revision of Application Form for Mutual Fund Registration",
         "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/revision-of-application-form-for-mutual-fund-registration_105352.html",
-        "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgP"
+        "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgQ"
       }
     ]
   },
